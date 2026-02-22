@@ -1,0 +1,3517 @@
+{
+"id": 219,
+"info": "== Script ID 219 == bf800",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 12,
+				"opcode": "endSection",
+				"lineNumber": 37958
+			}
+		]
+	},
+	"51": {
+		"id": 51,
+		"instructions": [
+			{
+				"address": 14,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 37960
+			},
+			{
+				"address": 16,
+				"opcode": "showTextbox",
+				"args": [
+					"It's",
+					"a",
+					"Digimon",
+					"card",
+					"vending\\nmachine.",
+					"I",
+					"think",
+					"you",
+					"can\\nget",
+					"a",
+					"card",
+					"for",
+					"one",
+					"hund",
+					"bits.\\n"
+				],
+				"lineNumber": 37961
+			},
+			{
+				"address": 186,
+				"opcode": "setSelection",
+				"args": [
+					"276",
+					"442"
+				],
+				"lineNumber": 37962
+			},
+			{
+				"address": 192,
+				"opcode": "showTextbox",
+				"args": [
+					"Let's",
+					"try",
+					"it"
+				],
+				"lineNumber": 37963
+			},
+			{
+				"address": 220,
+				"opcode": "NONE",
+				"args": [
+					"0x81",
+					"0x48"
+				],
+				"lineNumber": 37964
+			},
+			{
+				"address": 222,
+				"opcode": "NONE",
+				"args": [
+					"0x81",
+					"0x48"
+				],
+				"lineNumber": 37965
+			},
+			{
+				"address": 224,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x8F"
+				],
+				"lineNumber": 37966
+			},
+			{
+				"address": 226,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x8E"
+				],
+				"lineNumber": 37967
+			},
+			{
+				"address": 228,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x85"
+				],
+				"lineNumber": 37968
+			},
+			{
+				"address": 230,
+				"opcode": "NONE",
+				"args": [
+					"0x81",
+					"0x40"
+				],
+				"lineNumber": 37969
+			},
+			{
+				"address": 232,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x88"
+				],
+				"lineNumber": 37970
+			},
+			{
+				"address": 234,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x95"
+				],
+				"lineNumber": 37971
+			},
+			{
+				"address": 236,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x8E"
+				],
+				"lineNumber": 37972
+			},
+			{
+				"address": 238,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x84"
+				],
+				"lineNumber": 37973
+			},
+			{
+				"address": 240,
+				"opcode": "NONE",
+				"args": [
+					"0x81",
+					"0x40"
+				],
+				"lineNumber": 37974
+			},
+			{
+				"address": 242,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x82"
+				],
+				"lineNumber": 37975
+			},
+			{
+				"address": 244,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x89"
+				],
+				"lineNumber": 37976
+			},
+			{
+				"address": 246,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x94"
+				],
+				"lineNumber": 37977
+			},
+			{
+				"address": 248,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x93"
+				],
+				"lineNumber": 37978
+			},
+			{
+				"address": 250,
+				"opcode": "NONE",
+				"args": [
+					"0x81",
+					"0x42"
+				],
+				"lineNumber": 37979
+			},
+			{
+				"address": 252,
+				"opcode": "NONE",
+				"args": [
+					"0x0D",
+					"0x00"
+				],
+				"lineNumber": 37980
+			},
+			{
+				"address": 254,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x6D"
+				],
+				"lineNumber": 37981
+			},
+			{
+				"address": 256,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x8F"
+				],
+				"lineNumber": 37982
+			},
+			{
+				"address": 258,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x94"
+				],
+				"lineNumber": 37983
+			},
+			{
+				"address": 260,
+				"opcode": "NONE",
+				"args": [
+					"0x81",
+					"0x40"
+				],
+				"lineNumber": 37984
+			},
+			{
+				"address": 262,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x8E"
+				],
+				"lineNumber": 37985
+			},
+			{
+				"address": 264,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x8F"
+				],
+				"lineNumber": 37986
+			},
+			{
+				"address": 266,
+				"opcode": "NONE",
+				"args": [
+					"0x82",
+					"0x97"
+				],
+				"lineNumber": 37987
+			},
+			{
+				"address": 268,
+				"opcode": "NONE",
+				"args": [
+					"0x0D",
+					"0x00"
+				],
+				"lineNumber": 37988
+			},
+			{
+				"address": 270,
+				"opcode": "NONE",
+				"args": [
+					"0x00",
+					"0x00"
+				],
+				"lineNumber": 37989
+			},
+			{
+				"address": 272,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 37990
+			},
+			{
+				"address": 274,
+				"opcode": "endSection",
+				"lineNumber": 37991
+			},
+			{
+				"address": 276,
+				"opcode": "if",
+				"args": [
+					"getMoney",
+					">=",
+					"100",
+					"then",
+					"352"
+				],
+				"lineNumber": 37992
+			},
+			{
+				"address": 292,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 37993
+			},
+			{
+				"address": 294,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"don't",
+					"have",
+					"enough",
+					"bits.\\n"
+				],
+				"lineNumber": 37994
+			},
+			{
+				"address": 350,
+				"opcode": "endSection",
+				"lineNumber": 37995
+			},
+			{
+				"address": 352,
+				"opcode": "reduceMoney",
+				"args": [
+					"100"
+				],
+				"lineNumber": 37996
+			},
+			{
+				"address": 358,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 37997
+			},
+			{
+				"address": 362,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"0",
+					"then",
+					"378"
+				],
+				"lineNumber": 37998
+			},
+			{
+				"address": 374,
+				"opcode": "jumpTo",
+				"args": [
+					"444"
+				],
+				"lineNumber": 37999
+			},
+			{
+				"address": 378,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"394"
+				],
+				"lineNumber": 38000
+			},
+			{
+				"address": 390,
+				"opcode": "jumpTo",
+				"args": [
+					"786"
+				],
+				"lineNumber": 38001
+			},
+			{
+				"address": 394,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"9",
+					"then",
+					"410"
+				],
+				"lineNumber": 38002
+			},
+			{
+				"address": 406,
+				"opcode": "jumpTo",
+				"args": [
+					"2010"
+				],
+				"lineNumber": 38003
+			},
+			{
+				"address": 410,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"29",
+					"then",
+					"426"
+				],
+				"lineNumber": 38004
+			},
+			{
+				"address": 422,
+				"opcode": "jumpTo",
+				"args": [
+					"3486"
+				],
+				"lineNumber": 38005
+			},
+			{
+				"address": 426,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"99",
+					"then",
+					"442"
+				],
+				"lineNumber": 38006
+			},
+			{
+				"address": 438,
+				"opcode": "jumpTo",
+				"args": [
+					"4088"
+				],
+				"lineNumber": 38007
+			},
+			{
+				"address": 442,
+				"opcode": "endSection",
+				"lineNumber": 38008
+			},
+			{
+				"address": 444,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"4"
+				],
+				"lineNumber": 38009
+			},
+			{
+				"address": 448,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"0",
+					"then",
+					"510"
+				],
+				"lineNumber": 38010
+			},
+			{
+				"address": 460,
+				"opcode": "giveCard",
+				"args": [
+					"1"
+				],
+				"lineNumber": 38011
+			},
+			{
+				"address": 462,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38012
+			},
+			{
+				"address": 464,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Phoenixmon",
+					"Card!\\n"
+				],
+				"lineNumber": 38013
+			},
+			{
+				"address": 506,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38014
+			},
+			{
+				"address": 510,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"1",
+					"then",
+					"590"
+				],
+				"lineNumber": 38015
+			},
+			{
+				"address": 522,
+				"opcode": "giveCard",
+				"args": [
+					"2"
+				],
+				"lineNumber": 38016
+			},
+			{
+				"address": 524,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38017
+			},
+			{
+				"address": 526,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"HerculesKabuterimon",
+					"Card!\\n"
+				],
+				"lineNumber": 38018
+			},
+			{
+				"address": 586,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38019
+			},
+			{
+				"address": 590,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"658"
+				],
+				"lineNumber": 38020
+			},
+			{
+				"address": 602,
+				"opcode": "giveCard",
+				"args": [
+					"3"
+				],
+				"lineNumber": 38021
+			},
+			{
+				"address": 604,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38022
+			},
+			{
+				"address": 606,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"MegaSeadramon",
+					"Card!\\n"
+				],
+				"lineNumber": 38023
+			},
+			{
+				"address": 654,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38024
+			},
+			{
+				"address": 658,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"3",
+					"then",
+					"726"
+				],
+				"lineNumber": 38025
+			},
+			{
+				"address": 670,
+				"opcode": "giveCard",
+				"args": [
+					"4"
+				],
+				"lineNumber": 38026
+			},
+			{
+				"address": 672,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38027
+			},
+			{
+				"address": 674,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"ShogunGekomon",
+					"Card!\\n"
+				],
+				"lineNumber": 38028
+			},
+			{
+				"address": 722,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38029
+			},
+			{
+				"address": 726,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"4",
+					"then",
+					"786"
+				],
+				"lineNumber": 38030
+			},
+			{
+				"address": 738,
+				"opcode": "giveCard",
+				"args": [
+					"5"
+				],
+				"lineNumber": 38031
+			},
+			{
+				"address": 740,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38032
+			},
+			{
+				"address": 742,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Myotismon",
+					"Card!\\n"
+				],
+				"lineNumber": 38033
+			},
+			{
+				"address": 782,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38034
+			},
+			{
+				"address": 786,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"19"
+				],
+				"lineNumber": 38035
+			},
+			{
+				"address": 790,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"0",
+					"then",
+					"856"
+				],
+				"lineNumber": 38036
+			},
+			{
+				"address": 802,
+				"opcode": "giveCard",
+				"args": [
+					"6"
+				],
+				"lineNumber": 38037
+			},
+			{
+				"address": 804,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38038
+			},
+			{
+				"address": 806,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"MetalGreymon",
+					"Card!\\n"
+				],
+				"lineNumber": 38039
+			},
+			{
+				"address": 852,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38040
+			},
+			{
+				"address": 856,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"1",
+					"then",
+					"912"
+				],
+				"lineNumber": 38041
+			},
+			{
+				"address": 868,
+				"opcode": "giveCard",
+				"args": [
+					"7"
+				],
+				"lineNumber": 38042
+			},
+			{
+				"address": 870,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38043
+			},
+			{
+				"address": 872,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Mamemon",
+					"Card!\\n"
+				],
+				"lineNumber": 38044
+			},
+			{
+				"address": 908,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38045
+			},
+			{
+				"address": 912,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"972"
+				],
+				"lineNumber": 38046
+			},
+			{
+				"address": 924,
+				"opcode": "giveCard",
+				"args": [
+					"8"
+				],
+				"lineNumber": 38047
+			},
+			{
+				"address": 926,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38048
+			},
+			{
+				"address": 928,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Monzaemon",
+					"Card!\\n"
+				],
+				"lineNumber": 38049
+			},
+			{
+				"address": 968,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38050
+			},
+			{
+				"address": 972,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"3",
+					"then",
+					"1038"
+				],
+				"lineNumber": 38051
+			},
+			{
+				"address": 984,
+				"opcode": "giveCard",
+				"args": [
+					"9"
+				],
+				"lineNumber": 38052
+			},
+			{
+				"address": 986,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38053
+			},
+			{
+				"address": 988,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"SkullGreymon",
+					"Card!\\n"
+				],
+				"lineNumber": 38054
+			},
+			{
+				"address": 1034,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38055
+			},
+			{
+				"address": 1038,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"4",
+					"then",
+					"1104"
+				],
+				"lineNumber": 38056
+			},
+			{
+				"address": 1050,
+				"opcode": "giveCard",
+				"args": [
+					"10"
+				],
+				"lineNumber": 38057
+			},
+			{
+				"address": 1052,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38058
+			},
+			{
+				"address": 1054,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"MetalMamemon",
+					"Card!\\n"
+				],
+				"lineNumber": 38059
+			},
+			{
+				"address": 1100,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38060
+			},
+			{
+				"address": 1104,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"5",
+					"then",
+					"1160"
+				],
+				"lineNumber": 38061
+			},
+			{
+				"address": 1116,
+				"opcode": "giveCard",
+				"args": [
+					"11"
+				],
+				"lineNumber": 38062
+			},
+			{
+				"address": 1118,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38063
+			},
+			{
+				"address": 1120,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Vademon",
+					"Card!\\n"
+				],
+				"lineNumber": 38064
+			},
+			{
+				"address": 1156,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38065
+			},
+			{
+				"address": 1160,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"6",
+					"then",
+					"1220"
+				],
+				"lineNumber": 38066
+			},
+			{
+				"address": 1172,
+				"opcode": "giveCard",
+				"args": [
+					"12"
+				],
+				"lineNumber": 38067
+			},
+			{
+				"address": 1174,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38068
+			},
+			{
+				"address": 1176,
+				"opcode": "showTextbox",
+				"args": [
+					"An",
+					"Andromon",
+					"Card!\\n"
+				],
+				"lineNumber": 38069
+			},
+			{
+				"address": 1216,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38070
+			},
+			{
+				"address": 1220,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"7",
+					"then",
+					"1276"
+				],
+				"lineNumber": 38071
+			},
+			{
+				"address": 1232,
+				"opcode": "giveCard",
+				"args": [
+					"13"
+				],
+				"lineNumber": 38072
+			},
+			{
+				"address": 1234,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38073
+			},
+			{
+				"address": 1236,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Giromon",
+					"Card!\\n"
+				],
+				"lineNumber": 38074
+			},
+			{
+				"address": 1272,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38075
+			},
+			{
+				"address": 1276,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"8",
+					"then",
+					"1332"
+				],
+				"lineNumber": 38076
+			},
+			{
+				"address": 1288,
+				"opcode": "giveCard",
+				"args": [
+					"14"
+				],
+				"lineNumber": 38077
+			},
+			{
+				"address": 1290,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38078
+			},
+			{
+				"address": 1292,
+				"opcode": "showTextbox",
+				"args": [
+					"An",
+					"Etemon",
+					"Card!\\n"
+				],
+				"lineNumber": 38079
+			},
+			{
+				"address": 1328,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38080
+			},
+			{
+				"address": 1332,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"9",
+					"then",
+					"1394"
+				],
+				"lineNumber": 38081
+			},
+			{
+				"address": 1344,
+				"opcode": "giveCard",
+				"args": [
+					"15"
+				],
+				"lineNumber": 38082
+			},
+			{
+				"address": 1346,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38083
+			},
+			{
+				"address": 1348,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Megadramon",
+					"Card!\\n"
+				],
+				"lineNumber": 38084
+			},
+			{
+				"address": 1390,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38085
+			},
+			{
+				"address": 1394,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"10",
+					"then",
+					"1450"
+				],
+				"lineNumber": 38086
+			},
+			{
+				"address": 1406,
+				"opcode": "giveCard",
+				"args": [
+					"16"
+				],
+				"lineNumber": 38087
+			},
+			{
+				"address": 1408,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38088
+			},
+			{
+				"address": 1410,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Piximon",
+					"Card!\\n"
+				],
+				"lineNumber": 38089
+			},
+			{
+				"address": 1446,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38090
+			},
+			{
+				"address": 1450,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"11",
+					"then",
+					"1514"
+				],
+				"lineNumber": 38091
+			},
+			{
+				"address": 1462,
+				"opcode": "giveCard",
+				"args": [
+					"17"
+				],
+				"lineNumber": 38092
+			},
+			{
+				"address": 1464,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38093
+			},
+			{
+				"address": 1466,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Digitamamon",
+					"Card!\\n"
+				],
+				"lineNumber": 38094
+			},
+			{
+				"address": 1510,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38095
+			},
+			{
+				"address": 1514,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"12",
+					"then",
+					"1570"
+				],
+				"lineNumber": 38096
+			},
+			{
+				"address": 1526,
+				"opcode": "giveCard",
+				"args": [
+					"18"
+				],
+				"lineNumber": 38097
+			},
+			{
+				"address": 1528,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38098
+			},
+			{
+				"address": 1530,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Gekomon",
+					"Card!\\n"
+				],
+				"lineNumber": 38099
+			},
+			{
+				"address": 1566,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38100
+			},
+			{
+				"address": 1570,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"13",
+					"then",
+					"1638"
+				],
+				"lineNumber": 38101
+			},
+			{
+				"address": 1582,
+				"opcode": "giveCard",
+				"args": [
+					"19"
+				],
+				"lineNumber": 38102
+			},
+			{
+				"address": 1584,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38103
+			},
+			{
+				"address": 1586,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"WaruMonzaemon",
+					"Card!\\n"
+				],
+				"lineNumber": 38104
+			},
+			{
+				"address": 1634,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38105
+			},
+			{
+				"address": 1638,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"14",
+					"then",
+					"1694"
+				],
+				"lineNumber": 38106
+			},
+			{
+				"address": 1650,
+				"opcode": "giveCard",
+				"args": [
+					"20"
+				],
+				"lineNumber": 38107
+			},
+			{
+				"address": 1652,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38108
+			},
+			{
+				"address": 1654,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Jijimon",
+					"Card!\\n"
+				],
+				"lineNumber": 38109
+			},
+			{
+				"address": 1690,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38110
+			},
+			{
+				"address": 1694,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"15",
+					"then",
+					"1766"
+				],
+				"lineNumber": 38111
+			},
+			{
+				"address": 1706,
+				"opcode": "giveCard",
+				"args": [
+					"21"
+				],
+				"lineNumber": 38112
+			},
+			{
+				"address": 1708,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38113
+			},
+			{
+				"address": 1710,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"King",
+					"of",
+					"Sukamon",
+					"Card!\\n"
+				],
+				"lineNumber": 38114
+			},
+			{
+				"address": 1762,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38115
+			},
+			{
+				"address": 1766,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"16",
+					"then",
+					"1826"
+				],
+				"lineNumber": 38116
+			},
+			{
+				"address": 1778,
+				"opcode": "giveCard",
+				"args": [
+					"22"
+				],
+				"lineNumber": 38117
+			},
+			{
+				"address": 1780,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38118
+			},
+			{
+				"address": 1782,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Cherrymon",
+					"Card!\\n"
+				],
+				"lineNumber": 38119
+			},
+			{
+				"address": 1822,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38120
+			},
+			{
+				"address": 1826,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"17",
+					"then",
+					"1888"
+				],
+				"lineNumber": 38121
+			},
+			{
+				"address": 1838,
+				"opcode": "giveCard",
+				"args": [
+					"23"
+				],
+				"lineNumber": 38122
+			},
+			{
+				"address": 1840,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38123
+			},
+			{
+				"address": 1842,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Guardromon",
+					"Card!\\n"
+				],
+				"lineNumber": 38124
+			},
+			{
+				"address": 1884,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38125
+			},
+			{
+				"address": 1888,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"18",
+					"then",
+					"1948"
+				],
+				"lineNumber": 38126
+			},
+			{
+				"address": 1900,
+				"opcode": "giveCard",
+				"args": [
+					"24"
+				],
+				"lineNumber": 38127
+			},
+			{
+				"address": 1902,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38128
+			},
+			{
+				"address": 1904,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Hagurumon",
+					"Card!\\n"
+				],
+				"lineNumber": 38129
+			},
+			{
+				"address": 1944,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38130
+			},
+			{
+				"address": 1948,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"19",
+					"then",
+					"2010"
+				],
+				"lineNumber": 38131
+			},
+			{
+				"address": 1960,
+				"opcode": "giveCard",
+				"args": [
+					"25"
+				],
+				"lineNumber": 38132
+			},
+			{
+				"address": 1962,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38133
+			},
+			{
+				"address": 1964,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Brachiomon",
+					"Card!\\n"
+				],
+				"lineNumber": 38134
+			},
+			{
+				"address": 2006,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38135
+			},
+			{
+				"address": 2010,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"24"
+				],
+				"lineNumber": 38136
+			},
+			{
+				"address": 2014,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"0",
+					"then",
+					"2070"
+				],
+				"lineNumber": 38137
+			},
+			{
+				"address": 2026,
+				"opcode": "giveCard",
+				"args": [
+					"26"
+				],
+				"lineNumber": 38138
+			},
+			{
+				"address": 2028,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38139
+			},
+			{
+				"address": 2030,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Greymon",
+					"Card!\\n"
+				],
+				"lineNumber": 38140
+			},
+			{
+				"address": 2066,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38141
+			},
+			{
+				"address": 2070,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"1",
+					"then",
+					"2126"
+				],
+				"lineNumber": 38142
+			},
+			{
+				"address": 2082,
+				"opcode": "giveCard",
+				"args": [
+					"27"
+				],
+				"lineNumber": 38143
+			},
+			{
+				"address": 2084,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38144
+			},
+			{
+				"address": 2086,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Devimon",
+					"Card!\\n"
+				],
+				"lineNumber": 38145
+			},
+			{
+				"address": 2122,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38146
+			},
+			{
+				"address": 2126,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"2188"
+				],
+				"lineNumber": 38147
+			},
+			{
+				"address": 2138,
+				"opcode": "giveCard",
+				"args": [
+					"28"
+				],
+				"lineNumber": 38148
+			},
+			{
+				"address": 2140,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38149
+			},
+			{
+				"address": 2142,
+				"opcode": "showTextbox",
+				"args": [
+					"An",
+					"Airdramon",
+					"Card!\\n"
+				],
+				"lineNumber": 38150
+			},
+			{
+				"address": 2184,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38151
+			},
+			{
+				"address": 2188,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"3",
+					"then",
+					"2250"
+				],
+				"lineNumber": 38152
+			},
+			{
+				"address": 2200,
+				"opcode": "giveCard",
+				"args": [
+					"29"
+				],
+				"lineNumber": 38153
+			},
+			{
+				"address": 2202,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38154
+			},
+			{
+				"address": 2204,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Tyrannomon",
+					"Card!\\n"
+				],
+				"lineNumber": 38155
+			},
+			{
+				"address": 2246,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38156
+			},
+			{
+				"address": 2250,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"4",
+					"then",
+					"2306"
+				],
+				"lineNumber": 38157
+			},
+			{
+				"address": 2262,
+				"opcode": "giveCard",
+				"args": [
+					"30"
+				],
+				"lineNumber": 38158
+			},
+			{
+				"address": 2264,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38159
+			},
+			{
+				"address": 2266,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Meramon",
+					"Card!\\n"
+				],
+				"lineNumber": 38160
+			},
+			{
+				"address": 2302,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38161
+			},
+			{
+				"address": 2306,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"5",
+					"then",
+					"2366"
+				],
+				"lineNumber": 38162
+			},
+			{
+				"address": 2318,
+				"opcode": "giveCard",
+				"args": [
+					"31"
+				],
+				"lineNumber": 38163
+			},
+			{
+				"address": 2320,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38164
+			},
+			{
+				"address": 2322,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Seadramon",
+					"Card!\\n"
+				],
+				"lineNumber": 38165
+			},
+			{
+				"address": 2362,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38166
+			},
+			{
+				"address": 2366,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"6",
+					"then",
+					"2430"
+				],
+				"lineNumber": 38167
+			},
+			{
+				"address": 2378,
+				"opcode": "giveCard",
+				"args": [
+					"32"
+				],
+				"lineNumber": 38168
+			},
+			{
+				"address": 2380,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38169
+			},
+			{
+				"address": 2382,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Kabuterimon",
+					"Card!\\n"
+				],
+				"lineNumber": 38170
+			},
+			{
+				"address": 2426,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38171
+			},
+			{
+				"address": 2430,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"7",
+					"then",
+					"2488"
+				],
+				"lineNumber": 38172
+			},
+			{
+				"address": 2442,
+				"opcode": "giveCard",
+				"args": [
+					"33"
+				],
+				"lineNumber": 38173
+			},
+			{
+				"address": 2444,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38174
+			},
+			{
+				"address": 2446,
+				"opcode": "showTextbox",
+				"args": [
+					"An",
+					"Angemon",
+					"Card!\\n"
+				],
+				"lineNumber": 38175
+			},
+			{
+				"address": 2484,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38176
+			},
+			{
+				"address": 2488,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"8",
+					"then",
+					"2548"
+				],
+				"lineNumber": 38177
+			},
+			{
+				"address": 2500,
+				"opcode": "giveCard",
+				"args": [
+					"34"
+				],
+				"lineNumber": 38178
+			},
+			{
+				"address": 2502,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38179
+			},
+			{
+				"address": 2504,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Birdramon",
+					"Card!\\n"
+				],
+				"lineNumber": 38180
+			},
+			{
+				"address": 2544,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38181
+			},
+			{
+				"address": 2548,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"9",
+					"then",
+					"2608"
+				],
+				"lineNumber": 38182
+			},
+			{
+				"address": 2560,
+				"opcode": "giveCard",
+				"args": [
+					"35"
+				],
+				"lineNumber": 38183
+			},
+			{
+				"address": 2562,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38184
+			},
+			{
+				"address": 2564,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Garurumon",
+					"Card!\\n"
+				],
+				"lineNumber": 38185
+			},
+			{
+				"address": 2604,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38186
+			},
+			{
+				"address": 2608,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"10",
+					"then",
+					"2666"
+				],
+				"lineNumber": 38187
+			},
+			{
+				"address": 2620,
+				"opcode": "giveCard",
+				"args": [
+					"36"
+				],
+				"lineNumber": 38188
+			},
+			{
+				"address": 2622,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38189
+			},
+			{
+				"address": 2624,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Frigimon",
+					"Card!\\n"
+				],
+				"lineNumber": 38190
+			},
+			{
+				"address": 2662,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38191
+			},
+			{
+				"address": 2666,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"11",
+					"then",
+					"2720"
+				],
+				"lineNumber": 38192
+			},
+			{
+				"address": 2678,
+				"opcode": "giveCard",
+				"args": [
+					"37"
+				],
+				"lineNumber": 38193
+			},
+			{
+				"address": 2680,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38194
+			},
+			{
+				"address": 2682,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Whamon",
+					"Card!\\n"
+				],
+				"lineNumber": 38195
+			},
+			{
+				"address": 2716,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38196
+			},
+			{
+				"address": 2720,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"12",
+					"then",
+					"2774"
+				],
+				"lineNumber": 38197
+			},
+			{
+				"address": 2732,
+				"opcode": "giveCard",
+				"args": [
+					"38"
+				],
+				"lineNumber": 38198
+			},
+			{
+				"address": 2734,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38199
+			},
+			{
+				"address": 2736,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Unimon",
+					"Card!\\n"
+				],
+				"lineNumber": 38200
+			},
+			{
+				"address": 2770,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38201
+			},
+			{
+				"address": 2774,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"13",
+					"then",
+					"2830"
+				],
+				"lineNumber": 38202
+			},
+			{
+				"address": 2786,
+				"opcode": "giveCard",
+				"args": [
+					"39"
+				],
+				"lineNumber": 38203
+			},
+			{
+				"address": 2788,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38204
+			},
+			{
+				"address": 2790,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Ogremon",
+					"Card!\\n"
+				],
+				"lineNumber": 38205
+			},
+			{
+				"address": 2826,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38206
+			},
+			{
+				"address": 2830,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"14",
+					"then",
+					"2888"
+				],
+				"lineNumber": 38207
+			},
+			{
+				"address": 2842,
+				"opcode": "giveCard",
+				"args": [
+					"40"
+				],
+				"lineNumber": 38208
+			},
+			{
+				"address": 2844,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38209
+			},
+			{
+				"address": 2846,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Shellmon",
+					"Card!\\n"
+				],
+				"lineNumber": 38210
+			},
+			{
+				"address": 2884,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38211
+			},
+			{
+				"address": 2888,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"15",
+					"then",
+					"2950"
+				],
+				"lineNumber": 38212
+			},
+			{
+				"address": 2900,
+				"opcode": "giveCard",
+				"args": [
+					"41"
+				],
+				"lineNumber": 38213
+			},
+			{
+				"address": 2902,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38214
+			},
+			{
+				"address": 2904,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Centarumon",
+					"Card!\\n"
+				],
+				"lineNumber": 38215
+			},
+			{
+				"address": 2946,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38216
+			},
+			{
+				"address": 2950,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"16",
+					"then",
+					"3006"
+				],
+				"lineNumber": 38217
+			},
+			{
+				"address": 2962,
+				"opcode": "giveCard",
+				"args": [
+					"42"
+				],
+				"lineNumber": 38218
+			},
+			{
+				"address": 2964,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38219
+			},
+			{
+				"address": 2966,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Bakemon",
+					"Card!\\n"
+				],
+				"lineNumber": 38220
+			},
+			{
+				"address": 3002,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38221
+			},
+			{
+				"address": 3006,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"17",
+					"then",
+					"3068"
+				],
+				"lineNumber": 38222
+			},
+			{
+				"address": 3018,
+				"opcode": "giveCard",
+				"args": [
+					"43"
+				],
+				"lineNumber": 38223
+			},
+			{
+				"address": 3020,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38224
+			},
+			{
+				"address": 3022,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Drimogemon",
+					"Card!\\n"
+				],
+				"lineNumber": 38225
+			},
+			{
+				"address": 3064,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38226
+			},
+			{
+				"address": 3068,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"18",
+					"then",
+					"3132"
+				],
+				"lineNumber": 38227
+			},
+			{
+				"address": 3080,
+				"opcode": "giveCard",
+				"args": [
+					"44"
+				],
+				"lineNumber": 38228
+			},
+			{
+				"address": 3082,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38229
+			},
+			{
+				"address": 3084,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Monochromon",
+					"Card!\\n"
+				],
+				"lineNumber": 38230
+			},
+			{
+				"address": 3128,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38231
+			},
+			{
+				"address": 3132,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"19",
+					"then",
+					"3186"
+				],
+				"lineNumber": 38232
+			},
+			{
+				"address": 3144,
+				"opcode": "giveCard",
+				"args": [
+					"45"
+				],
+				"lineNumber": 38233
+			},
+			{
+				"address": 3146,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38234
+			},
+			{
+				"address": 3148,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Leomon",
+					"Card!\\n"
+				],
+				"lineNumber": 38235
+			},
+			{
+				"address": 3182,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38236
+			},
+			{
+				"address": 3186,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"20",
+					"then",
+					"3244"
+				],
+				"lineNumber": 38237
+			},
+			{
+				"address": 3198,
+				"opcode": "giveCard",
+				"args": [
+					"46"
+				],
+				"lineNumber": 38238
+			},
+			{
+				"address": 3200,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38239
+			},
+			{
+				"address": 3202,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Coelamon",
+					"Card!\\n"
+				],
+				"lineNumber": 38240
+			},
+			{
+				"address": 3240,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38241
+			},
+			{
+				"address": 3244,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"21",
+					"then",
+					"3308"
+				],
+				"lineNumber": 38242
+			},
+			{
+				"address": 3256,
+				"opcode": "giveCard",
+				"args": [
+					"47"
+				],
+				"lineNumber": 38243
+			},
+			{
+				"address": 3258,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38244
+			},
+			{
+				"address": 3260,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Kokatorimon",
+					"Card!\\n"
+				],
+				"lineNumber": 38245
+			},
+			{
+				"address": 3304,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38246
+			},
+			{
+				"address": 3308,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"22",
+					"then",
+					"3368"
+				],
+				"lineNumber": 38247
+			},
+			{
+				"address": 3320,
+				"opcode": "giveCard",
+				"args": [
+					"48"
+				],
+				"lineNumber": 38248
+			},
+			{
+				"address": 3322,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38249
+			},
+			{
+				"address": 3324,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Kuwagamon",
+					"Card!\\n"
+				],
+				"lineNumber": 38250
+			},
+			{
+				"address": 3364,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38251
+			},
+			{
+				"address": 3368,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"23",
+					"then",
+					"3426"
+				],
+				"lineNumber": 38252
+			},
+			{
+				"address": 3380,
+				"opcode": "giveCard",
+				"args": [
+					"49"
+				],
+				"lineNumber": 38253
+			},
+			{
+				"address": 3382,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38254
+			},
+			{
+				"address": 3384,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Mojyamon",
+					"Card!\\n"
+				],
+				"lineNumber": 38255
+			},
+			{
+				"address": 3422,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38256
+			},
+			{
+				"address": 3426,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"24",
+					"then",
+					"3486"
+				],
+				"lineNumber": 38257
+			},
+			{
+				"address": 3438,
+				"opcode": "giveCard",
+				"args": [
+					"50"
+				],
+				"lineNumber": 38258
+			},
+			{
+				"address": 3440,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38259
+			},
+			{
+				"address": 3442,
+				"opcode": "showTextbox",
+				"args": [
+					"An",
+					"Ninjamon",
+					"Card!\\n"
+				],
+				"lineNumber": 38260
+			},
+			{
+				"address": 3482,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38261
+			},
+			{
+				"address": 3486,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"9"
+				],
+				"lineNumber": 38262
+			},
+			{
+				"address": 3490,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"0",
+					"then",
+					"3552"
+				],
+				"lineNumber": 38263
+			},
+			{
+				"address": 3502,
+				"opcode": "giveCard",
+				"args": [
+					"51"
+				],
+				"lineNumber": 38264
+			},
+			{
+				"address": 3504,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38265
+			},
+			{
+				"address": 3506,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Penguinmon",
+					"Card!\\n"
+				],
+				"lineNumber": 38266
+			},
+			{
+				"address": 3548,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38267
+			},
+			{
+				"address": 3552,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"1",
+					"then",
+					"3610"
+				],
+				"lineNumber": 38268
+			},
+			{
+				"address": 3564,
+				"opcode": "giveCard",
+				"args": [
+					"52"
+				],
+				"lineNumber": 38269
+			},
+			{
+				"address": 3566,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38270
+			},
+			{
+				"address": 3568,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Otamamon",
+					"Card!\\n"
+				],
+				"lineNumber": 38271
+			},
+			{
+				"address": 3606,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38272
+			},
+			{
+				"address": 3610,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"3668"
+				],
+				"lineNumber": 38273
+			},
+			{
+				"address": 3622,
+				"opcode": "giveCard",
+				"args": [
+					"53"
+				],
+				"lineNumber": 38274
+			},
+			{
+				"address": 3624,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38275
+			},
+			{
+				"address": 3626,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Tentomon",
+					"Card!\\n"
+				],
+				"lineNumber": 38276
+			},
+			{
+				"address": 3664,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38277
+			},
+			{
+				"address": 3668,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"3",
+					"then",
+					"3726"
+				],
+				"lineNumber": 38278
+			},
+			{
+				"address": 3680,
+				"opcode": "giveCard",
+				"args": [
+					"54"
+				],
+				"lineNumber": 38279
+			},
+			{
+				"address": 3682,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38280
+			},
+			{
+				"address": 3684,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Yanmamon",
+					"Card!\\n"
+				],
+				"lineNumber": 38281
+			},
+			{
+				"address": 3722,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38282
+			},
+			{
+				"address": 3726,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"4",
+					"then",
+					"3784"
+				],
+				"lineNumber": 38283
+			},
+			{
+				"address": 3738,
+				"opcode": "giveCard",
+				"args": [
+					"55"
+				],
+				"lineNumber": 38284
+			},
+			{
+				"address": 3740,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38285
+			},
+			{
+				"address": 3742,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Gotsumon",
+					"Card!\\n"
+				],
+				"lineNumber": 38286
+			},
+			{
+				"address": 3780,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38287
+			},
+			{
+				"address": 3784,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"5",
+					"then",
+					"3850"
+				],
+				"lineNumber": 38288
+			},
+			{
+				"address": 3796,
+				"opcode": "giveCard",
+				"args": [
+					"56"
+				],
+				"lineNumber": 38289
+			},
+			{
+				"address": 3798,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38290
+			},
+			{
+				"address": 3800,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Flarerizamon",
+					"Card!\\n"
+				],
+				"lineNumber": 38291
+			},
+			{
+				"address": 3846,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38292
+			},
+			{
+				"address": 3850,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"6",
+					"then",
+					"3910"
+				],
+				"lineNumber": 38293
+			},
+			{
+				"address": 3862,
+				"opcode": "giveCard",
+				"args": [
+					"57"
+				],
+				"lineNumber": 38294
+			},
+			{
+				"address": 3864,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38295
+			},
+			{
+				"address": 3866,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"ToyAgumon",
+					"Card!\\n"
+				],
+				"lineNumber": 38296
+			},
+			{
+				"address": 3906,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38297
+			},
+			{
+				"address": 3910,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"7",
+					"then",
+					"3974"
+				],
+				"lineNumber": 38298
+			},
+			{
+				"address": 3922,
+				"opcode": "giveCard",
+				"args": [
+					"58"
+				],
+				"lineNumber": 38299
+			},
+			{
+				"address": 3924,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38300
+			},
+			{
+				"address": 3926,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"DemiMeramon",
+					"Card!\\n"
+				],
+				"lineNumber": 38301
+			},
+			{
+				"address": 3970,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38302
+			},
+			{
+				"address": 3974,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"8",
+					"then",
+					"4030"
+				],
+				"lineNumber": 38303
+			},
+			{
+				"address": 3986,
+				"opcode": "giveCard",
+				"args": [
+					"59"
+				],
+				"lineNumber": 38304
+			},
+			{
+				"address": 3988,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38305
+			},
+			{
+				"address": 3990,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Tankmon",
+					"Card!\\n"
+				],
+				"lineNumber": 38306
+			},
+			{
+				"address": 4026,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38307
+			},
+			{
+				"address": 4030,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"9",
+					"then",
+					"4088"
+				],
+				"lineNumber": 38308
+			},
+			{
+				"address": 4042,
+				"opcode": "giveCard",
+				"args": [
+					"60"
+				],
+				"lineNumber": 38309
+			},
+			{
+				"address": 4044,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38310
+			},
+			{
+				"address": 4046,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"Goburimon",
+					"Card\\n"
+				],
+				"lineNumber": 38311
+			},
+			{
+				"address": 4084,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38312
+			},
+			{
+				"address": 4088,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"3"
+				],
+				"lineNumber": 38313
+			},
+			{
+				"address": 4092,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"0",
+					"then",
+					"4158"
+				],
+				"lineNumber": 38314
+			},
+			{
+				"address": 4104,
+				"opcode": "giveCard",
+				"args": [
+					"61"
+				],
+				"lineNumber": 38315
+			},
+			{
+				"address": 4106,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38316
+			},
+			{
+				"address": 4108,
+				"opcode": "showTextbox",
+				"args": [
+					"It's",
+					"a",
+					"Numemon",
+					"Card!\\n"
+				],
+				"lineNumber": 38317
+			},
+			{
+				"address": 4154,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38318
+			},
+			{
+				"address": 4158,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"1",
+					"then",
+					"4226"
+				],
+				"lineNumber": 38319
+			},
+			{
+				"address": 4170,
+				"opcode": "giveCard",
+				"args": [
+					"62"
+				],
+				"lineNumber": 38320
+			},
+			{
+				"address": 4172,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38321
+			},
+			{
+				"address": 4174,
+				"opcode": "showTextbox",
+				"args": [
+					"It's",
+					"a",
+					"Vegiemon",
+					"Card!\\n"
+				],
+				"lineNumber": 38322
+			},
+			{
+				"address": 4222,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38323
+			},
+			{
+				"address": 4226,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"4292"
+				],
+				"lineNumber": 38324
+			},
+			{
+				"address": 4238,
+				"opcode": "giveCard",
+				"args": [
+					"63"
+				],
+				"lineNumber": 38325
+			},
+			{
+				"address": 4240,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38326
+			},
+			{
+				"address": 4242,
+				"opcode": "showTextbox",
+				"args": [
+					"It's",
+					"a",
+					"Sukamon",
+					"Card!\\n"
+				],
+				"lineNumber": 38327
+			},
+			{
+				"address": 4288,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38328
+			},
+			{
+				"address": 4292,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"3",
+					"then",
+					"4358"
+				],
+				"lineNumber": 38329
+			},
+			{
+				"address": 4304,
+				"opcode": "giveCard",
+				"args": [
+					"64"
+				],
+				"lineNumber": 38330
+			},
+			{
+				"address": 4306,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38331
+			},
+			{
+				"address": 4308,
+				"opcode": "showTextbox",
+				"args": [
+					"It's",
+					"a",
+					"Nanimon",
+					"Card!\\n"
+				],
+				"lineNumber": 38332
+			},
+			{
+				"address": 4354,
+				"opcode": "jumpTo",
+				"args": [
+					"4358"
+				],
+				"lineNumber": 38333
+			},
+			{
+				"address": 4358,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 38334
+			},
+			{
+				"address": 4360,
+				"opcode": "setSelection",
+				"args": [
+					"276",
+					"442"
+				],
+				"lineNumber": 38335
+			},
+			{
+				"address": 4366,
+				"opcode": "showTextbox",
+				"args": [
+					"Try",
+					"again\\nNo",
+					"more\\n"
+				],
+				"lineNumber": 38336
+			},
+			{
+				"address": 4406,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 38337
+			},
+			{
+				"address": 4408,
+				"opcode": "endSection",
+				"lineNumber": 38338
+			},
+			{
+				"address": 4410,
+				"opcode": "endSection",
+				"lineNumber": 38339
+			}
+		]
+	}
+}
+}

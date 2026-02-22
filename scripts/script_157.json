@@ -1,0 +1,79 @@
+{
+"id": 157,
+"info": "== Script ID 157 == 6f000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 16,
+				"opcode": "endSection",
+				"lineNumber": 23779
+			}
+		]
+	},
+	"51": {
+		"id": 51,
+		"instructions": [
+			{
+				"address": 18,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"877",
+					"-652",
+					"false"
+				],
+				"lineNumber": 23781
+			},
+			{
+				"address": 26,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"1962",
+					"-1388",
+					"false"
+				],
+				"lineNumber": 23782
+			},
+			{
+				"address": 34,
+				"opcode": "warpTo",
+				"args": [
+					"220",
+					"0",
+					"255"
+				],
+				"lineNumber": 23783
+			},
+			{
+				"address": 38,
+				"opcode": "endSection",
+				"lineNumber": 23784
+			}
+		]
+	},
+	"52": {
+		"id": 52,
+		"instructions": [
+			{
+				"address": 40,
+				"opcode": "warpTo",
+				"args": [
+					"154",
+					"1",
+					"255"
+				],
+				"lineNumber": 23786
+			},
+			{
+				"address": 44,
+				"opcode": "endSection",
+				"lineNumber": 23787
+			}
+		]
+	}
+}
+}

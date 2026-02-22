@@ -1,0 +1,167 @@
+{
+"id": 45,
+"info": "== Script ID 45 == 23000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 20,
+				"opcode": "spawnChest",
+				"args": [
+					"7",
+					"1092",
+					"0",
+					"1169",
+					"1024",
+					"669"
+				],
+				"lineNumber": 10503
+			},
+			{
+				"address": 32,
+				"opcode": "endSection",
+				"lineNumber": 10504
+			}
+		]
+	},
+	"5": {
+		"id": 5,
+		"instructions": [
+			{
+				"address": 34,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 10506
+			},
+			{
+				"address": 36,
+				"opcode": "showTextbox",
+				"args": [
+					"Oh",
+					"no!\\n"
+				],
+				"lineNumber": 10507
+			},
+			{
+				"address": 54,
+				"opcode": "fadeoutHud",
+				"lineNumber": 10508
+			},
+			{
+				"address": 56,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 10509
+			},
+			{
+				"address": 60,
+				"opcode": "startBattle",
+				"lineNumber": 10510
+			},
+			{
+				"address": 62,
+				"opcode": "endSection",
+				"lineNumber": 10511
+			}
+		]
+	},
+	"6": {
+		"id": 6,
+		"instructions": [
+			{
+				"address": 64,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 10513
+			},
+			{
+				"address": 66,
+				"opcode": "showTextbox",
+				"args": [
+					"I've",
+					"got",
+					"go!\\n"
+				],
+				"lineNumber": 10514
+			},
+			{
+				"address": 96,
+				"opcode": "fadeoutHud",
+				"lineNumber": 10515
+			},
+			{
+				"address": 98,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 10516
+			},
+			{
+				"address": 102,
+				"opcode": "startBattle",
+				"lineNumber": 10517
+			},
+			{
+				"address": 104,
+				"opcode": "endSection",
+				"lineNumber": 10518
+			}
+		]
+	},
+	"7": {
+		"id": 7,
+		"instructions": [
+			{
+				"address": 106,
+				"opcode": "setDialogOwner",
+				"args": [
+					"7"
+				],
+				"lineNumber": 10520
+			},
+			{
+				"address": 108,
+				"opcode": "showTextbox",
+				"args": [
+					"Wait",
+					"a",
+					"second!\\n"
+				],
+				"lineNumber": 10521
+			},
+			{
+				"address": 142,
+				"opcode": "fadeoutHud",
+				"lineNumber": 10522
+			},
+			{
+				"address": 144,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 10523
+			},
+			{
+				"address": 148,
+				"opcode": "startBattle",
+				"lineNumber": 10524
+			},
+			{
+				"address": 150,
+				"opcode": "endSection",
+				"lineNumber": 10525
+			}
+		]
+	}
+}
+}

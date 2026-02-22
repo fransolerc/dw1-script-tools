@@ -1,0 +1,6980 @@
+{
+"id": 199,
+"info": "== Script ID 199 == 96800",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 12,
+				"opcode": "endSection",
+				"lineNumber": 30638
+			}
+		]
+	},
+	"51": {
+		"id": 51,
+		"instructions": [
+			{
+				"address": 14,
+				"opcode": "addToPStat",
+				"args": [
+					"123",
+					"1"
+				],
+				"lineNumber": 30640
+			},
+			{
+				"address": 18,
+				"opcode": "loadDigimon",
+				"args": [
+					"80"
+				],
+				"lineNumber": 30641
+			},
+			{
+				"address": 20,
+				"opcode": "setDigimon",
+				"args": [
+					"80",
+					"1",
+					"0"
+				],
+				"lineNumber": 30642
+			},
+			{
+				"address": 24,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 30643
+			},
+			{
+				"address": 28,
+				"opcode": "entityWalkTo",
+				"args": [
+					"6",
+					"-501",
+					"-508",
+					"false"
+				],
+				"lineNumber": 30644
+			},
+			{
+				"address": 36,
+				"opcode": "waitForEntity",
+				"args": [
+					"6"
+				],
+				"lineNumber": 30645
+			},
+			{
+				"address": 38,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"6",
+					"253"
+				],
+				"lineNumber": 30646
+			},
+			{
+				"address": 42,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 30647
+			},
+			{
+				"address": 46,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"34",
+					"then",
+					"62"
+				],
+				"lineNumber": 30648
+			},
+			{
+				"address": 58,
+				"opcode": "jumpTo",
+				"args": [
+					"84"
+				],
+				"lineNumber": 30649
+			},
+			{
+				"address": 62,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"84",
+					"then",
+					"78"
+				],
+				"lineNumber": 30650
+			},
+			{
+				"address": 74,
+				"opcode": "jumpTo",
+				"args": [
+					"4006"
+				],
+				"lineNumber": 30651
+			},
+			{
+				"address": 78,
+				"opcode": "jumpTo",
+				"args": [
+					"8442"
+				],
+				"lineNumber": 30652
+			},
+			{
+				"address": 82,
+				"opcode": "endSection",
+				"lineNumber": 30653
+			},
+			{
+				"address": 84,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 30654
+			},
+			{
+				"address": 86,
+				"opcode": "showTextbox",
+				"args": [
+					"Boy,",
+					"gimme",
+					"some",
+					"<LIGHTBLUE>Meat<WHITE>!\\n"
+				],
+				"lineNumber": 30655
+			},
+			{
+				"address": 138,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 30656
+			},
+			{
+				"address": 140,
+				"opcode": "showTextbox",
+				"args": [
+					"Welcome,",
+					"so",
+					"you",
+					"want",
+					"some\\n<LIGHTBLUE>Meat<WHITE>.",
+					"Well,",
+					"uh...\\n"
+				],
+				"lineNumber": 30657
+			},
+			{
+				"address": 236,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30658
+			},
+			{
+				"address": 240,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"5"
+				],
+				"lineNumber": 30659
+			},
+			{
+				"address": 244,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30660
+			},
+			{
+				"address": 246,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 30661
+			},
+			{
+				"address": 250,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"6"
+				],
+				"lineNumber": 30662
+			},
+			{
+				"address": 254,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30663
+			},
+			{
+				"address": 256,
+				"opcode": "setSelection",
+				"args": [
+					"460",
+					"1634",
+					"1840"
+				],
+				"lineNumber": 30664
+			},
+			{
+				"address": 264,
+				"opcode": "showTextbox",
+				"args": [
+					"Raise",
+					"price\\nKeep",
+					"price",
+					"at",
+					"fifty",
+					"bits\\nLower",
+					"price\\n"
+				],
+				"lineNumber": 30665
+			},
+			{
+				"address": 366,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30666
+			},
+			{
+				"address": 368,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 30667
+			},
+			{
+				"address": 370,
+				"opcode": "showTextbox",
+				"args": [
+					"Uh,",
+					"you",
+					"wanted",
+					"some\\n<LIGHTBLUE>Meat<WHITE>,",
+					"right?",
+					"Uh...\\n"
+				],
+				"lineNumber": 30668
+			},
+			{
+				"address": 456,
+				"opcode": "jumpTo",
+				"args": [
+					"236"
+				],
+				"lineNumber": 30669
+			},
+			{
+				"address": 460,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"4"
+				],
+				"lineNumber": 30670
+			},
+			{
+				"address": 464,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"0",
+					"then",
+					"710"
+				],
+				"lineNumber": 30671
+			},
+			{
+				"address": 476,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30672
+			},
+			{
+				"address": 480,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"3"
+				],
+				"lineNumber": 30673
+			},
+			{
+				"address": 484,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30674
+			},
+			{
+				"address": 486,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30675
+			},
+			{
+				"address": 488,
+				"opcode": "showTextbox",
+				"args": [
+					"How",
+					"about",
+					"fifty",
+					"bit",
+					"<LIGHTBLUE>Meat<WHITE>\\nfor",
+					"seventy",
+					"five",
+					"bits?\\n"
+				],
+				"lineNumber": 30676
+			},
+			{
+				"address": 592,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"1"
+				],
+				"lineNumber": 30677
+			},
+			{
+				"address": 596,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30678
+			},
+			{
+				"address": 598,
+				"opcode": "setSelection",
+				"args": [
+					"2544",
+					"236"
+				],
+				"lineNumber": 30679
+			},
+			{
+				"address": 604,
+				"opcode": "showTextbox",
+				"args": [
+					"Raise",
+					"fifty",
+					"to",
+					"seventy",
+					"five\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 30680
+			},
+			{
+				"address": 704,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30681
+			},
+			{
+				"address": 706,
+				"opcode": "jumpTo",
+				"args": [
+					"236"
+				],
+				"lineNumber": 30682
+			},
+			{
+				"address": 710,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"1",
+					"then",
+					"938"
+				],
+				"lineNumber": 30683
+			},
+			{
+				"address": 722,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30684
+			},
+			{
+				"address": 726,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"2"
+				],
+				"lineNumber": 30685
+			},
+			{
+				"address": 730,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30686
+			},
+			{
+				"address": 732,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30687
+			},
+			{
+				"address": 734,
+				"opcode": "showTextbox",
+				"args": [
+					"How's",
+					"fifty",
+					"bit",
+					"<LIGHTBLUE>Meat<WHITE>\\nfor",
+					"seventy",
+					"bits?\\n"
+				],
+				"lineNumber": 30688
+			},
+			{
+				"address": 820,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"2"
+				],
+				"lineNumber": 30689
+			},
+			{
+				"address": 824,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30690
+			},
+			{
+				"address": 826,
+				"opcode": "setSelection",
+				"args": [
+					"2568",
+					"236"
+				],
+				"lineNumber": 30691
+			},
+			{
+				"address": 832,
+				"opcode": "showTextbox",
+				"args": [
+					"Raise",
+					"from",
+					"fifty",
+					"to",
+					"seventy\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 30692
+			},
+			{
+				"address": 932,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30693
+			},
+			{
+				"address": 934,
+				"opcode": "jumpTo",
+				"args": [
+					"236"
+				],
+				"lineNumber": 30694
+			},
+			{
+				"address": 938,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"1176"
+				],
+				"lineNumber": 30695
+			},
+			{
+				"address": 950,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30696
+			},
+			{
+				"address": 954,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"2"
+				],
+				"lineNumber": 30697
+			},
+			{
+				"address": 958,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30698
+			},
+			{
+				"address": 960,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30699
+			},
+			{
+				"address": 962,
+				"opcode": "showTextbox",
+				"args": [
+					"How",
+					"about",
+					"fifty",
+					"bit",
+					"<LIGHTBLUE>Meat<WHITE>\\nfor",
+					"sixty",
+					"five",
+					"bits?\\n"
+				],
+				"lineNumber": 30700
+			},
+			{
+				"address": 1062,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"3"
+				],
+				"lineNumber": 30701
+			},
+			{
+				"address": 1066,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30702
+			},
+			{
+				"address": 1068,
+				"opcode": "setSelection",
+				"args": [
+					"2592",
+					"236"
+				],
+				"lineNumber": 30703
+			},
+			{
+				"address": 1074,
+				"opcode": "showTextbox",
+				"args": [
+					"Raise",
+					"fifty",
+					"to",
+					"sixty",
+					"five\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 30704
+			},
+			{
+				"address": 1170,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30705
+			},
+			{
+				"address": 1172,
+				"opcode": "jumpTo",
+				"args": [
+					"236"
+				],
+				"lineNumber": 30706
+			},
+			{
+				"address": 1176,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"3",
+					"then",
+					"1396"
+				],
+				"lineNumber": 30707
+			},
+			{
+				"address": 1188,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30708
+			},
+			{
+				"address": 1192,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"1"
+				],
+				"lineNumber": 30709
+			},
+			{
+				"address": 1196,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30710
+			},
+			{
+				"address": 1198,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30711
+			},
+			{
+				"address": 1200,
+				"opcode": "showTextbox",
+				"args": [
+					"How's",
+					"fifty",
+					"bit",
+					"<LIGHTBLUE>Meat<WHITE>\\nfor",
+					"sixty",
+					"bits?\\n"
+				],
+				"lineNumber": 30712
+			},
+			{
+				"address": 1282,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"4"
+				],
+				"lineNumber": 30713
+			},
+			{
+				"address": 1286,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30714
+			},
+			{
+				"address": 1288,
+				"opcode": "setSelection",
+				"args": [
+					"2616",
+					"236"
+				],
+				"lineNumber": 30715
+			},
+			{
+				"address": 1294,
+				"opcode": "showTextbox",
+				"args": [
+					"Raise",
+					"from",
+					"fifty",
+					"to",
+					"sixty\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 30716
+			},
+			{
+				"address": 1390,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30717
+			},
+			{
+				"address": 1392,
+				"opcode": "jumpTo",
+				"args": [
+					"236"
+				],
+				"lineNumber": 30718
+			},
+			{
+				"address": 1396,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"4",
+					"then",
+					"1634"
+				],
+				"lineNumber": 30719
+			},
+			{
+				"address": 1408,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30720
+			},
+			{
+				"address": 1412,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"1"
+				],
+				"lineNumber": 30721
+			},
+			{
+				"address": 1416,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30722
+			},
+			{
+				"address": 1418,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30723
+			},
+			{
+				"address": 1420,
+				"opcode": "showTextbox",
+				"args": [
+					"How",
+					"about",
+					"fifty",
+					"bit",
+					"<LIGHTBLUE>Meat<WHITE>\\nfor",
+					"fifty",
+					"five",
+					"bits?\\n"
+				],
+				"lineNumber": 30724
+			},
+			{
+				"address": 1520,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"5"
+				],
+				"lineNumber": 30725
+			},
+			{
+				"address": 1524,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30726
+			},
+			{
+				"address": 1526,
+				"opcode": "setSelection",
+				"args": [
+					"2640",
+					"236"
+				],
+				"lineNumber": 30727
+			},
+			{
+				"address": 1532,
+				"opcode": "showTextbox",
+				"args": [
+					"Raise",
+					"fifty",
+					"to",
+					"fifty",
+					"five\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 30728
+			},
+			{
+				"address": 1628,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30729
+			},
+			{
+				"address": 1630,
+				"opcode": "jumpTo",
+				"args": [
+					"236"
+				],
+				"lineNumber": 30730
+			},
+			{
+				"address": 1634,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30731
+			},
+			{
+				"address": 1638,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"0"
+				],
+				"lineNumber": 30732
+			},
+			{
+				"address": 1642,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30733
+			},
+			{
+				"address": 1644,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30734
+			},
+			{
+				"address": 1646,
+				"opcode": "showTextbox",
+				"args": [
+					"How's",
+					"fifty",
+					"bit",
+					"<LIGHTBLUE>Meat<WHITE>\\nat",
+					"regular",
+					"price?\\n"
+				],
+				"lineNumber": 30735
+			},
+			{
+				"address": 1732,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"6"
+				],
+				"lineNumber": 30736
+			},
+			{
+				"address": 1736,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30737
+			},
+			{
+				"address": 1738,
+				"opcode": "setSelection",
+				"args": [
+					"2664",
+					"236"
+				],
+				"lineNumber": 30738
+			},
+			{
+				"address": 1744,
+				"opcode": "showTextbox",
+				"args": [
+					"Offer",
+					"at",
+					"regular",
+					"price\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 30739
+			},
+			{
+				"address": 1834,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30740
+			},
+			{
+				"address": 1836,
+				"opcode": "jumpTo",
+				"args": [
+					"236"
+				],
+				"lineNumber": 30741
+			},
+			{
+				"address": 1840,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"2"
+				],
+				"lineNumber": 30742
+			},
+			{
+				"address": 1844,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"0",
+					"then",
+					"2082"
+				],
+				"lineNumber": 30743
+			},
+			{
+				"address": 1856,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30744
+			},
+			{
+				"address": 1860,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"0"
+				],
+				"lineNumber": 30745
+			},
+			{
+				"address": 1864,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30746
+			},
+			{
+				"address": 1866,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30747
+			},
+			{
+				"address": 1868,
+				"opcode": "showTextbox",
+				"args": [
+					"How",
+					"about",
+					"fifty",
+					"bit",
+					"<LIGHTBLUE>Meat<WHITE>\\nfor",
+					"forty",
+					"five",
+					"bits?\\n"
+				],
+				"lineNumber": 30748
+			},
+			{
+				"address": 1968,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"7"
+				],
+				"lineNumber": 30749
+			},
+			{
+				"address": 1972,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30750
+			},
+			{
+				"address": 1974,
+				"opcode": "setSelection",
+				"args": [
+					"2688",
+					"236"
+				],
+				"lineNumber": 30751
+			},
+			{
+				"address": 1980,
+				"opcode": "showTextbox",
+				"args": [
+					"Lower",
+					"fifty",
+					"to",
+					"forty",
+					"five\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 30752
+			},
+			{
+				"address": 2076,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30753
+			},
+			{
+				"address": 2078,
+				"opcode": "jumpTo",
+				"args": [
+					"236"
+				],
+				"lineNumber": 30754
+			},
+			{
+				"address": 2082,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"1",
+					"then",
+					"2302"
+				],
+				"lineNumber": 30755
+			},
+			{
+				"address": 2094,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30756
+			},
+			{
+				"address": 2098,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"0"
+				],
+				"lineNumber": 30757
+			},
+			{
+				"address": 2102,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30758
+			},
+			{
+				"address": 2104,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30759
+			},
+			{
+				"address": 2106,
+				"opcode": "showTextbox",
+				"args": [
+					"How's",
+					"fifty",
+					"bit",
+					"<LIGHTBLUE>Meat<WHITE>\\nfor",
+					"forty",
+					"bits?\\n"
+				],
+				"lineNumber": 30760
+			},
+			{
+				"address": 2188,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"8"
+				],
+				"lineNumber": 30761
+			},
+			{
+				"address": 2192,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30762
+			},
+			{
+				"address": 2194,
+				"opcode": "setSelection",
+				"args": [
+					"2712",
+					"236"
+				],
+				"lineNumber": 30763
+			},
+			{
+				"address": 2200,
+				"opcode": "showTextbox",
+				"args": [
+					"Lower",
+					"fifty",
+					"down",
+					"to",
+					"forty\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 30764
+			},
+			{
+				"address": 2296,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30765
+			},
+			{
+				"address": 2298,
+				"opcode": "jumpTo",
+				"args": [
+					"236"
+				],
+				"lineNumber": 30766
+			},
+			{
+				"address": 2302,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"2544"
+				],
+				"lineNumber": 30767
+			},
+			{
+				"address": 2314,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30768
+			},
+			{
+				"address": 2318,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"0"
+				],
+				"lineNumber": 30769
+			},
+			{
+				"address": 2322,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30770
+			},
+			{
+				"address": 2324,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30771
+			},
+			{
+				"address": 2326,
+				"opcode": "showTextbox",
+				"args": [
+					"How",
+					"about",
+					"fifty",
+					"bit",
+					"<LIGHTBLUE>Meat<WHITE>\\nfor",
+					"thirty",
+					"five",
+					"bits?\\n"
+				],
+				"lineNumber": 30772
+			},
+			{
+				"address": 2428,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"9"
+				],
+				"lineNumber": 30773
+			},
+			{
+				"address": 2432,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30774
+			},
+			{
+				"address": 2434,
+				"opcode": "setSelection",
+				"args": [
+					"2736",
+					"236"
+				],
+				"lineNumber": 30775
+			},
+			{
+				"address": 2440,
+				"opcode": "showTextbox",
+				"args": [
+					"Lower",
+					"fifty",
+					"to",
+					"thirty",
+					"five\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 30776
+			},
+			{
+				"address": 2538,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30777
+			},
+			{
+				"address": 2540,
+				"opcode": "jumpTo",
+				"args": [
+					"236"
+				],
+				"lineNumber": 30778
+			},
+			{
+				"address": 2544,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 30779
+			},
+			{
+				"address": 2548,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"44",
+					"then",
+					"2564"
+				],
+				"lineNumber": 30780
+			},
+			{
+				"address": 2560,
+				"opcode": "jumpTo",
+				"args": [
+					"2760"
+				],
+				"lineNumber": 30781
+			},
+			{
+				"address": 2564,
+				"opcode": "jumpTo",
+				"args": [
+					"3648"
+				],
+				"lineNumber": 30782
+			},
+			{
+				"address": 2568,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 30783
+			},
+			{
+				"address": 2572,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"54",
+					"then",
+					"2588"
+				],
+				"lineNumber": 30784
+			},
+			{
+				"address": 2584,
+				"opcode": "jumpTo",
+				"args": [
+					"2760"
+				],
+				"lineNumber": 30785
+			},
+			{
+				"address": 2588,
+				"opcode": "jumpTo",
+				"args": [
+					"3648"
+				],
+				"lineNumber": 30786
+			},
+			{
+				"address": 2592,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 30787
+			},
+			{
+				"address": 2596,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"64",
+					"then",
+					"2612"
+				],
+				"lineNumber": 30788
+			},
+			{
+				"address": 2608,
+				"opcode": "jumpTo",
+				"args": [
+					"2760"
+				],
+				"lineNumber": 30789
+			},
+			{
+				"address": 2612,
+				"opcode": "jumpTo",
+				"args": [
+					"3648"
+				],
+				"lineNumber": 30790
+			},
+			{
+				"address": 2616,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 30791
+			},
+			{
+				"address": 2620,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"74",
+					"then",
+					"2636"
+				],
+				"lineNumber": 30792
+			},
+			{
+				"address": 2632,
+				"opcode": "jumpTo",
+				"args": [
+					"2760"
+				],
+				"lineNumber": 30793
+			},
+			{
+				"address": 2636,
+				"opcode": "jumpTo",
+				"args": [
+					"3648"
+				],
+				"lineNumber": 30794
+			},
+			{
+				"address": 2640,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 30795
+			},
+			{
+				"address": 2644,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"84",
+					"then",
+					"2660"
+				],
+				"lineNumber": 30796
+			},
+			{
+				"address": 2656,
+				"opcode": "jumpTo",
+				"args": [
+					"2760"
+				],
+				"lineNumber": 30797
+			},
+			{
+				"address": 2660,
+				"opcode": "jumpTo",
+				"args": [
+					"3648"
+				],
+				"lineNumber": 30798
+			},
+			{
+				"address": 2664,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 30799
+			},
+			{
+				"address": 2668,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"94",
+					"then",
+					"2684"
+				],
+				"lineNumber": 30800
+			},
+			{
+				"address": 2680,
+				"opcode": "jumpTo",
+				"args": [
+					"2760"
+				],
+				"lineNumber": 30801
+			},
+			{
+				"address": 2684,
+				"opcode": "jumpTo",
+				"args": [
+					"3648"
+				],
+				"lineNumber": 30802
+			},
+			{
+				"address": 2688,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 30803
+			},
+			{
+				"address": 2692,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"96",
+					"then",
+					"2708"
+				],
+				"lineNumber": 30804
+			},
+			{
+				"address": 2704,
+				"opcode": "jumpTo",
+				"args": [
+					"2760"
+				],
+				"lineNumber": 30805
+			},
+			{
+				"address": 2708,
+				"opcode": "jumpTo",
+				"args": [
+					"3648"
+				],
+				"lineNumber": 30806
+			},
+			{
+				"address": 2712,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 30807
+			},
+			{
+				"address": 2716,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"98",
+					"then",
+					"2732"
+				],
+				"lineNumber": 30808
+			},
+			{
+				"address": 2728,
+				"opcode": "jumpTo",
+				"args": [
+					"2760"
+				],
+				"lineNumber": 30809
+			},
+			{
+				"address": 2732,
+				"opcode": "jumpTo",
+				"args": [
+					"3648"
+				],
+				"lineNumber": 30810
+			},
+			{
+				"address": 2736,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 30811
+			},
+			{
+				"address": 2740,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"99",
+					"then",
+					"2756"
+				],
+				"lineNumber": 30812
+			},
+			{
+				"address": 2752,
+				"opcode": "jumpTo",
+				"args": [
+					"2760"
+				],
+				"lineNumber": 30813
+			},
+			{
+				"address": 2756,
+				"opcode": "jumpTo",
+				"args": [
+					"3648"
+				],
+				"lineNumber": 30814
+			},
+			{
+				"address": 2760,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 30815
+			},
+			{
+				"address": 2762,
+				"opcode": "showTextbox",
+				"args": [
+					"Good,",
+					"it's",
+					"sold!\\n"
+				],
+				"lineNumber": 30816
+			},
+			{
+				"address": 2800,
+				"opcode": "playSound",
+				"args": [
+					"1544"
+				],
+				"lineNumber": 30817
+			},
+			{
+				"address": 2804,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 30818
+			},
+			{
+				"address": 2808,
+				"opcode": "setTextboxSize",
+				"args": [
+					"12",
+					"3"
+				],
+				"lineNumber": 30819
+			},
+			{
+				"address": 2812,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"1",
+					"then",
+					"2898"
+				],
+				"lineNumber": 30820
+			},
+			{
+				"address": 2824,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 30821
+			},
+			{
+				"address": 2828,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"40"
+				],
+				"lineNumber": 30822
+			},
+			{
+				"address": 2832,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 30823
+			},
+			{
+				"address": 2834,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nforty\\n"
+				],
+				"lineNumber": 30824
+			},
+			{
+				"address": 2898,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"2",
+					"then",
+					"2996"
+				],
+				"lineNumber": 30825
+			},
+			{
+				"address": 2910,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 30826
+			},
+			{
+				"address": 2914,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"35"
+				],
+				"lineNumber": 30827
+			},
+			{
+				"address": 2918,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 30828
+			},
+			{
+				"address": 2920,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nthirty",
+					"five\\n"
+				],
+				"lineNumber": 30829
+			},
+			{
+				"address": 2996,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"3",
+					"then",
+					"3084"
+				],
+				"lineNumber": 30830
+			},
+			{
+				"address": 3008,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 30831
+			},
+			{
+				"address": 3012,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"30"
+				],
+				"lineNumber": 30832
+			},
+			{
+				"address": 3016,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 30833
+			},
+			{
+				"address": 3018,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nthirty\\n"
+				],
+				"lineNumber": 30834
+			},
+			{
+				"address": 3084,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"4",
+					"then",
+					"3182"
+				],
+				"lineNumber": 30835
+			},
+			{
+				"address": 3096,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 30836
+			},
+			{
+				"address": 3100,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"25"
+				],
+				"lineNumber": 30837
+			},
+			{
+				"address": 3104,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 30838
+			},
+			{
+				"address": 3106,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\ntwenty",
+					"five\\n"
+				],
+				"lineNumber": 30839
+			},
+			{
+				"address": 3182,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"5",
+					"then",
+					"3270"
+				],
+				"lineNumber": 30840
+			},
+			{
+				"address": 3194,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 30841
+			},
+			{
+				"address": 3198,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"20"
+				],
+				"lineNumber": 30842
+			},
+			{
+				"address": 3202,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 30843
+			},
+			{
+				"address": 3204,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\ntwenty\\n"
+				],
+				"lineNumber": 30844
+			},
+			{
+				"address": 3270,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"6",
+					"then",
+					"3360"
+				],
+				"lineNumber": 30845
+			},
+			{
+				"address": 3282,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 30846
+			},
+			{
+				"address": 3286,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"15"
+				],
+				"lineNumber": 30847
+			},
+			{
+				"address": 3290,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 30848
+			},
+			{
+				"address": 3292,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nfifteen\\n"
+				],
+				"lineNumber": 30849
+			},
+			{
+				"address": 3360,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"7",
+					"then",
+					"3442"
+				],
+				"lineNumber": 30850
+			},
+			{
+				"address": 3372,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 30851
+			},
+			{
+				"address": 3376,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"10"
+				],
+				"lineNumber": 30852
+			},
+			{
+				"address": 3380,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 30853
+			},
+			{
+				"address": 3382,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nten\\n"
+				],
+				"lineNumber": 30854
+			},
+			{
+				"address": 3442,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"8",
+					"then",
+					"3526"
+				],
+				"lineNumber": 30855
+			},
+			{
+				"address": 3454,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 30856
+			},
+			{
+				"address": 3458,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"5"
+				],
+				"lineNumber": 30857
+			},
+			{
+				"address": 3462,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 30858
+			},
+			{
+				"address": 3464,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nfive\\n"
+				],
+				"lineNumber": 30859
+			},
+			{
+				"address": 3526,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"9",
+					"then",
+					"3600"
+				],
+				"lineNumber": 30860
+			},
+			{
+				"address": 3538,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nzero\\n"
+				],
+				"lineNumber": 30861
+			},
+			{
+				"address": 3600,
+				"opcode": "setPStat",
+				"args": [
+					"119",
+					"0"
+				],
+				"lineNumber": 30862
+			},
+			{
+				"address": 3604,
+				"opcode": "playSound",
+				"args": [
+					"5888"
+				],
+				"lineNumber": 30863
+			},
+			{
+				"address": 3608,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 30864
+			},
+			{
+				"address": 3612,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30865
+			},
+			{
+				"address": 3616,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"5"
+				],
+				"lineNumber": 30866
+			},
+			{
+				"address": 3620,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30867
+			},
+			{
+				"address": 3622,
+				"opcode": "entityWalkTo",
+				"args": [
+					"6",
+					"-109",
+					"-853",
+					"false"
+				],
+				"lineNumber": 30868
+			},
+			{
+				"address": 3630,
+				"opcode": "waitForEntity",
+				"args": [
+					"6"
+				],
+				"lineNumber": 30869
+			},
+			{
+				"address": 3632,
+				"opcode": "unloadEntity",
+				"args": [
+					"6"
+				],
+				"lineNumber": 30870
+			},
+			{
+				"address": 3634,
+				"opcode": "unknown79",
+				"args": [
+					"80"
+				],
+				"lineNumber": 30871
+			},
+			{
+				"address": 3636,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 30872
+			},
+			{
+				"address": 3640,
+				"opcode": "jumpToFile",
+				"args": [
+					"49",
+					"82"
+				],
+				"lineNumber": 30873
+			},
+			{
+				"address": 3646,
+				"opcode": "endSection",
+				"lineNumber": 30874
+			},
+			{
+				"address": 3648,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30875
+			},
+			{
+				"address": 3652,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"5"
+				],
+				"lineNumber": 30876
+			},
+			{
+				"address": 3656,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30877
+			},
+			{
+				"address": 3658,
+				"opcode": "addToPStat",
+				"args": [
+					"119",
+					"1"
+				],
+				"lineNumber": 30878
+			},
+			{
+				"address": 3662,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 30879
+			},
+			{
+				"address": 3666,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"49",
+					"OR",
+					"pstat(119)",
+					"<",
+					"3",
+					"then",
+					"3686"
+				],
+				"lineNumber": 30880
+			},
+			{
+				"address": 3682,
+				"opcode": "jumpTo",
+				"args": [
+					"3730"
+				],
+				"lineNumber": 30881
+			},
+			{
+				"address": 3686,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"14",
+					"OR",
+					"pstat(119)",
+					"!=",
+					"2",
+					"then",
+					"3706"
+				],
+				"lineNumber": 30882
+			},
+			{
+				"address": 3702,
+				"opcode": "jumpTo",
+				"args": [
+					"3730"
+				],
+				"lineNumber": 30883
+			},
+			{
+				"address": 3706,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"4",
+					"OR",
+					"pstat(119)",
+					"!=",
+					"1",
+					"then",
+					"3726"
+				],
+				"lineNumber": 30884
+			},
+			{
+				"address": 3722,
+				"opcode": "jumpTo",
+				"args": [
+					"3730"
+				],
+				"lineNumber": 30885
+			},
+			{
+				"address": 3726,
+				"opcode": "jumpTo",
+				"args": [
+					"3906"
+				],
+				"lineNumber": 30886
+			},
+			{
+				"address": 3730,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 30887
+			},
+			{
+				"address": 3732,
+				"opcode": "showTextbox",
+				"args": [
+					"See",
+					"ya!",
+					"I'm",
+					"out",
+					"of",
+					"here!!\\n"
+				],
+				"lineNumber": 30888
+			},
+			{
+				"address": 3788,
+				"opcode": "setPStat",
+				"args": [
+					"119",
+					"0"
+				],
+				"lineNumber": 30889
+			},
+			{
+				"address": 3792,
+				"opcode": "playSound",
+				"args": [
+					"1800"
+				],
+				"lineNumber": 30890
+			},
+			{
+				"address": 3796,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 30891
+			},
+			{
+				"address": 3800,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30892
+			},
+			{
+				"address": 3804,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"5"
+				],
+				"lineNumber": 30893
+			},
+			{
+				"address": 3808,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30894
+			},
+			{
+				"address": 3810,
+				"opcode": "entityWalkTo",
+				"args": [
+					"6",
+					"-109",
+					"-853",
+					"false"
+				],
+				"lineNumber": 30895
+			},
+			{
+				"address": 3818,
+				"opcode": "waitForEntity",
+				"args": [
+					"6"
+				],
+				"lineNumber": 30896
+			},
+			{
+				"address": 3820,
+				"opcode": "unloadEntity",
+				"args": [
+					"6"
+				],
+				"lineNumber": 30897
+			},
+			{
+				"address": 3822,
+				"opcode": "unknown79",
+				"args": [
+					"80"
+				],
+				"lineNumber": 30898
+			},
+			{
+				"address": 3824,
+				"opcode": "delay",
+				"args": [
+					"40"
+				],
+				"lineNumber": 30899
+			},
+			{
+				"address": 3828,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 30900
+			},
+			{
+				"address": 3830,
+				"opcode": "showTextbox",
+				"args": [
+					"When",
+					"will",
+					"customers",
+					"come...?\\n"
+				],
+				"lineNumber": 30901
+			},
+			{
+				"address": 3892,
+				"opcode": "fadeoutHud",
+				"lineNumber": 30902
+			},
+			{
+				"address": 3894,
+				"opcode": "addToPStat",
+				"args": [
+					"123",
+					"1"
+				],
+				"lineNumber": 30903
+			},
+			{
+				"address": 3898,
+				"opcode": "jumpToFile",
+				"args": [
+					"49",
+					"82"
+				],
+				"lineNumber": 30904
+			},
+			{
+				"address": 3904,
+				"opcode": "endSection",
+				"lineNumber": 30905
+			},
+			{
+				"address": 3906,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 30906
+			},
+			{
+				"address": 3908,
+				"opcode": "showTextbox",
+				"args": [
+					"Gimme",
+					"a",
+					"price",
+					"break!\\n"
+				],
+				"lineNumber": 30907
+			},
+			{
+				"address": 3954,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 30908
+			},
+			{
+				"address": 3956,
+				"opcode": "showTextbox",
+				"args": [
+					"Well...",
+					"Well",
+					"then...\\n"
+				],
+				"lineNumber": 30909
+			},
+			{
+				"address": 4002,
+				"opcode": "jumpTo",
+				"args": [
+					"236"
+				],
+				"lineNumber": 30910
+			},
+			{
+				"address": 4006,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 30911
+			},
+			{
+				"address": 4008,
+				"opcode": "showTextbox",
+				"args": [
+					"Hey!",
+					"Gimme",
+					"a",
+					"\\n<LIGHTBLUE>Portable",
+					"Potty<WHITE>.\\n"
+				],
+				"lineNumber": 30912
+			},
+			{
+				"address": 4076,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 30913
+			},
+			{
+				"address": 4078,
+				"opcode": "showTextbox",
+				"args": [
+					"Uh...",
+					"Welcome,",
+					"so",
+					"you",
+					"want",
+					"a\\n<LIGHTBLUE>Portable",
+					"Potty<WHITE>?\\n"
+				],
+				"lineNumber": 30914
+			},
+			{
+				"address": 4176,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30915
+			},
+			{
+				"address": 4180,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"5"
+				],
+				"lineNumber": 30916
+			},
+			{
+				"address": 4184,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30917
+			},
+			{
+				"address": 4186,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"6"
+				],
+				"lineNumber": 30918
+			},
+			{
+				"address": 4190,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30919
+			},
+			{
+				"address": 4192,
+				"opcode": "setSelection",
+				"args": [
+					"4398",
+					"5908",
+					"6188"
+				],
+				"lineNumber": 30920
+			},
+			{
+				"address": 4200,
+				"opcode": "showTextbox",
+				"args": [
+					"Raise",
+					"price\\nKeep",
+					"price",
+					"at",
+					"three",
+					"hund",
+					"bits\\nLower",
+					"price\\n"
+				],
+				"lineNumber": 30921
+			},
+			{
+				"address": 4312,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30922
+			},
+			{
+				"address": 4314,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 30923
+			},
+			{
+				"address": 4316,
+				"opcode": "showTextbox",
+				"args": [
+					"Uh...",
+					"you",
+					"wanted",
+					"a\\n<LIGHTBLUE>Portable",
+					"Potty<WHITE>?\\n"
+				],
+				"lineNumber": 30924
+			},
+			{
+				"address": 4394,
+				"opcode": "jumpTo",
+				"args": [
+					"4176"
+				],
+				"lineNumber": 30925
+			},
+			{
+				"address": 4398,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"4"
+				],
+				"lineNumber": 30926
+			},
+			{
+				"address": 4402,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"0",
+					"then",
+					"4700"
+				],
+				"lineNumber": 30927
+			},
+			{
+				"address": 4414,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30928
+			},
+			{
+				"address": 4418,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"3"
+				],
+				"lineNumber": 30929
+			},
+			{
+				"address": 4422,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30930
+			},
+			{
+				"address": 4424,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30931
+			},
+			{
+				"address": 4426,
+				"opcode": "showTextbox",
+				"args": [
+					"How's",
+					"a",
+					"three",
+					"hundred",
+					"bit\\n<LIGHTBLUE>Portable",
+					"Potty<WHITE>,\\nfor",
+					"four",
+					"hundred",
+					"fifty",
+					"bits?\\n"
+				],
+				"lineNumber": 30932
+			},
+			{
+				"address": 4576,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"1"
+				],
+				"lineNumber": 30933
+			},
+			{
+				"address": 4580,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30934
+			},
+			{
+				"address": 4582,
+				"opcode": "setSelection",
+				"args": [
+					"7080",
+					"4176"
+				],
+				"lineNumber": 30935
+			},
+			{
+				"address": 4588,
+				"opcode": "showTextbox",
+				"args": [
+					"Raise",
+					"three",
+					"hund",
+					"to",
+					"four",
+					"fifty\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 30936
+			},
+			{
+				"address": 4694,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30937
+			},
+			{
+				"address": 4696,
+				"opcode": "jumpTo",
+				"args": [
+					"4176"
+				],
+				"lineNumber": 30938
+			},
+			{
+				"address": 4700,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"1",
+					"then",
+					"5004"
+				],
+				"lineNumber": 30939
+			},
+			{
+				"address": 4712,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30940
+			},
+			{
+				"address": 4716,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"2"
+				],
+				"lineNumber": 30941
+			},
+			{
+				"address": 4720,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30942
+			},
+			{
+				"address": 4722,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30943
+			},
+			{
+				"address": 4724,
+				"opcode": "showTextbox",
+				"args": [
+					"How",
+					"about",
+					"a",
+					"three",
+					"hundred",
+					"bit\\n<LIGHTBLUE>Portable",
+					"Potty<WHITE>,\\nfor",
+					"four",
+					"hundred",
+					"twenty",
+					"bits?\\n"
+				],
+				"lineNumber": 30944
+			},
+			{
+				"address": 4884,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"2"
+				],
+				"lineNumber": 30945
+			},
+			{
+				"address": 4888,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30946
+			},
+			{
+				"address": 4890,
+				"opcode": "setSelection",
+				"args": [
+					"7104",
+					"4176"
+				],
+				"lineNumber": 30947
+			},
+			{
+				"address": 4896,
+				"opcode": "showTextbox",
+				"args": [
+					"Up",
+					"three",
+					"hund",
+					"to",
+					"four",
+					"twenty\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 30948
+			},
+			{
+				"address": 4998,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30949
+			},
+			{
+				"address": 5000,
+				"opcode": "jumpTo",
+				"args": [
+					"4176"
+				],
+				"lineNumber": 30950
+			},
+			{
+				"address": 5004,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"5304"
+				],
+				"lineNumber": 30951
+			},
+			{
+				"address": 5016,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30952
+			},
+			{
+				"address": 5020,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"2"
+				],
+				"lineNumber": 30953
+			},
+			{
+				"address": 5024,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30954
+			},
+			{
+				"address": 5026,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30955
+			},
+			{
+				"address": 5028,
+				"opcode": "showTextbox",
+				"args": [
+					"How's",
+					"a",
+					"three",
+					"hundred",
+					"bit\\n<LIGHTBLUE>Portable",
+					"Potty<WHITE>,\\nfor",
+					"three",
+					"hundred",
+					"ninety",
+					"bits?\\n"
+				],
+				"lineNumber": 30956
+			},
+			{
+				"address": 5182,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"3"
+				],
+				"lineNumber": 30957
+			},
+			{
+				"address": 5186,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30958
+			},
+			{
+				"address": 5188,
+				"opcode": "setSelection",
+				"args": [
+					"7128",
+					"4176"
+				],
+				"lineNumber": 30959
+			},
+			{
+				"address": 5194,
+				"opcode": "showTextbox",
+				"args": [
+					"Up",
+					"three",
+					"hund",
+					"to",
+					"three",
+					"ninety\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 30960
+			},
+			{
+				"address": 5298,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30961
+			},
+			{
+				"address": 5300,
+				"opcode": "jumpTo",
+				"args": [
+					"4176"
+				],
+				"lineNumber": 30962
+			},
+			{
+				"address": 5304,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"3",
+					"then",
+					"5608"
+				],
+				"lineNumber": 30963
+			},
+			{
+				"address": 5316,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30964
+			},
+			{
+				"address": 5320,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"1"
+				],
+				"lineNumber": 30965
+			},
+			{
+				"address": 5324,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30966
+			},
+			{
+				"address": 5326,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30967
+			},
+			{
+				"address": 5328,
+				"opcode": "showTextbox",
+				"args": [
+					"How",
+					"about",
+					"a",
+					"three",
+					"hundred",
+					"bit\\n<LIGHTBLUE>Portable",
+					"Potty<WHITE>,\\nfor",
+					"three",
+					"hundred",
+					"sixty",
+					"bits?\\n"
+				],
+				"lineNumber": 30968
+			},
+			{
+				"address": 5488,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"4"
+				],
+				"lineNumber": 30969
+			},
+			{
+				"address": 5492,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30970
+			},
+			{
+				"address": 5494,
+				"opcode": "setSelection",
+				"args": [
+					"7152",
+					"4176"
+				],
+				"lineNumber": 30971
+			},
+			{
+				"address": 5500,
+				"opcode": "showTextbox",
+				"args": [
+					"Up",
+					"three",
+					"hund",
+					"to",
+					"three",
+					"sixty\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 30972
+			},
+			{
+				"address": 5602,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30973
+			},
+			{
+				"address": 5604,
+				"opcode": "jumpTo",
+				"args": [
+					"4176"
+				],
+				"lineNumber": 30974
+			},
+			{
+				"address": 5608,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"4",
+					"then",
+					"5908"
+				],
+				"lineNumber": 30975
+			},
+			{
+				"address": 5620,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30976
+			},
+			{
+				"address": 5624,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"1"
+				],
+				"lineNumber": 30977
+			},
+			{
+				"address": 5628,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30978
+			},
+			{
+				"address": 5630,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30979
+			},
+			{
+				"address": 5632,
+				"opcode": "showTextbox",
+				"args": [
+					"How's",
+					"a",
+					"three",
+					"hundred",
+					"bit\\n<LIGHTBLUE>Portable",
+					"Potty<WHITE>,\\nfor",
+					"three",
+					"hundred",
+					"thirty",
+					"bits?\\n"
+				],
+				"lineNumber": 30980
+			},
+			{
+				"address": 5786,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"5"
+				],
+				"lineNumber": 30981
+			},
+			{
+				"address": 5790,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30982
+			},
+			{
+				"address": 5792,
+				"opcode": "setSelection",
+				"args": [
+					"7176",
+					"4176"
+				],
+				"lineNumber": 30983
+			},
+			{
+				"address": 5798,
+				"opcode": "showTextbox",
+				"args": [
+					"Up",
+					"three",
+					"hund",
+					"to",
+					"three",
+					"thirty\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 30984
+			},
+			{
+				"address": 5902,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30985
+			},
+			{
+				"address": 5904,
+				"opcode": "jumpTo",
+				"args": [
+					"4176"
+				],
+				"lineNumber": 30986
+			},
+			{
+				"address": 5908,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 30987
+			},
+			{
+				"address": 5912,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"0"
+				],
+				"lineNumber": 30988
+			},
+			{
+				"address": 5916,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 30989
+			},
+			{
+				"address": 5918,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30990
+			},
+			{
+				"address": 5920,
+				"opcode": "showTextbox",
+				"args": [
+					"How",
+					"about",
+					"a",
+					"three",
+					"hundred",
+					"bit\\n<LIGHTBLUE>Portable",
+					"Potty<WHITE>,\\nat",
+					"regular",
+					"price:",
+					"three",
+					"hund?\\n"
+				],
+				"lineNumber": 30991
+			},
+			{
+				"address": 6080,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"6"
+				],
+				"lineNumber": 30992
+			},
+			{
+				"address": 6084,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 30993
+			},
+			{
+				"address": 6086,
+				"opcode": "setSelection",
+				"args": [
+					"7200",
+					"4176"
+				],
+				"lineNumber": 30994
+			},
+			{
+				"address": 6092,
+				"opcode": "showTextbox",
+				"args": [
+					"Offer",
+					"at",
+					"regular",
+					"price\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 30995
+			},
+			{
+				"address": 6182,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 30996
+			},
+			{
+				"address": 6184,
+				"opcode": "jumpTo",
+				"args": [
+					"4176"
+				],
+				"lineNumber": 30997
+			},
+			{
+				"address": 6188,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"2"
+				],
+				"lineNumber": 30998
+			},
+			{
+				"address": 6192,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"0",
+					"then",
+					"6492"
+				],
+				"lineNumber": 30999
+			},
+			{
+				"address": 6204,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 31000
+			},
+			{
+				"address": 6208,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"0"
+				],
+				"lineNumber": 31001
+			},
+			{
+				"address": 6212,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 31002
+			},
+			{
+				"address": 6214,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31003
+			},
+			{
+				"address": 6216,
+				"opcode": "showTextbox",
+				"args": [
+					"How's",
+					"a",
+					"three",
+					"hundred",
+					"bit\\n<LIGHTBLUE>Portable",
+					"Potty<WHITE>,\\nfor",
+					"two",
+					"hundred",
+					"seventy",
+					"bits?\\n"
+				],
+				"lineNumber": 31004
+			},
+			{
+				"address": 6368,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"7"
+				],
+				"lineNumber": 31005
+			},
+			{
+				"address": 6372,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31006
+			},
+			{
+				"address": 6374,
+				"opcode": "setSelection",
+				"args": [
+					"7224",
+					"4176"
+				],
+				"lineNumber": 31007
+			},
+			{
+				"address": 6380,
+				"opcode": "showTextbox",
+				"args": [
+					"drop",
+					"three",
+					"hund",
+					"to",
+					"two",
+					"seventy\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 31008
+			},
+			{
+				"address": 6486,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 31009
+			},
+			{
+				"address": 6488,
+				"opcode": "jumpTo",
+				"args": [
+					"4176"
+				],
+				"lineNumber": 31010
+			},
+			{
+				"address": 6492,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"1",
+					"then",
+					"6794"
+				],
+				"lineNumber": 31011
+			},
+			{
+				"address": 6504,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 31012
+			},
+			{
+				"address": 6508,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"0"
+				],
+				"lineNumber": 31013
+			},
+			{
+				"address": 6512,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 31014
+			},
+			{
+				"address": 6514,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31015
+			},
+			{
+				"address": 6516,
+				"opcode": "showTextbox",
+				"args": [
+					"How",
+					"about",
+					"a",
+					"three",
+					"hundred",
+					"bit\\n<LIGHTBLUE>Portable",
+					"Potty<WHITE>,\\nfor",
+					"two",
+					"hundred",
+					"forty",
+					"bits?\\n"
+				],
+				"lineNumber": 31016
+			},
+			{
+				"address": 6672,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"8"
+				],
+				"lineNumber": 31017
+			},
+			{
+				"address": 6676,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31018
+			},
+			{
+				"address": 6678,
+				"opcode": "setSelection",
+				"args": [
+					"7248",
+					"4176"
+				],
+				"lineNumber": 31019
+			},
+			{
+				"address": 6684,
+				"opcode": "showTextbox",
+				"args": [
+					"Lower",
+					"three",
+					"hund",
+					"to",
+					"two",
+					"forty\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 31020
+			},
+			{
+				"address": 6788,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 31021
+			},
+			{
+				"address": 6790,
+				"opcode": "jumpTo",
+				"args": [
+					"4176"
+				],
+				"lineNumber": 31022
+			},
+			{
+				"address": 6794,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"7080"
+				],
+				"lineNumber": 31023
+			},
+			{
+				"address": 6806,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 31024
+			},
+			{
+				"address": 6810,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"0"
+				],
+				"lineNumber": 31025
+			},
+			{
+				"address": 6814,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 31026
+			},
+			{
+				"address": 6816,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31027
+			},
+			{
+				"address": 6818,
+				"opcode": "showTextbox",
+				"args": [
+					"How's",
+					"a",
+					"three",
+					"hundred",
+					"bit\\n<LIGHTBLUE>Portable",
+					"Potty<WHITE>,\\nfor",
+					"two",
+					"hundred",
+					"ten",
+					"bits?\\n"
+				],
+				"lineNumber": 31028
+			},
+			{
+				"address": 6962,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"9"
+				],
+				"lineNumber": 31029
+			},
+			{
+				"address": 6966,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31030
+			},
+			{
+				"address": 6968,
+				"opcode": "setSelection",
+				"args": [
+					"7272",
+					"4176"
+				],
+				"lineNumber": 31031
+			},
+			{
+				"address": 6974,
+				"opcode": "showTextbox",
+				"args": [
+					"Lower",
+					"three",
+					"hund",
+					"to",
+					"two",
+					"ten\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 31032
+			},
+			{
+				"address": 7074,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 31033
+			},
+			{
+				"address": 7076,
+				"opcode": "jumpTo",
+				"args": [
+					"4176"
+				],
+				"lineNumber": 31034
+			},
+			{
+				"address": 7080,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31035
+			},
+			{
+				"address": 7084,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"44",
+					"then",
+					"7100"
+				],
+				"lineNumber": 31036
+			},
+			{
+				"address": 7096,
+				"opcode": "jumpTo",
+				"args": [
+					"7296"
+				],
+				"lineNumber": 31037
+			},
+			{
+				"address": 7100,
+				"opcode": "jumpTo",
+				"args": [
+					"8248"
+				],
+				"lineNumber": 31038
+			},
+			{
+				"address": 7104,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31039
+			},
+			{
+				"address": 7108,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"54",
+					"then",
+					"7124"
+				],
+				"lineNumber": 31040
+			},
+			{
+				"address": 7120,
+				"opcode": "jumpTo",
+				"args": [
+					"7296"
+				],
+				"lineNumber": 31041
+			},
+			{
+				"address": 7124,
+				"opcode": "jumpTo",
+				"args": [
+					"8248"
+				],
+				"lineNumber": 31042
+			},
+			{
+				"address": 7128,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31043
+			},
+			{
+				"address": 7132,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"64",
+					"then",
+					"7148"
+				],
+				"lineNumber": 31044
+			},
+			{
+				"address": 7144,
+				"opcode": "jumpTo",
+				"args": [
+					"7296"
+				],
+				"lineNumber": 31045
+			},
+			{
+				"address": 7148,
+				"opcode": "jumpTo",
+				"args": [
+					"8248"
+				],
+				"lineNumber": 31046
+			},
+			{
+				"address": 7152,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31047
+			},
+			{
+				"address": 7156,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"74",
+					"then",
+					"7172"
+				],
+				"lineNumber": 31048
+			},
+			{
+				"address": 7168,
+				"opcode": "jumpTo",
+				"args": [
+					"7296"
+				],
+				"lineNumber": 31049
+			},
+			{
+				"address": 7172,
+				"opcode": "jumpTo",
+				"args": [
+					"8248"
+				],
+				"lineNumber": 31050
+			},
+			{
+				"address": 7176,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31051
+			},
+			{
+				"address": 7180,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"84",
+					"then",
+					"7196"
+				],
+				"lineNumber": 31052
+			},
+			{
+				"address": 7192,
+				"opcode": "jumpTo",
+				"args": [
+					"7296"
+				],
+				"lineNumber": 31053
+			},
+			{
+				"address": 7196,
+				"opcode": "jumpTo",
+				"args": [
+					"8248"
+				],
+				"lineNumber": 31054
+			},
+			{
+				"address": 7200,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31055
+			},
+			{
+				"address": 7204,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"94",
+					"then",
+					"7220"
+				],
+				"lineNumber": 31056
+			},
+			{
+				"address": 7216,
+				"opcode": "jumpTo",
+				"args": [
+					"7296"
+				],
+				"lineNumber": 31057
+			},
+			{
+				"address": 7220,
+				"opcode": "jumpTo",
+				"args": [
+					"8248"
+				],
+				"lineNumber": 31058
+			},
+			{
+				"address": 7224,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31059
+			},
+			{
+				"address": 7228,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"96",
+					"then",
+					"7244"
+				],
+				"lineNumber": 31060
+			},
+			{
+				"address": 7240,
+				"opcode": "jumpTo",
+				"args": [
+					"7296"
+				],
+				"lineNumber": 31061
+			},
+			{
+				"address": 7244,
+				"opcode": "jumpTo",
+				"args": [
+					"8248"
+				],
+				"lineNumber": 31062
+			},
+			{
+				"address": 7248,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31063
+			},
+			{
+				"address": 7252,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"98",
+					"then",
+					"7268"
+				],
+				"lineNumber": 31064
+			},
+			{
+				"address": 7264,
+				"opcode": "jumpTo",
+				"args": [
+					"7296"
+				],
+				"lineNumber": 31065
+			},
+			{
+				"address": 7268,
+				"opcode": "jumpTo",
+				"args": [
+					"8248"
+				],
+				"lineNumber": 31066
+			},
+			{
+				"address": 7272,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31067
+			},
+			{
+				"address": 7276,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"99",
+					"then",
+					"7292"
+				],
+				"lineNumber": 31068
+			},
+			{
+				"address": 7288,
+				"opcode": "jumpTo",
+				"args": [
+					"7296"
+				],
+				"lineNumber": 31069
+			},
+			{
+				"address": 7292,
+				"opcode": "jumpTo",
+				"args": [
+					"8248"
+				],
+				"lineNumber": 31070
+			},
+			{
+				"address": 7296,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 31071
+			},
+			{
+				"address": 7298,
+				"opcode": "showTextbox",
+				"args": [
+					"Yeah!",
+					"You",
+					"gotta",
+					"deal!\\n"
+				],
+				"lineNumber": 31072
+			},
+			{
+				"address": 7346,
+				"opcode": "playSound",
+				"args": [
+					"1544"
+				],
+				"lineNumber": 31073
+			},
+			{
+				"address": 7350,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 31074
+			},
+			{
+				"address": 7354,
+				"opcode": "setTextboxSize",
+				"args": [
+					"12",
+					"3"
+				],
+				"lineNumber": 31075
+			},
+			{
+				"address": 7358,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"1",
+					"then",
+					"7468"
+				],
+				"lineNumber": 31076
+			},
+			{
+				"address": 7370,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 31077
+			},
+			{
+				"address": 7374,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"-16"
+				],
+				"lineNumber": 31078
+			},
+			{
+				"address": 7378,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31079
+			},
+			{
+				"address": 7380,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\ntwo",
+					"hundred",
+					"forty\\n"
+				],
+				"lineNumber": 31080
+			},
+			{
+				"address": 7468,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"2",
+					"then",
+					"7574"
+				],
+				"lineNumber": 31081
+			},
+			{
+				"address": 7480,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 31082
+			},
+			{
+				"address": 7484,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"-46"
+				],
+				"lineNumber": 31083
+			},
+			{
+				"address": 7488,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31084
+			},
+			{
+				"address": 7490,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\ntwo",
+					"hundred",
+					"ten\\n"
+				],
+				"lineNumber": 31085
+			},
+			{
+				"address": 7574,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"3",
+					"then",
+					"7686"
+				],
+				"lineNumber": 31086
+			},
+			{
+				"address": 7586,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 31087
+			},
+			{
+				"address": 7590,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"-76"
+				],
+				"lineNumber": 31088
+			},
+			{
+				"address": 7594,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31089
+			},
+			{
+				"address": 7596,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\none",
+					"hundred",
+					"eighty\\n"
+				],
+				"lineNumber": 31090
+			},
+			{
+				"address": 7686,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"4",
+					"then",
+					"7796"
+				],
+				"lineNumber": 31091
+			},
+			{
+				"address": 7698,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 31092
+			},
+			{
+				"address": 7702,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"-106"
+				],
+				"lineNumber": 31093
+			},
+			{
+				"address": 7706,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31094
+			},
+			{
+				"address": 7708,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\none",
+					"hundred",
+					"fifty\\n"
+				],
+				"lineNumber": 31095
+			},
+			{
+				"address": 7796,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"5",
+					"then",
+					"7908"
+				],
+				"lineNumber": 31096
+			},
+			{
+				"address": 7808,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 31097
+			},
+			{
+				"address": 7812,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"120"
+				],
+				"lineNumber": 31098
+			},
+			{
+				"address": 7816,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31099
+			},
+			{
+				"address": 7818,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\none",
+					"hundred",
+					"twenty\\n"
+				],
+				"lineNumber": 31100
+			},
+			{
+				"address": 7908,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"6",
+					"then",
+					"7996"
+				],
+				"lineNumber": 31101
+			},
+			{
+				"address": 7920,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 31102
+			},
+			{
+				"address": 7924,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"90"
+				],
+				"lineNumber": 31103
+			},
+			{
+				"address": 7928,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31104
+			},
+			{
+				"address": 7930,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nninety\\n"
+				],
+				"lineNumber": 31105
+			},
+			{
+				"address": 7996,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"7",
+					"then",
+					"8082"
+				],
+				"lineNumber": 31106
+			},
+			{
+				"address": 8008,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 31107
+			},
+			{
+				"address": 8012,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"60"
+				],
+				"lineNumber": 31108
+			},
+			{
+				"address": 8016,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31109
+			},
+			{
+				"address": 8018,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nsixty\\n"
+				],
+				"lineNumber": 31110
+			},
+			{
+				"address": 8082,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"8",
+					"then",
+					"8170"
+				],
+				"lineNumber": 31111
+			},
+			{
+				"address": 8094,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 31112
+			},
+			{
+				"address": 8098,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"30"
+				],
+				"lineNumber": 31113
+			},
+			{
+				"address": 8102,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31114
+			},
+			{
+				"address": 8104,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nthirty\\n"
+				],
+				"lineNumber": 31115
+			},
+			{
+				"address": 8170,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"9",
+					"then",
+					"8244"
+				],
+				"lineNumber": 31116
+			},
+			{
+				"address": 8182,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nzero\\n"
+				],
+				"lineNumber": 31117
+			},
+			{
+				"address": 8244,
+				"opcode": "jumpTo",
+				"args": [
+					"3600"
+				],
+				"lineNumber": 31118
+			},
+			{
+				"address": 8248,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 31119
+			},
+			{
+				"address": 8252,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"5"
+				],
+				"lineNumber": 31120
+			},
+			{
+				"address": 8256,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 31121
+			},
+			{
+				"address": 8258,
+				"opcode": "addToPStat",
+				"args": [
+					"119",
+					"1"
+				],
+				"lineNumber": 31122
+			},
+			{
+				"address": 8262,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31123
+			},
+			{
+				"address": 8266,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"49",
+					"OR",
+					"pstat(119)",
+					"<",
+					"3",
+					"then",
+					"8286"
+				],
+				"lineNumber": 31124
+			},
+			{
+				"address": 8282,
+				"opcode": "jumpTo",
+				"args": [
+					"3730"
+				],
+				"lineNumber": 31125
+			},
+			{
+				"address": 8286,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"14",
+					"OR",
+					"pstat(119)",
+					"!=",
+					"2",
+					"then",
+					"8306"
+				],
+				"lineNumber": 31126
+			},
+			{
+				"address": 8302,
+				"opcode": "jumpTo",
+				"args": [
+					"3730"
+				],
+				"lineNumber": 31127
+			},
+			{
+				"address": 8306,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"4",
+					"OR",
+					"pstat(119)",
+					"!=",
+					"1",
+					"then",
+					"8326"
+				],
+				"lineNumber": 31128
+			},
+			{
+				"address": 8322,
+				"opcode": "jumpTo",
+				"args": [
+					"3730"
+				],
+				"lineNumber": 31129
+			},
+			{
+				"address": 8326,
+				"opcode": "jumpTo",
+				"args": [
+					"8330"
+				],
+				"lineNumber": 31130
+			},
+			{
+				"address": 8330,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 31131
+			},
+			{
+				"address": 8332,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"think",
+					"it's",
+					"a",
+					"bit",
+					"high.\\n"
+				],
+				"lineNumber": 31132
+			},
+			{
+				"address": 8386,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 31133
+			},
+			{
+				"address": 8388,
+				"opcode": "showTextbox",
+				"args": [
+					"Think",
+					"so?",
+					"Well",
+					"then...\\n"
+				],
+				"lineNumber": 31134
+			},
+			{
+				"address": 8438,
+				"opcode": "jumpTo",
+				"args": [
+					"4176"
+				],
+				"lineNumber": 31135
+			},
+			{
+				"address": 8442,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 31136
+			},
+			{
+				"address": 8444,
+				"opcode": "showTextbox",
+				"args": [
+					"Boy!",
+					"Gimme",
+					"some\\n<LIGHTBLUE>Medicine<WHITE>.\\n"
+				],
+				"lineNumber": 31137
+			},
+			{
+				"address": 8504,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 31138
+			},
+			{
+				"address": 8506,
+				"opcode": "showTextbox",
+				"args": [
+					"Uh...",
+					"Welcome,",
+					"you",
+					"want",
+					"some\\n<LIGHTBLUE>Medicine<WHITE>?\\n"
+				],
+				"lineNumber": 31139
+			},
+			{
+				"address": 8592,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 31140
+			},
+			{
+				"address": 8596,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"5"
+				],
+				"lineNumber": 31141
+			},
+			{
+				"address": 8600,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 31142
+			},
+			{
+				"address": 8602,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"6"
+				],
+				"lineNumber": 31143
+			},
+			{
+				"address": 8606,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31144
+			},
+			{
+				"address": 8608,
+				"opcode": "setSelection",
+				"args": [
+					"8816",
+					"10194",
+					"10446"
+				],
+				"lineNumber": 31145
+			},
+			{
+				"address": 8616,
+				"opcode": "showTextbox",
+				"args": [
+					"Raise",
+					"price\\nKeep",
+					"price",
+					"at",
+					"one",
+					"thous",
+					"bits\\nLower",
+					"price\\n"
+				],
+				"lineNumber": 31146
+			},
+			{
+				"address": 8726,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 31147
+			},
+			{
+				"address": 8728,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 31148
+			},
+			{
+				"address": 8730,
+				"opcode": "showTextbox",
+				"args": [
+					"Uh,",
+					"you",
+					"wanted",
+					"some\\n<LIGHTBLUE>Medicine<WHITE>,",
+					"right?\\n"
+				],
+				"lineNumber": 31149
+			},
+			{
+				"address": 8812,
+				"opcode": "jumpTo",
+				"args": [
+					"8592"
+				],
+				"lineNumber": 31150
+			},
+			{
+				"address": 8816,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"4"
+				],
+				"lineNumber": 31151
+			},
+			{
+				"address": 8820,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"0",
+					"then",
+					"9098"
+				],
+				"lineNumber": 31152
+			},
+			{
+				"address": 8832,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 31153
+			},
+			{
+				"address": 8836,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"3"
+				],
+				"lineNumber": 31154
+			},
+			{
+				"address": 8840,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 31155
+			},
+			{
+				"address": 8842,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31156
+			},
+			{
+				"address": 8844,
+				"opcode": "showTextbox",
+				"args": [
+					"How",
+					"about",
+					"one",
+					"thousand",
+					"bit\\n<LIGHTBLUE>Medicine<WHITE>,\\nfor",
+					"fifteen",
+					"hundred",
+					"bits?\\n"
+				],
+				"lineNumber": 31157
+			},
+			{
+				"address": 8978,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"1"
+				],
+				"lineNumber": 31158
+			},
+			{
+				"address": 8982,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31159
+			},
+			{
+				"address": 8984,
+				"opcode": "setSelection",
+				"args": [
+					"11266",
+					"8592"
+				],
+				"lineNumber": 31160
+			},
+			{
+				"address": 8990,
+				"opcode": "showTextbox",
+				"args": [
+					"Up",
+					"one",
+					"thous",
+					"to",
+					"fifteen",
+					"hund\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 31161
+			},
+			{
+				"address": 9092,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 31162
+			},
+			{
+				"address": 9094,
+				"opcode": "jumpTo",
+				"args": [
+					"8592"
+				],
+				"lineNumber": 31163
+			},
+			{
+				"address": 9098,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"1",
+					"then",
+					"9372"
+				],
+				"lineNumber": 31164
+			},
+			{
+				"address": 9110,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 31165
+			},
+			{
+				"address": 9114,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"2"
+				],
+				"lineNumber": 31166
+			},
+			{
+				"address": 9118,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 31167
+			},
+			{
+				"address": 9120,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31168
+			},
+			{
+				"address": 9122,
+				"opcode": "showTextbox",
+				"args": [
+					"How's",
+					"one",
+					"thousand",
+					"bit\\n<LIGHTBLUE>Medicine<WHITE>,\\nfor",
+					"fourteen",
+					"hundred",
+					"bits?\\n"
+				],
+				"lineNumber": 31169
+			},
+			{
+				"address": 9250,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"2"
+				],
+				"lineNumber": 31170
+			},
+			{
+				"address": 9254,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31171
+			},
+			{
+				"address": 9256,
+				"opcode": "setSelection",
+				"args": [
+					"11290",
+					"8592"
+				],
+				"lineNumber": 31172
+			},
+			{
+				"address": 9262,
+				"opcode": "showTextbox",
+				"args": [
+					"Up",
+					"one",
+					"thous",
+					"to",
+					"fourteen",
+					"hund\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 31173
+			},
+			{
+				"address": 9366,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 31174
+			},
+			{
+				"address": 9368,
+				"opcode": "jumpTo",
+				"args": [
+					"8592"
+				],
+				"lineNumber": 31175
+			},
+			{
+				"address": 9372,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"9654"
+				],
+				"lineNumber": 31176
+			},
+			{
+				"address": 9384,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 31177
+			},
+			{
+				"address": 9388,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"2"
+				],
+				"lineNumber": 31178
+			},
+			{
+				"address": 9392,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 31179
+			},
+			{
+				"address": 9394,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31180
+			},
+			{
+				"address": 9396,
+				"opcode": "showTextbox",
+				"args": [
+					"How",
+					"about",
+					"one",
+					"thousand",
+					"bit\\n<LIGHTBLUE>Medicine<WHITE>,\\nfor",
+					"thirteen",
+					"hundred",
+					"bits?\\n"
+				],
+				"lineNumber": 31181
+			},
+			{
+				"address": 9532,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"3"
+				],
+				"lineNumber": 31182
+			},
+			{
+				"address": 9536,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31183
+			},
+			{
+				"address": 9538,
+				"opcode": "setSelection",
+				"args": [
+					"11314",
+					"8592"
+				],
+				"lineNumber": 31184
+			},
+			{
+				"address": 9544,
+				"opcode": "showTextbox",
+				"args": [
+					"Up",
+					"one",
+					"thous",
+					"to",
+					"thirteen",
+					"hund\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 31185
+			},
+			{
+				"address": 9648,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 31186
+			},
+			{
+				"address": 9650,
+				"opcode": "jumpTo",
+				"args": [
+					"8592"
+				],
+				"lineNumber": 31187
+			},
+			{
+				"address": 9654,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"3",
+					"then",
+					"9920"
+				],
+				"lineNumber": 31188
+			},
+			{
+				"address": 9666,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 31189
+			},
+			{
+				"address": 9670,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"1"
+				],
+				"lineNumber": 31190
+			},
+			{
+				"address": 9674,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 31191
+			},
+			{
+				"address": 9676,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31192
+			},
+			{
+				"address": 9678,
+				"opcode": "showTextbox",
+				"args": [
+					"How's",
+					"one",
+					"thousand",
+					"bit\\n<LIGHTBLUE>Medicine<WHITE>,\\nfor",
+					"twelve",
+					"hundred",
+					"bits?\\n"
+				],
+				"lineNumber": 31193
+			},
+			{
+				"address": 9802,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"4"
+				],
+				"lineNumber": 31194
+			},
+			{
+				"address": 9806,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31195
+			},
+			{
+				"address": 9808,
+				"opcode": "setSelection",
+				"args": [
+					"11338",
+					"8592"
+				],
+				"lineNumber": 31196
+			},
+			{
+				"address": 9814,
+				"opcode": "showTextbox",
+				"args": [
+					"Up",
+					"one",
+					"thous",
+					"to",
+					"twelve",
+					"hund\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 31197
+			},
+			{
+				"address": 9914,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 31198
+			},
+			{
+				"address": 9916,
+				"opcode": "jumpTo",
+				"args": [
+					"8592"
+				],
+				"lineNumber": 31199
+			},
+			{
+				"address": 9920,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"4",
+					"then",
+					"10194"
+				],
+				"lineNumber": 31200
+			},
+			{
+				"address": 9932,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 31201
+			},
+			{
+				"address": 9936,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"1"
+				],
+				"lineNumber": 31202
+			},
+			{
+				"address": 9940,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 31203
+			},
+			{
+				"address": 9942,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31204
+			},
+			{
+				"address": 9944,
+				"opcode": "showTextbox",
+				"args": [
+					"How",
+					"about",
+					"one",
+					"thousand",
+					"bit\\n<LIGHTBLUE>Medicine<WHITE>,\\nfor",
+					"eleven",
+					"hundred",
+					"bits?\\n"
+				],
+				"lineNumber": 31205
+			},
+			{
+				"address": 10076,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"5"
+				],
+				"lineNumber": 31206
+			},
+			{
+				"address": 10080,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31207
+			},
+			{
+				"address": 10082,
+				"opcode": "setSelection",
+				"args": [
+					"11362",
+					"8592"
+				],
+				"lineNumber": 31208
+			},
+			{
+				"address": 10088,
+				"opcode": "showTextbox",
+				"args": [
+					"Up",
+					"one",
+					"thous",
+					"to",
+					"eleven",
+					"hund\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 31209
+			},
+			{
+				"address": 10188,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 31210
+			},
+			{
+				"address": 10190,
+				"opcode": "jumpTo",
+				"args": [
+					"8592"
+				],
+				"lineNumber": 31211
+			},
+			{
+				"address": 10194,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 31212
+			},
+			{
+				"address": 10198,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"0"
+				],
+				"lineNumber": 31213
+			},
+			{
+				"address": 10202,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 31214
+			},
+			{
+				"address": 10204,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31215
+			},
+			{
+				"address": 10206,
+				"opcode": "showTextbox",
+				"args": [
+					"How's",
+					"one",
+					"thousand",
+					"bit\\n<LIGHTBLUE>Medicine<WHITE>,\\nat",
+					"regular",
+					"price:",
+					"one",
+					"thous?\\n"
+				],
+				"lineNumber": 31216
+			},
+			{
+				"address": 10338,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"6"
+				],
+				"lineNumber": 31217
+			},
+			{
+				"address": 10342,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31218
+			},
+			{
+				"address": 10344,
+				"opcode": "setSelection",
+				"args": [
+					"11386",
+					"8592"
+				],
+				"lineNumber": 31219
+			},
+			{
+				"address": 10350,
+				"opcode": "showTextbox",
+				"args": [
+					"Offer",
+					"at",
+					"regular",
+					"price\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 31220
+			},
+			{
+				"address": 10440,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 31221
+			},
+			{
+				"address": 10442,
+				"opcode": "jumpTo",
+				"args": [
+					"8592"
+				],
+				"lineNumber": 31222
+			},
+			{
+				"address": 10446,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"2"
+				],
+				"lineNumber": 31223
+			},
+			{
+				"address": 10450,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"0",
+					"then",
+					"10722"
+				],
+				"lineNumber": 31224
+			},
+			{
+				"address": 10462,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 31225
+			},
+			{
+				"address": 10466,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"0"
+				],
+				"lineNumber": 31226
+			},
+			{
+				"address": 10470,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 31227
+			},
+			{
+				"address": 10472,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31228
+			},
+			{
+				"address": 10474,
+				"opcode": "showTextbox",
+				"args": [
+					"How",
+					"about",
+					"one",
+					"thousand",
+					"bit\\n<LIGHTBLUE>Medicine<WHITE>,\\nfor",
+					"nine",
+					"hundred",
+					"bits?\\n"
+				],
+				"lineNumber": 31229
+			},
+			{
+				"address": 10602,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"7"
+				],
+				"lineNumber": 31230
+			},
+			{
+				"address": 10606,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31231
+			},
+			{
+				"address": 10608,
+				"opcode": "setSelection",
+				"args": [
+					"11410",
+					"8592"
+				],
+				"lineNumber": 31232
+			},
+			{
+				"address": 10614,
+				"opcode": "showTextbox",
+				"args": [
+					"Lower",
+					"one",
+					"thous",
+					"to",
+					"nine",
+					"hund\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 31233
+			},
+			{
+				"address": 10716,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 31234
+			},
+			{
+				"address": 10718,
+				"opcode": "jumpTo",
+				"args": [
+					"8592"
+				],
+				"lineNumber": 31235
+			},
+			{
+				"address": 10722,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"1",
+					"then",
+					"10990"
+				],
+				"lineNumber": 31236
+			},
+			{
+				"address": 10734,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 31237
+			},
+			{
+				"address": 10738,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"0"
+				],
+				"lineNumber": 31238
+			},
+			{
+				"address": 10742,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 31239
+			},
+			{
+				"address": 10744,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31240
+			},
+			{
+				"address": 10746,
+				"opcode": "showTextbox",
+				"args": [
+					"How's",
+					"one",
+					"thousand",
+					"bit\\n<LIGHTBLUE>Medicine<WHITE>,\\nfor",
+					"eight",
+					"hundred",
+					"bits?\\n"
+				],
+				"lineNumber": 31241
+			},
+			{
+				"address": 10868,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"8"
+				],
+				"lineNumber": 31242
+			},
+			{
+				"address": 10872,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31243
+			},
+			{
+				"address": 10874,
+				"opcode": "setSelection",
+				"args": [
+					"11434",
+					"8592"
+				],
+				"lineNumber": 31244
+			},
+			{
+				"address": 10880,
+				"opcode": "showTextbox",
+				"args": [
+					"Lower",
+					"one",
+					"thous",
+					"to",
+					"eight",
+					"hund\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 31245
+			},
+			{
+				"address": 10984,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 31246
+			},
+			{
+				"address": 10986,
+				"opcode": "jumpTo",
+				"args": [
+					"8592"
+				],
+				"lineNumber": 31247
+			},
+			{
+				"address": 10990,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"11266"
+				],
+				"lineNumber": 31248
+			},
+			{
+				"address": 11002,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 31249
+			},
+			{
+				"address": 11006,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"0"
+				],
+				"lineNumber": 31250
+			},
+			{
+				"address": 11010,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 31251
+			},
+			{
+				"address": 11012,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31252
+			},
+			{
+				"address": 11014,
+				"opcode": "showTextbox",
+				"args": [
+					"How",
+					"about",
+					"one",
+					"thousand",
+					"bit\\n<LIGHTBLUE>Medicine<WHITE>,\\nfor",
+					"seven",
+					"hundred",
+					"bits?\\n"
+				],
+				"lineNumber": 31253
+			},
+			{
+				"address": 11144,
+				"opcode": "setPStat",
+				"args": [
+					"117",
+					"9"
+				],
+				"lineNumber": 31254
+			},
+			{
+				"address": 11148,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 31255
+			},
+			{
+				"address": 11150,
+				"opcode": "setSelection",
+				"args": [
+					"11458",
+					"8592"
+				],
+				"lineNumber": 31256
+			},
+			{
+				"address": 11156,
+				"opcode": "showTextbox",
+				"args": [
+					"Lower",
+					"one",
+					"thous",
+					"to",
+					"seven",
+					"hund\\nLet",
+					"me",
+					"rethink",
+					"this\\n"
+				],
+				"lineNumber": 31257
+			},
+			{
+				"address": 11260,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 31258
+			},
+			{
+				"address": 11262,
+				"opcode": "jumpTo",
+				"args": [
+					"8592"
+				],
+				"lineNumber": 31259
+			},
+			{
+				"address": 11266,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31260
+			},
+			{
+				"address": 11270,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"44",
+					"then",
+					"11286"
+				],
+				"lineNumber": 31261
+			},
+			{
+				"address": 11282,
+				"opcode": "jumpTo",
+				"args": [
+					"11482"
+				],
+				"lineNumber": 31262
+			},
+			{
+				"address": 11286,
+				"opcode": "jumpTo",
+				"args": [
+					"12418"
+				],
+				"lineNumber": 31263
+			},
+			{
+				"address": 11290,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31264
+			},
+			{
+				"address": 11294,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"54",
+					"then",
+					"11310"
+				],
+				"lineNumber": 31265
+			},
+			{
+				"address": 11306,
+				"opcode": "jumpTo",
+				"args": [
+					"11482"
+				],
+				"lineNumber": 31266
+			},
+			{
+				"address": 11310,
+				"opcode": "jumpTo",
+				"args": [
+					"12418"
+				],
+				"lineNumber": 31267
+			},
+			{
+				"address": 11314,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31268
+			},
+			{
+				"address": 11318,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"64",
+					"then",
+					"11334"
+				],
+				"lineNumber": 31269
+			},
+			{
+				"address": 11330,
+				"opcode": "jumpTo",
+				"args": [
+					"11482"
+				],
+				"lineNumber": 31270
+			},
+			{
+				"address": 11334,
+				"opcode": "jumpTo",
+				"args": [
+					"12418"
+				],
+				"lineNumber": 31271
+			},
+			{
+				"address": 11338,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31272
+			},
+			{
+				"address": 11342,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"74",
+					"then",
+					"11358"
+				],
+				"lineNumber": 31273
+			},
+			{
+				"address": 11354,
+				"opcode": "jumpTo",
+				"args": [
+					"11482"
+				],
+				"lineNumber": 31274
+			},
+			{
+				"address": 11358,
+				"opcode": "jumpTo",
+				"args": [
+					"12418"
+				],
+				"lineNumber": 31275
+			},
+			{
+				"address": 11362,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31276
+			},
+			{
+				"address": 11366,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"84",
+					"then",
+					"11382"
+				],
+				"lineNumber": 31277
+			},
+			{
+				"address": 11378,
+				"opcode": "jumpTo",
+				"args": [
+					"11482"
+				],
+				"lineNumber": 31278
+			},
+			{
+				"address": 11382,
+				"opcode": "jumpTo",
+				"args": [
+					"12418"
+				],
+				"lineNumber": 31279
+			},
+			{
+				"address": 11386,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31280
+			},
+			{
+				"address": 11390,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"94",
+					"then",
+					"11406"
+				],
+				"lineNumber": 31281
+			},
+			{
+				"address": 11402,
+				"opcode": "jumpTo",
+				"args": [
+					"11482"
+				],
+				"lineNumber": 31282
+			},
+			{
+				"address": 11406,
+				"opcode": "jumpTo",
+				"args": [
+					"12418"
+				],
+				"lineNumber": 31283
+			},
+			{
+				"address": 11410,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31284
+			},
+			{
+				"address": 11414,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"96",
+					"then",
+					"11430"
+				],
+				"lineNumber": 31285
+			},
+			{
+				"address": 11426,
+				"opcode": "jumpTo",
+				"args": [
+					"11482"
+				],
+				"lineNumber": 31286
+			},
+			{
+				"address": 11430,
+				"opcode": "jumpTo",
+				"args": [
+					"12418"
+				],
+				"lineNumber": 31287
+			},
+			{
+				"address": 11434,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31288
+			},
+			{
+				"address": 11438,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"98",
+					"then",
+					"11454"
+				],
+				"lineNumber": 31289
+			},
+			{
+				"address": 11450,
+				"opcode": "jumpTo",
+				"args": [
+					"11482"
+				],
+				"lineNumber": 31290
+			},
+			{
+				"address": 11454,
+				"opcode": "jumpTo",
+				"args": [
+					"12418"
+				],
+				"lineNumber": 31291
+			},
+			{
+				"address": 11458,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31292
+			},
+			{
+				"address": 11462,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"99",
+					"then",
+					"11478"
+				],
+				"lineNumber": 31293
+			},
+			{
+				"address": 11474,
+				"opcode": "jumpTo",
+				"args": [
+					"11482"
+				],
+				"lineNumber": 31294
+			},
+			{
+				"address": 11478,
+				"opcode": "jumpTo",
+				"args": [
+					"12418"
+				],
+				"lineNumber": 31295
+			},
+			{
+				"address": 11482,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 31296
+			},
+			{
+				"address": 11484,
+				"opcode": "showTextbox",
+				"args": [
+					"Okay!",
+					"I'll",
+					"take",
+					"it.\\n"
+				],
+				"lineNumber": 31297
+			},
+			{
+				"address": 11528,
+				"opcode": "playSound",
+				"args": [
+					"1544"
+				],
+				"lineNumber": 31298
+			},
+			{
+				"address": 11532,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 31299
+			},
+			{
+				"address": 11536,
+				"opcode": "setTextboxSize",
+				"args": [
+					"12",
+					"3"
+				],
+				"lineNumber": 31300
+			},
+			{
+				"address": 11540,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"1",
+					"then",
+					"11642"
+				],
+				"lineNumber": 31301
+			},
+			{
+				"address": 11552,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"3"
+				],
+				"lineNumber": 31302
+			},
+			{
+				"address": 11556,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"32"
+				],
+				"lineNumber": 31303
+			},
+			{
+				"address": 11560,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31304
+			},
+			{
+				"address": 11562,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\neight",
+					"hundred\\n"
+				],
+				"lineNumber": 31305
+			},
+			{
+				"address": 11642,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"2",
+					"then",
+					"11744"
+				],
+				"lineNumber": 31306
+			},
+			{
+				"address": 11654,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"2"
+				],
+				"lineNumber": 31307
+			},
+			{
+				"address": 11658,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"-68"
+				],
+				"lineNumber": 31308
+			},
+			{
+				"address": 11662,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31309
+			},
+			{
+				"address": 11664,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nseven",
+					"hundred\\n"
+				],
+				"lineNumber": 31310
+			},
+			{
+				"address": 11744,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"3",
+					"then",
+					"11842"
+				],
+				"lineNumber": 31311
+			},
+			{
+				"address": 11756,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"2"
+				],
+				"lineNumber": 31312
+			},
+			{
+				"address": 11760,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"88"
+				],
+				"lineNumber": 31313
+			},
+			{
+				"address": 11764,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31314
+			},
+			{
+				"address": 11766,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nsix",
+					"hundred\\n"
+				],
+				"lineNumber": 31315
+			},
+			{
+				"address": 11842,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"4",
+					"then",
+					"11942"
+				],
+				"lineNumber": 31316
+			},
+			{
+				"address": 11854,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"1"
+				],
+				"lineNumber": 31317
+			},
+			{
+				"address": 11858,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"-12"
+				],
+				"lineNumber": 31318
+			},
+			{
+				"address": 11862,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31319
+			},
+			{
+				"address": 11864,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nfive",
+					"hundred\\n"
+				],
+				"lineNumber": 31320
+			},
+			{
+				"address": 11942,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"5",
+					"then",
+					"12042"
+				],
+				"lineNumber": 31321
+			},
+			{
+				"address": 11954,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"1"
+				],
+				"lineNumber": 31322
+			},
+			{
+				"address": 11958,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"-112"
+				],
+				"lineNumber": 31323
+			},
+			{
+				"address": 11962,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31324
+			},
+			{
+				"address": 11964,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nfour",
+					"hundred\\n"
+				],
+				"lineNumber": 31325
+			},
+			{
+				"address": 12042,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"6",
+					"then",
+					"12144"
+				],
+				"lineNumber": 31326
+			},
+			{
+				"address": 12054,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"1"
+				],
+				"lineNumber": 31327
+			},
+			{
+				"address": 12058,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"44"
+				],
+				"lineNumber": 31328
+			},
+			{
+				"address": 12062,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31329
+			},
+			{
+				"address": 12064,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nthree",
+					"hundred\\n"
+				],
+				"lineNumber": 31330
+			},
+			{
+				"address": 12144,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"7",
+					"then",
+					"12242"
+				],
+				"lineNumber": 31331
+			},
+			{
+				"address": 12156,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 31332
+			},
+			{
+				"address": 12160,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"-56"
+				],
+				"lineNumber": 31333
+			},
+			{
+				"address": 12164,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31334
+			},
+			{
+				"address": 12166,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\ntwo",
+					"hundred\\n"
+				],
+				"lineNumber": 31335
+			},
+			{
+				"address": 12242,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"8",
+					"then",
+					"12340"
+				],
+				"lineNumber": 31336
+			},
+			{
+				"address": 12254,
+				"opcode": "setPStat",
+				"args": [
+					"243",
+					"0"
+				],
+				"lineNumber": 31337
+			},
+			{
+				"address": 12258,
+				"opcode": "setPStat",
+				"args": [
+					"244",
+					"100"
+				],
+				"lineNumber": 31338
+			},
+			{
+				"address": 12262,
+				"opcode": "callRoutine",
+				"args": [
+					"31"
+				],
+				"lineNumber": 31339
+			},
+			{
+				"address": 12264,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\none",
+					"hundred\\n"
+				],
+				"lineNumber": 31340
+			},
+			{
+				"address": 12340,
+				"opcode": "if",
+				"args": [
+					"pstat(117)",
+					"!=",
+					"9",
+					"then",
+					"12414"
+				],
+				"lineNumber": 31341
+			},
+			{
+				"address": 12352,
+				"opcode": "showTextbox",
+				"args": [
+					"Total",
+					"Profit:",
+					"<DISCOUNT>\\nProfit:\\nzero\\n"
+				],
+				"lineNumber": 31342
+			},
+			{
+				"address": 12414,
+				"opcode": "jumpTo",
+				"args": [
+					"3600"
+				],
+				"lineNumber": 31343
+			},
+			{
+				"address": 12418,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"6"
+				],
+				"lineNumber": 31344
+			},
+			{
+				"address": 12422,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"5"
+				],
+				"lineNumber": 31345
+			},
+			{
+				"address": 12426,
+				"opcode": "callRoutine",
+				"args": [
+					"28"
+				],
+				"lineNumber": 31346
+			},
+			{
+				"address": 12428,
+				"opcode": "addToPStat",
+				"args": [
+					"119",
+					"1"
+				],
+				"lineNumber": 31347
+			},
+			{
+				"address": 12432,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 31348
+			},
+			{
+				"address": 12436,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"49",
+					"OR",
+					"pstat(119)",
+					"<",
+					"3",
+					"then",
+					"12456"
+				],
+				"lineNumber": 31349
+			},
+			{
+				"address": 12452,
+				"opcode": "jumpTo",
+				"args": [
+					"3730"
+				],
+				"lineNumber": 31350
+			},
+			{
+				"address": 12456,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"14",
+					"OR",
+					"pstat(119)",
+					"!=",
+					"2",
+					"then",
+					"12476"
+				],
+				"lineNumber": 31351
+			},
+			{
+				"address": 12472,
+				"opcode": "jumpTo",
+				"args": [
+					"3730"
+				],
+				"lineNumber": 31352
+			},
+			{
+				"address": 12476,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"4",
+					"OR",
+					"pstat(119)",
+					"!=",
+					"1",
+					"then",
+					"12496"
+				],
+				"lineNumber": 31353
+			},
+			{
+				"address": 12492,
+				"opcode": "jumpTo",
+				"args": [
+					"3730"
+				],
+				"lineNumber": 31354
+			},
+			{
+				"address": 12496,
+				"opcode": "jumpTo",
+				"args": [
+					"12500"
+				],
+				"lineNumber": 31355
+			},
+			{
+				"address": 12500,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 31356
+			},
+			{
+				"address": 12502,
+				"opcode": "showTextbox",
+				"args": [
+					"You",
+					"charge",
+					"too",
+					"much.\\n"
+				],
+				"lineNumber": 31357
+			},
+			{
+				"address": 12548,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 31358
+			},
+			{
+				"address": 12550,
+				"opcode": "showTextbox",
+				"args": [
+					"Really?",
+					"Well",
+					"then...\\n"
+				],
+				"lineNumber": 31359
+			},
+			{
+				"address": 12596,
+				"opcode": "jumpTo",
+				"args": [
+					"8592"
+				],
+				"lineNumber": 31360
+			}
+		]
+	}
+}
+}

@@ -1,0 +1,121 @@
+{
+"id": 188,
+"info": "== Script ID 188 == 90000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 12,
+				"opcode": "spawnChest",
+				"args": [
+					"14",
+					"-554",
+					"0",
+					"-1089",
+					"2048",
+					"700"
+				],
+				"lineNumber": 29548
+			},
+			{
+				"address": 24,
+				"opcode": "spawnChest",
+				"args": [
+					"16",
+					"-271",
+					"0",
+					"-1089",
+					"2048",
+					"701"
+				],
+				"lineNumber": 29549
+			},
+			{
+				"address": 36,
+				"opcode": "spawnChest",
+				"args": [
+					"10",
+					"12",
+					"0",
+					"-1089",
+					"2048",
+					"702"
+				],
+				"lineNumber": 29550
+			},
+			{
+				"address": 48,
+				"opcode": "spawnChest",
+				"args": [
+					"6",
+					"330",
+					"0",
+					"-1089",
+					"2048",
+					"703"
+				],
+				"lineNumber": 29551
+			},
+			{
+				"address": 60,
+				"opcode": "endSection",
+				"lineNumber": 29552
+			}
+		]
+	},
+	"81": {
+		"id": 81,
+		"instructions": [
+			{
+				"address": 62,
+				"opcode": "playSound",
+				"args": [
+					"264"
+				],
+				"lineNumber": 29554
+			},
+			{
+				"address": 66,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 29555
+			},
+			{
+				"address": 70,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"-1313",
+					"385",
+					"false"
+				],
+				"lineNumber": 29556
+			},
+			{
+				"address": 78,
+				"opcode": "warpTo",
+				"args": [
+					"53",
+					"0",
+					"255"
+				],
+				"lineNumber": 29557
+			},
+			{
+				"address": 82,
+				"opcode": "endSection",
+				"lineNumber": 29558
+			},
+			{
+				"address": 84,
+				"opcode": "endSection",
+				"lineNumber": 29559
+			}
+		]
+	}
+}
+}

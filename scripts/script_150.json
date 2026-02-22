@@ -1,0 +1,100 @@
+{
+"id": 150,
+"info": "== Script ID 150 == 6a000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 12,
+				"opcode": "if",
+				"args": [
+					"trigger(328)",
+					"==",
+					"true",
+					"then",
+					"34"
+				],
+				"lineNumber": 23102
+			},
+			{
+				"address": 24,
+				"opcode": "unknown7C",
+				"args": [
+					"0",
+					"75",
+					"67",
+					"2068"
+				],
+				"lineNumber": 23103
+			},
+			{
+				"address": 32,
+				"opcode": "endSection",
+				"lineNumber": 23104
+			},
+			{
+				"address": 34,
+				"opcode": "setObjVisibility",
+				"args": [
+					"0",
+					"1"
+				],
+				"lineNumber": 23105
+			},
+			{
+				"address": 38,
+				"opcode": "setObjVisibility",
+				"args": [
+					"1",
+					"1"
+				],
+				"lineNumber": 23106
+			},
+			{
+				"address": 42,
+				"opcode": "setObjVisibility",
+				"args": [
+					"2",
+					"0"
+				],
+				"lineNumber": 23107
+			},
+			{
+				"address": 46,
+				"opcode": "setObjVisibility",
+				"args": [
+					"3",
+					"0"
+				],
+				"lineNumber": 23108
+			},
+			{
+				"address": 50,
+				"opcode": "setObjVisibility",
+				"args": [
+					"4",
+					"0"
+				],
+				"lineNumber": 23109
+			},
+			{
+				"address": 54,
+				"opcode": "endSection",
+				"lineNumber": 23110
+			}
+		]
+	},
+	"51": {
+		"id": 51,
+		"instructions": [
+			{
+				"address": 56,
+				"opcode": "endSection",
+				"lineNumber": 23112
+			}
+		]
+	}
+}
+}

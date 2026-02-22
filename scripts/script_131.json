@@ -1,0 +1,100 @@
+{
+"id": 131,
+"info": "== Script ID 131 == 5c800",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 12,
+				"opcode": "endSection",
+				"lineNumber": 19914
+			}
+		]
+	},
+	"51": {
+		"id": 51,
+		"instructions": [
+			{
+				"address": 14,
+				"opcode": "if",
+				"args": [
+					"pstat(113)",
+					"!=",
+					"0",
+					"then",
+					"28"
+				],
+				"lineNumber": 19916
+			},
+			{
+				"address": 26,
+				"opcode": "endSection",
+				"lineNumber": 19917
+			},
+			{
+				"address": 28,
+				"opcode": "callDigimonRoutine",
+				"args": [
+					"1"
+				],
+				"lineNumber": 19918
+			},
+			{
+				"address": 30,
+				"opcode": "waitForEntity",
+				"args": [
+					"255"
+				],
+				"lineNumber": 19919
+			},
+			{
+				"address": 32,
+				"opcode": "if",
+				"args": [
+					"trigger(257)",
+					"==",
+					"true",
+					"then",
+					"52"
+				],
+				"lineNumber": 19920
+			},
+			{
+				"address": 44,
+				"opcode": "warpTo",
+				"args": [
+					"134",
+					"2",
+					"10"
+				],
+				"lineNumber": 19921
+			},
+			{
+				"address": 48,
+				"opcode": "jumpTo",
+				"args": [
+					"56"
+				],
+				"lineNumber": 19922
+			},
+			{
+				"address": 52,
+				"opcode": "warpTo",
+				"args": [
+					"235",
+					"2",
+					"11"
+				],
+				"lineNumber": 19923
+			},
+			{
+				"address": 56,
+				"opcode": "endSection",
+				"lineNumber": 19924
+			}
+		]
+	}
+}
+}

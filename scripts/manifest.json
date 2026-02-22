@@ -1,0 +1,2376 @@
+{
+"entries": {
+	"class": "java.util.LinkedHashMap",
+	"0": {
+		"id": 0,
+		"info": "== Script ID 0 == 800",
+		"dialoguePreviews": [
+			"What can I do for you?\\n",
+			"We'll be open in a moment.\\n",
+			"Buy\\nSell\\nSee ya\\n"
+		],
+		"sectionCount": 281,
+		"fileName": "script_0.json"
+	},
+	"1": {
+		"id": 1,
+		"info": "== Script ID 1 == 7000",
+		"dialoguePreviews": [
+			"We're ready to begin!\\n",
+			"Heave-ho, heave-ho.\\n",
+			"I'm going to eat it!\\n"
+		],
+		"sectionCount": 10,
+		"fileName": "script_1.json"
+	},
+	"2": {
+		"id": 2,
+		"info": "== Script ID 2 == 7800",
+		"dialoguePreviews": [
+			"I'm going to win!\\n",
+			"Okay, come on, boy!\\n",
+			"What's going to happen next?\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_2.json"
+	},
+	"3": {
+		"id": 3,
+		"info": "== Script ID 3 == 8000",
+		"dialoguePreviews": [
+			"Get away!\\n",
+			"Get lost!\\n",
+			"It's mine!\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_3.json"
+	},
+	"4": {
+		"id": 4,
+		"info": "== Script ID 4 == 8800",
+		"dialoguePreviews": [
+			"There are engraved\\nletters here.\\n",
+			"No one's here! Go home!\\n",
+			"Is someone living here?\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_4.json"
+	},
+	"5": {
+		"id": 5,
+		"info": "== Script ID 5 == 9000",
+		"fileName": "script_5.json"
+	},
+	"6": {
+		"id": 6,
+		"info": "== Script ID 6 == 9800",
+		"dialoguePreviews": [
+			"I'm gonna win!\\n",
+			"Don't come here! Go away!\\n",
+			"Now I'm really angry!\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_6.json"
+	},
+	"7": {
+		"id": 7,
+		"info": "== Script ID 7 == a800",
+		"dialoguePreviews": [
+			"Oh, yes!\\n",
+			"Will you play the Lake\\nGuardian's <LIGHTBLUE>Blue",
+			"I'll play\\nI won't play\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_7.json"
+	},
+	"8": {
+		"id": 8,
+		"info": "== Script ID 8 == b800",
+		"dialoguePreviews": [
+			"Drill Tunnel\\n",
+			"Normal\\nOgre mode\\n",
+			"Oh that jerk! How rude!\\n"
+		],
+		"sectionCount": 5,
+		"fileName": "script_8.json"
+	},
+	"9": {
+		"id": 9,
+		"info": "== Script ID 9 == c000",
+		"dialoguePreviews": [
+			"Vending Machine\\n",
+			"My gosh, it's so expensive!\\n",
+			"Meat : three hund bits\\nDigiMushrooms:six hund bit"
+		],
+		"sectionCount": 3,
+		"fileName": "script_9.json"
+	},
+	"10": {
+		"id": 10,
+		"info": "== Script ID 10 == d000",
+		"dialoguePreviews": [
+			"You think you're big stuff!\\n",
+			"What did I ever do to you!?\\n",
+			"<YELLOW>? ? ? <WHITE>\\nWait!\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_10.json"
+	},
+	"11": {
+		"id": 11,
+		"info": "== Script ID 11 == e000",
+		"dialoguePreviews": [
+			"I can beat you in one blow!\\n",
+			"You don't know anything.\\n",
+			"Stop it already!\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_11.json"
+	},
+	"12": {
+		"id": 12,
+		"info": "== Script ID 12 == e800",
+		"dialoguePreviews": [
+			"MP Vending Machine\\n",
+			"This machine recovers MP.\\n",
+			"Hund MP: two hund bits\\nThous MP:eighteen hund bit"
+		],
+		"sectionCount": 7,
+		"fileName": "script_12.json"
+	},
+	"13": {
+		"id": 13,
+		"info": "== Script ID 13 == f000",
+		"dialoguePreviews": [
+			"Hey, are you the one\\nbuilding a city?\\n",
+			"Yes.\\n",
+			"Uh, you're real lucky\\nto meet me.\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_13.json"
+	},
+	"14": {
+		"id": 14,
+		"info": "== Script ID 14 == f800",
+		"dialoguePreviews": [
+			"Hiss!\\n",
+			"Whewww!\\n",
+			"Shoeeeee\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_14.json"
+	},
+	"15": {
+		"id": 15,
+		"info": "== Script ID 15 == 10000",
+		"dialoguePreviews": [
+			"Are you a Digimon?\\n",
+			"Where you from Homie?!\\n",
+			"Don't make fun of me!\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_15.json"
+	},
+	"16": {
+		"id": 16,
+		"info": "== Script ID 16 == 11000",
+		"dialoguePreviews": [
+			"Gruun.\\n",
+			"Gruun.ru.ru..\\n",
+			"Something came back to life!\\n"
+		],
+		"sectionCount": 5,
+		"fileName": "script_16.json"
+	},
+	"17": {
+		"id": 17,
+		"info": "== Script ID 17 == 11800",
+		"dialoguePreviews": [
+			"Shaaa Shaaa!\\n",
+			"Boom, boom!\\n",
+			"Ha ha, are you alright?\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_17.json"
+	},
+	"18": {
+		"id": 18,
+		"info": "== Script ID 18 == 12000",
+		"dialoguePreviews": [
+			"Trespasser Alert!\\n",
+			"Trespasser Alert!\\n",
+			"I will shoot!\\n"
+		],
+		"sectionCount": 27,
+		"fileName": "script_18.json"
+	},
+	"19": {
+		"id": 19,
+		"info": "== Script ID 19 == 14000",
+		"dialoguePreviews": [
+			"I can't let you thru here!\\n",
+			"I'm going to take\\nall you have!\\n",
+			"I can't let you thru here!\\n"
+		],
+		"sectionCount": 10,
+		"fileName": "script_19.json"
+	},
+	"20": {
+		"id": 20,
+		"info": "== Script ID 20 == 14800",
+		"dialoguePreviews": [
+			"Are we gonna battle?\\nChicken?!\\n",
+			"Okay, let's fight\\nWait a minute\\n",
+			"Oh no! I lost!\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_20.json"
+	},
+	"21": {
+		"id": 21,
+		"info": "== Script ID 21 == 15000",
+		"dialoguePreviews": [
+			"No way!\\n",
+			"Leave something before you go.\\n",
+			"I accept your challenge!\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_21.json"
+	},
+	"22": {
+		"id": 22,
+		"info": "== Script ID 22 == 15800",
+		"dialoguePreviews": [
+			"My wing hurts.\\n",
+			"What happened?\\n",
+			"I injured my wing... Do you\\nhave anything to trea"
+		],
+		"sectionCount": 5,
+		"fileName": "script_22.json"
+	},
+	"23": {
+		"id": 23,
+		"info": "== Script ID 23 == 16800",
+		"dialoguePreviews": [
+			"It's hot!\\n",
+			"It started boiling!\\n",
+			"Oh, I see.\\n"
+		],
+		"sectionCount": 9,
+		"fileName": "script_23.json"
+	},
+	"24": {
+		"id": 24,
+		"info": "== Script ID 24 == 17000",
+		"dialoguePreviews": [
+			"Hot! It's hot!\\n",
+			"It started boiling!\\n",
+			"Oh, I see.\\n"
+		],
+		"sectionCount": 10,
+		"fileName": "script_24.json"
+	},
+	"25": {
+		"id": 25,
+		"info": "== Script ID 25 == 17800",
+		"dialoguePreviews": [
+			"Come on, keep up!\\n",
+			"You must be an outsider!\\n",
+			"Dumped the dirt.\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_25.json"
+	},
+	"26": {
+		"id": 26,
+		"info": "== Script ID 26 == 18000",
+		"dialoguePreviews": [
+			"Oh, thanks so much!\\n",
+			"What? You wanna fight?\\n",
+			"Oh, thanks a lot!\\n"
+		],
+		"sectionCount": 9,
+		"fileName": "script_26.json"
+	},
+	"27": {
+		"id": 27,
+		"info": "== Script ID 27 == 19000",
+		"dialoguePreviews": [
+			"Today we're digging.\\n",
+			"Tomorrow we'll be digging.\\n",
+			"It's so much fun.\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_27.json"
+	},
+	"28": {
+		"id": 28,
+		"info": "== Script ID 28 == 19800",
+		"dialoguePreviews": [
+			"I fixed the entrance sign.\\n",
+			"It's hot! Do something!\\n",
+			"What's going on?\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_28.json"
+	},
+	"29": {
+		"id": 29,
+		"info": "== Script ID 29 == 1a000",
+		"dialoguePreviews": [
+			"I think we're finished moving\\nout most of the dir",
+			"Our job is going well.\\nThanks.\\nPlease wait a lit",
+			"Thanks for your work.\\nHere's your payment.\\n"
+		],
+		"sectionCount": 5,
+		"fileName": "script_29.json"
+	},
+	"30": {
+		"id": 30,
+		"info": "== Script ID 30 == 1b000",
+		"dialoguePreviews": [
+			"Shoot! We hit a big rock!\\n",
+			"I can't drill thru.\\n",
+			"You can't? Oh no!\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_30.json"
+	},
+	"31": {
+		"id": 31,
+		"info": "== Script ID 31 == 1b800",
+		"dialoguePreviews": [
+			"!\\n",
+			"What happen to the island?\\n",
+			"Tribes fell apart losing\\nmemories and becoming wi"
+		],
+		"sectionCount": 3,
+		"fileName": "script_31.json"
+	},
+	"32": {
+		"id": 32,
+		"info": "== Script ID 32 == 1c800",
+		"dialoguePreviews": [
+			"Hey, it'll be open soon!\\n",
+			"We've been waiting for this!\\nThe tunnel is open!\\",
+			"We don't have to go over the\\nmountain anymore. Th"
+		],
+		"sectionCount": 4,
+		"fileName": "script_32.json"
+	},
+	"33": {
+		"id": 33,
+		"info": "== Script ID 33 == 1d000",
+		"dialoguePreviews": [
+			"Are you still hot?\\nSome Digimon can't handle\\nthe",
+			"The Lava has hardened.\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_33.json"
+	},
+	"34": {
+		"id": 34,
+		"info": "== Script ID 34 == 1d800",
+		"dialoguePreviews": [
+			"Today is your last day.\\n",
+			"Don't stand behind me!\\n",
+			"Since you've seen my face...\\n"
+		],
+		"sectionCount": 9,
+		"fileName": "script_34.json"
+	},
+	"35": {
+		"id": 35,
+		"info": "== Script ID 35 == 1e000",
+		"dialoguePreviews": [
+			"Ha! You're scared.\\n",
+			"You'd better go home!\\n",
+			"Once you go in,\\nyou can't come out.\\n"
+		],
+		"sectionCount": 9,
+		"fileName": "script_35.json"
+	},
+	"36": {
+		"id": 36,
+		"info": "== Script ID 36 == 1e800",
+		"dialoguePreviews": [
+			"Hey!\\n",
+			"Don't make me mad!\\n",
+			"You think that's funny?!\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_36.json"
+	},
+	"37": {
+		"id": 37,
+		"info": "== Script ID 37 == 1f000",
+		"dialoguePreviews": [
+			"I'll knock you out!\\n",
+			"Hey, don't push me!\\n",
+			"It's peaceful up here!\\n"
+		],
+		"sectionCount": 11,
+		"fileName": "script_37.json"
+	},
+	"38": {
+		"id": 38,
+		"info": "== Script ID 38 == 1f800",
+		"dialoguePreviews": [
+			"Would you stop that?\\n",
+			"Shuha, shuha!\\n",
+			"Swish!\\n"
+		],
+		"sectionCount": 10,
+		"fileName": "script_38.json"
+	},
+	"39": {
+		"id": 39,
+		"info": "== Script ID 39 == 20000",
+		"dialoguePreviews": [
+			"Am I bothering you?\\n",
+			"<YELLOW>??? <WHITE>\\nHelp me!\\n",
+			"I hear a voice from above.\\nAnybody there?\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_39.json"
+	},
+	"40": {
+		"id": 40,
+		"info": "== Script ID 40 == 20800",
+		"dialoguePreviews": [
+			"Who are you? Go away!\\n",
+			"Is this where you live?\\n",
+			"I can't tell you!\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_40.json"
+	},
+	"41": {
+		"id": 41,
+		"info": "== Script ID 41 == 21000",
+		"dialoguePreviews": [
+			"It's not going well!\\n",
+			"Did you say something?\\n",
+			"I told you it's impossible.\\n"
+		],
+		"sectionCount": 9,
+		"fileName": "script_41.json"
+	},
+	"42": {
+		"id": 42,
+		"info": "== Script ID 42 == 21800",
+		"dialoguePreviews": [
+			"Shwaa!\\n",
+			"Sha sha shaaaa!\\n",
+			"Doesn't look like he's hurt.\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_42.json"
+	},
+	"43": {
+		"id": 43,
+		"info": "== Script ID 43 == 22000",
+		"dialoguePreviews": [
+			"Daa!\\n",
+			"Haa!\\n",
+			"Gghhee!\\n"
+		],
+		"sectionCount": 10,
+		"fileName": "script_43.json"
+	},
+	"44": {
+		"id": 44,
+		"info": "== Script ID 44 == 22800",
+		"dialoguePreviews": [
+			"I'll beat you up!\\n",
+			"Take it easy on me.\\n",
+			"I won't let\\nmy catch get away!\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_44.json"
+	},
+	"45": {
+		"id": 45,
+		"info": "== Script ID 45 == 23000",
+		"dialoguePreviews": [
+			"Oh no!\\n",
+			"I've got go!\\n",
+			"Wait a second!\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_45.json"
+	},
+	"46": {
+		"id": 46,
+		"info": "== Script ID 46 == 23800",
+		"dialoguePreviews": [
+			"Attack!\\n",
+			"Attack!\\n",
+			"Attack!\\n"
+		],
+		"sectionCount": 5,
+		"fileName": "script_46.json"
+	},
+	"47": {
+		"id": 47,
+		"info": "== Script ID 47 == 24000",
+		"dialoguePreviews": [
+			"Formation C!\\n",
+			"Formation A!\\n",
+			"Formation B!\\n"
+		],
+		"sectionCount": 5,
+		"fileName": "script_47.json"
+	},
+	"48": {
+		"id": 48,
+		"info": "== Script ID 48 == 24800",
+		"dialoguePreviews": [
+			"Ah!\\n",
+			"Ah!\\n",
+			"Is the elevator causing\\nthe ground to rise?\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_48.json"
+	},
+	"49": {
+		"id": 49,
+		"info": "== Script ID 49 == 25000",
+		"dialoguePreviews": [
+			"Welcome. I've never seen you\\nbefore. Where are yo",
+			"The city. Actually, I'm\\nfrom another world.\\n",
+			"You understand my language?\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_49.json"
+	},
+	"50": {
+		"id": 50,
+		"info": "== Script ID 50 == 26000",
+		"dialoguePreviews": [
+			"I must protect this place.\\n",
+			"What was the order?\\n",
+			"What?\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_50.json"
+	},
+	"51": {
+		"id": 51,
+		"info": "== Script ID 51 == 26800",
+		"dialoguePreviews": [
+			"I got a bad feeling....\\n",
+			"I knew you'd come!\\n",
+			"Who are you?\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_51.json"
+	},
+	"52": {
+		"id": 52,
+		"info": "== Script ID 52 == 27800",
+		"dialoguePreviews": [
+			"I used the\\n<LIGHTBLUE>Mansion Key<WHITE>!\\n",
+			"It doesn't open.\\nIt's locked.\\n",
+			"It doesn't open.\\nIt's locked.\\nThere's no key hol"
+		],
+		"sectionCount": 4,
+		"fileName": "script_52.json"
+	},
+	"53": {
+		"id": 53,
+		"info": "== Script ID 53 == 28000",
+		"sectionCount": 3,
+		"fileName": "script_53.json"
+	},
+	"54": {
+		"id": 54,
+		"info": "== Script ID 54 == 28800",
+		"dialoguePreviews": [
+			"Myotismon is gone.\\n",
+			"Oh!\\n",
+			"I found a key. Maybe it'll\\nopen some of those doo"
+		],
+		"sectionCount": 7,
+		"fileName": "script_54.json"
+	},
+	"55": {
+		"id": 55,
+		"info": "== Script ID 55 == 2a000",
+		"dialoguePreviews": [
+			"I'll handle you!\\n",
+			"I'll handle you!\\n",
+			"I'll handle you!\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_55.json"
+	},
+	"56": {
+		"id": 56,
+		"info": "== Script ID 56 == 2a800",
+		"dialoguePreviews": [
+			"I used the\\n<LIGHTBLUE>Mansion Key<WHITE>!\\n",
+			"It doesn't open.\\nIt's locked.\\n",
+			"I'm wounded!\\n"
+		],
+		"sectionCount": 5,
+		"fileName": "script_56.json"
+	},
+	"57": {
+		"id": 57,
+		"info": "== Script ID 57 == 2b000",
+		"dialoguePreviews": [
+			"Hey, you aren't Master...\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_57.json"
+	},
+	"58": {
+		"id": 58,
+		"info": "== Script ID 58 == 2b800",
+		"dialoguePreviews": [
+			"Is my dinner ready?\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_58.json"
+	},
+	"59": {
+		"id": 59,
+		"info": "== Script ID 59 == 2c000",
+		"sectionCount": 3,
+		"fileName": "script_59.json"
+	},
+	"60": {
+		"id": 60,
+		"info": "== Script ID 60 == 2c800",
+		"dialoguePreviews": [
+			"Here it is!\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_60.json"
+	},
+	"61": {
+		"id": 61,
+		"info": "== Script ID 61 == 2d000",
+		"dialoguePreviews": [
+			"I think it's locked.\\n",
+			"Will the knob open?\\n",
+			"It opened!\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_61.json"
+	},
+	"62": {
+		"id": 62,
+		"info": "== Script ID 62 == 2d800",
+		"dialoguePreviews": [
+			"What are those?\\nAny books I can read?\\n",
+			"No. None I can read.\\n",
+			"Wow! A book with\\na cool cover!\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_62.json"
+	},
+	"63": {
+		"id": 63,
+		"info": "== Script ID 63 == 2e000",
+		"dialoguePreviews": [
+			"Myotismon isn't here.\\n",
+			"Uh... my Meat fridge key?\\n",
+			"! \\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_63.json"
+	},
+	"64": {
+		"id": 64,
+		"info": "== Script ID 64 == 2f000",
+		"dialoguePreviews": [
+			"Myotismon! What happened?\\n",
+			"Bakke!\\n",
+			"...\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_64.json"
+	},
+	"65": {
+		"id": 65,
+		"info": "== Script ID 65 == 2f800",
+		"dialoguePreviews": [
+			"I'll, get you!\\n",
+			"It's a black wall!\\nHe lied to me!\\n",
+			"...\\n"
+		],
+		"sectionCount": 9,
+		"fileName": "script_65.json"
+	},
+	"66": {
+		"id": 66,
+		"info": "== Script ID 66 == 30000",
+		"dialoguePreviews": [
+			"I love the ocean.\\n",
+			"Get out of my way!\\n",
+			"I have good news.\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_66.json"
+	},
+	"67": {
+		"id": 67,
+		"info": "== Script ID 67 == 30800",
+		"dialoguePreviews": [
+			"You have good sense.\\n",
+			"Looks like some good points.\\n",
+			"Hey you're that....\\nHow interesting!\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_67.json"
+	},
+	"68": {
+		"id": 68,
+		"info": "== Script ID 68 == 31000",
+		"dialoguePreviews": [
+			"Ha ha, touch me and\\nyou'll get shocked.\\n",
+			"Don't you wanna be here?\\n",
+			"Wow, amazing! He's got guts.\\n"
+		],
+		"sectionCount": 9,
+		"fileName": "script_68.json"
+	},
+	"69": {
+		"id": 69,
+		"info": "== Script ID 69 == 31800",
+		"dialoguePreviews": [
+			"I'm gonna knock you out!\\n",
+			"Let's do it again.\\n",
+			"OK\\nNo\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_69.json"
+	},
+	"70": {
+		"id": 70,
+		"info": "== Script ID 70 == 32000",
+		"dialoguePreviews": [
+			"I'm here again.\\n",
+			"Bye!\\n",
+			"If we go on like this, we'll\\njust repeat ourselve"
+		],
+		"sectionCount": 16,
+		"fileName": "script_70.json"
+	},
+	"71": {
+		"id": 71,
+		"info": "== Script ID 71 == 33000",
+		"dialoguePreviews": [
+			"Well, I see your point.\\n",
+			"Can you see its beauty?\\n",
+			"Uggghhhh!!\\n"
+		],
+		"sectionCount": 9,
+		"fileName": "script_71.json"
+	},
+	"72": {
+		"id": 72,
+		"info": "== Script ID 72 == 33800",
+		"dialoguePreviews": [
+			"I'm very disappointed.\\n",
+			"Don't make me mad.\\n",
+			"Dinner?\\n"
+		],
+		"sectionCount": 5,
+		"fileName": "script_72.json"
+	},
+	"73": {
+		"id": 73,
+		"info": "== Script ID 73 == 34000",
+		"dialoguePreviews": [
+			"What is it?\\n",
+			"HELP ME!\\n",
+			"He's in trouble,\\nI gotta help him!\\n"
+		],
+		"sectionCount": 5,
+		"fileName": "script_73.json"
+	},
+	"74": {
+		"id": 74,
+		"info": "== Script ID 74 == 34800",
+		"dialoguePreviews": [
+			"Forget it! This is a waste!\\n",
+			"Let me eat!\\n",
+			"The ceremony is starting.\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_74.json"
+	},
+	"75": {
+		"id": 75,
+		"info": "== Script ID 75 == 35000",
+		"dialoguePreviews": [
+			"I've heard about you.\\n",
+			"If you've heard about us\\nand the city, why don't ",
+			"I'm also thinking about the\\nisland's future. I've"
+		],
+		"sectionCount": 5,
+		"fileName": "script_75.json"
+	},
+	"76": {
+		"id": 76,
+		"info": "== Script ID 76 == 36000",
+		"dialoguePreviews": [
+			"Taaa!\\n",
+			"Alright, take that!\\n",
+			"Shaaaa!\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_76.json"
+	},
+	"77": {
+		"id": 77,
+		"info": "== Script ID 77 == 37000",
+		"dialoguePreviews": [
+			"Give me your best shot!\\n",
+			"Boom, boom, boom!\\n",
+			"Don't stand behind me.\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_77.json"
+	},
+	"78": {
+		"id": 78,
+		"info": "== Script ID 78 == 37800",
+		"dialoguePreviews": [
+			"There was someone who wanted\\nto become a merchant",
+			"He's more useful than me.\\n",
+			"Why is time different here\\nthan other areas?\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_78.json"
+	},
+	"79": {
+		"id": 79,
+		"info": "== Script ID 79 == 38800",
+		"dialoguePreviews": [
+			"It's the Speedy Time Zone\\nbeyond this point.\\nDon",
+			"There are two goals for me.\\nOne is to find the\\nI",
+			"The other is to get\\nDigimon into the city.\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_79.json"
+	},
+	"80": {
+		"id": 80,
+		"info": "== Script ID 80 == 3a000",
+		"dialoguePreviews": [
+			"I'm gonna get you.\\n",
+			"Did you come here to lose?\\n",
+			"You're pretty shabby!\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_80.json"
+	},
+	"81": {
+		"id": 81,
+		"info": "== Script ID 81 == 3a800",
+		"dialoguePreviews": [
+			"I know what you are...\\nHe he he...\\n",
+			"He he he...turn at the side\\nof the bone tunnel.\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_81.json"
+	},
+	"82": {
+		"id": 82,
+		"info": "== Script ID 82 == 3b000",
+		"dialoguePreviews": [
+			"This must be it!\\nNo matter how I look at it,\\nit ",
+			"Crack it and check\\nLeave it alone\\n",
+			"Hmmm\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_82.json"
+	},
+	"83": {
+		"id": 83,
+		"info": "== Script ID 83 == 3c000",
+		"dialoguePreviews": [
+			"Oh, My!\\n",
+			"Let me have some fun!\\n",
+			"Farewell.\\n"
+		],
+		"sectionCount": 5,
+		"fileName": "script_83.json"
+	},
+	"84": {
+		"id": 84,
+		"info": "== Script ID 84 == 3c800",
+		"dialoguePreviews": [
+			"Ahhh, it's warm!\\n",
+			"So you want to go thru here?\\nDon't even think abo",
+			"Oh, poor thing, ha ha ha!\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_84.json"
+	},
+	"85": {
+		"id": 85,
+		"info": "== Script ID 85 == 3d000",
+		"dialoguePreviews": [
+			"I'll gobble you up!\\n",
+			"I'm gonna go crazy!\\n",
+			"Curse you!\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_85.json"
+	},
+	"86": {
+		"id": 86,
+		"info": "== Script ID 86 == 3d800",
+		"dialoguePreviews": [
+			"Let's settle this!\\n",
+			"Darn it!\\n",
+			"Do you wanna be beat?!\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_86.json"
+	},
+	"87": {
+		"id": 87,
+		"info": "== Script ID 87 == 3e000",
+		"dialoguePreviews": [
+			"Give me what you've got!\\n",
+			"I'm sorry!\\n",
+			"You can't handle me!\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_87.json"
+	},
+	"88": {
+		"id": 88,
+		"info": "== Script ID 88 == 3e800",
+		"dialoguePreviews": [
+			"Stopped by a strange\\nwhite force!\\n",
+			"What? My legs are...\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_88.json"
+	},
+	"89": {
+		"id": 89,
+		"info": "== Script ID 89 == 3f000",
+		"dialoguePreviews": [
+			"Leave your valuables.\\n",
+			"I'll cover you in ice!\\n",
+			"You can't go right or left.\\n"
+		],
+		"sectionCount": 9,
+		"fileName": "script_89.json"
+	},
+	"90": {
+		"id": 90,
+		"info": "== Script ID 90 == 3f800",
+		"dialoguePreviews": [
+			"You have come a long way.\\n",
+			"You want to fight?\\nThat's fine with me!\\n",
+			"Ha! You look so weak.\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_90.json"
+	},
+	"91": {
+		"id": 91,
+		"info": "== Script ID 91 == 40000",
+		"dialoguePreviews": [
+			"I'm gonna win!\\n",
+			"You'll never beat me!\\n",
+			"He he! I'm so sorry!\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_91.json"
+	},
+	"92": {
+		"id": 92,
+		"info": "== Script ID 92 == 41000",
+		"dialoguePreviews": [
+			"I'm going all the way!\\n",
+			"That gets me mad!\\n",
+			"Don't say 'cold'!\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_92.json"
+	},
+	"93": {
+		"id": 93,
+		"info": "== Script ID 93 == 41800",
+		"dialoguePreviews": [
+			"Wow, it looks alive!\\n",
+			"Actually, it starts to move\\nwhen we move. Hold on",
+			"What is it, <ORANGE><DIGIMON><WHITE>?\\nDid you fin"
+		],
+		"sectionCount": 4,
+		"fileName": "script_93.json"
+	},
+	"94": {
+		"id": 94,
+		"info": "== Script ID 94 == 42000",
+		"dialoguePreviews": [
+			"You're shaking!\\n",
+			"Are you cold?\\nWhat is that?\\n",
+			"That's useless,\\ndon't you think?\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_94.json"
+	},
+	"95": {
+		"id": 95,
+		"info": "== Script ID 95 == 42800",
+		"dialoguePreviews": [
+			"<GREEN>Training: Moving Ice <WHITE>\\n",
+			"Begin\\nExplain\\nQuit\\n",
+			"Normal\\nBonus Try\\nQuit\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_95.json"
+	},
+	"96": {
+		"id": 96,
+		"info": "== Script ID 96 == 43000",
+		"dialoguePreviews": [
+			"I'll knock you down!\\n",
+			"It's just bad luck!\\nDon't give up!\\n",
+			"Any last words\\nbefore I get you?\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_96.json"
+	},
+	"97": {
+		"id": 97,
+		"info": "== Script ID 97 == 43800",
+		"dialoguePreviews": [
+			"Who are you?\\n",
+			"It's all a waste of time.\\n",
+			"Looks like I caught a cold.\\n"
+		],
+		"sectionCount": 10,
+		"fileName": "script_97.json"
+	},
+	"98": {
+		"id": 98,
+		"info": "== Script ID 98 == 44000",
+		"dialoguePreviews": [
+			"Shouldn't you go home?\\n",
+			"Go home!\\n",
+			"You should go back!\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_98.json"
+	},
+	"99": {
+		"id": 99,
+		"info": "== Script ID 99 == 44800",
+		"dialoguePreviews": [
+			"This is where we say goodbye.\\n",
+			"I don't make mistakes!\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_99.json"
+	},
+	"100": {
+		"id": 100,
+		"info": "== Script ID 100 == 45000",
+		"dialoguePreviews": [
+			"Ugh!\\n",
+			"...\\n",
+			"Are you serious?!\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_100.json"
+	},
+	"101": {
+		"id": 101,
+		"info": "== Script ID 101 == 45800",
+		"dialoguePreviews": [
+			"Will you play the Lake\\nGuardian's <LIGHTBLUE>Blue",
+			"Play\\nDon't play\\n",
+			"Reporting, reporting!\\n"
+		],
+		"sectionCount": 11,
+		"fileName": "script_101.json"
+	},
+	"102": {
+		"id": 102,
+		"info": "== Script ID 102 == 46000",
+		"dialoguePreviews": [
+			"Unfortunately, you're\\ntoo late to register.\\nWait",
+			"We're between tournaments.\\nI don't have anything ",
+			"The tournament just ended.\\nWait another year.\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_102.json"
+	},
+	"103": {
+		"id": 103,
+		"info": "== Script ID 103 == 49000",
+		"dialoguePreviews": [
+			"I'm tired of training here.\\nWhat should I do?\\n",
+			"What to do?\\n",
+			"Where do you train?\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_103.json"
+	},
+	"104": {
+		"id": 104,
+		"info": "== Script ID 104 == 4a000",
+		"dialoguePreviews": [
+			"I want to beat Kabuterimon.\\nWhat do I need to do ",
+			"Hmm. You gotta get stronger.\\nActually, there is a",
+			"I see. Alright, I'll train.\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_104.json"
+	},
+	"105": {
+		"id": 105,
+		"info": "== Script ID 105 == 4b000",
+		"dialoguePreviews": [
+			"What do you want?!\\n",
+			"Wow!\\n",
+			"...? ...!\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_105.json"
+	},
+	"106": {
+		"id": 106,
+		"info": "== Script ID 106 == 4c000",
+		"dialoguePreviews": [
+			"Rockslide blocked the road...\\n",
+			"Battle test!\\n",
+			"Just kidding.\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_106.json"
+	},
+	"107": {
+		"id": 107,
+		"info": "== Script ID 107 == 4c800",
+		"dialoguePreviews": [
+			"During the last earthquake,\\nthe dirt and sand dis",
+			"The present time is\\n<YEAR>month, <DAY>day,\\n<HOUR",
+			"<ORANGE><DIGIMON><WHITE> is a Data\\nType Digimon, "
+		],
+		"sectionCount": 4,
+		"fileName": "script_107.json"
+	},
+	"108": {
+		"id": 108,
+		"info": "== Script ID 108 == 4d000",
+		"dialoguePreviews": [
+			"<GREEN>Training:\\nBoulder Moving, revision <WHITE>",
+			"<GREEN>Training:\\nBoulder Moving <WHITE>\\n",
+			"Begin\\nExplain\\nQuit\\n"
+		],
+		"sectionCount": 11,
+		"fileName": "script_108.json"
+	},
+	"109": {
+		"id": 109,
+		"info": "== Script ID 109 == 4f000",
+		"dialoguePreviews": [
+			"Wow, it's amazing!\\n",
+			"Hey, there's a stone tablet.\\nLet's see...\\n",
+			"It says Leomon.\\nI can't read the rest.\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_109.json"
+	},
+	"110": {
+		"id": 110,
+		"info": "== Script ID 110 == 4f800",
+		"dialoguePreviews": [
+			"Oh no! I hit something that\\nlooks like a Tablet.\\"
+		],
+		"sectionCount": 2,
+		"fileName": "script_110.json"
+	},
+	"111": {
+		"id": 111,
+		"info": "== Script ID 111 == 50000",
+		"dialoguePreviews": [
+			"What a fool!\\n",
+			"I'll destroy all this!\\n",
+			"There's no place like\\na forest.\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_111.json"
+	},
+	"112": {
+		"id": 112,
+		"info": "== Script ID 112 == 50800",
+		"dialoguePreviews": [
+			"Do you want something?\\n",
+			"Ha ha, don't be too hasty.\\n",
+			"Make yourself at home.\\n"
+		],
+		"sectionCount": 10,
+		"fileName": "script_112.json"
+	},
+	"113": {
+		"id": 113,
+		"info": "== Script ID 113 == 51000",
+		"dialoguePreviews": [
+			"Go straight ahead and\\nmake a right. He he he...\\n",
+			"Make a right and\\na quick left. He he...\\n",
+			"You won't get out of\\nthis forest. He he he...\\n"
+		],
+		"sectionCount": 13,
+		"fileName": "script_113.json"
+	},
+	"114": {
+		"id": 114,
+		"info": "== Script ID 114 == 52000",
+		"dialoguePreviews": [
+			"So you're lost, <LIGHTBLUE><PLAYER><WHITE>?\\n",
+			"Huh?\\n",
+			"I'm not trying to get\\nin your way.\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_114.json"
+	},
+	"115": {
+		"id": 115,
+		"info": "== Script ID 115 == 52800",
+		"dialoguePreviews": [
+			"Welcome young man.\\n",
+			"You're Cherrymon, right?\\n",
+			"Who is it?\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_115.json"
+	},
+	"116": {
+		"id": 116,
+		"info": "== Script ID 116 == 54000",
+		"dialoguePreviews": [
+			"Wow!\\n",
+			"Mmmm.\\n",
+			"Uh, let's call it quits.\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_116.json"
+	},
+	"117": {
+		"id": 117,
+		"info": "== Script ID 117 == 54800",
+		"dialoguePreviews": [
+			"Who is it?\\n",
+			"I'm going! Just kidding.\\n",
+			"Ha ha ha. This's great.\\n"
+		],
+		"sectionCount": 11,
+		"fileName": "script_117.json"
+	},
+	"118": {
+		"id": 118,
+		"info": "== Script ID 118 == 55000",
+		"sectionCount": 1,
+		"fileName": "script_118.json"
+	},
+	"119": {
+		"id": 119,
+		"info": "== Script ID 119 == 55800",
+		"dialoguePreviews": [
+			"Hey, how are you?\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_119.json"
+	},
+	"120": {
+		"id": 120,
+		"info": "== Script ID 120 == 56000",
+		"sectionCount": 2,
+		"fileName": "script_120.json"
+	},
+	"121": {
+		"id": 121,
+		"info": "== Script ID 121 == 56800",
+		"dialoguePreviews": [
+			"Hello there. Do you know\\nabout Digimon cards?\\n",
+			"I collect Meramon Cards.\\nBring me one and I'll bu",
+			"Here you go\\nSorry\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_121.json"
+	},
+	"122": {
+		"id": 122,
+		"info": "== Script ID 122 == 57000",
+		"dialoguePreviews": [
+			"Am I in the way?\\n",
+			"You saved me!\\n",
+			"So it was you.\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_122.json"
+	},
+	"123": {
+		"id": 123,
+		"info": "== Script ID 123 == 57800",
+		"dialoguePreviews": [
+			"Hey!\\n",
+			"Haaaa!\\n",
+			"Wow!\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_123.json"
+	},
+	"124": {
+		"id": 124,
+		"info": "== Script ID 124 == 58000",
+		"dialoguePreviews": [
+			"Hmm\\n",
+			"It looks like a bird's nest.\\nWhat do you think?\\n",
+			"I hear noise.\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_124.json"
+	},
+	"125": {
+		"id": 125,
+		"info": "== Script ID 125 == 58800",
+		"sectionCount": 2,
+		"fileName": "script_125.json"
+	},
+	"126": {
+		"id": 126,
+		"info": "== Script ID 126 == 59000",
+		"dialoguePreviews": [
+			"This is a Digimon Card Shop.\\n",
+			"What's a Digimon Card?\\n",
+			"Everyone's collecting them.\\nYou can't lose with t"
+		],
+		"sectionCount": 4,
+		"fileName": "script_126.json"
+	},
+	"127": {
+		"id": 127,
+		"info": "== Script ID 127 == 59800",
+		"dialoguePreviews": [
+			"Can I give a nudge?\\n",
+			"Don't get carried away!\\n",
+			"Don't get carried away!\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_127.json"
+	},
+	"128": {
+		"id": 128,
+		"info": "== Script ID 128 == 5a000",
+		"dialoguePreviews": [
+			"Hey, <LIGHTBLUE><PLAYER><WHITE>!\\n",
+			"Hey, <LIGHTBLUE><PLAYER><WHITE>!\\n",
+			"Hey, <LIGHTBLUE><PLAYER><WHITE>!\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_128.json"
+	},
+	"129": {
+		"id": 129,
+		"info": "== Script ID 129 == 5b000",
+		"dialoguePreviews": [
+			"Hey, <LIGHTBLUE><PLAYER><WHITE>!\\n",
+			"Hey, <LIGHTBLUE><PLAYER><WHITE>!\\n",
+			"Hey, <LIGHTBLUE><PLAYER><WHITE>!\\n"
+		],
+		"sectionCount": 5,
+		"fileName": "script_129.json"
+	},
+	"130": {
+		"id": 130,
+		"info": "== Script ID 130 == 5b800",
+		"dialoguePreviews": [
+			"I'm gonna get you!\\n",
+			"Oh Really!\\n",
+			"Who are you?\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_130.json"
+	},
+	"131": {
+		"id": 131,
+		"info": "== Script ID 131 == 5c800",
+		"sectionCount": 2,
+		"fileName": "script_131.json"
+	},
+	"132": {
+		"id": 132,
+		"info": "== Script ID 132 == 5d000",
+		"dialoguePreviews": [
+			"Where are we?\\nIs this a dream?\\n",
+			"Wow! Who are you?\\nWhere is <ORANGE><DIGIMON><WHIT",
+			"Calm down. My name is\\nFrigimon. This is my house."
+		],
+		"sectionCount": 3,
+		"fileName": "script_132.json"
+	},
+	"133": {
+		"id": 133,
+		"info": "== Script ID 133 == 5e000",
+		"dialoguePreviews": [
+			"Bwooon!\\n",
+			"Shbeebee!\\n",
+			"Zau Zau\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_133.json"
+	},
+	"134": {
+		"id": 134,
+		"info": "== Script ID 134 == 5e800",
+		"dialoguePreviews": [
+			"Shaka shaka!\\n",
+			"Shreau!\\n",
+			"Ribbit!\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_134.json"
+	},
+	"135": {
+		"id": 135,
+		"info": "== Script ID 135 == 5f000",
+		"dialoguePreviews": [
+			"<LIGHTBLUE><PLAYER><WHITE> and <ORANGE><DIGIMON><W",
+			"I'm sorry for what\\nwe did to Otamamon.\\n",
+			"Never mind.\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_135.json"
+	},
+	"136": {
+		"id": 136,
+		"info": "== Script ID 136 == 60800",
+		"dialoguePreviews": [
+			"I hear a voice coming from\\nbehind. The voice is..",
+			"Wait!\\n",
+			"Why should I wait?!\\n"
+		],
+		"sectionCount": 5,
+		"fileName": "script_136.json"
+	},
+	"137": {
+		"id": 137,
+		"info": "== Script ID 137 == 61800",
+		"dialoguePreviews": [
+			"Uggh!\\n",
+			"What?\\n",
+			"What?!\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_137.json"
+	},
+	"138": {
+		"id": 138,
+		"info": "== Script ID 138 == 62000",
+		"dialoguePreviews": [
+			"I'm a Digimon card collector.\\n",
+			"Give me Hagurumon,\\nToyAgumon and WaruMonzaemon,\\n",
+			"Give\\nDon't give\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_138.json"
+	},
+	"139": {
+		"id": 139,
+		"info": "== Script ID 139 == 62800",
+		"dialoguePreviews": [
+			"This costume seems different\\nfrom others. It has ",
+			"There's a zipper on the back.\\n",
+			"What happened, <ORANGE><DIGIMON><WHITE>?!\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_139.json"
+	},
+	"140": {
+		"id": 140,
+		"info": "== Script ID 140 == 63000",
+		"dialoguePreviews": [
+			"What is it?!\\n",
+			"Oh, welcome back, Hagurumon!\\n",
+			"Hagurumon?!\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_140.json"
+	},
+	"141": {
+		"id": 141,
+		"info": "== Script ID 141 == 64000",
+		"dialoguePreviews": [
+			"It won't open.\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_141.json"
+	},
+	"142": {
+		"id": 142,
+		"info": "== Script ID 142 == 64800",
+		"dialoguePreviews": [
+			"Hmmm, I wonder\\nwhich is the winner?\\n",
+			"I won't let you\\ngo thru here!\\n",
+			"Your chances of winning\\nare slim to none!\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_142.json"
+	},
+	"143": {
+		"id": 143,
+		"info": "== Script ID 143 == 65000",
+		"dialoguePreviews": [
+			"Eliminate enemies!\\n",
+			"I confirmed\\nthe enemy's invasion!\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_143.json"
+	},
+	"144": {
+		"id": 144,
+		"info": "== Script ID 144 == 65800",
+		"dialoguePreviews": [
+			"What is it?!\\n",
+			"Get out of here!\\n",
+			"I told you before!\\nDon't make fun of me!\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_144.json"
+	},
+	"145": {
+		"id": 145,
+		"info": "== Script ID 145 == 66000",
+		"dialoguePreviews": [
+			"Quit messing around!\\n",
+			"Alright. I don't think\\nI'll do it again.\\n",
+			"I think this is\\nthe last room.\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_145.json"
+	},
+	"146": {
+		"id": 146,
+		"info": "== Script ID 146 == 67800",
+		"dialoguePreviews": [
+			"Who are you?\\n",
+			"Why are you here?\\n",
+			"I'm going to get some rest.\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_146.json"
+	},
+	"147": {
+		"id": 147,
+		"info": "== Script ID 147 == 68000",
+		"dialoguePreviews": [
+			"Where are you going?\\n",
+			"Wait!\\n",
+			"Dopeeee!\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_147.json"
+	},
+	"148": {
+		"id": 148,
+		"info": "== Script ID 148 == 68800",
+		"dialoguePreviews": [
+			"We sensed an invader!\\n",
+			"I'm tired.\\n",
+			"Take it easy.\\n"
+		],
+		"sectionCount": 11,
+		"fileName": "script_148.json"
+	},
+	"149": {
+		"id": 149,
+		"info": "== Script ID 149 == 69000",
+		"dialoguePreviews": [
+			"There's no guard!\\n",
+			"You can't get thru here.\\n",
+			"You can't get thru here.\\n"
+		],
+		"sectionCount": 11,
+		"fileName": "script_149.json"
+	},
+	"150": {
+		"id": 150,
+		"info": "== Script ID 150 == 6a000",
+		"sectionCount": 2,
+		"fileName": "script_150.json"
+	},
+	"151": {
+		"id": 151,
+		"info": "== Script ID 151 == 6a800",
+		"dialoguePreviews": [
+			"It's all cool here.\\nGood luck.\\n",
+			"I must help, too. I'll go\\nback and forth between ",
+			"Andromon joins the city!\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_151.json"
+	},
+	"152": {
+		"id": 152,
+		"info": "== Script ID 152 == 6c800",
+		"dialoguePreviews": [
+			"Too much!\\n",
+			"Phew!\\n",
+			"Do you need to see me?\\n"
+		],
+		"sectionCount": 9,
+		"fileName": "script_152.json"
+	},
+	"153": {
+		"id": 153,
+		"info": "== Script ID 153 == 6d000",
+		"dialoguePreviews": [
+			"I was waiting for you!\\n",
+			"Are you returning\\nto your senses?\\n",
+			"I'm feeling\\na little bit funky.\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_153.json"
+	},
+	"154": {
+		"id": 154,
+		"info": "== Script ID 154 == 6d800",
+		"dialoguePreviews": [
+			"Somebody's here! Who is it?!\\n",
+			"He he, I'll crash the bad\\ncomputer! He he he!\\n",
+			"He's the one... Hey!\\nHey, what are you doing?!\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_154.json"
+	},
+	"155": {
+		"id": 155,
+		"info": "== Script ID 155 == 6e000",
+		"dialoguePreviews": [
+			"Hey, wait!\\n",
+			"You can't go through here!\\n",
+			"What are you doing there?\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_155.json"
+	},
+	"156": {
+		"id": 156,
+		"info": "== Script ID 156 == 6e800",
+		"dialoguePreviews": [
+			"We are going to remodel.\\nThe fee is two thous bit",
+			"The style is different.\\nWe can't remodel.\\n",
+			"Do it\\nNo thanks\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_156.json"
+	},
+	"157": {
+		"id": 157,
+		"info": "== Script ID 157 == 6f000",
+		"sectionCount": 3,
+		"fileName": "script_157.json"
+	},
+	"158": {
+		"id": 158,
+		"info": "== Script ID 158 == 6f800",
+		"dialoguePreviews": [
+			"You don't have any talent!\\n",
+			"Biepi!\\n",
+			"Basuppi, bosuppi!\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_158.json"
+	},
+	"159": {
+		"id": 159,
+		"info": "== Script ID 159 == 70000",
+		"dialoguePreviews": [
+			"You again! Get out of here!\\n",
+			"Uhh...\\n",
+			"You... you're a pest!\\nIs that okay now?!\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_159.json"
+	},
+	"160": {
+		"id": 160,
+		"info": "== Script ID 160 == 72000",
+		"dialoguePreviews": [
+			"Leave it up to me!\\n",
+			"Do it after you defeat me!\\n",
+			"I won't disobey an order.\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_160.json"
+	},
+	"161": {
+		"id": 161,
+		"info": "== Script ID 161 == 72800",
+		"dialoguePreviews": [
+			"I must guide you!\\n",
+			"You must ask for forgiveness.\\n",
+			"We finally ended up here!\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_161.json"
+	},
+	"162": {
+		"id": 162,
+		"info": "== Script ID 162 == 73000",
+		"dialoguePreviews": [
+			"I'm back!\\n",
+			"Thanks for inviting me.\\nI hope we can work\\ntoget",
+			"<YELLOW>Tamer Level\\nhas gone up! <WHITE>\\n"
+		],
+		"sectionCount": 18,
+		"fileName": "script_162.json"
+	},
+	"163": {
+		"id": 163,
+		"info": "== Script ID 163 == 75800",
+		"dialoguePreviews": [
+			"Bakke. Bah Kkea.\\n",
+			"I still don't understand him.\\n",
+			"I see. You're\\npatrolling for us?!\\n"
+		],
+		"sectionCount": 18,
+		"fileName": "script_163.json"
+	},
+	"164": {
+		"id": 164,
+		"info": "== Script ID 164 == 77800",
+		"dialoguePreviews": [
+			"Giromon Computer Room\\nToy Deepest\\nFight Check\\nL",
+			"<WHITE>White White White\\n<BLUE>Blue Blue Blue\\n<R",
+			"Right now, <HOUR>: <MINUTE>on\\nthe <DAY>th day of\\"
+		],
+		"sectionCount": 12,
+		"fileName": "script_164.json"
+	},
+	"165": {
+		"id": 165,
+		"info": "== Script ID 165 == 79800",
+		"dialoguePreviews": [
+			"You came here at the perfect\\ntime! I have a big f",
+			"What is it?\\n",
+			"It's the same evil\\nI felt from Analogman\\nand Mac"
+		],
+		"sectionCount": 11,
+		"fileName": "script_165.json"
+	},
+	"166": {
+		"id": 166,
+		"info": "== Script ID 166 == 7a800",
+		"dialoguePreviews": [
+			"I think all is OK now.\\n",
+			"I'm glad.\\n",
+			"We must defeat the boss\\nas soon as possible.\\n"
+		],
+		"sectionCount": 5,
+		"fileName": "script_166.json"
+	},
+	"167": {
+		"id": 167,
+		"info": "== Script ID 167 == 7b000",
+		"dialoguePreviews": [
+			"Oh, <LIGHTBLUE><PLAYER><WHITE>and <ORANGE><DIGIMON",
+			"I'm a delivery man.\\nI deliver anything.\\n",
+			"The only thing you can\\ncarry is yourself, right?\\"
+		],
+		"sectionCount": 5,
+		"fileName": "script_167.json"
+	},
+	"168": {
+		"id": 168,
+		"info": "== Script ID 168 == 7b800",
+		"dialoguePreviews": [
+			"Arena Information\\n",
+			"Record\\nAbout Grade Tournament\\nAbout Special Tour",
+			"Number of\\nChampionship wins <TOURNAMENTS WON>\\n<A"
+		],
+		"sectionCount": 13,
+		"fileName": "script_168.json"
+	},
+	"169": {
+		"id": 169,
+		"info": "== Script ID 169 == 7e800",
+		"dialoguePreviews": [
+			"You're here, <LIGHTBLUE><PLAYER><WHITE>!\\n",
+			"We are treasure hunters.\\nWe find underground trea",
+			"Trust me to find treasure.\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_169.json"
+	},
+	"170": {
+		"id": 170,
+		"info": "== Script ID 170 == 7f800",
+		"dialoguePreviews": [
+			"No. Stop!\\n",
+			"Who knows?\\n",
+			"I'll protect this place.\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_170.json"
+	},
+	"171": {
+		"id": 171,
+		"info": "== Script ID 171 == 80000",
+		"dialoguePreviews": [
+			"Welcome! My new business\\nis 'Item Keeper'.\\nI kee",
+			"I'll keep your Items for\\nfree as a special servic",
+			"About Digivolution...\\nRegarding the next generati"
+		],
+		"sectionCount": 4,
+		"fileName": "script_171.json"
+	},
+	"172": {
+		"id": 172,
+		"info": "== Script ID 172 == 81000",
+		"dialoguePreviews": [
+			"Just leave it up to me!\\n",
+			"Get out of here!\\n",
+			"You won't stop me!\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_172.json"
+	},
+	"173": {
+		"id": 173,
+		"info": "== Script ID 173 == 81800",
+		"dialoguePreviews": [
+			"Rest as much as possible.\\nThat's the key to\\nyour",
+			"Alright. Let me tell you\\nhow the city will\\ngrow ",
+			"When a Rookie Digimon\\ncomes to the city,\\nit's pl"
+		],
+		"sectionCount": 4,
+		"fileName": "script_173.json"
+	},
+	"174": {
+		"id": 174,
+		"info": "== Script ID 174 == 82800",
+		"dialoguePreviews": [
+			"Welcome to my restaurant.\\n",
+			"I've decided to be a manager\\nand chef of this res",
+			"Enjoy my flaming cuisine\\nas much as you like.\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_174.json"
+	},
+	"175": {
+		"id": 175,
+		"info": "== Script ID 175 == 83800",
+		"dialoguePreviews": [
+			"Welcome to my restaurant.\\n",
+			"I have decided to be\\na manager and chef\\nof this ",
+			"Enjoy my flaming cuisine\\nas much as you like.\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_175.json"
+	},
+	"176": {
+		"id": 176,
+		"info": "== Script ID 176 == 84800",
+		"dialoguePreviews": [
+			"Welcome to my shop.\\n",
+			"Look, <LIGHTBLUE><PLAYER><WHITE>. This is\\nmy shop",
+			"I'll have more stuff soon.\\nBut I need Digimon who"
+		],
+		"sectionCount": 7,
+		"fileName": "script_176.json"
+	},
+	"177": {
+		"id": 177,
+		"info": "== Script ID 177 == 86000",
+		"dialoguePreviews": [
+			"I know about Items.\\n",
+			"There are one hund and twenty\\neight kinds of Item",
+			"Thirty two are food.\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_177.json"
+	},
+	"178": {
+		"id": 178,
+		"info": "== Script ID 178 == 87000",
+		"dialoguePreviews": [
+			"You had perfect timing in\\ncoming here! I have a f",
+			"What is it?\\n",
+			"I just got the same evil\\nfeeling that Analogman\\n"
+		],
+		"sectionCount": 15,
+		"fileName": "script_178.json"
+	},
+	"179": {
+		"id": 179,
+		"info": "== Script ID 179 == 89800",
+		"dialoguePreviews": [
+			"Come on!\\n",
+			"If I let you go thru,\\nI'll get in trouble.\\n",
+			"This is today's last job.\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_179.json"
+	},
+	"180": {
+		"id": 180,
+		"info": "== Script ID 180 == 8a000",
+		"dialoguePreviews": [
+			"I don't feel well.\\n",
+			"Are you alright?\\n",
+			"I don't feel good.\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_180.json"
+	},
+	"181": {
+		"id": 181,
+		"info": "== Script ID 181 == 8b000",
+		"dialoguePreviews": [
+			"!\\n",
+			"Are you <LIGHTBLUE><PLAYER><WHITE>?\\n",
+			"A skelton Digimon?!\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_181.json"
+	},
+	"182": {
+		"id": 182,
+		"info": "== Script ID 182 == 8b800",
+		"dialoguePreviews": [
+			"We're here at last.\\n",
+			"Are you the boss?\\n",
+			"I'm sorry, I'm not.\\nI'm MetalGreymon!\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_182.json"
+	},
+	"183": {
+		"id": 183,
+		"info": "== Script ID 183 == 8c000",
+		"dialoguePreviews": [
+			"Yum, Yum.\\n",
+			"Uh...\\n",
+			"Please listen up.\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_183.json"
+	},
+	"184": {
+		"id": 184,
+		"info": "== Script ID 184 == 8d000",
+		"dialoguePreviews": [
+			"!!!\\n",
+			"An egg!\\n",
+			"Could it be Machinedramon's?\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_184.json"
+	},
+	"185": {
+		"id": 185,
+		"info": "== Script ID 185 == 8e800",
+		"dialoguePreviews": [
+			"What kind of place is this?\\n",
+			"I see. In the back of\\nthis place...\\n",
+			"I'll show you my true power.\\n"
+		],
+		"sectionCount": 8,
+		"fileName": "script_185.json"
+	},
+	"186": {
+		"id": 186,
+		"info": "== Script ID 186 == 8f000",
+		"dialoguePreviews": [
+			"Get him!\\n",
+			"I'll stomp you!\\n",
+			"You're gonna get it!\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_186.json"
+	},
+	"187": {
+		"id": 187,
+		"info": "== Script ID 187 == 8f800",
+		"dialoguePreviews": [
+			"Attack!\\n",
+			"Aim and fire!\\n",
+			"My... job... \\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_187.json"
+	},
+	"188": {
+		"id": 188,
+		"info": "== Script ID 188 == 90000",
+		"sectionCount": 2,
+		"fileName": "script_188.json"
+	},
+	"189": {
+		"id": 189,
+		"info": "== Script ID 189 == 90800",
+		"dialoguePreviews": [
+			"Did you bring something\\nto treat the wound?\\n",
+			"Wait a second. Let me see...\\n",
+			"My wing hurts!\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_189.json"
+	},
+	"190": {
+		"id": 190,
+		"info": "== Script ID 190 == 91000",
+		"dialoguePreviews": [
+			"There are weird drawings\\non the ground.\\n",
+			"Are they one of those strange\\ncircles? They still",
+			"There are more of them now.\\nDo you think they're\\"
+		],
+		"sectionCount": 3,
+		"fileName": "script_190.json"
+	},
+	"191": {
+		"id": 191,
+		"info": "== Script ID 191 == 91800",
+		"dialoguePreviews": [
+			"It won't do any good for\\njust us to go in.\\n"
+		],
+		"sectionCount": 5,
+		"fileName": "script_191.json"
+	},
+	"192": {
+		"id": 192,
+		"info": "== Script ID 192 == 92000",
+		"dialoguePreviews": [
+			"The time has come.\\n",
+			"I wish I could stay,\\nbut my mom worries.\\n",
+			"Thank you <LIGHTBLUE><PLAYER><WHITE>,\\nI wish I co"
+		],
+		"sectionCount": 2,
+		"fileName": "script_192.json"
+	},
+	"193": {
+		"id": 193,
+		"info": "== Script ID 193 == 92800",
+		"dialoguePreviews": [
+			"He arrived! It worked!\\n",
+			"A human.\\nJust like you said, Jiji.\\n",
+			"Mmmm.\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_193.json"
+	},
+	"194": {
+		"id": 194,
+		"info": "== Script ID 194 == 94000",
+		"dialoguePreviews": [
+			"Taaa\\n",
+			"Let's ask for forgiveness.\\n",
+			"Forgiveness heals the heart.\\n"
+		],
+		"sectionCount": 9,
+		"fileName": "script_194.json"
+	},
+	"195": {
+		"id": 195,
+		"info": "== Script ID 195 == 94800",
+		"dialoguePreviews": [
+			"Go home.\\n",
+			"I got no choice. I'll fight!\\n",
+			"It's important to follow orders.\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_195.json"
+	},
+	"196": {
+		"id": 196,
+		"info": "== Script ID 196 == 95000",
+		"dialoguePreviews": [
+			"I'm gonna miss you.\\n",
+			"I won't let you get away!\\n",
+			"Can you survive?\\n"
+		],
+		"sectionCount": 7,
+		"fileName": "script_196.json"
+	},
+	"197": {
+		"id": 197,
+		"info": "== Script ID 197 == 95800",
+		"dialoguePreviews": [
+			"Do as I say!\\n",
+			"Heart? I don't know.\\n",
+			"A troubled lamb...\\n"
+		],
+		"sectionCount": 6,
+		"fileName": "script_197.json"
+	},
+	"198": {
+		"id": 198,
+		"info": "== Script ID 198 == 96000",
+		"dialoguePreviews": [
+			"This's the last one.\\n",
+			"We are here at last!\\n",
+			"Pathway is clear!\\n"
+		],
+		"sectionCount": 10,
+		"fileName": "script_198.json"
+	},
+	"199": {
+		"id": 199,
+		"info": "== Script ID 199 == 96800",
+		"dialoguePreviews": [
+			"Boy, gimme some <LIGHTBLUE>Meat<WHITE>!\\n",
+			"Welcome, so you want some\\n<LIGHTBLUE>Meat<WHITE>.",
+			"Raise price\\nKeep price at fifty bits\\nLower price"
+		],
+		"sectionCount": 2,
+		"fileName": "script_199.json"
+	},
+	"200": {
+		"id": 200,
+		"info": "== Script ID 200 == 9a000",
+		"dialoguePreviews": [
+			"I sure could use\\nsome <LIGHTBLUE>Meat<WHITE>.\\n",
+			"Welcome, we got some great\\n<LIGHTBLUE>Meat<WHITE>",
+			"Raise price\\nKeep price at fifty bits\\nLower price"
+		],
+		"sectionCount": 2,
+		"fileName": "script_200.json"
+	},
+	"201": {
+		"id": 201,
+		"info": "== Script ID 201 == 9d800",
+		"dialoguePreviews": [
+			"Boy, I want some <LIGHTBLUE>Meat <WHITE>.\\n",
+			"Welcome, so you need some\\n<LIGHTBLUE>Meat<WHITE>.",
+			"Raise price\\nKeep price at fifty bits\\nLower price"
+		],
+		"sectionCount": 2,
+		"fileName": "script_201.json"
+	},
+	"202": {
+		"id": 202,
+		"info": "== Script ID 202 == a1000",
+		"dialoguePreviews": [
+			"Boy, I want some <LIGHTBLUE>Meat<WHITE>.\\n",
+			"Welcome, so you want some\\n<LIGHTBLUE>Meat<WHITE>.",
+			"Raise price\\nKeep price at fifty bits\\nLower price"
+		],
+		"sectionCount": 2,
+		"fileName": "script_202.json"
+	},
+	"203": {
+		"id": 203,
+		"info": "== Script ID 203 == a4800",
+		"dialoguePreviews": [
+			"Huh?\\n",
+			"What?!\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_203.json"
+	},
+	"204": {
+		"id": 204,
+		"info": "== Script ID 204 == a5000",
+		"dialoguePreviews": [
+			"<YELLOW>Congratulations!\\nHere's a Medal\\nfor your",
+			"<YELLOW>Congratulations!\\nHere's a Medal for your\\",
+			"<YELLOW>Congratulations!\\nHere's a Medal for your\\"
+		],
+		"sectionCount": 2,
+		"fileName": "script_204.json"
+	},
+	"205": {
+		"id": 205,
+		"info": "== Script ID 205 == a5800",
+		"dialoguePreviews": [
+			"Which shop would you want?\\n",
+			"Clinic\\nTreasure Hunter\\nFortune Teller\\n",
+			"I changed it into a hospital.\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_205.json"
+	},
+	"206": {
+		"id": 206,
+		"info": "== Script ID 206 == a7800",
+		"dialoguePreviews": [
+			"Hey, do you want to play a\\nmatch with me? If you ",
+			"What kind of match?\\n",
+			"What I call...\\nDigimon Curling! \\nI'll tell you m"
+		],
+		"sectionCount": 6,
+		"fileName": "script_206.json"
+	},
+	"207": {
+		"id": 207,
+		"info": "== Script ID 207 == a9800",
+		"dialoguePreviews": [
+			"Hi, do you need any Meat?\\n",
+			"Oh, I haven't told you\\nanything about this.\\n",
+			"This is a Meat farm.\\nWe grow Meat for everyone.\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_207.json"
+	},
+	"208": {
+		"id": 208,
+		"info": "== Script ID 208 == ab800",
+		"dialoguePreviews": [
+			"Shell Newspaper Eigth\\nAlien Digimon Appears:\\nWe ",
+			"Back\\nStop\\n",
+			"Shell Newspaper Seven\\nMyotismon Denies His\\nRetir"
+		],
+		"sectionCount": 2,
+		"fileName": "script_208.json"
+	},
+	"209": {
+		"id": 209,
+		"info": "== Script ID 209 == ac800",
+		"dialoguePreviews": [
+			"Store one\\nStore two\\nOthers\\nEnter Name\\n",
+			"<LIGHTBLUE><PLAYER><WHITE>\\n<ORANGE><DIGIMON><WHIT",
+			"Shop\\nMarket\\nPoint\\n"
+		],
+		"sectionCount": 3,
+		"fileName": "script_209.json"
+	},
+	"210": {
+		"id": 210,
+		"info": "== Script ID 210 == af000",
+		"dialoguePreviews": [
+			"I was waiting for you,\\n<LIGHTBLUE><PLAYER><WHITE>",
+			"What happened?\\n",
+			"The entrance to Mt. Infinity\\nappeared.\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_210.json"
+	},
+	"211": {
+		"id": 211,
+		"info": "== Script ID 211 == b0000",
+		"dialoguePreviews": [
+			"Welcome back, <LIGHTBLUE><PLAYER><WHITE>.\\n",
+			"I'm Jijimon's recordkeeper.\\n",
+			"I record Jijimon's info\\nand give it to you.\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_211.json"
+	},
+	"212": {
+		"id": 212,
+		"info": "== Script ID 212 == b2800",
+		"dialoguePreviews": [
+			"It seems <ORANGE><DIGIMON><WHITE> has\\nfaded away.",
+			"Before fading away, he gave\\nbirth to a Digitama. ",
+			"Which egg do you want?\\n"
+		],
+		"sectionCount": 4,
+		"fileName": "script_212.json"
+	},
+	"213": {
+		"id": 213,
+		"info": "== Script ID 213 == b3800",
+		"dialoguePreviews": [
+			"Oh, <LIGHTBLUE><PLAYER><WHITE>, <ORANGE><DIGIMON><",
+			"Soon contestants and fans will\\nfill this up. You ",
+			"They'll prepare money and\\nprizes for tournament w"
+		],
+		"sectionCount": 5,
+		"fileName": "script_213.json"
+	},
+	"214": {
+		"id": 214,
+		"info": "== Script ID 214 == b6800",
+		"dialoguePreviews": [
+			"That was too bad.\\nTry again next time.\\n",
+			"Participation Award :\\n <LIGHTBLUE>Giant Meat<WHIT",
+			"You got too much stuff.\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_214.json"
+	},
+	"215": {
+		"id": 215,
+		"info": "== Script ID 215 == ba000",
+		"dialoguePreviews": [
+			"Since my injury is healed,\\nI want to work. Thanks",
+			"I can predict the future\\nof any creature and that",
+			"If you're interested, please\\ncome to visit my sho"
+		],
+		"sectionCount": 2,
+		"fileName": "script_215.json"
+	},
+	"216": {
+		"id": 216,
+		"info": "== Script ID 216 == bb000",
+		"dialoguePreviews": [
+			"Hello, <LIGHTBLUE><PLAYER><WHITE>.\\nSurprise! I op",
+			"It's for treating sickness\\nand injuries. It's not",
+			"Your Digimon doesn't look\\nwell. You need to take\\"
+		],
+		"sectionCount": 3,
+		"fileName": "script_216.json"
+	},
+	"217": {
+		"id": 217,
+		"info": "== Script ID 217 == bc000",
+		"dialoguePreviews": [
+			"Well, what are you going\\nto order?\\n",
+			"What do you want to eat?\\n",
+			"Hey, what are you gonna eat?\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_217.json"
+	},
+	"218": {
+		"id": 218,
+		"info": "== Script ID 218 == bd800",
+		"dialoguePreviews": [
+			"What will you eat?\\n",
+			"What do you want to eat?\\n",
+			"......?\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_218.json"
+	},
+	"219": {
+		"id": 219,
+		"info": "== Script ID 219 == bf800",
+		"dialoguePreviews": [
+			"It's a Digimon card vending\\nmachine. I think you ",
+			"Let's try it",
+			"I don't have enough bits.\\n"
+		],
+		"sectionCount": 2,
+		"fileName": "script_219.json"
+	},
+	"220": {
+		"id": 220,
+		"info": "== Script ID 220 == c1000",
+		"dialoguePreviews": [
+			"<YELLOW>Poyomon <WHITE>\\nPoyomon. My name is Poyom",
+			"<YELLOW>Poyomon <WHITE>\\nI'll talk about digivolut",
+			"<YELLOW>Poyomon <WHITE>\\nIt's called Ultimate Digi"
+		],
+		"sectionCount": 2,
+		"fileName": "script_220.json"
+	},
+	"221": {
+		"id": 221,
+		"info": "== Script ID 221 == c2000",
+		"dialoguePreviews": [
+			"<LIGHTBLUE><PLAYER><WHITE>, you did it!\\n",
+			"Agumon came to the city.\\nHe started a business\\no",
+			"Hopefully more Digimon\\nwill be like him!\\n"
+		],
+		"sectionCount": 1,
+		"fileName": "script_221.json"
+	}
+}
+}

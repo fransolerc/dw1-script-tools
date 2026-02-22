@@ -1,0 +1,108 @@
+{
+"id": 33,
+"info": "== Script ID 33 == 1d000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 16,
+				"opcode": "spawnChest",
+				"args": [
+					"23",
+					"2483",
+					"0",
+					"247",
+					"1024",
+					"658"
+				],
+				"lineNumber": 9121
+			},
+			{
+				"address": 28,
+				"opcode": "spawnChest",
+				"args": [
+					"26",
+					"2544",
+					"0",
+					"-110",
+					"1024",
+					"659"
+				],
+				"lineNumber": 9122
+			},
+			{
+				"address": 40,
+				"opcode": "endSection",
+				"lineNumber": 9123
+			}
+		]
+	},
+	"5": {
+		"id": 5,
+		"instructions": [
+			{
+				"address": 42,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 9125
+			},
+			{
+				"address": 44,
+				"opcode": "showTextbox",
+				"args": [
+					"Are",
+					"you",
+					"still",
+					"hot?\\nSome",
+					"Digimon",
+					"can't",
+					"handle\\nthe",
+					"heat",
+					"and",
+					"get",
+					"sick.\\n"
+				],
+				"lineNumber": 9126
+			},
+			{
+				"address": 184,
+				"opcode": "endSection",
+				"lineNumber": 9127
+			}
+		]
+	},
+	"6": {
+		"id": 6,
+		"instructions": [
+			{
+				"address": 186,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 9129
+			},
+			{
+				"address": 188,
+				"opcode": "showTextbox",
+				"args": [
+					"The",
+					"Lava",
+					"has",
+					"hardened.\\n"
+				],
+				"lineNumber": 9130
+			},
+			{
+				"address": 238,
+				"opcode": "endSection",
+				"lineNumber": 9131
+			}
+		]
+	}
+}
+}

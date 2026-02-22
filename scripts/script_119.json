@@ -1,0 +1,90 @@
+{
+"id": 119,
+"info": "== Script ID 119 == 55800",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 16,
+				"opcode": "spawnChest",
+				"args": [
+					"10",
+					"330",
+					"0",
+					"449",
+					"3072",
+					"676"
+				],
+				"lineNumber": 18795
+			},
+			{
+				"address": 28,
+				"opcode": "endSection",
+				"lineNumber": 18796
+			}
+		]
+	},
+	"5": {
+		"id": 5,
+		"instructions": [
+			{
+				"address": 30,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 18798
+			},
+			{
+				"address": 32,
+				"opcode": "showTextbox",
+				"args": [
+					"Hey,",
+					"how",
+					"are",
+					"you?\\n"
+				],
+				"lineNumber": 18799
+			},
+			{
+				"address": 72,
+				"opcode": "endSection",
+				"lineNumber": 18800
+			}
+		]
+	},
+	"51": {
+		"id": 51,
+		"instructions": [
+			{
+				"address": 74,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"5000",
+					"-5000",
+					"false"
+				],
+				"lineNumber": 18802
+			},
+			{
+				"address": 82,
+				"opcode": "warpTo",
+				"args": [
+					"32",
+					"0",
+					"255"
+				],
+				"lineNumber": 18803
+			},
+			{
+				"address": 86,
+				"opcode": "endSection",
+				"lineNumber": 18804
+			}
+		]
+	}
+}
+}

@@ -1,0 +1,128 @@
+{
+"id": 57,
+"info": "== Script ID 57 == 2b000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 16,
+				"opcode": "endSection",
+				"lineNumber": 11965
+			}
+		]
+	},
+	"5": {
+		"id": 5,
+		"instructions": [
+			{
+				"address": 18,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11967
+			},
+			{
+				"address": 20,
+				"opcode": "showTextbox",
+				"args": [
+					"Hey,",
+					"you",
+					"aren't",
+					"Master...\\n"
+				],
+				"lineNumber": 11968
+			},
+			{
+				"address": 76,
+				"opcode": "fadeoutHud",
+				"lineNumber": 11969
+			},
+			{
+				"address": 78,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 11970
+			},
+			{
+				"address": 82,
+				"opcode": "startBattle",
+				"lineNumber": 11971
+			},
+			{
+				"address": 84,
+				"opcode": "setTrigger",
+				"args": [
+					"296"
+				],
+				"lineNumber": 11972
+			},
+			{
+				"address": 88,
+				"opcode": "endSection",
+				"lineNumber": 11973
+			}
+		]
+	},
+	"81": {
+		"id": 81,
+		"instructions": [
+			{
+				"address": 90,
+				"opcode": "rotate3DObject",
+				"args": [
+					"0",
+					"1"
+				],
+				"lineNumber": 11975
+			},
+			{
+				"address": 94,
+				"opcode": "playSound",
+				"args": [
+					"264"
+				],
+				"lineNumber": 11976
+			},
+			{
+				"address": 98,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 11977
+			},
+			{
+				"address": 102,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"-1400",
+					"300",
+					"false"
+				],
+				"lineNumber": 11978
+			},
+			{
+				"address": 110,
+				"opcode": "warpTo",
+				"args": [
+					"57",
+					"3",
+					"255"
+				],
+				"lineNumber": 11979
+			},
+			{
+				"address": 114,
+				"opcode": "endSection",
+				"lineNumber": 11980
+			}
+		]
+	}
+}
+}

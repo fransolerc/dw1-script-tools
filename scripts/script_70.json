@@ -1,0 +1,3633 @@
+{
+"id": 70,
+"info": "== Script ID 70 == 32000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 68,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 13043
+			},
+			{
+				"address": 72,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"15",
+					"then",
+					"90"
+				],
+				"lineNumber": 13044
+			},
+			{
+				"address": 84,
+				"opcode": "spawnItem",
+				"args": [
+					"44",
+					"38",
+					"72"
+				],
+				"lineNumber": 13045
+			},
+			{
+				"address": 90,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 13046
+			},
+			{
+				"address": 94,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"7",
+					"then",
+					"112"
+				],
+				"lineNumber": 13047
+			},
+			{
+				"address": 106,
+				"opcode": "spawnItem",
+				"args": [
+					"44",
+					"46",
+					"81"
+				],
+				"lineNumber": 13048
+			},
+			{
+				"address": 112,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 13049
+			},
+			{
+				"address": 116,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"18",
+					"then",
+					"134"
+				],
+				"lineNumber": 13050
+			},
+			{
+				"address": 128,
+				"opcode": "spawnItem",
+				"args": [
+					"44",
+					"60",
+					"83"
+				],
+				"lineNumber": 13051
+			},
+			{
+				"address": 134,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 13052
+			},
+			{
+				"address": 138,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"14",
+					"then",
+					"156"
+				],
+				"lineNumber": 13053
+			},
+			{
+				"address": 150,
+				"opcode": "spawnItem",
+				"args": [
+					"44",
+					"69",
+					"71"
+				],
+				"lineNumber": 13054
+			},
+			{
+				"address": 156,
+				"opcode": "endSection",
+				"lineNumber": 13055
+			}
+		]
+	},
+	"5": {
+		"id": 5,
+		"instructions": [
+			{
+				"address": 158,
+				"opcode": "if",
+				"args": [
+					"pstat(111)",
+					"<",
+					"1",
+					"then",
+					"438"
+				],
+				"lineNumber": 13057
+			},
+			{
+				"address": 170,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13058
+			},
+			{
+				"address": 172,
+				"opcode": "showTextbox",
+				"args": [
+					"I'm",
+					"here",
+					"again.\\n"
+				],
+				"lineNumber": 13059
+			},
+			{
+				"address": 208,
+				"opcode": "jumpAndLink",
+				"args": [
+					"596"
+				],
+				"lineNumber": 13060
+			},
+			{
+				"address": 212,
+				"opcode": "playSound",
+				"args": [
+					"1544"
+				],
+				"lineNumber": 13061
+			},
+			{
+				"address": 216,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13062
+			},
+			{
+				"address": 218,
+				"opcode": "showTextbox",
+				"args": [
+					"Bye!\\n"
+				],
+				"lineNumber": 13063
+			},
+			{
+				"address": 232,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13064
+			},
+			{
+				"address": 236,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"5"
+				],
+				"lineNumber": 13065
+			},
+			{
+				"address": 240,
+				"opcode": "waitForEntity",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13066
+			},
+			{
+				"address": 242,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13067
+			},
+			{
+				"address": 244,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"16"
+				],
+				"lineNumber": 13068
+			},
+			{
+				"address": 248,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13069
+			},
+			{
+				"address": 250,
+				"opcode": "showTextbox",
+				"args": [
+					"If",
+					"we",
+					"go",
+					"on",
+					"like",
+					"this,",
+					"we'll\\njust",
+					"repeat",
+					"ourselves.\\n"
+				],
+				"lineNumber": 13070
+			},
+			{
+				"address": 358,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13071
+			},
+			{
+				"address": 360,
+				"opcode": "showTextbox",
+				"args": [
+					"Maybe",
+					"I",
+					"should",
+					"wait",
+					"here.\\n"
+				],
+				"lineNumber": 13072
+			},
+			{
+				"address": 416,
+				"opcode": "setPStat",
+				"args": [
+					"111",
+					"2"
+				],
+				"lineNumber": 13073
+			},
+			{
+				"address": 420,
+				"opcode": "setTrigger",
+				"args": [
+					"191"
+				],
+				"lineNumber": 13074
+			},
+			{
+				"address": 424,
+				"opcode": "setTrigger",
+				"args": [
+					"192"
+				],
+				"lineNumber": 13075
+			},
+			{
+				"address": 428,
+				"opcode": "setTrigger",
+				"args": [
+					"193"
+				],
+				"lineNumber": 13076
+			},
+			{
+				"address": 432,
+				"opcode": "setTrigger",
+				"args": [
+					"194"
+				],
+				"lineNumber": 13077
+			},
+			{
+				"address": 436,
+				"opcode": "endSection",
+				"lineNumber": 13078
+			},
+			{
+				"address": 438,
+				"opcode": "if",
+				"args": [
+					"pstat(111)",
+					"!=",
+					"0",
+					"then",
+					"594"
+				],
+				"lineNumber": 13079
+			},
+			{
+				"address": 450,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13080
+			},
+			{
+				"address": 452,
+				"opcode": "showTextbox",
+				"args": [
+					"Who",
+					"is",
+					"it?\\n"
+				],
+				"lineNumber": 13081
+			},
+			{
+				"address": 478,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13082
+			},
+			{
+				"address": 480,
+				"opcode": "showTextbox",
+				"args": [
+					"No",
+					"way.\\n"
+				],
+				"lineNumber": 13083
+			},
+			{
+				"address": 500,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"-240",
+					"-1076",
+					"true"
+				],
+				"lineNumber": 13084
+			},
+			{
+				"address": 508,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 13085
+			},
+			{
+				"address": 512,
+				"opcode": "playSound",
+				"args": [
+					"1544"
+				],
+				"lineNumber": 13086
+			},
+			{
+				"address": 516,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13087
+			},
+			{
+				"address": 518,
+				"opcode": "showTextbox",
+				"args": [
+					"Ahhh!\\n"
+				],
+				"lineNumber": 13088
+			},
+			{
+				"address": 534,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13089
+			},
+			{
+				"address": 538,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"5"
+				],
+				"lineNumber": 13090
+			},
+			{
+				"address": 542,
+				"opcode": "waitForEntity",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13091
+			},
+			{
+				"address": 544,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13092
+			},
+			{
+				"address": 546,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"14"
+				],
+				"lineNumber": 13093
+			},
+			{
+				"address": 550,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13094
+			},
+			{
+				"address": 552,
+				"opcode": "showTextbox",
+				"args": [
+					"Wait",
+					"up!\\n"
+				],
+				"lineNumber": 13095
+			},
+			{
+				"address": 574,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"-240",
+					"-1076",
+					"true"
+				],
+				"lineNumber": 13096
+			},
+			{
+				"address": 582,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13097
+			},
+			{
+				"address": 584,
+				"opcode": "addToPStat",
+				"args": [
+					"111",
+					"1"
+				],
+				"lineNumber": 13098
+			},
+			{
+				"address": 588,
+				"opcode": "setPStat",
+				"args": [
+					"112",
+					"1"
+				],
+				"lineNumber": 13099
+			},
+			{
+				"address": 592,
+				"opcode": "endSection",
+				"lineNumber": 13100
+			},
+			{
+				"address": 594,
+				"opcode": "endSection",
+				"lineNumber": 13101
+			},
+			{
+				"address": 596,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"3"
+				],
+				"lineNumber": 13102
+			},
+			{
+				"address": 600,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					"!=",
+					"0",
+					"OR",
+					"pstat(112)",
+					"==",
+					"0",
+					"then",
+					"692"
+				],
+				"lineNumber": 13103
+			},
+			{
+				"address": 616,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"-1055",
+					"2740",
+					"true"
+				],
+				"lineNumber": 13104
+			},
+			{
+				"address": 624,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 13105
+			},
+			{
+				"address": 628,
+				"opcode": "setPStat",
+				"args": [
+					"112",
+					"0"
+				],
+				"lineNumber": 13106
+			},
+			{
+				"address": 632,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13107
+			},
+			{
+				"address": 634,
+				"opcode": "showTextbox",
+				"args": [
+					"Not",
+					"again!",
+					"Wait!\\n"
+				],
+				"lineNumber": 13108
+			},
+			{
+				"address": 672,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13109
+			},
+			{
+				"address": 676,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"5"
+				],
+				"lineNumber": 13110
+			},
+			{
+				"address": 680,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"-1025",
+					"2740",
+					"true"
+				],
+				"lineNumber": 13111
+			},
+			{
+				"address": 688,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13112
+			},
+			{
+				"address": 690,
+				"opcode": "jumpReturn",
+				"lineNumber": 13113
+			},
+			{
+				"address": 692,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					"!=",
+					"1",
+					"OR",
+					"pstat(112)",
+					"==",
+					"1",
+					"then",
+					"784"
+				],
+				"lineNumber": 13114
+			},
+			{
+				"address": 708,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"-566",
+					"-350",
+					"true"
+				],
+				"lineNumber": 13115
+			},
+			{
+				"address": 716,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 13116
+			},
+			{
+				"address": 720,
+				"opcode": "setPStat",
+				"args": [
+					"112",
+					"1"
+				],
+				"lineNumber": 13117
+			},
+			{
+				"address": 724,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13118
+			},
+			{
+				"address": 726,
+				"opcode": "showTextbox",
+				"args": [
+					"Not",
+					"again!",
+					"Wait!\\n"
+				],
+				"lineNumber": 13119
+			},
+			{
+				"address": 764,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13120
+			},
+			{
+				"address": 768,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"5"
+				],
+				"lineNumber": 13121
+			},
+			{
+				"address": 772,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"-566",
+					"-320",
+					"true"
+				],
+				"lineNumber": 13122
+			},
+			{
+				"address": 780,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13123
+			},
+			{
+				"address": 782,
+				"opcode": "jumpReturn",
+				"lineNumber": 13124
+			},
+			{
+				"address": 784,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					"!=",
+					"2",
+					"OR",
+					"pstat(112)",
+					"==",
+					"2",
+					"then",
+					"876"
+				],
+				"lineNumber": 13125
+			},
+			{
+				"address": 800,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"1869",
+					"-939",
+					"true"
+				],
+				"lineNumber": 13126
+			},
+			{
+				"address": 808,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 13127
+			},
+			{
+				"address": 812,
+				"opcode": "setPStat",
+				"args": [
+					"112",
+					"2"
+				],
+				"lineNumber": 13128
+			},
+			{
+				"address": 816,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13129
+			},
+			{
+				"address": 818,
+				"opcode": "showTextbox",
+				"args": [
+					"Not",
+					"again!",
+					"Wait!\\n"
+				],
+				"lineNumber": 13130
+			},
+			{
+				"address": 856,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13131
+			},
+			{
+				"address": 860,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"5"
+				],
+				"lineNumber": 13132
+			},
+			{
+				"address": 864,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"1869",
+					"-939",
+					"true"
+				],
+				"lineNumber": 13133
+			},
+			{
+				"address": 872,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13134
+			},
+			{
+				"address": 874,
+				"opcode": "jumpReturn",
+				"lineNumber": 13135
+			},
+			{
+				"address": 876,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					"!=",
+					"3",
+					"OR",
+					"pstat(112)",
+					"==",
+					"3",
+					"then",
+					"968"
+				],
+				"lineNumber": 13136
+			},
+			{
+				"address": 892,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"1664",
+					"3155",
+					"true"
+				],
+				"lineNumber": 13137
+			},
+			{
+				"address": 900,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 13138
+			},
+			{
+				"address": 904,
+				"opcode": "setPStat",
+				"args": [
+					"112",
+					"3"
+				],
+				"lineNumber": 13139
+			},
+			{
+				"address": 908,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13140
+			},
+			{
+				"address": 910,
+				"opcode": "showTextbox",
+				"args": [
+					"Not",
+					"again!",
+					"Wait!\\n"
+				],
+				"lineNumber": 13141
+			},
+			{
+				"address": 948,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13142
+			},
+			{
+				"address": 952,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"5"
+				],
+				"lineNumber": 13143
+			},
+			{
+				"address": 956,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"1664",
+					"3125",
+					"true"
+				],
+				"lineNumber": 13144
+			},
+			{
+				"address": 964,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13145
+			},
+			{
+				"address": 966,
+				"opcode": "jumpReturn",
+				"lineNumber": 13146
+			},
+			{
+				"address": 968,
+				"opcode": "jumpTo",
+				"args": [
+					"596"
+				],
+				"lineNumber": 13147
+			},
+			{
+				"address": 972,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"3"
+				],
+				"lineNumber": 13148
+			},
+			{
+				"address": 976,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					"!=",
+					"0",
+					"OR",
+					"pstat(112)",
+					"==",
+					"0",
+					"then",
+					"1028"
+				],
+				"lineNumber": 13149
+			},
+			{
+				"address": 992,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"-1025",
+					"2740",
+					"true"
+				],
+				"lineNumber": 13150
+			},
+			{
+				"address": 1000,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 13151
+			},
+			{
+				"address": 1004,
+				"opcode": "setPStat",
+				"args": [
+					"112",
+					"0"
+				],
+				"lineNumber": 13152
+			},
+			{
+				"address": 1008,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13153
+			},
+			{
+				"address": 1012,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"5"
+				],
+				"lineNumber": 13154
+			},
+			{
+				"address": 1016,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"-1025",
+					"2740",
+					"true"
+				],
+				"lineNumber": 13155
+			},
+			{
+				"address": 1024,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13156
+			},
+			{
+				"address": 1026,
+				"opcode": "jumpReturn",
+				"lineNumber": 13157
+			},
+			{
+				"address": 1028,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					"!=",
+					"1",
+					"OR",
+					"pstat(112)",
+					"==",
+					"1",
+					"then",
+					"1080"
+				],
+				"lineNumber": 13158
+			},
+			{
+				"address": 1044,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"-566",
+					"-320",
+					"true"
+				],
+				"lineNumber": 13159
+			},
+			{
+				"address": 1052,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 13160
+			},
+			{
+				"address": 1056,
+				"opcode": "setPStat",
+				"args": [
+					"112",
+					"1"
+				],
+				"lineNumber": 13161
+			},
+			{
+				"address": 1060,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13162
+			},
+			{
+				"address": 1064,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"5"
+				],
+				"lineNumber": 13163
+			},
+			{
+				"address": 1068,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"-566",
+					"-320",
+					"true"
+				],
+				"lineNumber": 13164
+			},
+			{
+				"address": 1076,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13165
+			},
+			{
+				"address": 1078,
+				"opcode": "jumpReturn",
+				"lineNumber": 13166
+			},
+			{
+				"address": 1080,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					"!=",
+					"2",
+					"OR",
+					"pstat(112)",
+					"==",
+					"2",
+					"then",
+					"1132"
+				],
+				"lineNumber": 13167
+			},
+			{
+				"address": 1096,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"1869",
+					"-939",
+					"true"
+				],
+				"lineNumber": 13168
+			},
+			{
+				"address": 1104,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 13169
+			},
+			{
+				"address": 1108,
+				"opcode": "setPStat",
+				"args": [
+					"112",
+					"2"
+				],
+				"lineNumber": 13170
+			},
+			{
+				"address": 1112,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13171
+			},
+			{
+				"address": 1116,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"5"
+				],
+				"lineNumber": 13172
+			},
+			{
+				"address": 1120,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"1869",
+					"-939",
+					"true"
+				],
+				"lineNumber": 13173
+			},
+			{
+				"address": 1128,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13174
+			},
+			{
+				"address": 1130,
+				"opcode": "jumpReturn",
+				"lineNumber": 13175
+			},
+			{
+				"address": 1132,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					"!=",
+					"3",
+					"OR",
+					"pstat(112)",
+					"==",
+					"3",
+					"then",
+					"1184"
+				],
+				"lineNumber": 13176
+			},
+			{
+				"address": 1148,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"1664",
+					"3125",
+					"true"
+				],
+				"lineNumber": 13177
+			},
+			{
+				"address": 1156,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 13178
+			},
+			{
+				"address": 1160,
+				"opcode": "setPStat",
+				"args": [
+					"112",
+					"3"
+				],
+				"lineNumber": 13179
+			},
+			{
+				"address": 1164,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13180
+			},
+			{
+				"address": 1168,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"5"
+				],
+				"lineNumber": 13181
+			},
+			{
+				"address": 1172,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"1664",
+					"3125",
+					"true"
+				],
+				"lineNumber": 13182
+			},
+			{
+				"address": 1180,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13183
+			},
+			{
+				"address": 1182,
+				"opcode": "jumpReturn",
+				"lineNumber": 13184
+			},
+			{
+				"address": 1184,
+				"opcode": "jumpTo",
+				"args": [
+					"972"
+				],
+				"lineNumber": 13185
+			}
+		]
+	},
+	"51": {
+		"id": 51,
+		"instructions": [
+			{
+				"address": 1188,
+				"opcode": "if",
+				"args": [
+					"pstat(111)",
+					"<",
+					"2",
+					"OR",
+					"pstat(112)",
+					"==",
+					"0",
+					"OR",
+					"trigger(191)",
+					"==",
+					"true",
+					"OR",
+					"trigger(245)",
+					"==",
+					"true",
+					"then",
+					"1290"
+				],
+				"lineNumber": 13187
+			},
+			{
+				"address": 1212,
+				"opcode": "setTrigger",
+				"args": [
+					"191"
+				],
+				"lineNumber": 13188
+			},
+			{
+				"address": 1216,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"16"
+				],
+				"lineNumber": 13189
+			},
+			{
+				"address": 1220,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13190
+			},
+			{
+				"address": 1222,
+				"opcode": "showTextbox",
+				"args": [
+					"Maybe",
+					"I'll",
+					"wait.\\n"
+				],
+				"lineNumber": 13191
+			},
+			{
+				"address": 1260,
+				"opcode": "setSelection",
+				"args": [
+					"1292",
+					"1518"
+				],
+				"lineNumber": 13192
+			},
+			{
+				"address": 1266,
+				"opcode": "showTextbox",
+				"args": [
+					"Wait\\nGo\\n"
+				],
+				"lineNumber": 13193
+			},
+			{
+				"address": 1286,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 13194
+			},
+			{
+				"address": 1288,
+				"opcode": "endSection",
+				"lineNumber": 13195
+			},
+			{
+				"address": 1290,
+				"opcode": "endSection",
+				"lineNumber": 13196
+			},
+			{
+				"address": 1292,
+				"opcode": "entityWalkToEntity",
+				"args": [
+					"252",
+					"true",
+					"253"
+				],
+				"lineNumber": 13197
+			},
+			{
+				"address": 1296,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13198
+			},
+			{
+				"address": 1298,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"253"
+				],
+				"lineNumber": 13199
+			},
+			{
+				"address": 1302,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"252"
+				],
+				"lineNumber": 13200
+			},
+			{
+				"address": 1306,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13201
+			},
+			{
+				"address": 1308,
+				"opcode": "waitForEntity",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13202
+			},
+			{
+				"address": 1310,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"8"
+				],
+				"lineNumber": 13203
+			},
+			{
+				"address": 1314,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13204
+			},
+			{
+				"address": 1316,
+				"opcode": "showTextbox",
+				"args": [
+					"Alright,",
+					"<ORANGE><DIGIMON><WHITE>,\\nget",
+					"rid",
+					"of",
+					"Biyomon!\\n"
+				],
+				"lineNumber": 13205
+			},
+			{
+				"address": 1388,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"22"
+				],
+				"lineNumber": 13206
+			},
+			{
+				"address": 1392,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 13207
+			},
+			{
+				"address": 1396,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"-1282",
+					"3173",
+					"true"
+				],
+				"lineNumber": 13208
+			},
+			{
+				"address": 1404,
+				"opcode": "entityWalkToEntity",
+				"args": [
+					"252",
+					"true",
+					"5"
+				],
+				"lineNumber": 13209
+			},
+			{
+				"address": 1408,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13210
+			},
+			{
+				"address": 1410,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13211
+			},
+			{
+				"address": 1414,
+				"opcode": "jumpAndLink",
+				"args": [
+					"972"
+				],
+				"lineNumber": 13212
+			},
+			{
+				"address": 1418,
+				"opcode": "if",
+				"args": [
+					"pstat(112)",
+					"!=",
+					"0",
+					"then",
+					"1444"
+				],
+				"lineNumber": 13213
+			},
+			{
+				"address": 1430,
+				"opcode": "entityWalkToEntity",
+				"args": [
+					"252",
+					"true",
+					"5"
+				],
+				"lineNumber": 13214
+			},
+			{
+				"address": 1434,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13215
+			},
+			{
+				"address": 1436,
+				"opcode": "jumpTo",
+				"args": [
+					"2510"
+				],
+				"lineNumber": 13216
+			},
+			{
+				"address": 1440,
+				"opcode": "jumpTo",
+				"args": [
+					"1510"
+				],
+				"lineNumber": 13217
+			},
+			{
+				"address": 1444,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"16"
+				],
+				"lineNumber": 13218
+			},
+			{
+				"address": 1448,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13219
+			},
+			{
+				"address": 1450,
+				"opcode": "showTextbox",
+				"args": [
+					"He",
+					"went",
+					"to",
+					"the",
+					"wrong",
+					"place!\\n"
+				],
+				"lineNumber": 13220
+			},
+			{
+				"address": 1510,
+				"opcode": "moveCameraToEntity",
+				"args": [
+					"253",
+					"10"
+				],
+				"lineNumber": 13221
+			},
+			{
+				"address": 1514,
+				"opcode": "waitForEntity",
+				"args": [
+					"200"
+				],
+				"lineNumber": 13222
+			},
+			{
+				"address": 1516,
+				"opcode": "endSection",
+				"lineNumber": 13223
+			},
+			{
+				"address": 1518,
+				"opcode": "endSection",
+				"lineNumber": 13224
+			}
+		]
+	},
+	"52": {
+		"id": 52,
+		"instructions": [
+			{
+				"address": 1520,
+				"opcode": "if",
+				"args": [
+					"pstat(111)",
+					"<",
+					"2",
+					"OR",
+					"pstat(112)",
+					"==",
+					"1",
+					"OR",
+					"trigger(192)",
+					"==",
+					"true",
+					"OR",
+					"trigger(245)",
+					"==",
+					"true",
+					"then",
+					"1622"
+				],
+				"lineNumber": 13226
+			},
+			{
+				"address": 1544,
+				"opcode": "setTrigger",
+				"args": [
+					"192"
+				],
+				"lineNumber": 13227
+			},
+			{
+				"address": 1548,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"16"
+				],
+				"lineNumber": 13228
+			},
+			{
+				"address": 1552,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13229
+			},
+			{
+				"address": 1554,
+				"opcode": "showTextbox",
+				"args": [
+					"Maybe",
+					"I'll",
+					"wait.\\n"
+				],
+				"lineNumber": 13230
+			},
+			{
+				"address": 1592,
+				"opcode": "setSelection",
+				"args": [
+					"1624",
+					"1518"
+				],
+				"lineNumber": 13231
+			},
+			{
+				"address": 1598,
+				"opcode": "showTextbox",
+				"args": [
+					"Wait\\nGo\\n"
+				],
+				"lineNumber": 13232
+			},
+			{
+				"address": 1618,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 13233
+			},
+			{
+				"address": 1620,
+				"opcode": "endSection",
+				"lineNumber": 13234
+			},
+			{
+				"address": 1622,
+				"opcode": "endSection",
+				"lineNumber": 13235
+			},
+			{
+				"address": 1624,
+				"opcode": "entityWalkToEntity",
+				"args": [
+					"252",
+					"true",
+					"253"
+				],
+				"lineNumber": 13236
+			},
+			{
+				"address": 1628,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13237
+			},
+			{
+				"address": 1630,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"253"
+				],
+				"lineNumber": 13238
+			},
+			{
+				"address": 1634,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"252"
+				],
+				"lineNumber": 13239
+			},
+			{
+				"address": 1638,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13240
+			},
+			{
+				"address": 1640,
+				"opcode": "waitForEntity",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13241
+			},
+			{
+				"address": 1642,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"8"
+				],
+				"lineNumber": 13242
+			},
+			{
+				"address": 1646,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13243
+			},
+			{
+				"address": 1648,
+				"opcode": "showTextbox",
+				"args": [
+					"Alright,",
+					"<ORANGE><DIGIMON><WHITE>,\\nget",
+					"rid",
+					"of",
+					"Biyomon!\\n"
+				],
+				"lineNumber": 13244
+			},
+			{
+				"address": 1720,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"22"
+				],
+				"lineNumber": 13245
+			},
+			{
+				"address": 1724,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 13246
+			},
+			{
+				"address": 1728,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"-268",
+					"-1362",
+					"true"
+				],
+				"lineNumber": 13247
+			},
+			{
+				"address": 1736,
+				"opcode": "entityWalkToEntity",
+				"args": [
+					"252",
+					"true",
+					"5"
+				],
+				"lineNumber": 13248
+			},
+			{
+				"address": 1740,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13249
+			},
+			{
+				"address": 1742,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13250
+			},
+			{
+				"address": 1746,
+				"opcode": "jumpAndLink",
+				"args": [
+					"972"
+				],
+				"lineNumber": 13251
+			},
+			{
+				"address": 1750,
+				"opcode": "if",
+				"args": [
+					"pstat(112)",
+					"!=",
+					"1",
+					"then",
+					"1776"
+				],
+				"lineNumber": 13252
+			},
+			{
+				"address": 1762,
+				"opcode": "entityWalkToEntity",
+				"args": [
+					"252",
+					"true",
+					"5"
+				],
+				"lineNumber": 13253
+			},
+			{
+				"address": 1766,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13254
+			},
+			{
+				"address": 1768,
+				"opcode": "jumpTo",
+				"args": [
+					"2510"
+				],
+				"lineNumber": 13255
+			},
+			{
+				"address": 1772,
+				"opcode": "jumpTo",
+				"args": [
+					"1842"
+				],
+				"lineNumber": 13256
+			},
+			{
+				"address": 1776,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"16"
+				],
+				"lineNumber": 13257
+			},
+			{
+				"address": 1780,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13258
+			},
+			{
+				"address": 1782,
+				"opcode": "showTextbox",
+				"args": [
+					"He",
+					"went",
+					"to",
+					"the",
+					"wrong",
+					"place!\\n"
+				],
+				"lineNumber": 13259
+			},
+			{
+				"address": 1842,
+				"opcode": "moveCameraToEntity",
+				"args": [
+					"253",
+					"10"
+				],
+				"lineNumber": 13260
+			},
+			{
+				"address": 1846,
+				"opcode": "waitForEntity",
+				"args": [
+					"200"
+				],
+				"lineNumber": 13261
+			},
+			{
+				"address": 1848,
+				"opcode": "endSection",
+				"lineNumber": 13262
+			}
+		]
+	},
+	"53": {
+		"id": 53,
+		"instructions": [
+			{
+				"address": 1850,
+				"opcode": "if",
+				"args": [
+					"pstat(111)",
+					"<",
+					"2",
+					"OR",
+					"pstat(112)",
+					"==",
+					"2",
+					"OR",
+					"trigger(193)",
+					"==",
+					"true",
+					"OR",
+					"trigger(245)",
+					"==",
+					"true",
+					"then",
+					"1952"
+				],
+				"lineNumber": 13264
+			},
+			{
+				"address": 1874,
+				"opcode": "setTrigger",
+				"args": [
+					"193"
+				],
+				"lineNumber": 13265
+			},
+			{
+				"address": 1878,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"16"
+				],
+				"lineNumber": 13266
+			},
+			{
+				"address": 1882,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13267
+			},
+			{
+				"address": 1884,
+				"opcode": "showTextbox",
+				"args": [
+					"Maybe",
+					"I'll",
+					"wait.\\n"
+				],
+				"lineNumber": 13268
+			},
+			{
+				"address": 1922,
+				"opcode": "setSelection",
+				"args": [
+					"1954",
+					"1518"
+				],
+				"lineNumber": 13269
+			},
+			{
+				"address": 1928,
+				"opcode": "showTextbox",
+				"args": [
+					"Wait\\nGo\\n"
+				],
+				"lineNumber": 13270
+			},
+			{
+				"address": 1948,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 13271
+			},
+			{
+				"address": 1950,
+				"opcode": "endSection",
+				"lineNumber": 13272
+			},
+			{
+				"address": 1952,
+				"opcode": "endSection",
+				"lineNumber": 13273
+			},
+			{
+				"address": 1954,
+				"opcode": "entityWalkToEntity",
+				"args": [
+					"252",
+					"true",
+					"253"
+				],
+				"lineNumber": 13274
+			},
+			{
+				"address": 1958,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13275
+			},
+			{
+				"address": 1960,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"253"
+				],
+				"lineNumber": 13276
+			},
+			{
+				"address": 1964,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"252"
+				],
+				"lineNumber": 13277
+			},
+			{
+				"address": 1968,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13278
+			},
+			{
+				"address": 1970,
+				"opcode": "waitForEntity",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13279
+			},
+			{
+				"address": 1972,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"8"
+				],
+				"lineNumber": 13280
+			},
+			{
+				"address": 1976,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13281
+			},
+			{
+				"address": 1978,
+				"opcode": "showTextbox",
+				"args": [
+					"Alright,",
+					"<ORANGE><DIGIMON><WHITE>,\\nget",
+					"rid",
+					"of",
+					"Biyomon!\\n"
+				],
+				"lineNumber": 13282
+			},
+			{
+				"address": 2050,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"22"
+				],
+				"lineNumber": 13283
+			},
+			{
+				"address": 2054,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 13284
+			},
+			{
+				"address": 2058,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"2143",
+					"-1254",
+					"true"
+				],
+				"lineNumber": 13285
+			},
+			{
+				"address": 2066,
+				"opcode": "entityWalkToEntity",
+				"args": [
+					"252",
+					"true",
+					"5"
+				],
+				"lineNumber": 13286
+			},
+			{
+				"address": 2070,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13287
+			},
+			{
+				"address": 2072,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13288
+			},
+			{
+				"address": 2076,
+				"opcode": "jumpAndLink",
+				"args": [
+					"972"
+				],
+				"lineNumber": 13289
+			},
+			{
+				"address": 2080,
+				"opcode": "if",
+				"args": [
+					"pstat(112)",
+					"!=",
+					"2",
+					"then",
+					"2106"
+				],
+				"lineNumber": 13290
+			},
+			{
+				"address": 2092,
+				"opcode": "entityWalkToEntity",
+				"args": [
+					"252",
+					"true",
+					"5"
+				],
+				"lineNumber": 13291
+			},
+			{
+				"address": 2096,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13292
+			},
+			{
+				"address": 2098,
+				"opcode": "jumpTo",
+				"args": [
+					"2510"
+				],
+				"lineNumber": 13293
+			},
+			{
+				"address": 2102,
+				"opcode": "jumpTo",
+				"args": [
+					"2172"
+				],
+				"lineNumber": 13294
+			},
+			{
+				"address": 2106,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"16"
+				],
+				"lineNumber": 13295
+			},
+			{
+				"address": 2110,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13296
+			},
+			{
+				"address": 2112,
+				"opcode": "showTextbox",
+				"args": [
+					"He",
+					"went",
+					"to",
+					"the",
+					"wrong",
+					"place!\\n"
+				],
+				"lineNumber": 13297
+			},
+			{
+				"address": 2172,
+				"opcode": "moveCameraToEntity",
+				"args": [
+					"253",
+					"10"
+				],
+				"lineNumber": 13298
+			},
+			{
+				"address": 2176,
+				"opcode": "waitForEntity",
+				"args": [
+					"200"
+				],
+				"lineNumber": 13299
+			},
+			{
+				"address": 2178,
+				"opcode": "endSection",
+				"lineNumber": 13300
+			}
+		]
+	},
+	"54": {
+		"id": 54,
+		"instructions": [
+			{
+				"address": 2180,
+				"opcode": "if",
+				"args": [
+					"pstat(111)",
+					"<",
+					"2",
+					"OR",
+					"pstat(112)",
+					"==",
+					"3",
+					"OR",
+					"trigger(194)",
+					"==",
+					"true",
+					"OR",
+					"trigger(245)",
+					"==",
+					"true",
+					"then",
+					"2282"
+				],
+				"lineNumber": 13302
+			},
+			{
+				"address": 2204,
+				"opcode": "setTrigger",
+				"args": [
+					"194"
+				],
+				"lineNumber": 13303
+			},
+			{
+				"address": 2208,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"16"
+				],
+				"lineNumber": 13304
+			},
+			{
+				"address": 2212,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13305
+			},
+			{
+				"address": 2214,
+				"opcode": "showTextbox",
+				"args": [
+					"Maybe",
+					"I'll",
+					"wait.\\n"
+				],
+				"lineNumber": 13306
+			},
+			{
+				"address": 2252,
+				"opcode": "setSelection",
+				"args": [
+					"2284",
+					"1518"
+				],
+				"lineNumber": 13307
+			},
+			{
+				"address": 2258,
+				"opcode": "showTextbox",
+				"args": [
+					"Wait\\nGo\\n"
+				],
+				"lineNumber": 13308
+			},
+			{
+				"address": 2278,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 13309
+			},
+			{
+				"address": 2280,
+				"opcode": "endSection",
+				"lineNumber": 13310
+			},
+			{
+				"address": 2282,
+				"opcode": "endSection",
+				"lineNumber": 13311
+			},
+			{
+				"address": 2284,
+				"opcode": "entityWalkToEntity",
+				"args": [
+					"252",
+					"true",
+					"253"
+				],
+				"lineNumber": 13312
+			},
+			{
+				"address": 2288,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13313
+			},
+			{
+				"address": 2290,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"253"
+				],
+				"lineNumber": 13314
+			},
+			{
+				"address": 2294,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"252"
+				],
+				"lineNumber": 13315
+			},
+			{
+				"address": 2298,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13316
+			},
+			{
+				"address": 2300,
+				"opcode": "waitForEntity",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13317
+			},
+			{
+				"address": 2302,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13318
+			},
+			{
+				"address": 2304,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"8"
+				],
+				"lineNumber": 13319
+			},
+			{
+				"address": 2308,
+				"opcode": "showTextbox",
+				"args": [
+					"Alright,",
+					"<ORANGE><DIGIMON><WHITE>,\\nget",
+					"rid",
+					"of",
+					"Biyomon!\\n"
+				],
+				"lineNumber": 13320
+			},
+			{
+				"address": 2380,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"22"
+				],
+				"lineNumber": 13321
+			},
+			{
+				"address": 2384,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 13322
+			},
+			{
+				"address": 2388,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"1753",
+					"3341",
+					"true"
+				],
+				"lineNumber": 13323
+			},
+			{
+				"address": 2396,
+				"opcode": "entityWalkToEntity",
+				"args": [
+					"252",
+					"true",
+					"5"
+				],
+				"lineNumber": 13324
+			},
+			{
+				"address": 2400,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13325
+			},
+			{
+				"address": 2402,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13326
+			},
+			{
+				"address": 2406,
+				"opcode": "jumpAndLink",
+				"args": [
+					"972"
+				],
+				"lineNumber": 13327
+			},
+			{
+				"address": 2410,
+				"opcode": "if",
+				"args": [
+					"pstat(112)",
+					"!=",
+					"3",
+					"then",
+					"2436"
+				],
+				"lineNumber": 13328
+			},
+			{
+				"address": 2422,
+				"opcode": "entityWalkToEntity",
+				"args": [
+					"252",
+					"true",
+					"5"
+				],
+				"lineNumber": 13329
+			},
+			{
+				"address": 2426,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13330
+			},
+			{
+				"address": 2428,
+				"opcode": "jumpTo",
+				"args": [
+					"2510"
+				],
+				"lineNumber": 13331
+			},
+			{
+				"address": 2432,
+				"opcode": "jumpTo",
+				"args": [
+					"2502"
+				],
+				"lineNumber": 13332
+			},
+			{
+				"address": 2436,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"16"
+				],
+				"lineNumber": 13333
+			},
+			{
+				"address": 2440,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13334
+			},
+			{
+				"address": 2442,
+				"opcode": "showTextbox",
+				"args": [
+					"He",
+					"went",
+					"to",
+					"the",
+					"wrong",
+					"place!\\n"
+				],
+				"lineNumber": 13335
+			},
+			{
+				"address": 2502,
+				"opcode": "moveCameraToEntity",
+				"args": [
+					"253",
+					"10"
+				],
+				"lineNumber": 13336
+			},
+			{
+				"address": 2506,
+				"opcode": "waitForEntity",
+				"args": [
+					"200"
+				],
+				"lineNumber": 13337
+			},
+			{
+				"address": 2508,
+				"opcode": "endSection",
+				"lineNumber": 13338
+			},
+			{
+				"address": 2510,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"11"
+				],
+				"lineNumber": 13339
+			},
+			{
+				"address": 2514,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 13340
+			},
+			{
+				"address": 2518,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13341
+			},
+			{
+				"address": 2522,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"5"
+				],
+				"lineNumber": 13342
+			},
+			{
+				"address": 2526,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"5",
+					"253"
+				],
+				"lineNumber": 13343
+			},
+			{
+				"address": 2530,
+				"opcode": "waitForEntity",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13344
+			},
+			{
+				"address": 2532,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 13345
+			},
+			{
+				"address": 2534,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13346
+			},
+			{
+				"address": 2536,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13347
+			},
+			{
+				"address": 2538,
+				"opcode": "showTextbox",
+				"args": [
+					"The",
+					"ambush",
+					"is",
+					"a",
+					"success!\\n"
+				],
+				"lineNumber": 13348
+			},
+			{
+				"address": 2592,
+				"opcode": "playSound",
+				"args": [
+					"1544"
+				],
+				"lineNumber": 13349
+			},
+			{
+				"address": 2596,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13350
+			},
+			{
+				"address": 2598,
+				"opcode": "showTextbox",
+				"args": [
+					"Help",
+					"me",
+					"out!\\n"
+				],
+				"lineNumber": 13351
+			},
+			{
+				"address": 2628,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"19"
+				],
+				"lineNumber": 13352
+			},
+			{
+				"address": 2632,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13353
+			},
+			{
+				"address": 2634,
+				"opcode": "showTextbox",
+				"args": [
+					"Don't",
+					"panic.",
+					"We're",
+					"not\\nthe",
+					"bad",
+					"guys",
+					"here.\\n"
+				],
+				"lineNumber": 13354
+			},
+			{
+				"address": 2722,
+				"opcode": "playAnimation",
+				"args": [
+					"5",
+					"28"
+				],
+				"lineNumber": 13355
+			},
+			{
+				"address": 2726,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 13356
+			},
+			{
+				"address": 2730,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13357
+			},
+			{
+				"address": 2732,
+				"opcode": "showTextbox",
+				"args": [
+					"Are",
+					"you",
+					"the",
+					"famous\\nDigimon",
+					"kidnapper?\\n"
+				],
+				"lineNumber": 13358
+			},
+			{
+				"address": 2812,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"16"
+				],
+				"lineNumber": 13359
+			},
+			{
+				"address": 2816,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 13360
+			},
+			{
+				"address": 2818,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"think",
+					"everyone",
+					"has\\nthe",
+					"wrong",
+					"idea.\\n"
+				],
+				"lineNumber": 13361
+			},
+			{
+				"address": 2896,
+				"opcode": "playAnimation",
+				"args": [
+					"5",
+					"19"
+				],
+				"lineNumber": 13362
+			},
+			{
+				"address": 2900,
+				"opcode": "delay",
+				"args": [
+					"40"
+				],
+				"lineNumber": 13363
+			},
+			{
+				"address": 2904,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"19"
+				],
+				"lineNumber": 13364
+			},
+			{
+				"address": 2908,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 13365
+			},
+			{
+				"address": 2910,
+				"opcode": "showTextbox",
+				"args": [
+					"<LIGHTBLUE><PLAYER><WHITE>",
+					"tried\\nto",
+					"convince",
+					"them.\\n"
+				],
+				"lineNumber": 13366
+			},
+			{
+				"address": 2970,
+				"opcode": "playAnimation",
+				"args": [
+					"5",
+					"0"
+				],
+				"lineNumber": 13367
+			},
+			{
+				"address": 2974,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13368
+			},
+			{
+				"address": 2976,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"see.",
+					"It's",
+					"my",
+					"mistake.\\n"
+				],
+				"lineNumber": 13369
+			},
+			{
+				"address": 3028,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13370
+			},
+			{
+				"address": 3030,
+				"opcode": "showTextbox",
+				"args": [
+					"I'll",
+					"go",
+					"to",
+					"the",
+					"city.\\n"
+				],
+				"lineNumber": 13371
+			},
+			{
+				"address": 3076,
+				"opcode": "jumpTo",
+				"args": [
+					"3080"
+				],
+				"lineNumber": 13372
+			},
+			{
+				"address": 3080,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"-1232",
+					"4250",
+					"true"
+				],
+				"lineNumber": 13373
+			},
+			{
+				"address": 3088,
+				"opcode": "if",
+				"args": [
+					"pstat(101)",
+					">=",
+					"6",
+					"OR",
+					"pstat(112)",
+					"==",
+					"0",
+					"then",
+					"3124"
+				],
+				"lineNumber": 13374
+			},
+			{
+				"address": 3104,
+				"opcode": "addToPStat",
+				"args": [
+					"101",
+					"1"
+				],
+				"lineNumber": 13375
+			},
+			{
+				"address": 3108,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 13376
+			},
+			{
+				"address": 3112,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13377
+			},
+			{
+				"address": 3116,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"5"
+				],
+				"lineNumber": 13378
+			},
+			{
+				"address": 3120,
+				"opcode": "jumpTo",
+				"args": [
+					"3080"
+				],
+				"lineNumber": 13379
+			},
+			{
+				"address": 3124,
+				"opcode": "if",
+				"args": [
+					"pstat(101)",
+					">=",
+					"4",
+					"OR",
+					"pstat(112)",
+					"!=",
+					"0",
+					"then",
+					"3160"
+				],
+				"lineNumber": 13380
+			},
+			{
+				"address": 3140,
+				"opcode": "addToPStat",
+				"args": [
+					"101",
+					"1"
+				],
+				"lineNumber": 13381
+			},
+			{
+				"address": 3144,
+				"opcode": "delay",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13382
+			},
+			{
+				"address": 3148,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 13383
+			},
+			{
+				"address": 3152,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"5"
+				],
+				"lineNumber": 13384
+			},
+			{
+				"address": 3156,
+				"opcode": "jumpTo",
+				"args": [
+					"3080"
+				],
+				"lineNumber": 13385
+			},
+			{
+				"address": 3160,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13386
+			},
+			{
+				"address": 3162,
+				"opcode": "unloadEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 13387
+			},
+			{
+				"address": 3164,
+				"opcode": "setPStat",
+				"args": [
+					"101",
+					"0"
+				],
+				"lineNumber": 13388
+			},
+			{
+				"address": 3168,
+				"opcode": "playSound",
+				"args": [
+					"1288"
+				],
+				"lineNumber": 13389
+			},
+			{
+				"address": 3172,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 13390
+			},
+			{
+				"address": 3174,
+				"opcode": "showTextbox",
+				"args": [
+					"Biyomon",
+					"joins",
+					"the",
+					"city!\\n"
+				],
+				"lineNumber": 13391
+			},
+			{
+				"address": 3226,
+				"opcode": "setTrigger",
+				"args": [
+					"245"
+				],
+				"lineNumber": 13392
+			},
+			{
+				"address": 3230,
+				"opcode": "addToPStat",
+				"args": [
+					"1",
+					"1"
+				],
+				"lineNumber": 13393
+			},
+			{
+				"address": 3234,
+				"opcode": "moveCameraToEntity",
+				"args": [
+					"253",
+					"10"
+				],
+				"lineNumber": 13394
+			},
+			{
+				"address": 3238,
+				"opcode": "waitForEntity",
+				"args": [
+					"200"
+				],
+				"lineNumber": 13395
+			},
+			{
+				"address": 3240,
+				"opcode": "endSection",
+				"lineNumber": 13396
+			}
+		]
+	},
+	"61": {
+		"id": 61,
+		"instructions": [
+			{
+				"address": 3242,
+				"opcode": "unsetTrigger",
+				"args": [
+					"191"
+				],
+				"lineNumber": 13398
+			},
+			{
+				"address": 3246,
+				"opcode": "endSection",
+				"lineNumber": 13399
+			}
+		]
+	},
+	"62": {
+		"id": 62,
+		"instructions": [
+			{
+				"address": 3248,
+				"opcode": "unsetTrigger",
+				"args": [
+					"192"
+				],
+				"lineNumber": 13401
+			},
+			{
+				"address": 3252,
+				"opcode": "endSection",
+				"lineNumber": 13402
+			}
+		]
+	},
+	"63": {
+		"id": 63,
+		"instructions": [
+			{
+				"address": 3254,
+				"opcode": "unsetTrigger",
+				"args": [
+					"193"
+				],
+				"lineNumber": 13404
+			},
+			{
+				"address": 3258,
+				"opcode": "endSection",
+				"lineNumber": 13405
+			}
+		]
+	},
+	"64": {
+		"id": 64,
+		"instructions": [
+			{
+				"address": 3260,
+				"opcode": "unsetTrigger",
+				"args": [
+					"194"
+				],
+				"lineNumber": 13407
+			},
+			{
+				"address": 3264,
+				"opcode": "endSection",
+				"lineNumber": 13408
+			}
+		]
+	},
+	"6": {
+		"id": 6,
+		"instructions": [
+			{
+				"address": 3266,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 13410
+			},
+			{
+				"address": 3268,
+				"opcode": "showTextbox",
+				"args": [
+					"Come",
+					"and",
+					"get",
+					"me!\\n"
+				],
+				"lineNumber": 13411
+			},
+			{
+				"address": 3306,
+				"opcode": "fadeoutHud",
+				"lineNumber": 13412
+			},
+			{
+				"address": 3308,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 13413
+			},
+			{
+				"address": 3312,
+				"opcode": "startBattle",
+				"lineNumber": 13414
+			},
+			{
+				"address": 3314,
+				"opcode": "setTrigger",
+				"args": [
+					"275"
+				],
+				"lineNumber": 13415
+			},
+			{
+				"address": 3318,
+				"opcode": "endSection",
+				"lineNumber": 13416
+			}
+		]
+	},
+	"7": {
+		"id": 7,
+		"instructions": [
+			{
+				"address": 3320,
+				"opcode": "setDialogOwner",
+				"args": [
+					"7"
+				],
+				"lineNumber": 13418
+			},
+			{
+				"address": 3322,
+				"opcode": "showTextbox",
+				"args": [
+					"You're",
+					"brave!\\n"
+				],
+				"lineNumber": 13419
+			},
+			{
+				"address": 3354,
+				"opcode": "fadeoutHud",
+				"lineNumber": 13420
+			},
+			{
+				"address": 3356,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 13421
+			},
+			{
+				"address": 3360,
+				"opcode": "startBattle",
+				"lineNumber": 13422
+			},
+			{
+				"address": 3362,
+				"opcode": "setTrigger",
+				"args": [
+					"275"
+				],
+				"lineNumber": 13423
+			},
+			{
+				"address": 3366,
+				"opcode": "endSection",
+				"lineNumber": 13424
+			}
+		]
+	},
+	"8": {
+		"id": 8,
+		"instructions": [
+			{
+				"address": 3368,
+				"opcode": "setDialogOwner",
+				"args": [
+					"8"
+				],
+				"lineNumber": 13426
+			},
+			{
+				"address": 3370,
+				"opcode": "showTextbox",
+				"args": [
+					"Wow!\\n"
+				],
+				"lineNumber": 13427
+			},
+			{
+				"address": 3384,
+				"opcode": "fadeoutHud",
+				"lineNumber": 13428
+			},
+			{
+				"address": 3386,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 13429
+			},
+			{
+				"address": 3390,
+				"opcode": "startBattle",
+				"lineNumber": 13430
+			},
+			{
+				"address": 3392,
+				"opcode": "setTrigger",
+				"args": [
+					"295"
+				],
+				"lineNumber": 13431
+			},
+			{
+				"address": 3396,
+				"opcode": "endSection",
+				"lineNumber": 13432
+			}
+		]
+	},
+	"9": {
+		"id": 9,
+		"instructions": [
+			{
+				"address": 3398,
+				"opcode": "setDialogOwner",
+				"args": [
+					"9"
+				],
+				"lineNumber": 13434
+			},
+			{
+				"address": 3400,
+				"opcode": "showTextbox",
+				"args": [
+					"I'm",
+					"first!\\n"
+				],
+				"lineNumber": 13435
+			},
+			{
+				"address": 3426,
+				"opcode": "fadeoutHud",
+				"lineNumber": 13436
+			},
+			{
+				"address": 3428,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 13437
+			},
+			{
+				"address": 3432,
+				"opcode": "startBattle",
+				"lineNumber": 13438
+			},
+			{
+				"address": 3434,
+				"opcode": "setTrigger",
+				"args": [
+					"297"
+				],
+				"lineNumber": 13439
+			},
+			{
+				"address": 3438,
+				"opcode": "endSection",
+				"lineNumber": 13440
+			}
+		]
+	},
+	"10": {
+		"id": 10,
+		"instructions": [
+			{
+				"address": 3440,
+				"opcode": "setDialogOwner",
+				"args": [
+					"10"
+				],
+				"lineNumber": 13442
+			},
+			{
+				"address": 3442,
+				"opcode": "showTextbox",
+				"args": [
+					"I'm",
+					"strong.\\nYou",
+					"can't",
+					"handle",
+					"me!\\n"
+				],
+				"lineNumber": 13443
+			},
+			{
+				"address": 3512,
+				"opcode": "fadeoutHud",
+				"lineNumber": 13444
+			},
+			{
+				"address": 3514,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 13445
+			},
+			{
+				"address": 3518,
+				"opcode": "startBattle",
+				"lineNumber": 13446
+			},
+			{
+				"address": 3520,
+				"opcode": "setTrigger",
+				"args": [
+					"297"
+				],
+				"lineNumber": 13447
+			},
+			{
+				"address": 3524,
+				"opcode": "endSection",
+				"lineNumber": 13448
+			}
+		]
+	},
+	"11": {
+		"id": 11,
+		"instructions": [
+			{
+				"address": 3526,
+				"opcode": "setDialogOwner",
+				"args": [
+					"11"
+				],
+				"lineNumber": 13450
+			},
+			{
+				"address": 3528,
+				"opcode": "showTextbox",
+				"args": [
+					"Don't",
+					"get",
+					"mad",
+					"if",
+					"I",
+					"win.\\n"
+				],
+				"lineNumber": 13451
+			},
+			{
+				"address": 3580,
+				"opcode": "fadeoutHud",
+				"lineNumber": 13452
+			},
+			{
+				"address": 3582,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 13453
+			},
+			{
+				"address": 3586,
+				"opcode": "startBattle",
+				"lineNumber": 13454
+			},
+			{
+				"address": 3588,
+				"opcode": "setTrigger",
+				"args": [
+					"296"
+				],
+				"lineNumber": 13455
+			},
+			{
+				"address": 3592,
+				"opcode": "endSection",
+				"lineNumber": 13456
+			}
+		]
+	}
+}
+}

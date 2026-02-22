@@ -1,0 +1,1295 @@
+{
+"id": 212,
+"info": "== Script ID 212 == b2800",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 20,
+				"opcode": "endSection",
+				"lineNumber": 35703
+			}
+		]
+	},
+	"71": {
+		"id": 71,
+		"instructions": [
+			{
+				"address": 22,
+				"opcode": "unsetTrigger",
+				"args": [
+					"1"
+				],
+				"lineNumber": 35705
+			},
+			{
+				"address": 26,
+				"opcode": "setPStat",
+				"args": [
+					"250",
+					"0"
+				],
+				"lineNumber": 35706
+			},
+			{
+				"address": 30,
+				"opcode": "waitForEntity",
+				"args": [
+					"213"
+				],
+				"lineNumber": 35707
+			},
+			{
+				"address": 32,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 35708
+			},
+			{
+				"address": 34,
+				"opcode": "showTextbox",
+				"args": [
+					"It",
+					"seems",
+					"<ORANGE><DIGIMON><WHITE>",
+					"has\\nfaded",
+					"away...\\n"
+				],
+				"lineNumber": 35709
+			},
+			{
+				"address": 100,
+				"opcode": "showTextbox",
+				"args": [
+					"Before",
+					"fading",
+					"away,",
+					"he",
+					"gave\\nbirth",
+					"to",
+					"a",
+					"Digitama.",
+					"He",
+					"will\\nbe",
+					"reborn",
+					"with",
+					"his",
+					"abilities.\\n"
+				],
+				"lineNumber": 35710
+			},
+			{
+				"address": 278,
+				"opcode": "showTextbox",
+				"args": [
+					"Which",
+					"egg",
+					"do",
+					"you",
+					"want?\\n"
+				],
+				"lineNumber": 35711
+			},
+			{
+				"address": 328,
+				"opcode": "callRoutine",
+				"args": [
+					"29"
+				],
+				"lineNumber": 35712
+			},
+			{
+				"address": 330,
+				"opcode": "fadeoutHud",
+				"lineNumber": 35713
+			},
+			{
+				"address": 332,
+				"opcode": "callDigimonRoutine",
+				"args": [
+					"4"
+				],
+				"lineNumber": 35714
+			},
+			{
+				"address": 334,
+				"opcode": "waitForEntity",
+				"args": [
+					"255"
+				],
+				"lineNumber": 35715
+			},
+			{
+				"address": 336,
+				"opcode": "setPStat",
+				"args": [
+					"245",
+					"0"
+				],
+				"lineNumber": 35716
+			},
+			{
+				"address": 340,
+				"opcode": "setBGM",
+				"args": [
+					"28"
+				],
+				"lineNumber": 35717
+			},
+			{
+				"address": 342,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 35718
+			},
+			{
+				"address": 344,
+				"opcode": "showTextbox",
+				"args": [
+					"You",
+					"can",
+					"change",
+					"the",
+					"name\\n<ORANGE><DIGIMON><WHITE>",
+					"if",
+					"you",
+					"want.\\n"
+				],
+				"lineNumber": 35719
+			},
+			{
+				"address": 430,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 35720
+			},
+			{
+				"address": 432,
+				"opcode": "setSelection",
+				"args": [
+					"520",
+					"630"
+				],
+				"lineNumber": 35721
+			},
+			{
+				"address": 438,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"want",
+					"a",
+					"new",
+					"name\\nI'll",
+					"keep",
+					"his",
+					"name\\n"
+				],
+				"lineNumber": 35722
+			},
+			{
+				"address": 516,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 35723
+			},
+			{
+				"address": 518,
+				"opcode": "endSection",
+				"lineNumber": 35724
+			},
+			{
+				"address": 520,
+				"opcode": "callRoutine",
+				"args": [
+					"35"
+				],
+				"lineNumber": 35725
+			},
+			{
+				"address": 522,
+				"opcode": "waitForEntity",
+				"args": [
+					"214"
+				],
+				"lineNumber": 35726
+			},
+			{
+				"address": 524,
+				"opcode": "setPStat",
+				"args": [
+					"254",
+					"3"
+				],
+				"lineNumber": 35727
+			},
+			{
+				"address": 528,
+				"opcode": "callRoutine",
+				"args": [
+					"32"
+				],
+				"lineNumber": 35728
+			},
+			{
+				"address": 530,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 35729
+			},
+			{
+				"address": 532,
+				"opcode": "showTextbox",
+				"args": [
+					"Is",
+					"<ORANGE><DIGIMON><WHITE>",
+					"okay?\\n"
+				],
+				"lineNumber": 35730
+			},
+			{
+				"address": 562,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 35731
+			},
+			{
+				"address": 564,
+				"opcode": "setSelection",
+				"args": [
+					"520",
+					"630"
+				],
+				"lineNumber": 35732
+			},
+			{
+				"address": 570,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"want",
+					"another",
+					"name\\nOkay\\n"
+				],
+				"lineNumber": 35733
+			},
+			{
+				"address": 624,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 35734
+			},
+			{
+				"address": 626,
+				"opcode": "jumpTo",
+				"args": [
+					"520"
+				],
+				"lineNumber": 35735
+			},
+			{
+				"address": 630,
+				"opcode": "endSection",
+				"lineNumber": 35736
+			}
+		]
+	},
+	"72": {
+		"id": 72,
+		"instructions": [
+			{
+				"address": 632,
+				"opcode": "unsetTrigger",
+				"args": [
+					"1"
+				],
+				"lineNumber": 35738
+			},
+			{
+				"address": 636,
+				"opcode": "setPStat",
+				"args": [
+					"250",
+					"0"
+				],
+				"lineNumber": 35739
+			},
+			{
+				"address": 640,
+				"opcode": "waitForEntity",
+				"args": [
+					"213"
+				],
+				"lineNumber": 35740
+			},
+			{
+				"address": 642,
+				"opcode": "callRoutine",
+				"args": [
+					"35"
+				],
+				"lineNumber": 35741
+			},
+			{
+				"address": 644,
+				"opcode": "if",
+				"args": [
+					"CURRENTHP",
+					"==",
+					"0",
+					"then",
+					"890"
+				],
+				"lineNumber": 35742
+			},
+			{
+				"address": 658,
+				"opcode": "removeCondition",
+				"args": [
+					"32"
+				],
+				"lineNumber": 35743
+			},
+			{
+				"address": 660,
+				"opcode": "removeCondition",
+				"args": [
+					"64"
+				],
+				"lineNumber": 35744
+			},
+			{
+				"address": 662,
+				"opcode": "addStats",
+				"args": [
+					"CURRENTHP",
+					"9999"
+				],
+				"lineNumber": 35745
+			},
+			{
+				"address": 666,
+				"opcode": "addStats",
+				"args": [
+					"CURRENTMP",
+					"9999"
+				],
+				"lineNumber": 35746
+			},
+			{
+				"address": 670,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 35747
+			},
+			{
+				"address": 672,
+				"opcode": "showTextbox",
+				"args": [
+					"Hey,",
+					"don't",
+					"get",
+					"sick!\\n"
+				],
+				"lineNumber": 35748
+			},
+			{
+				"address": 718,
+				"opcode": "showTextbox",
+				"args": [
+					"With",
+					"the",
+					"small",
+					"bit",
+					"of",
+					"life\\nleft,",
+					"<ORANGE><DIGIMON><WHITE>",
+					"was",
+					"able\\nto",
+					"survive.\\n"
+				],
+				"lineNumber": 35749
+			},
+			{
+				"address": 838,
+				"opcode": "showTextbox",
+				"args": [
+					"You",
+					"must",
+					"be",
+					"careful.\\n"
+				],
+				"lineNumber": 35750
+			},
+			{
+				"address": 884,
+				"opcode": "waitForEntity",
+				"args": [
+					"214"
+				],
+				"lineNumber": 35751
+			},
+			{
+				"address": 886,
+				"opcode": "jumpTo",
+				"args": [
+					"2020"
+				],
+				"lineNumber": 35752
+			},
+			{
+				"address": 890,
+				"opcode": "addStats",
+				"args": [
+					"CURRENTHP",
+					"9999"
+				],
+				"lineNumber": 35753
+			},
+			{
+				"address": 894,
+				"opcode": "addStats",
+				"args": [
+					"CURRENTMP",
+					"9999"
+				],
+				"lineNumber": 35754
+			},
+			{
+				"address": 898,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 35755
+			},
+			{
+				"address": 900,
+				"opcode": "showTextbox",
+				"args": [
+					"Oh",
+					"my",
+					"gosh!\\nYou're",
+					"back",
+					"after",
+					"losing.\\n"
+				],
+				"lineNumber": 35756
+			},
+			{
+				"address": 980,
+				"opcode": "showTextbox",
+				"args": [
+					"With",
+					"the",
+					"small",
+					"bit",
+					"of",
+					"life\\nleft,",
+					"<ORANGE><DIGIMON><WHITE>",
+					"was",
+					"able\\nto",
+					"survive.\\n"
+				],
+				"lineNumber": 35757
+			},
+			{
+				"address": 1100,
+				"opcode": "showTextbox",
+				"args": [
+					"Maybe",
+					"your",
+					"things",
+					"were",
+					"stolen.\\n"
+				],
+				"lineNumber": 35758
+			},
+			{
+				"address": 1166,
+				"opcode": "showTextbox",
+				"args": [
+					"Those",
+					"who",
+					"lose",
+					"a",
+					"battle",
+					"might\\nhave",
+					"their",
+					"things",
+					"stolen.\\n"
+				],
+				"lineNumber": 35759
+			},
+			{
+				"address": 1282,
+				"opcode": "showTextbox",
+				"args": [
+					"Stolen",
+					"objects",
+					"may",
+					"be",
+					"sold\\nsomewhere.",
+					"Don't",
+					"give",
+					"up\\nfinding",
+					"them!\\n"
+				],
+				"lineNumber": 35760
+			},
+			{
+				"address": 1418,
+				"opcode": "waitForEntity",
+				"args": [
+					"214"
+				],
+				"lineNumber": 35761
+			},
+			{
+				"address": 1420,
+				"opcode": "jumpTo",
+				"args": [
+					"2020"
+				],
+				"lineNumber": 35762
+			},
+			{
+				"address": 1424,
+				"opcode": "endSection",
+				"lineNumber": 35763
+			}
+		]
+	},
+	"73": {
+		"id": 73,
+		"instructions": [
+			{
+				"address": 1426,
+				"opcode": "unsetTrigger",
+				"args": [
+					"1"
+				],
+				"lineNumber": 35765
+			},
+			{
+				"address": 1430,
+				"opcode": "setPStat",
+				"args": [
+					"250",
+					"0"
+				],
+				"lineNumber": 35766
+			},
+			{
+				"address": 1434,
+				"opcode": "waitForEntity",
+				"args": [
+					"213"
+				],
+				"lineNumber": 35767
+			},
+			{
+				"address": 1436,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 35768
+			},
+			{
+				"address": 1438,
+				"opcode": "showTextbox",
+				"args": [
+					"Oh",
+					"no!",
+					"<ORANGE><DIGIMON><WHITE>\\nhas",
+					"lost",
+					"all",
+					"life.\\n"
+				],
+				"lineNumber": 35769
+			},
+			{
+				"address": 1502,
+				"opcode": "showTextbox",
+				"args": [
+					"Before",
+					"fading",
+					"away,\\n<ORANGE><DIGIMON><WHITE>",
+					"gave\\nbirth",
+					"to",
+					"a",
+					"Digitama.\\n"
+				],
+				"lineNumber": 35770
+			},
+			{
+				"address": 1606,
+				"opcode": "showTextbox",
+				"args": [
+					"Due",
+					"to",
+					"the",
+					"danger,\\nDigitama",
+					"did",
+					"not",
+					"inherit\\nall",
+					"abilities...\\n"
+				],
+				"lineNumber": 35771
+			},
+			{
+				"address": 1732,
+				"opcode": "if",
+				"args": [
+					"TAMER_LEVEL",
+					"==",
+					"0",
+					"then",
+					"1816"
+				],
+				"lineNumber": 35772
+			},
+			{
+				"address": 1746,
+				"opcode": "reduceStat",
+				"args": [
+					"TAMER_LEVEL",
+					"1"
+				],
+				"lineNumber": 35773
+			},
+			{
+				"address": 1750,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 35774
+			},
+			{
+				"address": 1752,
+				"opcode": "showTextbox",
+				"args": [
+					"<PINK>Tamer",
+					"Level\\nhas",
+					"gone",
+					"down!",
+					"<WHITE>\\n"
+				],
+				"lineNumber": 35775
+			},
+			{
+				"address": 1816,
+				"opcode": "callRoutine",
+				"args": [
+					"47"
+				],
+				"lineNumber": 35776
+			},
+			{
+				"address": 1818,
+				"opcode": "callDigimonRoutine",
+				"args": [
+					"4"
+				],
+				"lineNumber": 35777
+			},
+			{
+				"address": 1820,
+				"opcode": "waitForEntity",
+				"args": [
+					"255"
+				],
+				"lineNumber": 35778
+			},
+			{
+				"address": 1822,
+				"opcode": "setPStat",
+				"args": [
+					"245",
+					"0"
+				],
+				"lineNumber": 35779
+			},
+			{
+				"address": 1826,
+				"opcode": "setBGM",
+				"args": [
+					"28"
+				],
+				"lineNumber": 35780
+			},
+			{
+				"address": 1828,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 35781
+			},
+			{
+				"address": 1830,
+				"opcode": "showTextbox",
+				"args": [
+					"If",
+					"you",
+					"want,\\nyou",
+					"can",
+					"change",
+					"the",
+					"name\\n<ORANGE><DIGIMON><WHITE>.\\n"
+				],
+				"lineNumber": 35782
+			},
+			{
+				"address": 1918,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 35783
+			},
+			{
+				"address": 1920,
+				"opcode": "setSelection",
+				"args": [
+					"520",
+					"630"
+				],
+				"lineNumber": 35784
+			},
+			{
+				"address": 1926,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"want",
+					"a",
+					"new",
+					"name\\nI'll",
+					"keep",
+					"his",
+					"name\\n"
+				],
+				"lineNumber": 35785
+			},
+			{
+				"address": 2004,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 35786
+			},
+			{
+				"address": 2006,
+				"opcode": "endSection",
+				"lineNumber": 35787
+			},
+			{
+				"address": 2008,
+				"opcode": "setPStat",
+				"args": [
+					"254",
+					"3"
+				],
+				"lineNumber": 35788
+			},
+			{
+				"address": 2012,
+				"opcode": "callRoutine",
+				"args": [
+					"32"
+				],
+				"lineNumber": 35789
+			},
+			{
+				"address": 2014,
+				"opcode": "callRoutine",
+				"args": [
+					"35"
+				],
+				"lineNumber": 35790
+			},
+			{
+				"address": 2016,
+				"opcode": "waitForEntity",
+				"args": [
+					"214"
+				],
+				"lineNumber": 35791
+			},
+			{
+				"address": 2018,
+				"opcode": "endSection",
+				"lineNumber": 35792
+			},
+			{
+				"address": 2020,
+				"opcode": "fadeoutHud",
+				"lineNumber": 35793
+			},
+			{
+				"address": 2022,
+				"opcode": "storeDigimonType",
+				"args": [
+					"103"
+				],
+				"lineNumber": 35794
+			},
+			{
+				"address": 2024,
+				"opcode": "if",
+				"args": [
+					"pstat(103)",
+					"!=",
+					"3",
+					"AND",
+					"pstat(103)",
+					"!=",
+					"4",
+					"AND",
+					"pstat(103)",
+					"!=",
+					"17",
+					"AND",
+					"pstat(103)",
+					"!=",
+					"18",
+					"then",
+					"2052"
+				],
+				"lineNumber": 35795
+			},
+			{
+				"address": 2048,
+				"opcode": "jumpTo",
+				"args": [
+					"2134"
+				],
+				"lineNumber": 35796
+			},
+			{
+				"address": 2052,
+				"opcode": "if",
+				"args": [
+					"pstat(103)",
+					"!=",
+					"31",
+					"AND",
+					"pstat(103)",
+					"!=",
+					"32",
+					"AND",
+					"pstat(103)",
+					"!=",
+					"45",
+					"AND",
+					"pstat(103)",
+					"!=",
+					"46",
+					"then",
+					"2080"
+				],
+				"lineNumber": 35797
+			},
+			{
+				"address": 2076,
+				"opcode": "jumpTo",
+				"args": [
+					"2134"
+				],
+				"lineNumber": 35798
+			},
+			{
+				"address": 2080,
+				"opcode": "if",
+				"args": [
+					"pstat(103)",
+					"!=",
+					"12",
+					"AND",
+					"pstat(103)",
+					"!=",
+					"54",
+					"then",
+					"2100"
+				],
+				"lineNumber": 35799
+			},
+			{
+				"address": 2096,
+				"opcode": "jumpTo",
+				"args": [
+					"2210"
+				],
+				"lineNumber": 35800
+			},
+			{
+				"address": 2100,
+				"opcode": "if",
+				"args": [
+					"pstat(103)",
+					"!=",
+					"50",
+					"then",
+					"2116"
+				],
+				"lineNumber": 35801
+			},
+			{
+				"address": 2112,
+				"opcode": "jumpTo",
+				"args": [
+					"2286"
+				],
+				"lineNumber": 35802
+			},
+			{
+				"address": 2116,
+				"opcode": "if",
+				"args": [
+					"pstat(103)",
+					"!=",
+					"20",
+					"then",
+					"2132"
+				],
+				"lineNumber": 35803
+			},
+			{
+				"address": 2128,
+				"opcode": "jumpTo",
+				"args": [
+					"2362"
+				],
+				"lineNumber": 35804
+			},
+			{
+				"address": 2132,
+				"opcode": "endSection",
+				"lineNumber": 35805
+			},
+			{
+				"address": 2134,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 35806
+			},
+			{
+				"address": 2138,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"9",
+					"then",
+					"2208"
+				],
+				"lineNumber": 35807
+			},
+			{
+				"address": 2150,
+				"opcode": "setPStat",
+				"args": [
+					"254",
+					"37"
+				],
+				"lineNumber": 35808
+			},
+			{
+				"address": 2154,
+				"opcode": "callDigimonRoutine",
+				"args": [
+					"10"
+				],
+				"lineNumber": 35809
+			},
+			{
+				"address": 2156,
+				"opcode": "delay",
+				"args": [
+					"550"
+				],
+				"lineNumber": 35810
+			},
+			{
+				"address": 2160,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 35811
+			},
+			{
+				"address": 2162,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"has",
+					"digivolved!\\n"
+				],
+				"lineNumber": 35812
+			},
+			{
+				"address": 2206,
+				"opcode": "endSection",
+				"lineNumber": 35813
+			},
+			{
+				"address": 2208,
+				"opcode": "endSection",
+				"lineNumber": 35814
+			},
+			{
+				"address": 2210,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 35815
+			},
+			{
+				"address": 2214,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"9",
+					"then",
+					"2284"
+				],
+				"lineNumber": 35816
+			},
+			{
+				"address": 2226,
+				"opcode": "setPStat",
+				"args": [
+					"254",
+					"26"
+				],
+				"lineNumber": 35817
+			},
+			{
+				"address": 2230,
+				"opcode": "callDigimonRoutine",
+				"args": [
+					"10"
+				],
+				"lineNumber": 35818
+			},
+			{
+				"address": 2232,
+				"opcode": "delay",
+				"args": [
+					"550"
+				],
+				"lineNumber": 35819
+			},
+			{
+				"address": 2236,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 35820
+			},
+			{
+				"address": 2238,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"has",
+					"digivolved!\\n"
+				],
+				"lineNumber": 35821
+			},
+			{
+				"address": 2282,
+				"opcode": "endSection",
+				"lineNumber": 35822
+			},
+			{
+				"address": 2284,
+				"opcode": "endSection",
+				"lineNumber": 35823
+			},
+			{
+				"address": 2286,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 35824
+			},
+			{
+				"address": 2290,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"9",
+					"then",
+					"2360"
+				],
+				"lineNumber": 35825
+			},
+			{
+				"address": 2302,
+				"opcode": "setPStat",
+				"args": [
+					"254",
+					"59"
+				],
+				"lineNumber": 35826
+			},
+			{
+				"address": 2306,
+				"opcode": "callDigimonRoutine",
+				"args": [
+					"10"
+				],
+				"lineNumber": 35827
+			},
+			{
+				"address": 2308,
+				"opcode": "delay",
+				"args": [
+					"550"
+				],
+				"lineNumber": 35828
+			},
+			{
+				"address": 2312,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 35829
+			},
+			{
+				"address": 2314,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"has",
+					"digivolved!\\n"
+				],
+				"lineNumber": 35830
+			},
+			{
+				"address": 2358,
+				"opcode": "endSection",
+				"lineNumber": 35831
+			},
+			{
+				"address": 2360,
+				"opcode": "endSection",
+				"lineNumber": 35832
+			},
+			{
+				"address": 2362,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 35833
+			},
+			{
+				"address": 2366,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"49",
+					"OR",
+					"DISCIPLINE",
+					">",
+					"49",
+					"then",
+					"2442"
+				],
+				"lineNumber": 35834
+			},
+			{
+				"address": 2384,
+				"opcode": "setPStat",
+				"args": [
+					"254",
+					"6"
+				],
+				"lineNumber": 35835
+			},
+			{
+				"address": 2388,
+				"opcode": "callDigimonRoutine",
+				"args": [
+					"10"
+				],
+				"lineNumber": 35836
+			},
+			{
+				"address": 2390,
+				"opcode": "delay",
+				"args": [
+					"550"
+				],
+				"lineNumber": 35837
+			},
+			{
+				"address": 2394,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 35838
+			},
+			{
+				"address": 2396,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"has",
+					"digivolved!\\n"
+				],
+				"lineNumber": 35839
+			},
+			{
+				"address": 2440,
+				"opcode": "endSection",
+				"lineNumber": 35840
+			},
+			{
+				"address": 2442,
+				"opcode": "endSection",
+				"lineNumber": 35841
+			}
+		]
+	}
+}
+}

@@ -1,0 +1,4234 @@
+{
+"id": 218,
+"info": "== Script ID 218 == bd800",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 12,
+				"opcode": "endSection",
+				"lineNumber": 37512
+			}
+		]
+	},
+	"51": {
+		"id": 51,
+		"instructions": [
+			{
+				"address": 14,
+				"opcode": "if",
+				"args": [
+					"trigger(223)",
+					"==",
+					"false",
+					"OR",
+					"pstat(27)",
+					"!=",
+					"3",
+					"then",
+					"78"
+				],
+				"lineNumber": 37514
+			},
+			{
+				"address": 30,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37515
+			},
+			{
+				"address": 32,
+				"opcode": "showTextbox",
+				"args": [
+					"What",
+					"will",
+					"you",
+					"eat?\\n"
+				],
+				"lineNumber": 37516
+			},
+			{
+				"address": 74,
+				"opcode": "jumpTo",
+				"args": [
+					"196"
+				],
+				"lineNumber": 37517
+			},
+			{
+				"address": 78,
+				"opcode": "if",
+				"args": [
+					"trigger(228)",
+					"==",
+					"false",
+					"OR",
+					"pstat(27)",
+					"!=",
+					"4",
+					"then",
+					"154"
+				],
+				"lineNumber": 37518
+			},
+			{
+				"address": 94,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37519
+			},
+			{
+				"address": 96,
+				"opcode": "showTextbox",
+				"args": [
+					"What",
+					"do",
+					"you",
+					"want",
+					"to",
+					"eat?\\n"
+				],
+				"lineNumber": 37520
+			},
+			{
+				"address": 150,
+				"opcode": "jumpTo",
+				"args": [
+					"1754"
+				],
+				"lineNumber": 37521
+			},
+			{
+				"address": 154,
+				"opcode": "if",
+				"args": [
+					"trigger(256)",
+					"==",
+					"false",
+					"OR",
+					"pstat(27)",
+					"!=",
+					"5",
+					"then",
+					"196"
+				],
+				"lineNumber": 37522
+			},
+			{
+				"address": 170,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37523
+			},
+			{
+				"address": 172,
+				"opcode": "showTextbox",
+				"args": [
+					"......?\\n"
+				],
+				"lineNumber": 37524
+			},
+			{
+				"address": 192,
+				"opcode": "jumpTo",
+				"args": [
+					"3946"
+				],
+				"lineNumber": 37525
+			},
+			{
+				"address": 196,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37526
+			},
+			{
+				"address": 198,
+				"opcode": "setSelection",
+				"args": [
+					"384",
+					"812",
+					"1246"
+				],
+				"lineNumber": 37527
+			},
+			{
+				"address": 206,
+				"opcode": "showTextbox",
+				"args": [
+					"Snow",
+					"Shake:",
+					"three",
+					"hund",
+					"bits\\nIce",
+					"Cream:",
+					"seven",
+					"hund",
+					"bits\\nSnow",
+					"Cone:sixteen",
+					"hund",
+					"bits\\n"
+				],
+				"lineNumber": 37528
+			},
+			{
+				"address": 378,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 37529
+			},
+			{
+				"address": 380,
+				"opcode": "jumpTo",
+				"args": [
+					"1716"
+				],
+				"lineNumber": 37530
+			},
+			{
+				"address": 384,
+				"opcode": "if",
+				"args": [
+					"getMoney",
+					"<",
+					"300",
+					"then",
+					"404"
+				],
+				"lineNumber": 37531
+			},
+			{
+				"address": 400,
+				"opcode": "jumpTo",
+				"args": [
+					"468"
+				],
+				"lineNumber": 37532
+			},
+			{
+				"address": 404,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37533
+			},
+			{
+				"address": 406,
+				"opcode": "showTextbox",
+				"args": [
+					"You",
+					"don't",
+					"have",
+					"enough",
+					"bits.\\n"
+				],
+				"lineNumber": 37534
+			},
+			{
+				"address": 466,
+				"opcode": "endSection",
+				"lineNumber": 37535
+			},
+			{
+				"address": 468,
+				"opcode": "if",
+				"args": [
+					"trigger(640)",
+					"==",
+					"true",
+					"AND",
+					"condition(4)",
+					"==",
+					"0",
+					"then",
+					"762"
+				],
+				"lineNumber": 37536
+			},
+			{
+				"address": 484,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37537
+			},
+			{
+				"address": 486,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"enjoyed\\na",
+					"Snow",
+					"Shake!\\n"
+				],
+				"lineNumber": 37538
+			},
+			{
+				"address": 542,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"0"
+				],
+				"lineNumber": 37539
+			},
+			{
+				"address": 546,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"0"
+				],
+				"lineNumber": 37540
+			},
+			{
+				"address": 550,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"1"
+				],
+				"lineNumber": 37541
+			},
+			{
+				"address": 554,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"0"
+				],
+				"lineNumber": 37542
+			},
+			{
+				"address": 558,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"0"
+				],
+				"lineNumber": 37543
+			},
+			{
+				"address": 562,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"10"
+				],
+				"lineNumber": 37544
+			},
+			{
+				"address": 566,
+				"opcode": "reduceStat",
+				"args": [
+					"TIREDNESS",
+					"2"
+				],
+				"lineNumber": 37545
+			},
+			{
+				"address": 570,
+				"opcode": "addStats",
+				"args": [
+					"HAPPINESS",
+					"3"
+				],
+				"lineNumber": 37546
+			},
+			{
+				"address": 574,
+				"opcode": "addStats",
+				"args": [
+					"DISCIPLINE",
+					"0"
+				],
+				"lineNumber": 37547
+			},
+			{
+				"address": 578,
+				"opcode": "addStats",
+				"args": [
+					"ENERGY",
+					"12"
+				],
+				"lineNumber": 37548
+			},
+			{
+				"address": 582,
+				"opcode": "addStats",
+				"args": [
+					"WEIGHT",
+					"2"
+				],
+				"lineNumber": 37549
+			},
+			{
+				"address": 586,
+				"opcode": "reduceMoney",
+				"args": [
+					"300"
+				],
+				"lineNumber": 37550
+			},
+			{
+				"address": 592,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37551
+			},
+			{
+				"address": 594,
+				"opcode": "showTextbox",
+				"args": [
+					"MP",
+					"went",
+					"up",
+					"ten!\\nSpeed",
+					"went",
+					"up",
+					"one!\\n"
+				],
+				"lineNumber": 37552
+			},
+			{
+				"address": 668,
+				"opcode": "showTextbox",
+				"args": [
+					"Happiness",
+					"went",
+					"up!\\nTiredness",
+					"went",
+					"down!\\n"
+				],
+				"lineNumber": 37553
+			},
+			{
+				"address": 752,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"11"
+				],
+				"lineNumber": 37554
+			},
+			{
+				"address": 756,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 37555
+			},
+			{
+				"address": 758,
+				"opcode": "jumpTo",
+				"args": [
+					"1716"
+				],
+				"lineNumber": 37556
+			},
+			{
+				"address": 762,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"13"
+				],
+				"lineNumber": 37557
+			},
+			{
+				"address": 766,
+				"opcode": "waitForEntity",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37558
+			},
+			{
+				"address": 768,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37559
+			},
+			{
+				"address": 770,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"isn't",
+					"hungry.\\n"
+				],
+				"lineNumber": 37560
+			},
+			{
+				"address": 810,
+				"opcode": "endSection",
+				"lineNumber": 37561
+			},
+			{
+				"address": 812,
+				"opcode": "if",
+				"args": [
+					"getMoney",
+					"<",
+					"700",
+					"then",
+					"832"
+				],
+				"lineNumber": 37562
+			},
+			{
+				"address": 828,
+				"opcode": "jumpTo",
+				"args": [
+					"896"
+				],
+				"lineNumber": 37563
+			},
+			{
+				"address": 832,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37564
+			},
+			{
+				"address": 834,
+				"opcode": "showTextbox",
+				"args": [
+					"You",
+					"don't",
+					"have",
+					"enough",
+					"bits.\\n"
+				],
+				"lineNumber": 37565
+			},
+			{
+				"address": 894,
+				"opcode": "endSection",
+				"lineNumber": 37566
+			},
+			{
+				"address": 896,
+				"opcode": "if",
+				"args": [
+					"trigger(640)",
+					"==",
+					"true",
+					"AND",
+					"condition(4)",
+					"==",
+					"0",
+					"then",
+					"1196"
+				],
+				"lineNumber": 37567
+			},
+			{
+				"address": 912,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37568
+			},
+			{
+				"address": 914,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"enjoyed\\nan",
+					"Ice",
+					"Cream!\\n"
+				],
+				"lineNumber": 37569
+			},
+			{
+				"address": 970,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"0"
+				],
+				"lineNumber": 37570
+			},
+			{
+				"address": 974,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"0"
+				],
+				"lineNumber": 37571
+			},
+			{
+				"address": 978,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"2"
+				],
+				"lineNumber": 37572
+			},
+			{
+				"address": 982,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"0"
+				],
+				"lineNumber": 37573
+			},
+			{
+				"address": 986,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"0"
+				],
+				"lineNumber": 37574
+			},
+			{
+				"address": 990,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"30"
+				],
+				"lineNumber": 37575
+			},
+			{
+				"address": 994,
+				"opcode": "reduceStat",
+				"args": [
+					"TIREDNESS",
+					"2"
+				],
+				"lineNumber": 37576
+			},
+			{
+				"address": 998,
+				"opcode": "addStats",
+				"args": [
+					"HAPPINESS",
+					"5"
+				],
+				"lineNumber": 37577
+			},
+			{
+				"address": 1002,
+				"opcode": "addStats",
+				"args": [
+					"DISCIPLINE",
+					"0"
+				],
+				"lineNumber": 37578
+			},
+			{
+				"address": 1006,
+				"opcode": "addStats",
+				"args": [
+					"ENERGY",
+					"16"
+				],
+				"lineNumber": 37579
+			},
+			{
+				"address": 1010,
+				"opcode": "addStats",
+				"args": [
+					"WEIGHT",
+					"3"
+				],
+				"lineNumber": 37580
+			},
+			{
+				"address": 1014,
+				"opcode": "reduceMoney",
+				"args": [
+					"700"
+				],
+				"lineNumber": 37581
+			},
+			{
+				"address": 1020,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37582
+			},
+			{
+				"address": 1022,
+				"opcode": "showTextbox",
+				"args": [
+					"MP",
+					"went",
+					"up",
+					"thirty!\\nSpeed",
+					"went",
+					"up",
+					"two!\\n"
+				],
+				"lineNumber": 37583
+			},
+			{
+				"address": 1102,
+				"opcode": "showTextbox",
+				"args": [
+					"Happiness",
+					"went",
+					"up!\\nTiredness",
+					"went",
+					"down!\\n"
+				],
+				"lineNumber": 37584
+			},
+			{
+				"address": 1186,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"11"
+				],
+				"lineNumber": 37585
+			},
+			{
+				"address": 1190,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 37586
+			},
+			{
+				"address": 1192,
+				"opcode": "jumpTo",
+				"args": [
+					"1716"
+				],
+				"lineNumber": 37587
+			},
+			{
+				"address": 1196,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"13"
+				],
+				"lineNumber": 37588
+			},
+			{
+				"address": 1200,
+				"opcode": "waitForEntity",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37589
+			},
+			{
+				"address": 1202,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37590
+			},
+			{
+				"address": 1204,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"isn't",
+					"hungry.\\n"
+				],
+				"lineNumber": 37591
+			},
+			{
+				"address": 1244,
+				"opcode": "endSection",
+				"lineNumber": 37592
+			},
+			{
+				"address": 1246,
+				"opcode": "if",
+				"args": [
+					"getMoney",
+					"<",
+					"1600",
+					"then",
+					"1266"
+				],
+				"lineNumber": 37593
+			},
+			{
+				"address": 1262,
+				"opcode": "jumpTo",
+				"args": [
+					"1330"
+				],
+				"lineNumber": 37594
+			},
+			{
+				"address": 1266,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37595
+			},
+			{
+				"address": 1268,
+				"opcode": "showTextbox",
+				"args": [
+					"You",
+					"don't",
+					"have",
+					"enough",
+					"bits.\\n"
+				],
+				"lineNumber": 37596
+			},
+			{
+				"address": 1328,
+				"opcode": "endSection",
+				"lineNumber": 37597
+			},
+			{
+				"address": 1330,
+				"opcode": "if",
+				"args": [
+					"trigger(640)",
+					"==",
+					"true",
+					"AND",
+					"condition(4)",
+					"==",
+					"0",
+					"then",
+					"1666"
+				],
+				"lineNumber": 37598
+			},
+			{
+				"address": 1346,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37599
+			},
+			{
+				"address": 1348,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"enjoyed\\na",
+					"Snow",
+					"Cone!\\n"
+				],
+				"lineNumber": 37600
+			},
+			{
+				"address": 1402,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"0"
+				],
+				"lineNumber": 37601
+			},
+			{
+				"address": 1406,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"0"
+				],
+				"lineNumber": 37602
+			},
+			{
+				"address": 1410,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"2"
+				],
+				"lineNumber": 37603
+			},
+			{
+				"address": 1414,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"0"
+				],
+				"lineNumber": 37604
+			},
+			{
+				"address": 1418,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"0"
+				],
+				"lineNumber": 37605
+			},
+			{
+				"address": 1422,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"50"
+				],
+				"lineNumber": 37606
+			},
+			{
+				"address": 1426,
+				"opcode": "reduceStat",
+				"args": [
+					"TIREDNESS",
+					"2"
+				],
+				"lineNumber": 37607
+			},
+			{
+				"address": 1430,
+				"opcode": "addStats",
+				"args": [
+					"HAPPINESS",
+					"7"
+				],
+				"lineNumber": 37608
+			},
+			{
+				"address": 1434,
+				"opcode": "addStats",
+				"args": [
+					"DISCIPLINE",
+					"1"
+				],
+				"lineNumber": 37609
+			},
+			{
+				"address": 1438,
+				"opcode": "addStats",
+				"args": [
+					"ENERGY",
+					"20"
+				],
+				"lineNumber": 37610
+			},
+			{
+				"address": 1442,
+				"opcode": "addStats",
+				"args": [
+					"WEIGHT",
+					"4"
+				],
+				"lineNumber": 37611
+			},
+			{
+				"address": 1446,
+				"opcode": "reduceMoney",
+				"args": [
+					"1600"
+				],
+				"lineNumber": 37612
+			},
+			{
+				"address": 1452,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37613
+			},
+			{
+				"address": 1454,
+				"opcode": "showTextbox",
+				"args": [
+					"MP",
+					"went",
+					"up",
+					"fifty!\\nSpeed",
+					"went",
+					"up",
+					"two!\\n"
+				],
+				"lineNumber": 37614
+			},
+			{
+				"address": 1532,
+				"opcode": "showTextbox",
+				"args": [
+					"Happiness",
+					"went",
+					"up!\\nDiscipline",
+					"went",
+					"up!\\nTiredness",
+					"went",
+					"down!\\n"
+				],
+				"lineNumber": 37615
+			},
+			{
+				"address": 1656,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"11"
+				],
+				"lineNumber": 37616
+			},
+			{
+				"address": 1660,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 37617
+			},
+			{
+				"address": 1662,
+				"opcode": "jumpTo",
+				"args": [
+					"1716"
+				],
+				"lineNumber": 37618
+			},
+			{
+				"address": 1666,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"13"
+				],
+				"lineNumber": 37619
+			},
+			{
+				"address": 1670,
+				"opcode": "waitForEntity",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37620
+			},
+			{
+				"address": 1672,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37621
+			},
+			{
+				"address": 1674,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"isn't",
+					"hungry.\\n"
+				],
+				"lineNumber": 37622
+			},
+			{
+				"address": 1714,
+				"opcode": "endSection",
+				"lineNumber": 37623
+			},
+			{
+				"address": 1716,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37624
+			},
+			{
+				"address": 1718,
+				"opcode": "showTextbox",
+				"args": [
+					"See",
+					"you",
+					"later!\\n"
+				],
+				"lineNumber": 37625
+			},
+			{
+				"address": 1752,
+				"opcode": "endSection",
+				"lineNumber": 37626
+			},
+			{
+				"address": 1754,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37627
+			},
+			{
+				"address": 1756,
+				"opcode": "setSelection",
+				"args": [
+					"1948",
+					"2588",
+					"3234"
+				],
+				"lineNumber": 37628
+			},
+			{
+				"address": 1764,
+				"opcode": "showTextbox",
+				"args": [
+					"Space",
+					"Salad:fifteen",
+					"hund",
+					"bit\\nUFO",
+					"Soup:",
+					"four",
+					"thous",
+					"bit\\nGalaxy",
+					"Course:nine",
+					"thous",
+					"bit\\n"
+				],
+				"lineNumber": 37629
+			},
+			{
+				"address": 1942,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 37630
+			},
+			{
+				"address": 1944,
+				"opcode": "jumpTo",
+				"args": [
+					"3898"
+				],
+				"lineNumber": 37631
+			},
+			{
+				"address": 1948,
+				"opcode": "if",
+				"args": [
+					"getMoney",
+					"<",
+					"1500",
+					"then",
+					"1968"
+				],
+				"lineNumber": 37632
+			},
+			{
+				"address": 1964,
+				"opcode": "jumpTo",
+				"args": [
+					"2020"
+				],
+				"lineNumber": 37633
+			},
+			{
+				"address": 1968,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37634
+			},
+			{
+				"address": 1970,
+				"opcode": "showTextbox",
+				"args": [
+					"You're",
+					"short",
+					"of",
+					"bits.\\n"
+				],
+				"lineNumber": 37635
+			},
+			{
+				"address": 2018,
+				"opcode": "endSection",
+				"lineNumber": 37636
+			},
+			{
+				"address": 2020,
+				"opcode": "if",
+				"args": [
+					"trigger(640)",
+					"==",
+					"true",
+					"AND",
+					"condition(4)",
+					"==",
+					"0",
+					"then",
+					"2548"
+				],
+				"lineNumber": 37637
+			},
+			{
+				"address": 2036,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37638
+			},
+			{
+				"address": 2038,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"enjoyed\\na",
+					"Space",
+					"Salad!\\n"
+				],
+				"lineNumber": 37639
+			},
+			{
+				"address": 2096,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"1"
+				],
+				"lineNumber": 37640
+			},
+			{
+				"address": 2100,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"1"
+				],
+				"lineNumber": 37641
+			},
+			{
+				"address": 2104,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"1"
+				],
+				"lineNumber": 37642
+			},
+			{
+				"address": 2108,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"1"
+				],
+				"lineNumber": 37643
+			},
+			{
+				"address": 2112,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"10"
+				],
+				"lineNumber": 37644
+			},
+			{
+				"address": 2116,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"10"
+				],
+				"lineNumber": 37645
+			},
+			{
+				"address": 2120,
+				"opcode": "reduceStat",
+				"args": [
+					"TIREDNESS",
+					"5"
+				],
+				"lineNumber": 37646
+			},
+			{
+				"address": 2124,
+				"opcode": "addStats",
+				"args": [
+					"HAPPINESS",
+					"1"
+				],
+				"lineNumber": 37647
+			},
+			{
+				"address": 2128,
+				"opcode": "addStats",
+				"args": [
+					"DISCIPLINE",
+					"1"
+				],
+				"lineNumber": 37648
+			},
+			{
+				"address": 2132,
+				"opcode": "addStats",
+				"args": [
+					"ENERGY",
+					"20"
+				],
+				"lineNumber": 37649
+			},
+			{
+				"address": 2136,
+				"opcode": "addStats",
+				"args": [
+					"WEIGHT",
+					"0"
+				],
+				"lineNumber": 37650
+			},
+			{
+				"address": 2140,
+				"opcode": "reduceMoney",
+				"args": [
+					"1500"
+				],
+				"lineNumber": 37651
+			},
+			{
+				"address": 2146,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37652
+			},
+			{
+				"address": 2148,
+				"opcode": "showTextbox",
+				"args": [
+					"HP",
+					"went",
+					"up",
+					"ten!\\nMP",
+					"went",
+					"up",
+					"ten!\\nOffensive",
+					"Power",
+					"went",
+					"up",
+					"one!\\n"
+				],
+				"lineNumber": 37653
+			},
+			{
+				"address": 2274,
+				"opcode": "showTextbox",
+				"args": [
+					"Defensive",
+					"Power",
+					"went",
+					"up",
+					"one!\\nSpeed",
+					"went",
+					"up",
+					"one!\\nBrains",
+					"went",
+					"up",
+					"one!\\n"
+				],
+				"lineNumber": 37654
+			},
+			{
+				"address": 2414,
+				"opcode": "showTextbox",
+				"args": [
+					"Happiness",
+					"went",
+					"up!\\nDiscipline",
+					"went",
+					"up!\\nTiredness",
+					"went",
+					"down!\\n"
+				],
+				"lineNumber": 37655
+			},
+			{
+				"address": 2538,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"11"
+				],
+				"lineNumber": 37656
+			},
+			{
+				"address": 2542,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 37657
+			},
+			{
+				"address": 2544,
+				"opcode": "jumpTo",
+				"args": [
+					"3898"
+				],
+				"lineNumber": 37658
+			},
+			{
+				"address": 2548,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"13"
+				],
+				"lineNumber": 37659
+			},
+			{
+				"address": 2552,
+				"opcode": "waitForEntity",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37660
+			},
+			{
+				"address": 2554,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37661
+			},
+			{
+				"address": 2556,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"is",
+					"full.\\n"
+				],
+				"lineNumber": 37662
+			},
+			{
+				"address": 2586,
+				"opcode": "endSection",
+				"lineNumber": 37663
+			},
+			{
+				"address": 2588,
+				"opcode": "if",
+				"args": [
+					"getMoney",
+					"<",
+					"4000",
+					"then",
+					"2608"
+				],
+				"lineNumber": 37664
+			},
+			{
+				"address": 2604,
+				"opcode": "jumpTo",
+				"args": [
+					"2660"
+				],
+				"lineNumber": 37665
+			},
+			{
+				"address": 2608,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37666
+			},
+			{
+				"address": 2610,
+				"opcode": "showTextbox",
+				"args": [
+					"You're",
+					"short",
+					"of",
+					"bits.\\n"
+				],
+				"lineNumber": 37667
+			},
+			{
+				"address": 2658,
+				"opcode": "endSection",
+				"lineNumber": 37668
+			},
+			{
+				"address": 2660,
+				"opcode": "if",
+				"args": [
+					"trigger(640)",
+					"==",
+					"true",
+					"AND",
+					"condition(4)",
+					"==",
+					"0",
+					"then",
+					"3194"
+				],
+				"lineNumber": 37669
+			},
+			{
+				"address": 2676,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37670
+			},
+			{
+				"address": 2678,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"enjoyed\\na",
+					"UFO",
+					"Soup!\\n"
+				],
+				"lineNumber": 37671
+			},
+			{
+				"address": 2730,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"2"
+				],
+				"lineNumber": 37672
+			},
+			{
+				"address": 2734,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"2"
+				],
+				"lineNumber": 37673
+			},
+			{
+				"address": 2738,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"2"
+				],
+				"lineNumber": 37674
+			},
+			{
+				"address": 2742,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"2"
+				],
+				"lineNumber": 37675
+			},
+			{
+				"address": 2746,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"20"
+				],
+				"lineNumber": 37676
+			},
+			{
+				"address": 2750,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"20"
+				],
+				"lineNumber": 37677
+			},
+			{
+				"address": 2754,
+				"opcode": "reduceStat",
+				"args": [
+					"TIREDNESS",
+					"5"
+				],
+				"lineNumber": 37678
+			},
+			{
+				"address": 2758,
+				"opcode": "addStats",
+				"args": [
+					"HAPPINESS",
+					"2"
+				],
+				"lineNumber": 37679
+			},
+			{
+				"address": 2762,
+				"opcode": "addStats",
+				"args": [
+					"DISCIPLINE",
+					"2"
+				],
+				"lineNumber": 37680
+			},
+			{
+				"address": 2766,
+				"opcode": "addStats",
+				"args": [
+					"ENERGY",
+					"30"
+				],
+				"lineNumber": 37681
+			},
+			{
+				"address": 2770,
+				"opcode": "addStats",
+				"args": [
+					"WEIGHT",
+					"1"
+				],
+				"lineNumber": 37682
+			},
+			{
+				"address": 2774,
+				"opcode": "reduceMoney",
+				"args": [
+					"4000"
+				],
+				"lineNumber": 37683
+			},
+			{
+				"address": 2780,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37684
+			},
+			{
+				"address": 2782,
+				"opcode": "showTextbox",
+				"args": [
+					"HP",
+					"went",
+					"up",
+					"twenty!\\nMP",
+					"went",
+					"up",
+					"twenty!\\nOffensive",
+					"Power",
+					"went",
+					"up",
+					"two!\\n"
+				],
+				"lineNumber": 37685
+			},
+			{
+				"address": 2920,
+				"opcode": "showTextbox",
+				"args": [
+					"Defensive",
+					"Power",
+					"went",
+					"up",
+					"two!\\nSpeed",
+					"went",
+					"up",
+					"two!\\nBrains",
+					"went",
+					"up",
+					"two!\\n"
+				],
+				"lineNumber": 37686
+			},
+			{
+				"address": 3060,
+				"opcode": "showTextbox",
+				"args": [
+					"Happiness",
+					"went",
+					"up!\\nDiscipline",
+					"went",
+					"up!\\nTiredness",
+					"went",
+					"down!\\n"
+				],
+				"lineNumber": 37687
+			},
+			{
+				"address": 3184,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"11"
+				],
+				"lineNumber": 37688
+			},
+			{
+				"address": 3188,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 37689
+			},
+			{
+				"address": 3190,
+				"opcode": "jumpTo",
+				"args": [
+					"3898"
+				],
+				"lineNumber": 37690
+			},
+			{
+				"address": 3194,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"13"
+				],
+				"lineNumber": 37691
+			},
+			{
+				"address": 3198,
+				"opcode": "waitForEntity",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37692
+			},
+			{
+				"address": 3200,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37693
+			},
+			{
+				"address": 3202,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"is",
+					"full.\\n"
+				],
+				"lineNumber": 37694
+			},
+			{
+				"address": 3232,
+				"opcode": "endSection",
+				"lineNumber": 37695
+			},
+			{
+				"address": 3234,
+				"opcode": "if",
+				"args": [
+					"getMoney",
+					"<",
+					"9000",
+					"then",
+					"3254"
+				],
+				"lineNumber": 37696
+			},
+			{
+				"address": 3250,
+				"opcode": "jumpTo",
+				"args": [
+					"3306"
+				],
+				"lineNumber": 37697
+			},
+			{
+				"address": 3254,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37698
+			},
+			{
+				"address": 3256,
+				"opcode": "showTextbox",
+				"args": [
+					"You're",
+					"short",
+					"of",
+					"bits.\\n"
+				],
+				"lineNumber": 37699
+			},
+			{
+				"address": 3304,
+				"opcode": "endSection",
+				"lineNumber": 37700
+			},
+			{
+				"address": 3306,
+				"opcode": "if",
+				"args": [
+					"trigger(640)",
+					"==",
+					"true",
+					"AND",
+					"condition(4)",
+					"==",
+					"0",
+					"then",
+					"3858"
+				],
+				"lineNumber": 37701
+			},
+			{
+				"address": 3322,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37702
+			},
+			{
+				"address": 3324,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"enjoyed\\na",
+					"Galaxy",
+					"Course!\\n"
+				],
+				"lineNumber": 37703
+			},
+			{
+				"address": 3386,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"3"
+				],
+				"lineNumber": 37704
+			},
+			{
+				"address": 3390,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"3"
+				],
+				"lineNumber": 37705
+			},
+			{
+				"address": 3394,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"3"
+				],
+				"lineNumber": 37706
+			},
+			{
+				"address": 3398,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"3"
+				],
+				"lineNumber": 37707
+			},
+			{
+				"address": 3402,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"30"
+				],
+				"lineNumber": 37708
+			},
+			{
+				"address": 3406,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"30"
+				],
+				"lineNumber": 37709
+			},
+			{
+				"address": 3410,
+				"opcode": "reduceStat",
+				"args": [
+					"TIREDNESS",
+					"5"
+				],
+				"lineNumber": 37710
+			},
+			{
+				"address": 3414,
+				"opcode": "addStats",
+				"args": [
+					"HAPPINESS",
+					"3"
+				],
+				"lineNumber": 37711
+			},
+			{
+				"address": 3418,
+				"opcode": "addStats",
+				"args": [
+					"DISCIPLINE",
+					"3"
+				],
+				"lineNumber": 37712
+			},
+			{
+				"address": 3422,
+				"opcode": "addStats",
+				"args": [
+					"ENERGY",
+					"45"
+				],
+				"lineNumber": 37713
+			},
+			{
+				"address": 3426,
+				"opcode": "addStats",
+				"args": [
+					"WEIGHT",
+					"5"
+				],
+				"lineNumber": 37714
+			},
+			{
+				"address": 3430,
+				"opcode": "reduceMoney",
+				"args": [
+					"9000"
+				],
+				"lineNumber": 37715
+			},
+			{
+				"address": 3436,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37716
+			},
+			{
+				"address": 3438,
+				"opcode": "showTextbox",
+				"args": [
+					"HP",
+					"went",
+					"up",
+					"thirty!\\nMP",
+					"went",
+					"up",
+					"thirty!\\nOffense",
+					"Power",
+					"went",
+					"up",
+					"three!\\n"
+				],
+				"lineNumber": 37717
+			},
+			{
+				"address": 3576,
+				"opcode": "showTextbox",
+				"args": [
+					"Defense",
+					"Power",
+					"went",
+					"up",
+					"three!\\nSpeed",
+					"went",
+					"up",
+					"three!\\nBrains",
+					"went",
+					"up",
+					"three!\\n"
+				],
+				"lineNumber": 37718
+			},
+			{
+				"address": 3724,
+				"opcode": "showTextbox",
+				"args": [
+					"Happiness",
+					"went",
+					"up!\\nDiscipline",
+					"went",
+					"up!\\nTiredness",
+					"went",
+					"down!\\n"
+				],
+				"lineNumber": 37719
+			},
+			{
+				"address": 3848,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"11"
+				],
+				"lineNumber": 37720
+			},
+			{
+				"address": 3852,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 37721
+			},
+			{
+				"address": 3854,
+				"opcode": "jumpTo",
+				"args": [
+					"3898"
+				],
+				"lineNumber": 37722
+			},
+			{
+				"address": 3858,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"13"
+				],
+				"lineNumber": 37723
+			},
+			{
+				"address": 3862,
+				"opcode": "waitForEntity",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37724
+			},
+			{
+				"address": 3864,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37725
+			},
+			{
+				"address": 3866,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"is",
+					"full.\\n"
+				],
+				"lineNumber": 37726
+			},
+			{
+				"address": 3896,
+				"opcode": "endSection",
+				"lineNumber": 37727
+			},
+			{
+				"address": 3898,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37728
+			},
+			{
+				"address": 3900,
+				"opcode": "showTextbox",
+				"args": [
+					"See",
+					"you",
+					"guys",
+					"later.\\n"
+				],
+				"lineNumber": 37729
+			},
+			{
+				"address": 3944,
+				"opcode": "endSection",
+				"lineNumber": 37730
+			},
+			{
+				"address": 3946,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37731
+			},
+			{
+				"address": 3948,
+				"opcode": "setSelection",
+				"args": [
+					"4140",
+					"5364",
+					"6654"
+				],
+				"lineNumber": 37732
+			},
+			{
+				"address": 3956,
+				"opcode": "showTextbox",
+				"args": [
+					"Boiled",
+					"Egg:",
+					"one",
+					"thous",
+					"bits\\nOmelet:twenty",
+					"five",
+					"hund",
+					"bits\\nEgg",
+					"Bowl:",
+					"six",
+					"thous",
+					"bits\\n"
+				],
+				"lineNumber": 37733
+			},
+			{
+				"address": 4134,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 37734
+			},
+			{
+				"address": 4136,
+				"opcode": "jumpTo",
+				"args": [
+					"7986"
+				],
+				"lineNumber": 37735
+			},
+			{
+				"address": 4140,
+				"opcode": "if",
+				"args": [
+					"getMoney",
+					"<",
+					"1000",
+					"then",
+					"4160"
+				],
+				"lineNumber": 37736
+			},
+			{
+				"address": 4156,
+				"opcode": "jumpTo",
+				"args": [
+					"4184"
+				],
+				"lineNumber": 37737
+			},
+			{
+				"address": 4160,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37738
+			},
+			{
+				"address": 4162,
+				"opcode": "showTextbox",
+				"args": [
+					".......\\n"
+				],
+				"lineNumber": 37739
+			},
+			{
+				"address": 4182,
+				"opcode": "endSection",
+				"lineNumber": 37740
+			},
+			{
+				"address": 4184,
+				"opcode": "if",
+				"args": [
+					"trigger(640)",
+					"==",
+					"true",
+					"AND",
+					"condition(4)",
+					"==",
+					"0",
+					"then",
+					"4276"
+				],
+				"lineNumber": 37741
+			},
+			{
+				"address": 4200,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37742
+			},
+			{
+				"address": 4202,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"enjoyed",
+					"a\\nWonder",
+					"Boiled",
+					"Egg!\\n"
+				],
+				"lineNumber": 37743
+			},
+			{
+				"address": 4272,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"2"
+				],
+				"lineNumber": 37744
+			},
+			{
+				"address": 4276,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"0",
+					"then",
+					"4562"
+				],
+				"lineNumber": 37745
+			},
+			{
+				"address": 4288,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"1"
+				],
+				"lineNumber": 37746
+			},
+			{
+				"address": 4292,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"0"
+				],
+				"lineNumber": 37747
+			},
+			{
+				"address": 4296,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"1"
+				],
+				"lineNumber": 37748
+			},
+			{
+				"address": 4300,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"0"
+				],
+				"lineNumber": 37749
+			},
+			{
+				"address": 4304,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"10"
+				],
+				"lineNumber": 37750
+			},
+			{
+				"address": 4308,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"0"
+				],
+				"lineNumber": 37751
+			},
+			{
+				"address": 4312,
+				"opcode": "reduceStat",
+				"args": [
+					"TIREDNESS",
+					"5"
+				],
+				"lineNumber": 37752
+			},
+			{
+				"address": 4316,
+				"opcode": "addStats",
+				"args": [
+					"HAPPINESS",
+					"1"
+				],
+				"lineNumber": 37753
+			},
+			{
+				"address": 4320,
+				"opcode": "addStats",
+				"args": [
+					"DISCIPLINE",
+					"0"
+				],
+				"lineNumber": 37754
+			},
+			{
+				"address": 4324,
+				"opcode": "addStats",
+				"args": [
+					"ENERGY",
+					"18"
+				],
+				"lineNumber": 37755
+			},
+			{
+				"address": 4328,
+				"opcode": "addStats",
+				"args": [
+					"WEIGHT",
+					"1"
+				],
+				"lineNumber": 37756
+			},
+			{
+				"address": 4332,
+				"opcode": "reduceMoney",
+				"args": [
+					"1000"
+				],
+				"lineNumber": 37757
+			},
+			{
+				"address": 4338,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37758
+			},
+			{
+				"address": 4340,
+				"opcode": "showTextbox",
+				"args": [
+					"HP",
+					"went",
+					"up",
+					"ten!\\nOffensive",
+					"Power",
+					"went",
+					"up",
+					"one!\\nSpeed",
+					"went",
+					"up",
+					"one!\\n"
+				],
+				"lineNumber": 37759
+			},
+			{
+				"address": 4472,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37760
+			},
+			{
+				"address": 4474,
+				"opcode": "showTextbox",
+				"args": [
+					"Happiness",
+					"went",
+					"up!\\nTiredness",
+					"went",
+					"down!\\n"
+				],
+				"lineNumber": 37761
+			},
+			{
+				"address": 4558,
+				"opcode": "jumpTo",
+				"args": [
+					"7986"
+				],
+				"lineNumber": 37762
+			},
+			{
+				"address": 4562,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"1",
+					"then",
+					"4850"
+				],
+				"lineNumber": 37763
+			},
+			{
+				"address": 4574,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"0"
+				],
+				"lineNumber": 37764
+			},
+			{
+				"address": 4578,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"1"
+				],
+				"lineNumber": 37765
+			},
+			{
+				"address": 4582,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"0"
+				],
+				"lineNumber": 37766
+			},
+			{
+				"address": 4586,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"1"
+				],
+				"lineNumber": 37767
+			},
+			{
+				"address": 4590,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"0"
+				],
+				"lineNumber": 37768
+			},
+			{
+				"address": 4594,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"10"
+				],
+				"lineNumber": 37769
+			},
+			{
+				"address": 4598,
+				"opcode": "reduceStat",
+				"args": [
+					"TIREDNESS",
+					"5"
+				],
+				"lineNumber": 37770
+			},
+			{
+				"address": 4602,
+				"opcode": "addStats",
+				"args": [
+					"HAPPINESS",
+					"1"
+				],
+				"lineNumber": 37771
+			},
+			{
+				"address": 4606,
+				"opcode": "addStats",
+				"args": [
+					"DISCIPLINE",
+					"0"
+				],
+				"lineNumber": 37772
+			},
+			{
+				"address": 4610,
+				"opcode": "addStats",
+				"args": [
+					"ENERGY",
+					"18"
+				],
+				"lineNumber": 37773
+			},
+			{
+				"address": 4614,
+				"opcode": "addStats",
+				"args": [
+					"WEIGHT",
+					"1"
+				],
+				"lineNumber": 37774
+			},
+			{
+				"address": 4618,
+				"opcode": "reduceMoney",
+				"args": [
+					"1000"
+				],
+				"lineNumber": 37775
+			},
+			{
+				"address": 4624,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37776
+			},
+			{
+				"address": 4626,
+				"opcode": "showTextbox",
+				"args": [
+					"MP",
+					"went",
+					"up",
+					"ten!\\nDefensive",
+					"Power",
+					"went",
+					"up",
+					"one!\\nBrains",
+					"went",
+					"up",
+					"one!\\n"
+				],
+				"lineNumber": 37777
+			},
+			{
+				"address": 4760,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37778
+			},
+			{
+				"address": 4762,
+				"opcode": "showTextbox",
+				"args": [
+					"Happiness",
+					"went",
+					"up!\\nTiredness",
+					"went",
+					"down!\\n"
+				],
+				"lineNumber": 37779
+			},
+			{
+				"address": 4846,
+				"opcode": "jumpTo",
+				"args": [
+					"7986"
+				],
+				"lineNumber": 37780
+			},
+			{
+				"address": 4850,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"5322"
+				],
+				"lineNumber": 37781
+			},
+			{
+				"address": 4862,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"2"
+				],
+				"lineNumber": 37782
+			},
+			{
+				"address": 4866,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"2"
+				],
+				"lineNumber": 37783
+			},
+			{
+				"address": 4870,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"2"
+				],
+				"lineNumber": 37784
+			},
+			{
+				"address": 4874,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"2"
+				],
+				"lineNumber": 37785
+			},
+			{
+				"address": 4878,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"20"
+				],
+				"lineNumber": 37786
+			},
+			{
+				"address": 4882,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"20"
+				],
+				"lineNumber": 37787
+			},
+			{
+				"address": 4886,
+				"opcode": "reduceStat",
+				"args": [
+					"TIREDNESS",
+					"5"
+				],
+				"lineNumber": 37788
+			},
+			{
+				"address": 4890,
+				"opcode": "addStats",
+				"args": [
+					"HAPPINESS",
+					"2"
+				],
+				"lineNumber": 37789
+			},
+			{
+				"address": 4894,
+				"opcode": "addStats",
+				"args": [
+					"DISCIPLINE",
+					"1"
+				],
+				"lineNumber": 37790
+			},
+			{
+				"address": 4898,
+				"opcode": "addStats",
+				"args": [
+					"ENERGY",
+					"18"
+				],
+				"lineNumber": 37791
+			},
+			{
+				"address": 4902,
+				"opcode": "addStats",
+				"args": [
+					"WEIGHT",
+					"1"
+				],
+				"lineNumber": 37792
+			},
+			{
+				"address": 4906,
+				"opcode": "reduceMoney",
+				"args": [
+					"1000"
+				],
+				"lineNumber": 37793
+			},
+			{
+				"address": 4912,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37794
+			},
+			{
+				"address": 4914,
+				"opcode": "showTextbox",
+				"args": [
+					"HP",
+					"went",
+					"up",
+					"twenty!\\nMP",
+					"went",
+					"up",
+					"twenty!\\nOffensive",
+					"Power",
+					"went",
+					"up",
+					"two!\\n"
+				],
+				"lineNumber": 37795
+			},
+			{
+				"address": 5052,
+				"opcode": "showTextbox",
+				"args": [
+					"Defensive",
+					"Power",
+					"went",
+					"up",
+					"two!\\nSpeed",
+					"went",
+					"up",
+					"two!\\nBrains",
+					"went",
+					"up",
+					"two!\\n"
+				],
+				"lineNumber": 37796
+			},
+			{
+				"address": 5192,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37797
+			},
+			{
+				"address": 5194,
+				"opcode": "showTextbox",
+				"args": [
+					"Happiness",
+					"went",
+					"up!\\nDiscipline",
+					"went",
+					"up!\\nTiredness",
+					"went",
+					"down!\\n"
+				],
+				"lineNumber": 37798
+			},
+			{
+				"address": 5318,
+				"opcode": "jumpTo",
+				"args": [
+					"7986"
+				],
+				"lineNumber": 37799
+			},
+			{
+				"address": 5322,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"11"
+				],
+				"lineNumber": 37800
+			},
+			{
+				"address": 5326,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 37801
+			},
+			{
+				"address": 5328,
+				"opcode": "jumpTo",
+				"args": [
+					"7986"
+				],
+				"lineNumber": 37802
+			},
+			{
+				"address": 5332,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"13"
+				],
+				"lineNumber": 37803
+			},
+			{
+				"address": 5336,
+				"opcode": "waitForEntity",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37804
+			},
+			{
+				"address": 5338,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37805
+			},
+			{
+				"address": 5340,
+				"opcode": "showTextbox",
+				"args": [
+					".......!\\n"
+				],
+				"lineNumber": 37806
+			},
+			{
+				"address": 5362,
+				"opcode": "endSection",
+				"lineNumber": 37807
+			},
+			{
+				"address": 5364,
+				"opcode": "if",
+				"args": [
+					"getMoney",
+					"<",
+					"2500",
+					"then",
+					"5384"
+				],
+				"lineNumber": 37808
+			},
+			{
+				"address": 5380,
+				"opcode": "jumpTo",
+				"args": [
+					"5414"
+				],
+				"lineNumber": 37809
+			},
+			{
+				"address": 5384,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37810
+			},
+			{
+				"address": 5386,
+				"opcode": "showTextbox",
+				"args": [
+					"..........\\n"
+				],
+				"lineNumber": 37811
+			},
+			{
+				"address": 5412,
+				"opcode": "endSection",
+				"lineNumber": 37812
+			},
+			{
+				"address": 5414,
+				"opcode": "if",
+				"args": [
+					"trigger(640)",
+					"==",
+					"true",
+					"AND",
+					"condition(4)",
+					"==",
+					"0",
+					"then",
+					"5506"
+				],
+				"lineNumber": 37813
+			},
+			{
+				"address": 5430,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37814
+			},
+			{
+				"address": 5432,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"enjoyed",
+					"a\\nWonder",
+					"Egg",
+					"Omelet!\\n"
+				],
+				"lineNumber": 37815
+			},
+			{
+				"address": 5502,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"2"
+				],
+				"lineNumber": 37816
+			},
+			{
+				"address": 5506,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"0",
+					"then",
+					"5838"
+				],
+				"lineNumber": 37817
+			},
+			{
+				"address": 5518,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"2"
+				],
+				"lineNumber": 37818
+			},
+			{
+				"address": 5522,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"0"
+				],
+				"lineNumber": 37819
+			},
+			{
+				"address": 5526,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"2"
+				],
+				"lineNumber": 37820
+			},
+			{
+				"address": 5530,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"0"
+				],
+				"lineNumber": 37821
+			},
+			{
+				"address": 5534,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"20"
+				],
+				"lineNumber": 37822
+			},
+			{
+				"address": 5538,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"0"
+				],
+				"lineNumber": 37823
+			},
+			{
+				"address": 5542,
+				"opcode": "reduceStat",
+				"args": [
+					"TIREDNESS",
+					"5"
+				],
+				"lineNumber": 37824
+			},
+			{
+				"address": 5546,
+				"opcode": "addStats",
+				"args": [
+					"HAPPINESS",
+					"2"
+				],
+				"lineNumber": 37825
+			},
+			{
+				"address": 5550,
+				"opcode": "addStats",
+				"args": [
+					"DISCIPLINE",
+					"0"
+				],
+				"lineNumber": 37826
+			},
+			{
+				"address": 5554,
+				"opcode": "addStats",
+				"args": [
+					"ENERGY",
+					"24"
+				],
+				"lineNumber": 37827
+			},
+			{
+				"address": 5558,
+				"opcode": "addStats",
+				"args": [
+					"WEIGHT",
+					"2"
+				],
+				"lineNumber": 37828
+			},
+			{
+				"address": 5562,
+				"opcode": "reduceMoney",
+				"args": [
+					"2500"
+				],
+				"lineNumber": 37829
+			},
+			{
+				"address": 5568,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37830
+			},
+			{
+				"address": 5570,
+				"opcode": "showTextbox",
+				"args": [
+					"HP",
+					"went",
+					"up",
+					"twenty!\\nOffensive",
+					"Power",
+					"went",
+					"up",
+					"two!\\nSpeed",
+					"went",
+					"up",
+					"two!\\n"
+				],
+				"lineNumber": 37831
+			},
+			{
+				"address": 5708,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37832
+			},
+			{
+				"address": 5710,
+				"opcode": "showTextbox",
+				"args": [
+					"Happiness",
+					"went",
+					"up!\\nDiscipline",
+					"went",
+					"up!\\nTiredness",
+					"went",
+					"down!\\n"
+				],
+				"lineNumber": 37833
+			},
+			{
+				"address": 5834,
+				"opcode": "jumpTo",
+				"args": [
+					"7986"
+				],
+				"lineNumber": 37834
+			},
+			{
+				"address": 5838,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"1",
+					"then",
+					"6132"
+				],
+				"lineNumber": 37835
+			},
+			{
+				"address": 5850,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"0"
+				],
+				"lineNumber": 37836
+			},
+			{
+				"address": 5854,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"2"
+				],
+				"lineNumber": 37837
+			},
+			{
+				"address": 5858,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"0"
+				],
+				"lineNumber": 37838
+			},
+			{
+				"address": 5862,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"2"
+				],
+				"lineNumber": 37839
+			},
+			{
+				"address": 5866,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"0"
+				],
+				"lineNumber": 37840
+			},
+			{
+				"address": 5870,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"20"
+				],
+				"lineNumber": 37841
+			},
+			{
+				"address": 5874,
+				"opcode": "reduceStat",
+				"args": [
+					"TIREDNESS",
+					"5"
+				],
+				"lineNumber": 37842
+			},
+			{
+				"address": 5878,
+				"opcode": "addStats",
+				"args": [
+					"HAPPINESS",
+					"2"
+				],
+				"lineNumber": 37843
+			},
+			{
+				"address": 5882,
+				"opcode": "addStats",
+				"args": [
+					"DISCIPLINE",
+					"0"
+				],
+				"lineNumber": 37844
+			},
+			{
+				"address": 5886,
+				"opcode": "addStats",
+				"args": [
+					"ENERGY",
+					"24"
+				],
+				"lineNumber": 37845
+			},
+			{
+				"address": 5890,
+				"opcode": "addStats",
+				"args": [
+					"WEIGHT",
+					"2"
+				],
+				"lineNumber": 37846
+			},
+			{
+				"address": 5894,
+				"opcode": "reduceMoney",
+				"args": [
+					"2500"
+				],
+				"lineNumber": 37847
+			},
+			{
+				"address": 5900,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37848
+			},
+			{
+				"address": 5902,
+				"opcode": "showTextbox",
+				"args": [
+					"MP",
+					"went",
+					"up",
+					"twenty!\\nDefensive",
+					"Power",
+					"went",
+					"up",
+					"two!\\nBrains",
+					"went",
+					"up",
+					"two!\\n"
+				],
+				"lineNumber": 37849
+			},
+			{
+				"address": 6042,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37850
+			},
+			{
+				"address": 6044,
+				"opcode": "showTextbox",
+				"args": [
+					"Happiness",
+					"went",
+					"up!\\nTiredness",
+					"went",
+					"down!\\n"
+				],
+				"lineNumber": 37851
+			},
+			{
+				"address": 6128,
+				"opcode": "jumpTo",
+				"args": [
+					"7986"
+				],
+				"lineNumber": 37852
+			},
+			{
+				"address": 6132,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"6612"
+				],
+				"lineNumber": 37853
+			},
+			{
+				"address": 6144,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"3"
+				],
+				"lineNumber": 37854
+			},
+			{
+				"address": 6148,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"3"
+				],
+				"lineNumber": 37855
+			},
+			{
+				"address": 6152,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"3"
+				],
+				"lineNumber": 37856
+			},
+			{
+				"address": 6156,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"3"
+				],
+				"lineNumber": 37857
+			},
+			{
+				"address": 6160,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"30"
+				],
+				"lineNumber": 37858
+			},
+			{
+				"address": 6164,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"30"
+				],
+				"lineNumber": 37859
+			},
+			{
+				"address": 6168,
+				"opcode": "reduceStat",
+				"args": [
+					"TIREDNESS",
+					"5"
+				],
+				"lineNumber": 37860
+			},
+			{
+				"address": 6172,
+				"opcode": "addStats",
+				"args": [
+					"HAPPINESS",
+					"3"
+				],
+				"lineNumber": 37861
+			},
+			{
+				"address": 6176,
+				"opcode": "addStats",
+				"args": [
+					"DISCIPLINE",
+					"1"
+				],
+				"lineNumber": 37862
+			},
+			{
+				"address": 6180,
+				"opcode": "addStats",
+				"args": [
+					"ENERGY",
+					"24"
+				],
+				"lineNumber": 37863
+			},
+			{
+				"address": 6184,
+				"opcode": "addStats",
+				"args": [
+					"WEIGHT",
+					"2"
+				],
+				"lineNumber": 37864
+			},
+			{
+				"address": 6188,
+				"opcode": "reduceMoney",
+				"args": [
+					"2500"
+				],
+				"lineNumber": 37865
+			},
+			{
+				"address": 6194,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37866
+			},
+			{
+				"address": 6196,
+				"opcode": "showTextbox",
+				"args": [
+					"HP",
+					"went",
+					"up",
+					"thirty!\\nMP",
+					"went",
+					"up",
+					"thirty!\\nOffense",
+					"Power",
+					"went",
+					"up",
+					"three!\\n"
+				],
+				"lineNumber": 37867
+			},
+			{
+				"address": 6334,
+				"opcode": "showTextbox",
+				"args": [
+					"Defense",
+					"Power",
+					"went",
+					"up",
+					"three!\\nSpeed",
+					"went",
+					"up",
+					"three!\\nBrains",
+					"went",
+					"up",
+					"three!\\n"
+				],
+				"lineNumber": 37868
+			},
+			{
+				"address": 6482,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37869
+			},
+			{
+				"address": 6484,
+				"opcode": "showTextbox",
+				"args": [
+					"Happiness",
+					"went",
+					"up!\\nDiscipline",
+					"went",
+					"up!\\nTiredness",
+					"went",
+					"down!\\n"
+				],
+				"lineNumber": 37870
+			},
+			{
+				"address": 6608,
+				"opcode": "jumpTo",
+				"args": [
+					"7986"
+				],
+				"lineNumber": 37871
+			},
+			{
+				"address": 6612,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"11"
+				],
+				"lineNumber": 37872
+			},
+			{
+				"address": 6616,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 37873
+			},
+			{
+				"address": 6618,
+				"opcode": "jumpTo",
+				"args": [
+					"7986"
+				],
+				"lineNumber": 37874
+			},
+			{
+				"address": 6622,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"13"
+				],
+				"lineNumber": 37875
+			},
+			{
+				"address": 6626,
+				"opcode": "waitForEntity",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37876
+			},
+			{
+				"address": 6628,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37877
+			},
+			{
+				"address": 6630,
+				"opcode": "showTextbox",
+				"args": [
+					".......!\\n"
+				],
+				"lineNumber": 37878
+			},
+			{
+				"address": 6652,
+				"opcode": "endSection",
+				"lineNumber": 37879
+			},
+			{
+				"address": 6654,
+				"opcode": "if",
+				"args": [
+					"getMoney",
+					"<",
+					"6000",
+					"then",
+					"6674"
+				],
+				"lineNumber": 37880
+			},
+			{
+				"address": 6670,
+				"opcode": "jumpTo",
+				"args": [
+					"6704"
+				],
+				"lineNumber": 37881
+			},
+			{
+				"address": 6674,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37882
+			},
+			{
+				"address": 6676,
+				"opcode": "showTextbox",
+				"args": [
+					"..........\\n"
+				],
+				"lineNumber": 37883
+			},
+			{
+				"address": 6702,
+				"opcode": "endSection",
+				"lineNumber": 37884
+			},
+			{
+				"address": 6704,
+				"opcode": "if",
+				"args": [
+					"trigger(640)",
+					"==",
+					"true",
+					"AND",
+					"condition(4)",
+					"==",
+					"0",
+					"then",
+					"6792"
+				],
+				"lineNumber": 37885
+			},
+			{
+				"address": 6720,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37886
+			},
+			{
+				"address": 6722,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>",
+					"enjoyed",
+					"a\\nWonder",
+					"Egg",
+					"Bowl!\\n"
+				],
+				"lineNumber": 37887
+			},
+			{
+				"address": 6788,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"2"
+				],
+				"lineNumber": 37888
+			},
+			{
+				"address": 6792,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"0",
+					"then",
+					"7132"
+				],
+				"lineNumber": 37889
+			},
+			{
+				"address": 6804,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"3"
+				],
+				"lineNumber": 37890
+			},
+			{
+				"address": 6808,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"0"
+				],
+				"lineNumber": 37891
+			},
+			{
+				"address": 6812,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"3"
+				],
+				"lineNumber": 37892
+			},
+			{
+				"address": 6816,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"0"
+				],
+				"lineNumber": 37893
+			},
+			{
+				"address": 6820,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"30"
+				],
+				"lineNumber": 37894
+			},
+			{
+				"address": 6824,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"0"
+				],
+				"lineNumber": 37895
+			},
+			{
+				"address": 6828,
+				"opcode": "reduceStat",
+				"args": [
+					"TIREDNESS",
+					"5"
+				],
+				"lineNumber": 37896
+			},
+			{
+				"address": 6832,
+				"opcode": "addStats",
+				"args": [
+					"HAPPINESS",
+					"3"
+				],
+				"lineNumber": 37897
+			},
+			{
+				"address": 6836,
+				"opcode": "addStats",
+				"args": [
+					"DISCIPLINE",
+					"1"
+				],
+				"lineNumber": 37898
+			},
+			{
+				"address": 6840,
+				"opcode": "addStats",
+				"args": [
+					"ENERGY",
+					"36"
+				],
+				"lineNumber": 37899
+			},
+			{
+				"address": 6844,
+				"opcode": "addStats",
+				"args": [
+					"WEIGHT",
+					"3"
+				],
+				"lineNumber": 37900
+			},
+			{
+				"address": 6848,
+				"opcode": "reduceMoney",
+				"args": [
+					"6000"
+				],
+				"lineNumber": 37901
+			},
+			{
+				"address": 6854,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37902
+			},
+			{
+				"address": 6856,
+				"opcode": "showTextbox",
+				"args": [
+					"HP",
+					"went",
+					"up",
+					"thirty!\\nOffense",
+					"Power",
+					"went",
+					"up",
+					"thirty!\\nSpeed",
+					"went",
+					"up",
+					"thirty!\\n"
+				],
+				"lineNumber": 37903
+			},
+			{
+				"address": 7002,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37904
+			},
+			{
+				"address": 7004,
+				"opcode": "showTextbox",
+				"args": [
+					"Happiness",
+					"went",
+					"up!\\nDiscipline",
+					"went",
+					"up!\\nTiredness",
+					"went",
+					"down!\\n"
+				],
+				"lineNumber": 37905
+			},
+			{
+				"address": 7128,
+				"opcode": "jumpTo",
+				"args": [
+					"7986"
+				],
+				"lineNumber": 37906
+			},
+			{
+				"address": 7132,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"1",
+					"then",
+					"7474"
+				],
+				"lineNumber": 37907
+			},
+			{
+				"address": 7144,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"0"
+				],
+				"lineNumber": 37908
+			},
+			{
+				"address": 7148,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"3"
+				],
+				"lineNumber": 37909
+			},
+			{
+				"address": 7152,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"0"
+				],
+				"lineNumber": 37910
+			},
+			{
+				"address": 7156,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"3"
+				],
+				"lineNumber": 37911
+			},
+			{
+				"address": 7160,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"0"
+				],
+				"lineNumber": 37912
+			},
+			{
+				"address": 7164,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"30"
+				],
+				"lineNumber": 37913
+			},
+			{
+				"address": 7168,
+				"opcode": "reduceStat",
+				"args": [
+					"TIREDNESS",
+					"5"
+				],
+				"lineNumber": 37914
+			},
+			{
+				"address": 7172,
+				"opcode": "addStats",
+				"args": [
+					"HAPPINESS",
+					"3"
+				],
+				"lineNumber": 37915
+			},
+			{
+				"address": 7176,
+				"opcode": "addStats",
+				"args": [
+					"DISCIPLINE",
+					"1"
+				],
+				"lineNumber": 37916
+			},
+			{
+				"address": 7180,
+				"opcode": "addStats",
+				"args": [
+					"ENERGY",
+					"36"
+				],
+				"lineNumber": 37917
+			},
+			{
+				"address": 7184,
+				"opcode": "addStats",
+				"args": [
+					"WEIGHT",
+					"3"
+				],
+				"lineNumber": 37918
+			},
+			{
+				"address": 7188,
+				"opcode": "reduceMoney",
+				"args": [
+					"6000"
+				],
+				"lineNumber": 37919
+			},
+			{
+				"address": 7194,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37920
+			},
+			{
+				"address": 7196,
+				"opcode": "showTextbox",
+				"args": [
+					"MP",
+					"went",
+					"up",
+					"thirty!\\nDefense",
+					"Power",
+					"went",
+					"up",
+					"three!\\nBrains",
+					"went",
+					"up",
+					"three!\\n"
+				],
+				"lineNumber": 37921
+			},
+			{
+				"address": 7340,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37922
+			},
+			{
+				"address": 7342,
+				"opcode": "showTextbox",
+				"args": [
+					"Happiness",
+					"went",
+					"up!\\nDiscipline",
+					"went",
+					"up!\\nTiredness",
+					"has",
+					"went",
+					"up!\\n"
+				],
+				"lineNumber": 37923
+			},
+			{
+				"address": 7470,
+				"opcode": "jumpTo",
+				"args": [
+					"7986"
+				],
+				"lineNumber": 37924
+			},
+			{
+				"address": 7474,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"7942"
+				],
+				"lineNumber": 37925
+			},
+			{
+				"address": 7486,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"4"
+				],
+				"lineNumber": 37926
+			},
+			{
+				"address": 7490,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"4"
+				],
+				"lineNumber": 37927
+			},
+			{
+				"address": 7494,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"4"
+				],
+				"lineNumber": 37928
+			},
+			{
+				"address": 7498,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"4"
+				],
+				"lineNumber": 37929
+			},
+			{
+				"address": 7502,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"40"
+				],
+				"lineNumber": 37930
+			},
+			{
+				"address": 7506,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"40"
+				],
+				"lineNumber": 37931
+			},
+			{
+				"address": 7510,
+				"opcode": "reduceStat",
+				"args": [
+					"TIREDNESS",
+					"5"
+				],
+				"lineNumber": 37932
+			},
+			{
+				"address": 7514,
+				"opcode": "addStats",
+				"args": [
+					"HAPPINESS",
+					"4"
+				],
+				"lineNumber": 37933
+			},
+			{
+				"address": 7518,
+				"opcode": "addStats",
+				"args": [
+					"DISCIPLINE",
+					"3"
+				],
+				"lineNumber": 37934
+			},
+			{
+				"address": 7522,
+				"opcode": "addStats",
+				"args": [
+					"ENERGY",
+					"36"
+				],
+				"lineNumber": 37935
+			},
+			{
+				"address": 7526,
+				"opcode": "addStats",
+				"args": [
+					"WEIGHT",
+					"3"
+				],
+				"lineNumber": 37936
+			},
+			{
+				"address": 7530,
+				"opcode": "reduceMoney",
+				"args": [
+					"6000"
+				],
+				"lineNumber": 37937
+			},
+			{
+				"address": 7536,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37938
+			},
+			{
+				"address": 7538,
+				"opcode": "showTextbox",
+				"args": [
+					"HP",
+					"went",
+					"up",
+					"forty!\\nMP",
+					"went",
+					"up",
+					"forty!\\nOffense",
+					"Power",
+					"went",
+					"up",
+					"four!\\n"
+				],
+				"lineNumber": 37939
+			},
+			{
+				"address": 7670,
+				"opcode": "showTextbox",
+				"args": [
+					"Defense",
+					"Power",
+					"went",
+					"up",
+					"four!\\nSpeed",
+					"went",
+					"up",
+					"four!\\nBrains",
+					"went",
+					"up",
+					"four!\\n"
+				],
+				"lineNumber": 37940
+			},
+			{
+				"address": 7812,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37941
+			},
+			{
+				"address": 7814,
+				"opcode": "showTextbox",
+				"args": [
+					"Happiness",
+					"went",
+					"up!\\nDiscipline",
+					"went",
+					"up!\\nTiredness",
+					"went",
+					"down.\\n"
+				],
+				"lineNumber": 37942
+			},
+			{
+				"address": 7938,
+				"opcode": "jumpTo",
+				"args": [
+					"7986"
+				],
+				"lineNumber": 37943
+			},
+			{
+				"address": 7942,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"11"
+				],
+				"lineNumber": 37944
+			},
+			{
+				"address": 7946,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 37945
+			},
+			{
+				"address": 7948,
+				"opcode": "jumpTo",
+				"args": [
+					"7986"
+				],
+				"lineNumber": 37946
+			},
+			{
+				"address": 7952,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"13"
+				],
+				"lineNumber": 37947
+			},
+			{
+				"address": 7956,
+				"opcode": "waitForEntity",
+				"args": [
+					"255"
+				],
+				"lineNumber": 37948
+			},
+			{
+				"address": 7958,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37949
+			},
+			{
+				"address": 7960,
+				"opcode": "showTextbox",
+				"args": [
+					"........!\\n"
+				],
+				"lineNumber": 37950
+			},
+			{
+				"address": 7984,
+				"opcode": "endSection",
+				"lineNumber": 37951
+			},
+			{
+				"address": 7986,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 37952
+			},
+			{
+				"address": 7988,
+				"opcode": "showTextbox",
+				"args": [
+					"..........\\n"
+				],
+				"lineNumber": 37953
+			},
+			{
+				"address": 8014,
+				"opcode": "endSection",
+				"lineNumber": 37954
+			}
+		]
+	}
+}
+}

@@ -1,0 +1,234 @@
+{
+"id": 191,
+"info": "== Script ID 191 == 91800",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 24,
+				"opcode": "endSection",
+				"lineNumber": 29830
+			}
+		]
+	},
+	"6": {
+		"id": 6,
+		"instructions": [
+			{
+				"address": 26,
+				"opcode": "setPStat",
+				"args": [
+					"113",
+					"1"
+				],
+				"lineNumber": 29832
+			},
+			{
+				"address": 30,
+				"opcode": "if",
+				"args": [
+					"pstat(122)",
+					"!=",
+					"0",
+					"then",
+					"48"
+				],
+				"lineNumber": 29833
+			},
+			{
+				"address": 42,
+				"opcode": "jumpToFile",
+				"args": [
+					"206",
+					"6"
+				],
+				"lineNumber": 29834
+			},
+			{
+				"address": 48,
+				"opcode": "if",
+				"args": [
+					"pstat(122)",
+					"!=",
+					"1",
+					"then",
+					"66"
+				],
+				"lineNumber": 29835
+			},
+			{
+				"address": 60,
+				"opcode": "jumpToFile",
+				"args": [
+					"206",
+					"7"
+				],
+				"lineNumber": 29836
+			},
+			{
+				"address": 66,
+				"opcode": "endSection",
+				"lineNumber": 29837
+			}
+		]
+	},
+	"11": {
+		"id": 11,
+		"instructions": [
+			{
+				"address": 68,
+				"opcode": "if",
+				"args": [
+					"pstat(122)",
+					"!=",
+					"0",
+					"then",
+					"86"
+				],
+				"lineNumber": 29839
+			},
+			{
+				"address": 80,
+				"opcode": "jumpToFile",
+				"args": [
+					"206",
+					"11"
+				],
+				"lineNumber": 29840
+			},
+			{
+				"address": 86,
+				"opcode": "if",
+				"args": [
+					"pstat(122)",
+					"!=",
+					"1",
+					"then",
+					"104"
+				],
+				"lineNumber": 29841
+			},
+			{
+				"address": 98,
+				"opcode": "jumpToFile",
+				"args": [
+					"206",
+					"12"
+				],
+				"lineNumber": 29842
+			},
+			{
+				"address": 104,
+				"opcode": "endSection",
+				"lineNumber": 29843
+			}
+		]
+	},
+	"51": {
+		"id": 51,
+		"instructions": [
+			{
+				"address": 106,
+				"opcode": "if",
+				"args": [
+					"trigger(50)",
+					"==",
+					"true",
+					"then",
+					"126"
+				],
+				"lineNumber": 29845
+			},
+			{
+				"address": 118,
+				"opcode": "warpTo",
+				"args": [
+					"208",
+					"0",
+					"255"
+				],
+				"lineNumber": 29846
+			},
+			{
+				"address": 122,
+				"opcode": "jumpTo",
+				"args": [
+					"130"
+				],
+				"lineNumber": 29847
+			},
+			{
+				"address": 126,
+				"opcode": "warpTo",
+				"args": [
+					"223",
+					"0",
+					"255"
+				],
+				"lineNumber": 29848
+			},
+			{
+				"address": 130,
+				"opcode": "endSection",
+				"lineNumber": 29849
+			}
+		]
+	},
+	"52": {
+		"id": 52,
+		"instructions": [
+			{
+				"address": 132,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 29851
+			},
+			{
+				"address": 134,
+				"opcode": "showTextbox",
+				"args": [
+					"It",
+					"won't",
+					"do",
+					"any",
+					"good",
+					"for\\njust",
+					"us",
+					"to",
+					"go",
+					"in.\\n"
+				],
+				"lineNumber": 29852
+			},
+			{
+				"address": 224,
+				"opcode": "entityWalkToWithCamera",
+				"args": [
+					"253",
+					"-2",
+					"-619",
+					"false"
+				],
+				"lineNumber": 29853
+			},
+			{
+				"address": 232,
+				"opcode": "waitForEntity",
+				"args": [
+					"253"
+				],
+				"lineNumber": 29854
+			},
+			{
+				"address": 234,
+				"opcode": "endSection",
+				"lineNumber": 29855
+			}
+		]
+	}
+}
+}

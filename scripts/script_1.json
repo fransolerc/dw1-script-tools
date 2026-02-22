@@ -1,0 +1,694 @@
+{
+"id": 1,
+"info": "== Script ID 1 == 7000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 44,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 3713
+			},
+			{
+				"address": 48,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"39",
+					"then",
+					"66"
+				],
+				"lineNumber": 3714
+			},
+			{
+				"address": 60,
+				"opcode": "spawnItem",
+				"args": [
+					"44",
+					"78",
+					"31"
+				],
+				"lineNumber": 3715
+			},
+			{
+				"address": 66,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 3716
+			},
+			{
+				"address": 70,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"1",
+					"then",
+					"88"
+				],
+				"lineNumber": 3717
+			},
+			{
+				"address": 82,
+				"opcode": "spawnItem",
+				"args": [
+					"46",
+					"39",
+					"43"
+				],
+				"lineNumber": 3718
+			},
+			{
+				"address": 88,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 3719
+			},
+			{
+				"address": 92,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"9",
+					"then",
+					"122"
+				],
+				"lineNumber": 3720
+			},
+			{
+				"address": 104,
+				"opcode": "spawnItem",
+				"args": [
+					"44",
+					"35",
+					"88"
+				],
+				"lineNumber": 3721
+			},
+			{
+				"address": 110,
+				"opcode": "spawnItem",
+				"args": [
+					"44",
+					"31",
+					"85"
+				],
+				"lineNumber": 3722
+			},
+			{
+				"address": 116,
+				"opcode": "spawnItem",
+				"args": [
+					"44",
+					"30",
+					"79"
+				],
+				"lineNumber": 3723
+			},
+			{
+				"address": 122,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 3724
+			},
+			{
+				"address": 126,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"14",
+					"then",
+					"144"
+				],
+				"lineNumber": 3725
+			},
+			{
+				"address": 138,
+				"opcode": "spawnItem",
+				"args": [
+					"44",
+					"68",
+					"84"
+				],
+				"lineNumber": 3726
+			},
+			{
+				"address": 144,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 3727
+			},
+			{
+				"address": 148,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"24",
+					"then",
+					"166"
+				],
+				"lineNumber": 3728
+			},
+			{
+				"address": 160,
+				"opcode": "spawnItem",
+				"args": [
+					"44",
+					"49",
+					"46"
+				],
+				"lineNumber": 3729
+			},
+			{
+				"address": 166,
+				"opcode": "endSection",
+				"lineNumber": 3730
+			}
+		]
+	},
+	"5": {
+		"id": 5,
+		"instructions": [
+			{
+				"address": 168,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 3732
+			},
+			{
+				"address": 170,
+				"opcode": "showTextbox",
+				"args": [
+					"We're",
+					"ready",
+					"to",
+					"begin!\\n"
+				],
+				"lineNumber": 3733
+			},
+			{
+				"address": 218,
+				"opcode": "fadeoutHud",
+				"lineNumber": 3734
+			},
+			{
+				"address": 220,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 3735
+			},
+			{
+				"address": 224,
+				"opcode": "startBattle",
+				"lineNumber": 3736
+			},
+			{
+				"address": 226,
+				"opcode": "setTrigger",
+				"args": [
+					"283"
+				],
+				"lineNumber": 3737
+			},
+			{
+				"address": 230,
+				"opcode": "endSection",
+				"lineNumber": 3738
+			}
+		]
+	},
+	"6": {
+		"id": 6,
+		"instructions": [
+			{
+				"address": 232,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 3740
+			},
+			{
+				"address": 234,
+				"opcode": "showTextbox",
+				"args": [
+					"Heave-ho,",
+					"heave-ho.\\n"
+				],
+				"lineNumber": 3741
+			},
+			{
+				"address": 278,
+				"opcode": "fadeoutHud",
+				"lineNumber": 3742
+			},
+			{
+				"address": 280,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 3743
+			},
+			{
+				"address": 284,
+				"opcode": "startBattle",
+				"lineNumber": 3744
+			},
+			{
+				"address": 286,
+				"opcode": "setTrigger",
+				"args": [
+					"283"
+				],
+				"lineNumber": 3745
+			},
+			{
+				"address": 290,
+				"opcode": "endSection",
+				"lineNumber": 3746
+			}
+		]
+	},
+	"7": {
+		"id": 7,
+		"instructions": [
+			{
+				"address": 292,
+				"opcode": "setDialogOwner",
+				"args": [
+					"7"
+				],
+				"lineNumber": 3748
+			},
+			{
+				"address": 294,
+				"opcode": "showTextbox",
+				"args": [
+					"I'm",
+					"going",
+					"to",
+					"eat",
+					"it!\\n"
+				],
+				"lineNumber": 3749
+			},
+			{
+				"address": 340,
+				"opcode": "fadeoutHud",
+				"lineNumber": 3750
+			},
+			{
+				"address": 342,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 3751
+			},
+			{
+				"address": 346,
+				"opcode": "startBattle",
+				"lineNumber": 3752
+			},
+			{
+				"address": 348,
+				"opcode": "setTrigger",
+				"args": [
+					"277"
+				],
+				"lineNumber": 3753
+			},
+			{
+				"address": 352,
+				"opcode": "endSection",
+				"lineNumber": 3754
+			}
+		]
+	},
+	"8": {
+		"id": 8,
+		"instructions": [
+			{
+				"address": 354,
+				"opcode": "setDialogOwner",
+				"args": [
+					"8"
+				],
+				"lineNumber": 3756
+			},
+			{
+				"address": 356,
+				"opcode": "showTextbox",
+				"args": [
+					"Wait",
+					"a",
+					"minute.\\n"
+				],
+				"lineNumber": 3757
+			},
+			{
+				"address": 390,
+				"opcode": "fadeoutHud",
+				"lineNumber": 3758
+			},
+			{
+				"address": 392,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 3759
+			},
+			{
+				"address": 396,
+				"opcode": "startBattle",
+				"lineNumber": 3760
+			},
+			{
+				"address": 398,
+				"opcode": "setTrigger",
+				"args": [
+					"277"
+				],
+				"lineNumber": 3761
+			},
+			{
+				"address": 402,
+				"opcode": "endSection",
+				"lineNumber": 3762
+			}
+		]
+	},
+	"9": {
+		"id": 9,
+		"instructions": [
+			{
+				"address": 404,
+				"opcode": "setDialogOwner",
+				"args": [
+					"9"
+				],
+				"lineNumber": 3764
+			},
+			{
+				"address": 406,
+				"opcode": "showTextbox",
+				"args": [
+					"Here",
+					"I",
+					"go!\\n"
+				],
+				"lineNumber": 3765
+			},
+			{
+				"address": 432,
+				"opcode": "fadeoutHud",
+				"lineNumber": 3766
+			},
+			{
+				"address": 434,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 3767
+			},
+			{
+				"address": 438,
+				"opcode": "startBattle",
+				"lineNumber": 3768
+			},
+			{
+				"address": 440,
+				"opcode": "setTrigger",
+				"args": [
+					"283"
+				],
+				"lineNumber": 3769
+			},
+			{
+				"address": 444,
+				"opcode": "endSection",
+				"lineNumber": 3770
+			}
+		]
+	},
+	"10": {
+		"id": 10,
+		"instructions": [
+			{
+				"address": 446,
+				"opcode": "setDialogOwner",
+				"args": [
+					"10"
+				],
+				"lineNumber": 3772
+			},
+			{
+				"address": 448,
+				"opcode": "showTextbox",
+				"args": [
+					"Hey,",
+					"what's",
+					"the",
+					"big",
+					"idea?\\n"
+				],
+				"lineNumber": 3773
+			},
+			{
+				"address": 504,
+				"opcode": "fadeoutHud",
+				"lineNumber": 3774
+			},
+			{
+				"address": 506,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 3775
+			},
+			{
+				"address": 510,
+				"opcode": "startBattle",
+				"lineNumber": 3776
+			},
+			{
+				"address": 512,
+				"opcode": "setTrigger",
+				"args": [
+					"274"
+				],
+				"lineNumber": 3777
+			},
+			{
+				"address": 516,
+				"opcode": "endSection",
+				"lineNumber": 3778
+			}
+		]
+	},
+	"11": {
+		"id": 11,
+		"instructions": [
+			{
+				"address": 518,
+				"opcode": "setDialogOwner",
+				"args": [
+					"11"
+				],
+				"lineNumber": 3780
+			},
+			{
+				"address": 520,
+				"opcode": "showTextbox",
+				"args": [
+					"Rats!",
+					"I",
+					"shouldn't",
+					"have\\ndone",
+					"it.\\n"
+				],
+				"lineNumber": 3781
+			},
+			{
+				"address": 588,
+				"opcode": "fadeoutHud",
+				"lineNumber": 3782
+			},
+			{
+				"address": 590,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 3783
+			},
+			{
+				"address": 594,
+				"opcode": "startBattle",
+				"lineNumber": 3784
+			},
+			{
+				"address": 596,
+				"opcode": "setTrigger",
+				"args": [
+					"274"
+				],
+				"lineNumber": 3785
+			},
+			{
+				"address": 600,
+				"opcode": "endSection",
+				"lineNumber": 3786
+			}
+		]
+	},
+	"12": {
+		"id": 12,
+		"instructions": [
+			{
+				"address": 602,
+				"opcode": "setDialogOwner",
+				"args": [
+					"12"
+				],
+				"lineNumber": 3788
+			},
+			{
+				"address": 604,
+				"opcode": "showTextbox",
+				"args": [
+					"Rats,",
+					"grumble,",
+					"grumble.\\n"
+				],
+				"lineNumber": 3789
+			},
+			{
+				"address": 656,
+				"opcode": "fadeoutHud",
+				"lineNumber": 3790
+			},
+			{
+				"address": 658,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 3791
+			},
+			{
+				"address": 662,
+				"opcode": "startBattle",
+				"lineNumber": 3792
+			},
+			{
+				"address": 664,
+				"opcode": "setTrigger",
+				"args": [
+					"274"
+				],
+				"lineNumber": 3793
+			},
+			{
+				"address": 668,
+				"opcode": "endSection",
+				"lineNumber": 3794
+			}
+		]
+	},
+	"51": {
+		"id": 51,
+		"instructions": [
+			{
+				"address": 670,
+				"opcode": "if",
+				"args": [
+					"trigger(106)",
+					"==",
+					"false",
+					"then",
+					"694"
+				],
+				"lineNumber": 3796
+			},
+			{
+				"address": 682,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"-2315",
+					"4000",
+					"false"
+				],
+				"lineNumber": 3797
+			},
+			{
+				"address": 690,
+				"opcode": "warpTo",
+				"args": [
+					"111",
+					"3",
+					"255"
+				],
+				"lineNumber": 3798
+			},
+			{
+				"address": 694,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"-2315",
+					"4000",
+					"false"
+				],
+				"lineNumber": 3799
+			},
+			{
+				"address": 702,
+				"opcode": "warpTo",
+				"args": [
+					"110",
+					"2",
+					"255"
+				],
+				"lineNumber": 3800
+			},
+			{
+				"address": 706,
+				"opcode": "endSection",
+				"lineNumber": 3801
+			}
+		]
+	}
+}
+}

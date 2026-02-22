@@ -1,0 +1,1401 @@
+{
+"id": 68,
+"info": "== Script ID 68 == 31000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 40,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 12725
+			},
+			{
+				"address": 44,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"8",
+					"then",
+					"62"
+				],
+				"lineNumber": 12726
+			},
+			{
+				"address": 56,
+				"opcode": "spawnItem",
+				"args": [
+					"44",
+					"57",
+					"61"
+				],
+				"lineNumber": 12727
+			},
+			{
+				"address": 62,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 12728
+			},
+			{
+				"address": 66,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"19",
+					"then",
+					"84"
+				],
+				"lineNumber": 12729
+			},
+			{
+				"address": 78,
+				"opcode": "spawnItem",
+				"args": [
+					"44",
+					"35",
+					"43"
+				],
+				"lineNumber": 12730
+			},
+			{
+				"address": 84,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 12731
+			},
+			{
+				"address": 88,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"106"
+				],
+				"lineNumber": 12732
+			},
+			{
+				"address": 100,
+				"opcode": "spawnItem",
+				"args": [
+					"52",
+					"39",
+					"18"
+				],
+				"lineNumber": 12733
+			},
+			{
+				"address": 106,
+				"opcode": "if",
+				"args": [
+					"trigger(328)",
+					"==",
+					"false",
+					"then",
+					"122"
+				],
+				"lineNumber": 12734
+			},
+			{
+				"address": 118,
+				"opcode": "jumpTo",
+				"args": [
+					"134"
+				],
+				"lineNumber": 12735
+			},
+			{
+				"address": 122,
+				"opcode": "setObjVisibility",
+				"args": [
+					"38",
+					"1"
+				],
+				"lineNumber": 12736
+			},
+			{
+				"address": 126,
+				"opcode": "setObjVisibility",
+				"args": [
+					"39",
+					"1"
+				],
+				"lineNumber": 12737
+			},
+			{
+				"address": 130,
+				"opcode": "setObjVisibility",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 12738
+			},
+			{
+				"address": 134,
+				"opcode": "endSection",
+				"lineNumber": 12739
+			}
+		]
+	},
+	"5": {
+		"id": 5,
+		"instructions": [
+			{
+				"address": 136,
+				"opcode": "switch",
+				"args": [
+					"33",
+					"case",
+					"146",
+					"302",
+					"428"
+				],
+				"lineNumber": 12741
+			},
+			{
+				"address": 146,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 12742
+			},
+			{
+				"address": 150,
+				"opcode": "setPStat",
+				"args": [
+					"200",
+					"20"
+				],
+				"lineNumber": 12743
+			},
+			{
+				"address": 154,
+				"opcode": "dealDamage",
+				"args": [
+					"200"
+				],
+				"lineNumber": 12744
+			},
+			{
+				"address": 156,
+				"opcode": "setObjVisibility",
+				"args": [
+					"41",
+					"0"
+				],
+				"lineNumber": 12745
+			},
+			{
+				"address": 160,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"41"
+				],
+				"lineNumber": 12746
+			},
+			{
+				"address": 164,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"1"
+				],
+				"lineNumber": 12747
+			},
+			{
+				"address": 168,
+				"opcode": "callRoutine",
+				"args": [
+					"21"
+				],
+				"lineNumber": 12748
+			},
+			{
+				"address": 170,
+				"opcode": "spawnSpriteAtEntity",
+				"args": [
+					"5",
+					"10498"
+				],
+				"lineNumber": 12749
+			},
+			{
+				"address": 174,
+				"opcode": "playSound",
+				"args": [
+					"8"
+				],
+				"lineNumber": 12750
+			},
+			{
+				"address": 178,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"40"
+				],
+				"lineNumber": 12751
+			},
+			{
+				"address": 182,
+				"opcode": "delay",
+				"args": [
+					"3"
+				],
+				"lineNumber": 12752
+			},
+			{
+				"address": 186,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"17"
+				],
+				"lineNumber": 12753
+			},
+			{
+				"address": 190,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"5",
+					"253"
+				],
+				"lineNumber": 12754
+			},
+			{
+				"address": 194,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 12755
+			},
+			{
+				"address": 196,
+				"opcode": "setObjVisibility",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 12756
+			},
+			{
+				"address": 200,
+				"opcode": "setObjVisibility",
+				"args": [
+					"42",
+					"1"
+				],
+				"lineNumber": 12757
+			},
+			{
+				"address": 204,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 12758
+			},
+			{
+				"address": 206,
+				"opcode": "showTextbox",
+				"args": [
+					"Ha",
+					"ha,",
+					"touch",
+					"me",
+					"and\\nyou'll",
+					"get",
+					"shocked.\\n"
+				],
+				"lineNumber": 12759
+			},
+			{
+				"address": 290,
+				"opcode": "moveCameraToEntity",
+				"args": [
+					"253",
+					"10"
+				],
+				"lineNumber": 12760
+			},
+			{
+				"address": 294,
+				"opcode": "waitForEntity",
+				"args": [
+					"200"
+				],
+				"lineNumber": 12761
+			},
+			{
+				"address": 296,
+				"opcode": "addToPStat",
+				"args": [
+					"33",
+					"1"
+				],
+				"lineNumber": 12762
+			},
+			{
+				"address": 300,
+				"opcode": "endSection",
+				"lineNumber": 12763
+			},
+			{
+				"address": 302,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 12764
+			},
+			{
+				"address": 306,
+				"opcode": "setPStat",
+				"args": [
+					"200",
+					"20"
+				],
+				"lineNumber": 12765
+			},
+			{
+				"address": 310,
+				"opcode": "dealDamage",
+				"args": [
+					"200"
+				],
+				"lineNumber": 12766
+			},
+			{
+				"address": 312,
+				"opcode": "setObjVisibility",
+				"args": [
+					"41",
+					"0"
+				],
+				"lineNumber": 12767
+			},
+			{
+				"address": 316,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"41"
+				],
+				"lineNumber": 12768
+			},
+			{
+				"address": 320,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"1"
+				],
+				"lineNumber": 12769
+			},
+			{
+				"address": 324,
+				"opcode": "callRoutine",
+				"args": [
+					"21"
+				],
+				"lineNumber": 12770
+			},
+			{
+				"address": 326,
+				"opcode": "spawnSpriteAtEntity",
+				"args": [
+					"5",
+					"10498"
+				],
+				"lineNumber": 12771
+			},
+			{
+				"address": 330,
+				"opcode": "playSound",
+				"args": [
+					"8"
+				],
+				"lineNumber": 12772
+			},
+			{
+				"address": 334,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"40"
+				],
+				"lineNumber": 12773
+			},
+			{
+				"address": 338,
+				"opcode": "delay",
+				"args": [
+					"3"
+				],
+				"lineNumber": 12774
+			},
+			{
+				"address": 342,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"17"
+				],
+				"lineNumber": 12775
+			},
+			{
+				"address": 346,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"5",
+					"253"
+				],
+				"lineNumber": 12776
+			},
+			{
+				"address": 350,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 12777
+			},
+			{
+				"address": 352,
+				"opcode": "setObjVisibility",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 12778
+			},
+			{
+				"address": 356,
+				"opcode": "setObjVisibility",
+				"args": [
+					"42",
+					"1"
+				],
+				"lineNumber": 12779
+			},
+			{
+				"address": 360,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 12780
+			},
+			{
+				"address": 362,
+				"opcode": "showTextbox",
+				"args": [
+					"Don't",
+					"you",
+					"wanna",
+					"be",
+					"here?\\n"
+				],
+				"lineNumber": 12781
+			},
+			{
+				"address": 416,
+				"opcode": "moveCameraToEntity",
+				"args": [
+					"253",
+					"10"
+				],
+				"lineNumber": 12782
+			},
+			{
+				"address": 420,
+				"opcode": "waitForEntity",
+				"args": [
+					"200"
+				],
+				"lineNumber": 12783
+			},
+			{
+				"address": 422,
+				"opcode": "addToPStat",
+				"args": [
+					"33",
+					"1"
+				],
+				"lineNumber": 12784
+			},
+			{
+				"address": 426,
+				"opcode": "endSection",
+				"lineNumber": 12785
+			},
+			{
+				"address": 428,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 12786
+			},
+			{
+				"address": 432,
+				"opcode": "setPStat",
+				"args": [
+					"200",
+					"20"
+				],
+				"lineNumber": 12787
+			},
+			{
+				"address": 436,
+				"opcode": "dealDamage",
+				"args": [
+					"200"
+				],
+				"lineNumber": 12788
+			},
+			{
+				"address": 438,
+				"opcode": "setObjVisibility",
+				"args": [
+					"41",
+					"0"
+				],
+				"lineNumber": 12789
+			},
+			{
+				"address": 442,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"41"
+				],
+				"lineNumber": 12790
+			},
+			{
+				"address": 446,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"1"
+				],
+				"lineNumber": 12791
+			},
+			{
+				"address": 450,
+				"opcode": "callRoutine",
+				"args": [
+					"21"
+				],
+				"lineNumber": 12792
+			},
+			{
+				"address": 452,
+				"opcode": "spawnSpriteAtEntity",
+				"args": [
+					"5",
+					"10498"
+				],
+				"lineNumber": 12793
+			},
+			{
+				"address": 456,
+				"opcode": "playSound",
+				"args": [
+					"8"
+				],
+				"lineNumber": 12794
+			},
+			{
+				"address": 460,
+				"opcode": "playAnimation",
+				"args": [
+					"252",
+					"40"
+				],
+				"lineNumber": 12795
+			},
+			{
+				"address": 464,
+				"opcode": "delay",
+				"args": [
+					"3"
+				],
+				"lineNumber": 12796
+			},
+			{
+				"address": 468,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"17"
+				],
+				"lineNumber": 12797
+			},
+			{
+				"address": 472,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"5",
+					"253"
+				],
+				"lineNumber": 12798
+			},
+			{
+				"address": 476,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 12799
+			},
+			{
+				"address": 478,
+				"opcode": "setObjVisibility",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 12800
+			},
+			{
+				"address": 482,
+				"opcode": "setObjVisibility",
+				"args": [
+					"42",
+					"1"
+				],
+				"lineNumber": 12801
+			},
+			{
+				"address": 486,
+				"opcode": "moveCameraToEntity",
+				"args": [
+					"253",
+					"10"
+				],
+				"lineNumber": 12802
+			},
+			{
+				"address": 490,
+				"opcode": "waitForEntity",
+				"args": [
+					"200"
+				],
+				"lineNumber": 12803
+			},
+			{
+				"address": 492,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 12804
+			},
+			{
+				"address": 494,
+				"opcode": "showTextbox",
+				"args": [
+					"Wow,",
+					"amazing!",
+					"He's",
+					"got",
+					"guts.\\n"
+				],
+				"lineNumber": 12805
+			},
+			{
+				"address": 556,
+				"opcode": "showTextbox",
+				"args": [
+					"You're",
+					"gonna",
+					"be",
+					"somebody!\\nAlright,",
+					"I'll",
+					"help",
+					"you.\\n"
+				],
+				"lineNumber": 12806
+			},
+			{
+				"address": 660,
+				"opcode": "playAnimation",
+				"args": [
+					"253",
+					"19"
+				],
+				"lineNumber": 12807
+			},
+			{
+				"address": 664,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 12808
+			},
+			{
+				"address": 666,
+				"opcode": "showTextbox",
+				"args": [
+					"Won't",
+					"you",
+					"use",
+					"your",
+					"electric\\npower",
+					"for",
+					"the",
+					"city?\\n"
+				],
+				"lineNumber": 12809
+			},
+			{
+				"address": 766,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 12810
+			},
+			{
+				"address": 768,
+				"opcode": "showTextbox",
+				"args": [
+					"City?",
+					"What's",
+					"that?\\nSounds",
+					"familiar,",
+					"but...\\n"
+				],
+				"lineNumber": 12811
+			},
+			{
+				"address": 858,
+				"opcode": "showTextbox",
+				"args": [
+					"I'll",
+					"help.",
+					"I'm",
+					"Elecmon,\\nnice",
+					"to",
+					"meet",
+					"you.\\n"
+				],
+				"lineNumber": 12812
+			},
+			{
+				"address": 946,
+				"opcode": "jumpTo",
+				"args": [
+					"950"
+				],
+				"lineNumber": 12813
+			},
+			{
+				"address": 950,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"-171",
+					"-2105",
+					"true"
+				],
+				"lineNumber": 12814
+			},
+			{
+				"address": 958,
+				"opcode": "if",
+				"args": [
+					"pstat(101)",
+					">=",
+					"6",
+					"then",
+					"990"
+				],
+				"lineNumber": 12815
+			},
+			{
+				"address": 970,
+				"opcode": "addToPStat",
+				"args": [
+					"101",
+					"1"
+				],
+				"lineNumber": 12816
+			},
+			{
+				"address": 974,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 12817
+			},
+			{
+				"address": 978,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 12818
+			},
+			{
+				"address": 982,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"5"
+				],
+				"lineNumber": 12819
+			},
+			{
+				"address": 986,
+				"opcode": "jumpTo",
+				"args": [
+					"950"
+				],
+				"lineNumber": 12820
+			},
+			{
+				"address": 990,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 12821
+			},
+			{
+				"address": 992,
+				"opcode": "unloadEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 12822
+			},
+			{
+				"address": 994,
+				"opcode": "setPStat",
+				"args": [
+					"101",
+					"0"
+				],
+				"lineNumber": 12823
+			},
+			{
+				"address": 998,
+				"opcode": "playSound",
+				"args": [
+					"1288"
+				],
+				"lineNumber": 12824
+			},
+			{
+				"address": 1002,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 12825
+			},
+			{
+				"address": 1004,
+				"opcode": "showTextbox",
+				"args": [
+					"Elecmon",
+					"joins",
+					"the",
+					"city!\\n"
+				],
+				"lineNumber": 12826
+			},
+			{
+				"address": 1056,
+				"opcode": "setTrigger",
+				"args": [
+					"218"
+				],
+				"lineNumber": 12827
+			},
+			{
+				"address": 1060,
+				"opcode": "addToPStat",
+				"args": [
+					"1",
+					"1"
+				],
+				"lineNumber": 12828
+			},
+			{
+				"address": 1064,
+				"opcode": "moveCameraToEntity",
+				"args": [
+					"253",
+					"10"
+				],
+				"lineNumber": 12829
+			},
+			{
+				"address": 1068,
+				"opcode": "waitForEntity",
+				"args": [
+					"200"
+				],
+				"lineNumber": 12830
+			},
+			{
+				"address": 1070,
+				"opcode": "endSection",
+				"lineNumber": 12831
+			}
+		]
+	},
+	"6": {
+		"id": 6,
+		"instructions": [
+			{
+				"address": 1072,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 12833
+			},
+			{
+				"address": 1074,
+				"opcode": "showTextbox",
+				"args": [
+					"Ugghh!\\n"
+				],
+				"lineNumber": 12834
+			},
+			{
+				"address": 1092,
+				"opcode": "fadeoutHud",
+				"lineNumber": 12835
+			},
+			{
+				"address": 1094,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 12836
+			},
+			{
+				"address": 1098,
+				"opcode": "startBattle",
+				"lineNumber": 12837
+			},
+			{
+				"address": 1100,
+				"opcode": "setTrigger",
+				"args": [
+					"295"
+				],
+				"lineNumber": 12838
+			},
+			{
+				"address": 1104,
+				"opcode": "endSection",
+				"lineNumber": 12839
+			}
+		]
+	},
+	"7": {
+		"id": 7,
+		"instructions": [
+			{
+				"address": 1106,
+				"opcode": "setDialogOwner",
+				"args": [
+					"7"
+				],
+				"lineNumber": 12841
+			},
+			{
+				"address": 1108,
+				"opcode": "showTextbox",
+				"args": [
+					"Ahhh!\\n"
+				],
+				"lineNumber": 12842
+			},
+			{
+				"address": 1124,
+				"opcode": "fadeoutHud",
+				"lineNumber": 12843
+			},
+			{
+				"address": 1126,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 12844
+			},
+			{
+				"address": 1130,
+				"opcode": "startBattle",
+				"lineNumber": 12845
+			},
+			{
+				"address": 1132,
+				"opcode": "setTrigger",
+				"args": [
+					"295"
+				],
+				"lineNumber": 12846
+			},
+			{
+				"address": 1136,
+				"opcode": "endSection",
+				"lineNumber": 12847
+			}
+		]
+	},
+	"8": {
+		"id": 8,
+		"instructions": [
+			{
+				"address": 1138,
+				"opcode": "setDialogOwner",
+				"args": [
+					"8"
+				],
+				"lineNumber": 12849
+			},
+			{
+				"address": 1140,
+				"opcode": "showTextbox",
+				"args": [
+					"You're",
+					"dead",
+					"meat!\\n"
+				],
+				"lineNumber": 12850
+			},
+			{
+				"address": 1180,
+				"opcode": "fadeoutHud",
+				"lineNumber": 12851
+			},
+			{
+				"address": 1182,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 12852
+			},
+			{
+				"address": 1186,
+				"opcode": "startBattle",
+				"lineNumber": 12853
+			},
+			{
+				"address": 1188,
+				"opcode": "setTrigger",
+				"args": [
+					"297"
+				],
+				"lineNumber": 12854
+			},
+			{
+				"address": 1192,
+				"opcode": "endSection",
+				"lineNumber": 12855
+			}
+		]
+	},
+	"9": {
+		"id": 9,
+		"instructions": [
+			{
+				"address": 1194,
+				"opcode": "setDialogOwner",
+				"args": [
+					"9"
+				],
+				"lineNumber": 12857
+			},
+			{
+				"address": 1196,
+				"opcode": "showTextbox",
+				"args": [
+					"Not",
+					"Bad.\\n"
+				],
+				"lineNumber": 12858
+			},
+			{
+				"address": 1218,
+				"opcode": "fadeoutHud",
+				"lineNumber": 12859
+			},
+			{
+				"address": 1220,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 12860
+			},
+			{
+				"address": 1224,
+				"opcode": "startBattle",
+				"lineNumber": 12861
+			},
+			{
+				"address": 1226,
+				"opcode": "setTrigger",
+				"args": [
+					"282"
+				],
+				"lineNumber": 12862
+			},
+			{
+				"address": 1230,
+				"opcode": "endSection",
+				"lineNumber": 12863
+			}
+		]
+	},
+	"10": {
+		"id": 10,
+		"instructions": [
+			{
+				"address": 1232,
+				"opcode": "setDialogOwner",
+				"args": [
+					"10"
+				],
+				"lineNumber": 12865
+			},
+			{
+				"address": 1234,
+				"opcode": "showTextbox",
+				"args": [
+					"You",
+					"got",
+					"poor",
+					"taste.\\n"
+				],
+				"lineNumber": 12866
+			},
+			{
+				"address": 1278,
+				"opcode": "fadeoutHud",
+				"lineNumber": 12867
+			},
+			{
+				"address": 1280,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 12868
+			},
+			{
+				"address": 1284,
+				"opcode": "startBattle",
+				"lineNumber": 12869
+			},
+			{
+				"address": 1286,
+				"opcode": "setTrigger",
+				"args": [
+					"282"
+				],
+				"lineNumber": 12870
+			},
+			{
+				"address": 1290,
+				"opcode": "endSection",
+				"lineNumber": 12871
+			}
+		]
+	},
+	"11": {
+		"id": 11,
+		"instructions": [
+			{
+				"address": 1292,
+				"opcode": "setDialogOwner",
+				"args": [
+					"11"
+				],
+				"lineNumber": 12873
+			},
+			{
+				"address": 1294,
+				"opcode": "showTextbox",
+				"args": [
+					"You're",
+					"cocky!",
+					"I'll",
+					"teach",
+					"you.\\n"
+				],
+				"lineNumber": 12874
+			},
+			{
+				"address": 1358,
+				"opcode": "fadeoutHud",
+				"lineNumber": 12875
+			},
+			{
+				"address": 1360,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 12876
+			},
+			{
+				"address": 1364,
+				"opcode": "startBattle",
+				"lineNumber": 12877
+			},
+			{
+				"address": 1366,
+				"opcode": "setTrigger",
+				"args": [
+					"295"
+				],
+				"lineNumber": 12878
+			},
+			{
+				"address": 1370,
+				"opcode": "endSection",
+				"lineNumber": 12879
+			}
+		]
+	},
+	"51": {
+		"id": 51,
+		"instructions": [
+			{
+				"address": 1372,
+				"opcode": "if",
+				"args": [
+					"trigger(328)",
+					"==",
+					"false",
+					"then",
+					"1396"
+				],
+				"lineNumber": 12881
+			},
+			{
+				"address": 1384,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"1020",
+					"4048",
+					"false"
+				],
+				"lineNumber": 12882
+			},
+			{
+				"address": 1392,
+				"opcode": "warpTo",
+				"args": [
+					"156",
+					"1",
+					"255"
+				],
+				"lineNumber": 12883
+			},
+			{
+				"address": 1396,
+				"opcode": "entitySetRotation",
+				"args": [
+					"253",
+					"2048"
+				],
+				"lineNumber": 12884
+			},
+			{
+				"address": 1400,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 12885
+			},
+			{
+				"address": 1404,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 12886
+			},
+			{
+				"address": 1406,
+				"opcode": "showTextbox",
+				"args": [
+					"This",
+					"iron",
+					"door",
+					"is",
+					"hard.\\nIf",
+					"it",
+					"doesn't",
+					"open,\\nwe",
+					"can't",
+					"get",
+					"in.\\n"
+				],
+				"lineNumber": 12887
+			},
+			{
+				"address": 1532,
+				"opcode": "entityWalkToWithCamera",
+				"args": [
+					"253",
+					"946",
+					"2852",
+					"true"
+				],
+				"lineNumber": 12888
+			},
+			{
+				"address": 1540,
+				"opcode": "waitForEntity",
+				"args": [
+					"253"
+				],
+				"lineNumber": 12889
+			},
+			{
+				"address": 1542,
+				"opcode": "endSection",
+				"lineNumber": 12890
+			}
+		]
+	}
+}
+}

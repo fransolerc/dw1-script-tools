@@ -1,0 +1,155 @@
+{
+"id": 53,
+"info": "== Script ID 53 == 28000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 16,
+				"opcode": "spawnChest",
+				"args": [
+					"18",
+					"1057",
+					"0",
+					"-1268",
+					"1024",
+					"704"
+				],
+				"lineNumber": 11587
+			},
+			{
+				"address": 28,
+				"opcode": "spawnChest",
+				"args": [
+					"22",
+					"1057",
+					"0",
+					"-920",
+					"1024",
+					"705"
+				],
+				"lineNumber": 11588
+			},
+			{
+				"address": 40,
+				"opcode": "endSection",
+				"lineNumber": 11589
+			}
+		]
+	},
+	"81": {
+		"id": 81,
+		"instructions": [
+			{
+				"address": 42,
+				"opcode": "rotate3DObject",
+				"args": [
+					"0",
+					"1"
+				],
+				"lineNumber": 11591
+			},
+			{
+				"address": 46,
+				"opcode": "playSound",
+				"args": [
+					"264"
+				],
+				"lineNumber": 11592
+			},
+			{
+				"address": 50,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 11593
+			},
+			{
+				"address": 54,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"211",
+					"-1810",
+					"false"
+				],
+				"lineNumber": 11594
+			},
+			{
+				"address": 62,
+				"opcode": "warpTo",
+				"args": [
+					"56",
+					"1",
+					"255"
+				],
+				"lineNumber": 11595
+			},
+			{
+				"address": 66,
+				"opcode": "endSection",
+				"lineNumber": 11596
+			}
+		]
+	},
+	"82": {
+		"id": 82,
+		"instructions": [
+			{
+				"address": 68,
+				"opcode": "rotate3DObject",
+				"args": [
+					"1",
+					"1"
+				],
+				"lineNumber": 11598
+			},
+			{
+				"address": 72,
+				"opcode": "playSound",
+				"args": [
+					"264"
+				],
+				"lineNumber": 11599
+			},
+			{
+				"address": 76,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 11600
+			},
+			{
+				"address": 80,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"-927",
+					"576",
+					"false"
+				],
+				"lineNumber": 11601
+			},
+			{
+				"address": 88,
+				"opcode": "warpTo",
+				"args": [
+					"55",
+					"0",
+					"255"
+				],
+				"lineNumber": 11602
+			},
+			{
+				"address": 92,
+				"opcode": "endSection",
+				"lineNumber": 11603
+			}
+		]
+	}
+}
+}

@@ -1,0 +1,120 @@
+{
+"id": 59,
+"info": "== Script ID 59 == 2c000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 16,
+				"opcode": "endSection",
+				"lineNumber": 12005
+			}
+		]
+	},
+	"81": {
+		"id": 81,
+		"instructions": [
+			{
+				"address": 18,
+				"opcode": "rotate3DObject",
+				"args": [
+					"0",
+					"1"
+				],
+				"lineNumber": 12007
+			},
+			{
+				"address": 22,
+				"opcode": "playSound",
+				"args": [
+					"264"
+				],
+				"lineNumber": 12008
+			},
+			{
+				"address": 26,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 12009
+			},
+			{
+				"address": 30,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"-1400",
+					"600",
+					"false"
+				],
+				"lineNumber": 12010
+			},
+			{
+				"address": 38,
+				"opcode": "warpTo",
+				"args": [
+					"52",
+					"1",
+					"255"
+				],
+				"lineNumber": 12011
+			},
+			{
+				"address": 42,
+				"opcode": "endSection",
+				"lineNumber": 12012
+			}
+		]
+	},
+	"82": {
+		"id": 82,
+		"instructions": [
+			{
+				"address": 44,
+				"opcode": "playSound",
+				"args": [
+					"2568"
+				],
+				"lineNumber": 12014
+			},
+			{
+				"address": 48,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 12015
+			},
+			{
+				"address": 52,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"800",
+					"-400",
+					"false"
+				],
+				"lineNumber": 12016
+			},
+			{
+				"address": 60,
+				"opcode": "warpTo",
+				"args": [
+					"68",
+					"0",
+					"255"
+				],
+				"lineNumber": 12017
+			},
+			{
+				"address": 64,
+				"opcode": "endSection",
+				"lineNumber": 12018
+			}
+		]
+	}
+}
+}

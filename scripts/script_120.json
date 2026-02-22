@@ -1,0 +1,53 @@
+{
+"id": 120,
+"info": "== Script ID 120 == 56000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 12,
+				"opcode": "spawnChest",
+				"args": [
+					"23",
+					"-582",
+					"0",
+					"1062",
+					"0",
+					"694"
+				],
+				"lineNumber": 18808
+			},
+			{
+				"address": 24,
+				"opcode": "spawnChest",
+				"args": [
+					"14",
+					"-1129",
+					"0",
+					"1032",
+					"0",
+					"695"
+				],
+				"lineNumber": 18809
+			},
+			{
+				"address": 36,
+				"opcode": "endSection",
+				"lineNumber": 18810
+			}
+		]
+	},
+	"5": {
+		"id": 5,
+		"instructions": [
+			{
+				"address": 38,
+				"opcode": "endSection",
+				"lineNumber": 18812
+			}
+		]
+	}
+}
+}

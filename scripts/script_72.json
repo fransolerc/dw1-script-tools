@@ -1,0 +1,293 @@
+{
+"id": 72,
+"info": "== Script ID 72 == 33800",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 24,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 13617
+			},
+			{
+				"address": 28,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"16",
+					"then",
+					"46"
+				],
+				"lineNumber": 13618
+			},
+			{
+				"address": 40,
+				"opcode": "spawnItem",
+				"args": [
+					"44",
+					"49",
+					"70"
+				],
+				"lineNumber": 13619
+			},
+			{
+				"address": 46,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 13620
+			},
+			{
+				"address": 50,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"68"
+				],
+				"lineNumber": 13621
+			},
+			{
+				"address": 62,
+				"opcode": "spawnItem",
+				"args": [
+					"69",
+					"25",
+					"68"
+				],
+				"lineNumber": 13622
+			},
+			{
+				"address": 68,
+				"opcode": "endSection",
+				"lineNumber": 13623
+			}
+		]
+	},
+	"7": {
+		"id": 7,
+		"instructions": [
+			{
+				"address": 70,
+				"opcode": "setDialogOwner",
+				"args": [
+					"7"
+				],
+				"lineNumber": 13625
+			},
+			{
+				"address": 72,
+				"opcode": "showTextbox",
+				"args": [
+					"I'm",
+					"very",
+					"disappointed.\\n"
+				],
+				"lineNumber": 13626
+			},
+			{
+				"address": 122,
+				"opcode": "fadeoutHud",
+				"lineNumber": 13627
+			},
+			{
+				"address": 124,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 13628
+			},
+			{
+				"address": 128,
+				"opcode": "startBattle",
+				"lineNumber": 13629
+			},
+			{
+				"address": 130,
+				"opcode": "setTrigger",
+				"args": [
+					"282"
+				],
+				"lineNumber": 13630
+			},
+			{
+				"address": 134,
+				"opcode": "endSection",
+				"lineNumber": 13631
+			}
+		]
+	},
+	"8": {
+		"id": 8,
+		"instructions": [
+			{
+				"address": 136,
+				"opcode": "setDialogOwner",
+				"args": [
+					"8"
+				],
+				"lineNumber": 13633
+			},
+			{
+				"address": 138,
+				"opcode": "showTextbox",
+				"args": [
+					"Don't",
+					"make",
+					"me",
+					"mad.\\n"
+				],
+				"lineNumber": 13634
+			},
+			{
+				"address": 180,
+				"opcode": "fadeoutHud",
+				"lineNumber": 13635
+			},
+			{
+				"address": 182,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 13636
+			},
+			{
+				"address": 186,
+				"opcode": "startBattle",
+				"lineNumber": 13637
+			},
+			{
+				"address": 188,
+				"opcode": "setTrigger",
+				"args": [
+					"282"
+				],
+				"lineNumber": 13638
+			},
+			{
+				"address": 192,
+				"opcode": "endSection",
+				"lineNumber": 13639
+			}
+		]
+	},
+	"9": {
+		"id": 9,
+		"instructions": [
+			{
+				"address": 194,
+				"opcode": "setDialogOwner",
+				"args": [
+					"9"
+				],
+				"lineNumber": 13641
+			},
+			{
+				"address": 196,
+				"opcode": "showTextbox",
+				"args": [
+					"Dinner?\\n"
+				],
+				"lineNumber": 13642
+			},
+			{
+				"address": 216,
+				"opcode": "fadeoutHud",
+				"lineNumber": 13643
+			},
+			{
+				"address": 218,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 13644
+			},
+			{
+				"address": 222,
+				"opcode": "startBattle",
+				"lineNumber": 13645
+			},
+			{
+				"address": 224,
+				"opcode": "setTrigger",
+				"args": [
+					"297"
+				],
+				"lineNumber": 13646
+			},
+			{
+				"address": 228,
+				"opcode": "endSection",
+				"lineNumber": 13647
+			}
+		]
+	},
+	"10": {
+		"id": 10,
+		"instructions": [
+			{
+				"address": 230,
+				"opcode": "setDialogOwner",
+				"args": [
+					"10"
+				],
+				"lineNumber": 13649
+			},
+			{
+				"address": 232,
+				"opcode": "showTextbox",
+				"args": [
+					"I'm",
+					"hungry!\\n"
+				],
+				"lineNumber": 13650
+			},
+			{
+				"address": 260,
+				"opcode": "fadeoutHud",
+				"lineNumber": 13651
+			},
+			{
+				"address": 262,
+				"opcode": "delay",
+				"args": [
+					"1"
+				],
+				"lineNumber": 13652
+			},
+			{
+				"address": 266,
+				"opcode": "startBattle",
+				"lineNumber": 13653
+			},
+			{
+				"address": 268,
+				"opcode": "setTrigger",
+				"args": [
+					"297"
+				],
+				"lineNumber": 13654
+			},
+			{
+				"address": 272,
+				"opcode": "endSection",
+				"lineNumber": 13655
+			}
+		]
+	}
+}
+}

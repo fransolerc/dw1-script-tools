@@ -1,0 +1,410 @@
+{
+"id": 192,
+"info": "== Script ID 192 == 92000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 12,
+				"opcode": "endSection",
+				"lineNumber": 29859
+			}
+		]
+	},
+	"51": {
+		"id": 51,
+		"instructions": [
+			{
+				"address": 14,
+				"opcode": "callRoutine",
+				"args": [
+					"52"
+				],
+				"lineNumber": 29861
+			},
+			{
+				"address": 16,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"5",
+					"253"
+				],
+				"lineNumber": 29862
+			},
+			{
+				"address": 20,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"6",
+					"253"
+				],
+				"lineNumber": 29863
+			},
+			{
+				"address": 24,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"7",
+					"253"
+				],
+				"lineNumber": 29864
+			},
+			{
+				"address": 28,
+				"opcode": "entityWalkTo",
+				"args": [
+					"252",
+					"-340",
+					"-2263",
+					"false"
+				],
+				"lineNumber": 29865
+			},
+			{
+				"address": 36,
+				"opcode": "moveCameraTo",
+				"args": [
+					"2",
+					"172",
+					"-1848"
+				],
+				"lineNumber": 29866
+			},
+			{
+				"address": 42,
+				"opcode": "waitForEntity",
+				"args": [
+					"200"
+				],
+				"lineNumber": 29867
+			},
+			{
+				"address": 44,
+				"opcode": "delay",
+				"args": [
+					"20"
+				],
+				"lineNumber": 29868
+			},
+			{
+				"address": 48,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 29869
+			},
+			{
+				"address": 50,
+				"opcode": "showTextbox",
+				"args": [
+					"The",
+					"time",
+					"has",
+					"come.\\n"
+				],
+				"lineNumber": 29870
+			},
+			{
+				"address": 92,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 29871
+			},
+			{
+				"address": 94,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"wish",
+					"I",
+					"could",
+					"stay,\\nbut",
+					"my",
+					"mom",
+					"worries.\\n"
+				],
+				"lineNumber": 29872
+			},
+			{
+				"address": 180,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 29873
+			},
+			{
+				"address": 182,
+				"opcode": "showTextbox",
+				"args": [
+					"Thank",
+					"you",
+					"<LIGHTBLUE><PLAYER><WHITE>,\\nI",
+					"wish",
+					"I",
+					"could",
+					"repay",
+					"you.\\n"
+				],
+				"lineNumber": 29874
+			},
+			{
+				"address": 268,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 29875
+			},
+			{
+				"address": 270,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Tokomon",
+					"<WHITE>\\nDon't",
+					"forget",
+					"us!\\n"
+				],
+				"lineNumber": 29876
+			},
+			{
+				"address": 330,
+				"opcode": "setDialogOwner",
+				"args": [
+					"7"
+				],
+				"lineNumber": 29877
+			},
+			{
+				"address": 332,
+				"opcode": "showTextbox",
+				"args": [
+					"We'll",
+					"see",
+					"each",
+					"other",
+					"again.\\nI",
+					"know",
+					"it.\\n"
+				],
+				"lineNumber": 29878
+			},
+			{
+				"address": 414,
+				"opcode": "entitySetRotation",
+				"args": [
+					"253",
+					"0"
+				],
+				"lineNumber": 29879
+			},
+			{
+				"address": 418,
+				"opcode": "delay",
+				"args": [
+					"30"
+				],
+				"lineNumber": 29880
+			},
+			{
+				"address": 422,
+				"opcode": "entitySetRotation",
+				"args": [
+					"253",
+					"1024"
+				],
+				"lineNumber": 29881
+			},
+			{
+				"address": 426,
+				"opcode": "delay",
+				"args": [
+					"30"
+				],
+				"lineNumber": 29882
+			},
+			{
+				"address": 430,
+				"opcode": "entitySetRotation",
+				"args": [
+					"253",
+					"2048"
+				],
+				"lineNumber": 29883
+			},
+			{
+				"address": 434,
+				"opcode": "delay",
+				"args": [
+					"30"
+				],
+				"lineNumber": 29884
+			},
+			{
+				"address": 438,
+				"opcode": "entitySetRotation",
+				"args": [
+					"253",
+					"3072"
+				],
+				"lineNumber": 29885
+			},
+			{
+				"address": 442,
+				"opcode": "delay",
+				"args": [
+					"30"
+				],
+				"lineNumber": 29886
+			},
+			{
+				"address": 446,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 29887
+			},
+			{
+				"address": 448,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"had",
+					"great",
+					"time.",
+					"Thanks.\\n"
+				],
+				"lineNumber": 29888
+			},
+			{
+				"address": 504,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 29889
+			},
+			{
+				"address": 506,
+				"opcode": "showTextbox",
+				"args": [
+					"We",
+					"should",
+					"have",
+					"a\\ngood",
+					"bye",
+					"ceremony.\\n"
+				],
+				"lineNumber": 29890
+			},
+			{
+				"address": 582,
+				"opcode": "fadeoutHud",
+				"lineNumber": 29891
+			},
+			{
+				"address": 584,
+				"opcode": "callRoutine",
+				"args": [
+					"54"
+				],
+				"lineNumber": 29892
+			},
+			{
+				"address": 586,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"252"
+				],
+				"lineNumber": 29893
+			},
+			{
+				"address": 590,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"253"
+				],
+				"lineNumber": 29894
+			},
+			{
+				"address": 594,
+				"opcode": "delay",
+				"args": [
+					"40"
+				],
+				"lineNumber": 29895
+			},
+			{
+				"address": 598,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 29896
+			},
+			{
+				"address": 600,
+				"opcode": "showTextbox",
+				"args": [
+					"<ORANGE><DIGIMON><WHITE>,",
+					"our\\nadventure",
+					"was",
+					"grand!\\n"
+				],
+				"lineNumber": 29897
+			},
+			{
+				"address": 664,
+				"opcode": "fadeoutHud",
+				"lineNumber": 29898
+			},
+			{
+				"address": 666,
+				"opcode": "delay",
+				"args": [
+					"30"
+				],
+				"lineNumber": 29899
+			},
+			{
+				"address": 670,
+				"opcode": "playAnimation",
+				"args": [
+					"5",
+					"32"
+				],
+				"lineNumber": 29900
+			},
+			{
+				"address": 674,
+				"opcode": "delay",
+				"args": [
+					"40"
+				],
+				"lineNumber": 29901
+			},
+			{
+				"address": 678,
+				"opcode": "callRoutine",
+				"args": [
+					"53"
+				],
+				"lineNumber": 29902
+			},
+			{
+				"address": 680,
+				"opcode": "endSection",
+				"lineNumber": 29903
+			}
+		]
+	}
+}
+}

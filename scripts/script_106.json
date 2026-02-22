@@ -1,0 +1,1602 @@
+{
+"id": 106,
+"info": "== Script ID 106 == 4c000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 20,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 17268
+			},
+			{
+				"address": 24,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"19",
+					"then",
+					"42"
+				],
+				"lineNumber": 17269
+			},
+			{
+				"address": 36,
+				"opcode": "spawnItem",
+				"args": [
+					"44",
+					"61",
+					"54"
+				],
+				"lineNumber": 17270
+			},
+			{
+				"address": 42,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 17271
+			},
+			{
+				"address": 46,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"4",
+					"then",
+					"64"
+				],
+				"lineNumber": 17272
+			},
+			{
+				"address": 58,
+				"opcode": "spawnItem",
+				"args": [
+					"69",
+					"39",
+					"46"
+				],
+				"lineNumber": 17273
+			},
+			{
+				"address": 64,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"99"
+				],
+				"lineNumber": 17274
+			},
+			{
+				"address": 68,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"14",
+					"then",
+					"86"
+				],
+				"lineNumber": 17275
+			},
+			{
+				"address": 80,
+				"opcode": "spawnItem",
+				"args": [
+					"44",
+					"55",
+					"63"
+				],
+				"lineNumber": 17276
+			},
+			{
+				"address": 86,
+				"opcode": "endSection",
+				"lineNumber": 17277
+			}
+		]
+	},
+	"81": {
+		"id": 81,
+		"instructions": [
+			{
+				"address": 88,
+				"opcode": "entitySetRotation",
+				"args": [
+					"253",
+					"1536"
+				],
+				"lineNumber": 17279
+			},
+			{
+				"address": 92,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 17280
+			},
+			{
+				"address": 94,
+				"opcode": "showTextbox",
+				"args": [
+					"Rockslide",
+					"blocked",
+					"the",
+					"road...\\n"
+				],
+				"lineNumber": 17281
+			},
+			{
+				"address": 158,
+				"opcode": "endSection",
+				"lineNumber": 17282
+			}
+		]
+	},
+	"5": {
+		"id": 5,
+		"instructions": [
+			{
+				"address": 160,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 17284
+			},
+			{
+				"address": 162,
+				"opcode": "showTextbox",
+				"args": [
+					"Battle",
+					"test!\\n"
+				],
+				"lineNumber": 17285
+			},
+			{
+				"address": 192,
+				"opcode": "showTextbox",
+				"args": [
+					"Just",
+					"kidding.\\n"
+				],
+				"lineNumber": 17286
+			},
+			{
+				"address": 224,
+				"opcode": "unloadEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 17287
+			},
+			{
+				"address": 226,
+				"opcode": "endSection",
+				"lineNumber": 17288
+			}
+		]
+	},
+	"6": {
+		"id": 6,
+		"instructions": [
+			{
+				"address": 228,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 17290
+			},
+			{
+				"address": 230,
+				"opcode": "showTextbox",
+				"args": [
+					"I'm",
+					"called",
+					"Mr.",
+					"Handy!\\nWhat",
+					"can",
+					"I",
+					"do",
+					"for",
+					"you?\\n"
+				],
+				"lineNumber": 17291
+			},
+			{
+				"address": 324,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 17292
+			},
+			{
+				"address": 326,
+				"opcode": "setSelection",
+				"args": [
+					"458",
+					"552",
+					"1182"
+				],
+				"lineNumber": 17293
+			},
+			{
+				"address": 334,
+				"opcode": "showTextbox",
+				"args": [
+					"Change",
+					"Parameters\\nFast",
+					"forward",
+					"time\\nMaster",
+					"all",
+					"Techniques\\n"
+				],
+				"lineNumber": 17294
+			},
+			{
+				"address": 454,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 17295
+			},
+			{
+				"address": 456,
+				"opcode": "endSection",
+				"lineNumber": 17296
+			},
+			{
+				"address": 458,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 17297
+			},
+			{
+				"address": 460,
+				"opcode": "setSelection",
+				"args": [
+					"738",
+					"954",
+					"1300"
+				],
+				"lineNumber": 17298
+			},
+			{
+				"address": 468,
+				"opcode": "showTextbox",
+				"args": [
+					"Increase\\nDecrease\\nReset",
+					"ability",
+					"level\\n"
+				],
+				"lineNumber": 17299
+			},
+			{
+				"address": 548,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 17300
+			},
+			{
+				"address": 550,
+				"opcode": "endSection",
+				"lineNumber": 17301
+			},
+			{
+				"address": 552,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 17302
+			},
+			{
+				"address": 554,
+				"opcode": "setSelection",
+				"args": [
+					"702",
+					"714",
+					"726"
+				],
+				"lineNumber": 17303
+			},
+			{
+				"address": 562,
+				"opcode": "showTextbox",
+				"args": [
+					"Fast",
+					"forward",
+					"one",
+					"hour\\nFast",
+					"forward",
+					"six",
+					"hours\\nFast",
+					"forward",
+					"one",
+					"day\\n"
+				],
+				"lineNumber": 17304
+			},
+			{
+				"address": 698,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 17305
+			},
+			{
+				"address": 700,
+				"opcode": "endSection",
+				"lineNumber": 17306
+			},
+			{
+				"address": 702,
+				"opcode": "storeDate",
+				"args": [
+					"105"
+				],
+				"lineNumber": 17307
+			},
+			{
+				"address": 704,
+				"opcode": "addMinutesToDateAt",
+				"args": [
+					"105",
+					"60"
+				],
+				"lineNumber": 17308
+			},
+			{
+				"address": 710,
+				"opcode": "advanceToDateAt",
+				"args": [
+					"105"
+				],
+				"lineNumber": 17309
+			},
+			{
+				"address": 712,
+				"opcode": "endSection",
+				"lineNumber": 17310
+			},
+			{
+				"address": 714,
+				"opcode": "storeDate",
+				"args": [
+					"105"
+				],
+				"lineNumber": 17311
+			},
+			{
+				"address": 716,
+				"opcode": "addMinutesToDateAt",
+				"args": [
+					"105",
+					"360"
+				],
+				"lineNumber": 17312
+			},
+			{
+				"address": 722,
+				"opcode": "advanceToDateAt",
+				"args": [
+					"105"
+				],
+				"lineNumber": 17313
+			},
+			{
+				"address": 724,
+				"opcode": "endSection",
+				"lineNumber": 17314
+			},
+			{
+				"address": 726,
+				"opcode": "storeDate",
+				"args": [
+					"105"
+				],
+				"lineNumber": 17315
+			},
+			{
+				"address": 728,
+				"opcode": "addMinutesToDateAt",
+				"args": [
+					"105",
+					"1440"
+				],
+				"lineNumber": 17316
+			},
+			{
+				"address": 734,
+				"opcode": "advanceToDateAt",
+				"args": [
+					"105"
+				],
+				"lineNumber": 17317
+			},
+			{
+				"address": 736,
+				"opcode": "endSection",
+				"lineNumber": 17318
+			},
+			{
+				"address": 738,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 17319
+			},
+			{
+				"address": 740,
+				"opcode": "setSelection",
+				"args": [
+					"840",
+					"878",
+					"916"
+				],
+				"lineNumber": 17320
+			},
+			{
+				"address": 748,
+				"opcode": "showTextbox",
+				"args": [
+					"Add",
+					"fifty\\nAdd",
+					"one",
+					"hundred\\nAdd",
+					"two",
+					"hundred\\n"
+				],
+				"lineNumber": 17321
+			},
+			{
+				"address": 836,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 17322
+			},
+			{
+				"address": 838,
+				"opcode": "endSection",
+				"lineNumber": 17323
+			},
+			{
+				"address": 840,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"50"
+				],
+				"lineNumber": 17324
+			},
+			{
+				"address": 844,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"50"
+				],
+				"lineNumber": 17325
+			},
+			{
+				"address": 848,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"50"
+				],
+				"lineNumber": 17326
+			},
+			{
+				"address": 852,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"50"
+				],
+				"lineNumber": 17327
+			},
+			{
+				"address": 856,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"500"
+				],
+				"lineNumber": 17328
+			},
+			{
+				"address": 860,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"500"
+				],
+				"lineNumber": 17329
+			},
+			{
+				"address": 864,
+				"opcode": "addStats",
+				"args": [
+					"CURRENTHP",
+					"500"
+				],
+				"lineNumber": 17330
+			},
+			{
+				"address": 868,
+				"opcode": "addStats",
+				"args": [
+					"CURRENTMP",
+					"500"
+				],
+				"lineNumber": 17331
+			},
+			{
+				"address": 872,
+				"opcode": "jumpTo",
+				"args": [
+					"458"
+				],
+				"lineNumber": 17332
+			},
+			{
+				"address": 876,
+				"opcode": "endSection",
+				"lineNumber": 17333
+			},
+			{
+				"address": 878,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"100"
+				],
+				"lineNumber": 17334
+			},
+			{
+				"address": 882,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"100"
+				],
+				"lineNumber": 17335
+			},
+			{
+				"address": 886,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"100"
+				],
+				"lineNumber": 17336
+			},
+			{
+				"address": 890,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"100"
+				],
+				"lineNumber": 17337
+			},
+			{
+				"address": 894,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"1000"
+				],
+				"lineNumber": 17338
+			},
+			{
+				"address": 898,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"1000"
+				],
+				"lineNumber": 17339
+			},
+			{
+				"address": 902,
+				"opcode": "addStats",
+				"args": [
+					"CURRENTHP",
+					"1000"
+				],
+				"lineNumber": 17340
+			},
+			{
+				"address": 906,
+				"opcode": "addStats",
+				"args": [
+					"CURRENTMP",
+					"1000"
+				],
+				"lineNumber": 17341
+			},
+			{
+				"address": 910,
+				"opcode": "jumpTo",
+				"args": [
+					"458"
+				],
+				"lineNumber": 17342
+			},
+			{
+				"address": 914,
+				"opcode": "endSection",
+				"lineNumber": 17343
+			},
+			{
+				"address": 916,
+				"opcode": "addStats",
+				"args": [
+					"OFFENSE",
+					"200"
+				],
+				"lineNumber": 17344
+			},
+			{
+				"address": 920,
+				"opcode": "addStats",
+				"args": [
+					"DEFENSE",
+					"200"
+				],
+				"lineNumber": 17345
+			},
+			{
+				"address": 924,
+				"opcode": "addStats",
+				"args": [
+					"SPEED",
+					"200"
+				],
+				"lineNumber": 17346
+			},
+			{
+				"address": 928,
+				"opcode": "addStats",
+				"args": [
+					"BRAINS",
+					"200"
+				],
+				"lineNumber": 17347
+			},
+			{
+				"address": 932,
+				"opcode": "addStats",
+				"args": [
+					"MAXHP",
+					"2000"
+				],
+				"lineNumber": 17348
+			},
+			{
+				"address": 936,
+				"opcode": "addStats",
+				"args": [
+					"MAXMP",
+					"2000"
+				],
+				"lineNumber": 17349
+			},
+			{
+				"address": 940,
+				"opcode": "addStats",
+				"args": [
+					"CURRENTHP",
+					"2000"
+				],
+				"lineNumber": 17350
+			},
+			{
+				"address": 944,
+				"opcode": "addStats",
+				"args": [
+					"CURRENTMP",
+					"2000"
+				],
+				"lineNumber": 17351
+			},
+			{
+				"address": 948,
+				"opcode": "jumpTo",
+				"args": [
+					"458"
+				],
+				"lineNumber": 17352
+			},
+			{
+				"address": 952,
+				"opcode": "endSection",
+				"lineNumber": 17353
+			},
+			{
+				"address": 954,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 17354
+			},
+			{
+				"address": 956,
+				"opcode": "setSelection",
+				"args": [
+					"1068",
+					"1106",
+					"1144"
+				],
+				"lineNumber": 17355
+			},
+			{
+				"address": 964,
+				"opcode": "showTextbox",
+				"args": [
+					"Minus",
+					"fifty\\nMinus",
+					"one",
+					"hundred\\nMinus",
+					"two",
+					"hundred\\n"
+				],
+				"lineNumber": 17356
+			},
+			{
+				"address": 1064,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 17357
+			},
+			{
+				"address": 1066,
+				"opcode": "endSection",
+				"lineNumber": 17358
+			},
+			{
+				"address": 1068,
+				"opcode": "reduceStat",
+				"args": [
+					"OFFENSE",
+					"50"
+				],
+				"lineNumber": 17359
+			},
+			{
+				"address": 1072,
+				"opcode": "reduceStat",
+				"args": [
+					"DEFENSE",
+					"50"
+				],
+				"lineNumber": 17360
+			},
+			{
+				"address": 1076,
+				"opcode": "reduceStat",
+				"args": [
+					"SPEED",
+					"50"
+				],
+				"lineNumber": 17361
+			},
+			{
+				"address": 1080,
+				"opcode": "reduceStat",
+				"args": [
+					"BRAINS",
+					"50"
+				],
+				"lineNumber": 17362
+			},
+			{
+				"address": 1084,
+				"opcode": "reduceStat",
+				"args": [
+					"MAXHP",
+					"500"
+				],
+				"lineNumber": 17363
+			},
+			{
+				"address": 1088,
+				"opcode": "reduceStat",
+				"args": [
+					"MAXMP",
+					"500"
+				],
+				"lineNumber": 17364
+			},
+			{
+				"address": 1092,
+				"opcode": "reduceStat",
+				"args": [
+					"CURRENTHP",
+					"500"
+				],
+				"lineNumber": 17365
+			},
+			{
+				"address": 1096,
+				"opcode": "reduceStat",
+				"args": [
+					"CURRENTMP",
+					"500"
+				],
+				"lineNumber": 17366
+			},
+			{
+				"address": 1100,
+				"opcode": "jumpTo",
+				"args": [
+					"458"
+				],
+				"lineNumber": 17367
+			},
+			{
+				"address": 1104,
+				"opcode": "endSection",
+				"lineNumber": 17368
+			},
+			{
+				"address": 1106,
+				"opcode": "reduceStat",
+				"args": [
+					"OFFENSE",
+					"100"
+				],
+				"lineNumber": 17369
+			},
+			{
+				"address": 1110,
+				"opcode": "reduceStat",
+				"args": [
+					"DEFENSE",
+					"100"
+				],
+				"lineNumber": 17370
+			},
+			{
+				"address": 1114,
+				"opcode": "reduceStat",
+				"args": [
+					"SPEED",
+					"100"
+				],
+				"lineNumber": 17371
+			},
+			{
+				"address": 1118,
+				"opcode": "reduceStat",
+				"args": [
+					"BRAINS",
+					"100"
+				],
+				"lineNumber": 17372
+			},
+			{
+				"address": 1122,
+				"opcode": "reduceStat",
+				"args": [
+					"MAXHP",
+					"1000"
+				],
+				"lineNumber": 17373
+			},
+			{
+				"address": 1126,
+				"opcode": "reduceStat",
+				"args": [
+					"MAXMP",
+					"1000"
+				],
+				"lineNumber": 17374
+			},
+			{
+				"address": 1130,
+				"opcode": "reduceStat",
+				"args": [
+					"CURRENTHP",
+					"1000"
+				],
+				"lineNumber": 17375
+			},
+			{
+				"address": 1134,
+				"opcode": "reduceStat",
+				"args": [
+					"CURRENTMP",
+					"1000"
+				],
+				"lineNumber": 17376
+			},
+			{
+				"address": 1138,
+				"opcode": "jumpTo",
+				"args": [
+					"458"
+				],
+				"lineNumber": 17377
+			},
+			{
+				"address": 1142,
+				"opcode": "endSection",
+				"lineNumber": 17378
+			},
+			{
+				"address": 1144,
+				"opcode": "reduceStat",
+				"args": [
+					"OFFENSE",
+					"200"
+				],
+				"lineNumber": 17379
+			},
+			{
+				"address": 1148,
+				"opcode": "reduceStat",
+				"args": [
+					"DEFENSE",
+					"200"
+				],
+				"lineNumber": 17380
+			},
+			{
+				"address": 1152,
+				"opcode": "reduceStat",
+				"args": [
+					"SPEED",
+					"200"
+				],
+				"lineNumber": 17381
+			},
+			{
+				"address": 1156,
+				"opcode": "reduceStat",
+				"args": [
+					"BRAINS",
+					"200"
+				],
+				"lineNumber": 17382
+			},
+			{
+				"address": 1160,
+				"opcode": "reduceStat",
+				"args": [
+					"MAXHP",
+					"2000"
+				],
+				"lineNumber": 17383
+			},
+			{
+				"address": 1164,
+				"opcode": "reduceStat",
+				"args": [
+					"MAXMP",
+					"2000"
+				],
+				"lineNumber": 17384
+			},
+			{
+				"address": 1168,
+				"opcode": "reduceStat",
+				"args": [
+					"CURRENTHP",
+					"2000"
+				],
+				"lineNumber": 17385
+			},
+			{
+				"address": 1172,
+				"opcode": "reduceStat",
+				"args": [
+					"CURRENTMP",
+					"2000"
+				],
+				"lineNumber": 17386
+			},
+			{
+				"address": 1176,
+				"opcode": "jumpTo",
+				"args": [
+					"458"
+				],
+				"lineNumber": 17387
+			},
+			{
+				"address": 1180,
+				"opcode": "endSection",
+				"lineNumber": 17388
+			},
+			{
+				"address": 1182,
+				"opcode": "learnMove",
+				"args": [
+					"0"
+				],
+				"lineNumber": 17389
+			},
+			{
+				"address": 1184,
+				"opcode": "learnMove",
+				"args": [
+					"1"
+				],
+				"lineNumber": 17390
+			},
+			{
+				"address": 1186,
+				"opcode": "learnMove",
+				"args": [
+					"2"
+				],
+				"lineNumber": 17391
+			},
+			{
+				"address": 1188,
+				"opcode": "learnMove",
+				"args": [
+					"3"
+				],
+				"lineNumber": 17392
+			},
+			{
+				"address": 1190,
+				"opcode": "learnMove",
+				"args": [
+					"4"
+				],
+				"lineNumber": 17393
+			},
+			{
+				"address": 1192,
+				"opcode": "learnMove",
+				"args": [
+					"5"
+				],
+				"lineNumber": 17394
+			},
+			{
+				"address": 1194,
+				"opcode": "learnMove",
+				"args": [
+					"6"
+				],
+				"lineNumber": 17395
+			},
+			{
+				"address": 1196,
+				"opcode": "learnMove",
+				"args": [
+					"7"
+				],
+				"lineNumber": 17396
+			},
+			{
+				"address": 1198,
+				"opcode": "learnMove",
+				"args": [
+					"8"
+				],
+				"lineNumber": 17397
+			},
+			{
+				"address": 1200,
+				"opcode": "learnMove",
+				"args": [
+					"9"
+				],
+				"lineNumber": 17398
+			},
+			{
+				"address": 1202,
+				"opcode": "learnMove",
+				"args": [
+					"10"
+				],
+				"lineNumber": 17399
+			},
+			{
+				"address": 1204,
+				"opcode": "learnMove",
+				"args": [
+					"11"
+				],
+				"lineNumber": 17400
+			},
+			{
+				"address": 1206,
+				"opcode": "learnMove",
+				"args": [
+					"12"
+				],
+				"lineNumber": 17401
+			},
+			{
+				"address": 1208,
+				"opcode": "learnMove",
+				"args": [
+					"13"
+				],
+				"lineNumber": 17402
+			},
+			{
+				"address": 1210,
+				"opcode": "learnMove",
+				"args": [
+					"14"
+				],
+				"lineNumber": 17403
+			},
+			{
+				"address": 1212,
+				"opcode": "learnMove",
+				"args": [
+					"15"
+				],
+				"lineNumber": 17404
+			},
+			{
+				"address": 1214,
+				"opcode": "learnMove",
+				"args": [
+					"16"
+				],
+				"lineNumber": 17405
+			},
+			{
+				"address": 1216,
+				"opcode": "learnMove",
+				"args": [
+					"17"
+				],
+				"lineNumber": 17406
+			},
+			{
+				"address": 1218,
+				"opcode": "learnMove",
+				"args": [
+					"18"
+				],
+				"lineNumber": 17407
+			},
+			{
+				"address": 1220,
+				"opcode": "learnMove",
+				"args": [
+					"19"
+				],
+				"lineNumber": 17408
+			},
+			{
+				"address": 1222,
+				"opcode": "learnMove",
+				"args": [
+					"20"
+				],
+				"lineNumber": 17409
+			},
+			{
+				"address": 1224,
+				"opcode": "learnMove",
+				"args": [
+					"21"
+				],
+				"lineNumber": 17410
+			},
+			{
+				"address": 1226,
+				"opcode": "learnMove",
+				"args": [
+					"22"
+				],
+				"lineNumber": 17411
+			},
+			{
+				"address": 1228,
+				"opcode": "learnMove",
+				"args": [
+					"23"
+				],
+				"lineNumber": 17412
+			},
+			{
+				"address": 1230,
+				"opcode": "learnMove",
+				"args": [
+					"24"
+				],
+				"lineNumber": 17413
+			},
+			{
+				"address": 1232,
+				"opcode": "learnMove",
+				"args": [
+					"25"
+				],
+				"lineNumber": 17414
+			},
+			{
+				"address": 1234,
+				"opcode": "learnMove",
+				"args": [
+					"26"
+				],
+				"lineNumber": 17415
+			},
+			{
+				"address": 1236,
+				"opcode": "learnMove",
+				"args": [
+					"27"
+				],
+				"lineNumber": 17416
+			},
+			{
+				"address": 1238,
+				"opcode": "learnMove",
+				"args": [
+					"28"
+				],
+				"lineNumber": 17417
+			},
+			{
+				"address": 1240,
+				"opcode": "learnMove",
+				"args": [
+					"29"
+				],
+				"lineNumber": 17418
+			},
+			{
+				"address": 1242,
+				"opcode": "learnMove",
+				"args": [
+					"30"
+				],
+				"lineNumber": 17419
+			},
+			{
+				"address": 1244,
+				"opcode": "learnMove",
+				"args": [
+					"31"
+				],
+				"lineNumber": 17420
+			},
+			{
+				"address": 1246,
+				"opcode": "learnMove",
+				"args": [
+					"32"
+				],
+				"lineNumber": 17421
+			},
+			{
+				"address": 1248,
+				"opcode": "learnMove",
+				"args": [
+					"33"
+				],
+				"lineNumber": 17422
+			},
+			{
+				"address": 1250,
+				"opcode": "learnMove",
+				"args": [
+					"34"
+				],
+				"lineNumber": 17423
+			},
+			{
+				"address": 1252,
+				"opcode": "learnMove",
+				"args": [
+					"35"
+				],
+				"lineNumber": 17424
+			},
+			{
+				"address": 1254,
+				"opcode": "learnMove",
+				"args": [
+					"36"
+				],
+				"lineNumber": 17425
+			},
+			{
+				"address": 1256,
+				"opcode": "learnMove",
+				"args": [
+					"37"
+				],
+				"lineNumber": 17426
+			},
+			{
+				"address": 1258,
+				"opcode": "learnMove",
+				"args": [
+					"38"
+				],
+				"lineNumber": 17427
+			},
+			{
+				"address": 1260,
+				"opcode": "learnMove",
+				"args": [
+					"39"
+				],
+				"lineNumber": 17428
+			},
+			{
+				"address": 1262,
+				"opcode": "learnMove",
+				"args": [
+					"40"
+				],
+				"lineNumber": 17429
+			},
+			{
+				"address": 1264,
+				"opcode": "learnMove",
+				"args": [
+					"41"
+				],
+				"lineNumber": 17430
+			},
+			{
+				"address": 1266,
+				"opcode": "learnMove",
+				"args": [
+					"42"
+				],
+				"lineNumber": 17431
+			},
+			{
+				"address": 1268,
+				"opcode": "learnMove",
+				"args": [
+					"43"
+				],
+				"lineNumber": 17432
+			},
+			{
+				"address": 1270,
+				"opcode": "learnMove",
+				"args": [
+					"44"
+				],
+				"lineNumber": 17433
+			},
+			{
+				"address": 1272,
+				"opcode": "learnMove",
+				"args": [
+					"45"
+				],
+				"lineNumber": 17434
+			},
+			{
+				"address": 1274,
+				"opcode": "learnMove",
+				"args": [
+					"46"
+				],
+				"lineNumber": 17435
+			},
+			{
+				"address": 1276,
+				"opcode": "learnMove",
+				"args": [
+					"47"
+				],
+				"lineNumber": 17436
+			},
+			{
+				"address": 1278,
+				"opcode": "learnMove",
+				"args": [
+					"49"
+				],
+				"lineNumber": 17437
+			},
+			{
+				"address": 1280,
+				"opcode": "learnMove",
+				"args": [
+					"50"
+				],
+				"lineNumber": 17438
+			},
+			{
+				"address": 1282,
+				"opcode": "learnMove",
+				"args": [
+					"51"
+				],
+				"lineNumber": 17439
+			},
+			{
+				"address": 1284,
+				"opcode": "learnMove",
+				"args": [
+					"52"
+				],
+				"lineNumber": 17440
+			},
+			{
+				"address": 1286,
+				"opcode": "learnMove",
+				"args": [
+					"53"
+				],
+				"lineNumber": 17441
+			},
+			{
+				"address": 1288,
+				"opcode": "learnMove",
+				"args": [
+					"54"
+				],
+				"lineNumber": 17442
+			},
+			{
+				"address": 1290,
+				"opcode": "learnMove",
+				"args": [
+					"55"
+				],
+				"lineNumber": 17443
+			},
+			{
+				"address": 1292,
+				"opcode": "learnMove",
+				"args": [
+					"56"
+				],
+				"lineNumber": 17444
+			},
+			{
+				"address": 1294,
+				"opcode": "jumpTo",
+				"args": [
+					"458"
+				],
+				"lineNumber": 17445
+			},
+			{
+				"address": 1298,
+				"opcode": "endSection",
+				"lineNumber": 17446
+			},
+			{
+				"address": 1300,
+				"opcode": "setStat",
+				"args": [
+					"OFFENSE",
+					"50"
+				],
+				"lineNumber": 17447
+			},
+			{
+				"address": 1304,
+				"opcode": "setStat",
+				"args": [
+					"DEFENSE",
+					"50"
+				],
+				"lineNumber": 17448
+			},
+			{
+				"address": 1308,
+				"opcode": "setStat",
+				"args": [
+					"SPEED",
+					"50"
+				],
+				"lineNumber": 17449
+			},
+			{
+				"address": 1312,
+				"opcode": "setStat",
+				"args": [
+					"BRAINS",
+					"50"
+				],
+				"lineNumber": 17450
+			},
+			{
+				"address": 1316,
+				"opcode": "setStat",
+				"args": [
+					"MAXHP",
+					"500"
+				],
+				"lineNumber": 17451
+			},
+			{
+				"address": 1320,
+				"opcode": "setStat",
+				"args": [
+					"MAXMP",
+					"500"
+				],
+				"lineNumber": 17452
+			},
+			{
+				"address": 1324,
+				"opcode": "setStat",
+				"args": [
+					"CURRENTHP",
+					"500"
+				],
+				"lineNumber": 17453
+			},
+			{
+				"address": 1328,
+				"opcode": "setStat",
+				"args": [
+					"CURRENTMP",
+					"500"
+				],
+				"lineNumber": 17454
+			},
+			{
+				"address": 1332,
+				"opcode": "jumpTo",
+				"args": [
+					"458"
+				],
+				"lineNumber": 17455
+			},
+			{
+				"address": 1336,
+				"opcode": "endSection",
+				"lineNumber": 17456
+			},
+			{
+				"address": 1338,
+				"opcode": "jumpToFile",
+				"args": [
+					"205",
+					"6"
+				],
+				"lineNumber": 17457
+			},
+			{
+				"address": 1344,
+				"opcode": "endSection",
+				"lineNumber": 17458
+			}
+		]
+	}
+}
+}

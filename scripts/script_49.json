@@ -1,0 +1,2178 @@
+{
+"id": 49,
+"info": "== Script ID 49 == 25000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 16,
+				"opcode": "if",
+				"args": [
+					"trigger(247)",
+					"==",
+					"true",
+					"then",
+					"32"
+				],
+				"lineNumber": 11017
+			},
+			{
+				"address": 28,
+				"opcode": "playAnimation",
+				"args": [
+					"5",
+					"28"
+				],
+				"lineNumber": 11018
+			},
+			{
+				"address": 32,
+				"opcode": "endSection",
+				"lineNumber": 11019
+			}
+		]
+	},
+	"81": {
+		"id": 81,
+		"instructions": [
+			{
+				"address": 34,
+				"opcode": "if",
+				"args": [
+					"trigger(247)",
+					"==",
+					"false",
+					"then",
+					"48"
+				],
+				"lineNumber": 11021
+			},
+			{
+				"address": 46,
+				"opcode": "endSection",
+				"lineNumber": 11022
+			},
+			{
+				"address": 48,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 11023
+			},
+			{
+				"address": 52,
+				"opcode": "if",
+				"args": [
+					"trigger(136)",
+					"==",
+					"false",
+					"then",
+					"68"
+				],
+				"lineNumber": 11024
+			},
+			{
+				"address": 64,
+				"opcode": "jumpTo",
+				"args": [
+					"1628"
+				],
+				"lineNumber": 11025
+			},
+			{
+				"address": 68,
+				"opcode": "setTrigger",
+				"args": [
+					"136"
+				],
+				"lineNumber": 11026
+			},
+			{
+				"address": 72,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11027
+			},
+			{
+				"address": 74,
+				"opcode": "showTextbox",
+				"args": [
+					"Welcome.",
+					"I've",
+					"never",
+					"seen",
+					"you\\nbefore.",
+					"Where",
+					"are",
+					"you",
+					"from?\\n"
+				],
+				"lineNumber": 11028
+			},
+			{
+				"address": 192,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 11029
+			},
+			{
+				"address": 194,
+				"opcode": "showTextbox",
+				"args": [
+					"The",
+					"city.",
+					"Actually,",
+					"I'm\\nfrom",
+					"another",
+					"world.\\n"
+				],
+				"lineNumber": 11030
+			},
+			{
+				"address": 286,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11031
+			},
+			{
+				"address": 288,
+				"opcode": "showTextbox",
+				"args": [
+					"You",
+					"understand",
+					"my",
+					"language?\\n"
+				],
+				"lineNumber": 11032
+			},
+			{
+				"address": 348,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 11033
+			},
+			{
+				"address": 350,
+				"opcode": "showTextbox",
+				"args": [
+					"Yes,",
+					"I",
+					"do.\\n"
+				],
+				"lineNumber": 11034
+			},
+			{
+				"address": 376,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11035
+			},
+			{
+				"address": 378,
+				"opcode": "showTextbox",
+				"args": [
+					"Sometimes",
+					"it's",
+					"hard",
+					"and\\nI",
+					"don't",
+					"sell",
+					"much",
+					"here.\\n"
+				],
+				"lineNumber": 11036
+			},
+			{
+				"address": 478,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 11037
+			},
+			{
+				"address": 480,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"see.\\n"
+				],
+				"lineNumber": 11038
+			},
+			{
+				"address": 498,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11039
+			},
+			{
+				"address": 500,
+				"opcode": "showTextbox",
+				"args": [
+					"Many",
+					"shoppers",
+					"stopped",
+					"coming.\\n"
+				],
+				"lineNumber": 11040
+			},
+			{
+				"address": 564,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 11041
+			},
+			{
+				"address": 566,
+				"opcode": "showTextbox",
+				"args": [
+					"It",
+					"must",
+					"be",
+					"the",
+					"trouble\\non",
+					"the",
+					"island.\\n"
+				],
+				"lineNumber": 11042
+			},
+			{
+				"address": 646,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11043
+			},
+			{
+				"address": 648,
+				"opcode": "showTextbox",
+				"args": [
+					"Help",
+					"me",
+					"do",
+					"something.\\n"
+				],
+				"lineNumber": 11044
+			},
+			{
+				"address": 696,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 11045
+			},
+			{
+				"address": 698,
+				"opcode": "showTextbox",
+				"args": [
+					"What",
+					"is",
+					"it?\\n"
+				],
+				"lineNumber": 11046
+			},
+			{
+				"address": 726,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11047
+			},
+			{
+				"address": 728,
+				"opcode": "showTextbox",
+				"args": [
+					"Can",
+					"you",
+					"work",
+					"in",
+					"my",
+					"shop?\\n"
+				],
+				"lineNumber": 11048
+			},
+			{
+				"address": 782,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 11049
+			},
+			{
+				"address": 784,
+				"opcode": "showTextbox",
+				"args": [
+					"Your",
+					"shop?\\n"
+				],
+				"lineNumber": 11050
+			},
+			{
+				"address": 810,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11051
+			},
+			{
+				"address": 812,
+				"opcode": "showTextbox",
+				"args": [
+					"Half",
+					"day?",
+					"The",
+					"more",
+					"you",
+					"sell,\\nthe",
+					"more",
+					"I'll",
+					"pay",
+					"you.\\nYou",
+					"know",
+					"our",
+					"language.\\n"
+				],
+				"lineNumber": 11052
+			},
+			{
+				"address": 966,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 11053
+			},
+			{
+				"address": 968,
+				"opcode": "showTextbox",
+				"args": [
+					"You",
+					"might",
+					"lose",
+					"money.\\n"
+				],
+				"lineNumber": 11054
+			},
+			{
+				"address": 1016,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11055
+			},
+			{
+				"address": 1018,
+				"opcode": "showTextbox",
+				"args": [
+					"Don't",
+					"worry.",
+					"It'll",
+					"be",
+					"good\\nfor",
+					"me.",
+					"How",
+					"about",
+					"eight",
+					"hours?\\n"
+				],
+				"lineNumber": 11056
+			},
+			{
+				"address": 1138,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 11057
+			},
+			{
+				"address": 1140,
+				"opcode": "setSelection",
+				"args": [
+					"1194",
+					"1528"
+				],
+				"lineNumber": 11058
+			},
+			{
+				"address": 1146,
+				"opcode": "showTextbox",
+				"args": [
+					"I'll",
+					"try\\nNo",
+					"thanks\\n"
+				],
+				"lineNumber": 11059
+			},
+			{
+				"address": 1188,
+				"opcode": "unknown12",
+				"args": [
+					"0"
+				],
+				"lineNumber": 11060
+			},
+			{
+				"address": 1190,
+				"opcode": "jumpTo",
+				"args": [
+					"1528"
+				],
+				"lineNumber": 11061
+			},
+			{
+				"address": 1194,
+				"opcode": "fadeoutHud",
+				"lineNumber": 11062
+			},
+			{
+				"address": 1196,
+				"opcode": "entityWalkTo",
+				"args": [
+					"5",
+					"133",
+					"292",
+					"false"
+				],
+				"lineNumber": 11063
+			},
+			{
+				"address": 1204,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"-980",
+					"-432",
+					"false"
+				],
+				"lineNumber": 11064
+			},
+			{
+				"address": 1212,
+				"opcode": "waitForEntity",
+				"args": [
+					"253"
+				],
+				"lineNumber": 11065
+			},
+			{
+				"address": 1214,
+				"opcode": "waitForEntity",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11066
+			},
+			{
+				"address": 1216,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"9"
+				],
+				"lineNumber": 11067
+			},
+			{
+				"address": 1220,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"12"
+				],
+				"lineNumber": 11068
+			},
+			{
+				"address": 1224,
+				"opcode": "callRoutine",
+				"args": [
+					"21"
+				],
+				"lineNumber": 11069
+			},
+			{
+				"address": 1226,
+				"opcode": "setObjVisibility",
+				"args": [
+					"33",
+					"1"
+				],
+				"lineNumber": 11070
+			},
+			{
+				"address": 1230,
+				"opcode": "setObjVisibility",
+				"args": [
+					"34",
+					"1"
+				],
+				"lineNumber": 11071
+			},
+			{
+				"address": 1234,
+				"opcode": "setObjVisibility",
+				"args": [
+					"35",
+					"1"
+				],
+				"lineNumber": 11072
+			},
+			{
+				"address": 1238,
+				"opcode": "setObjVisibility",
+				"args": [
+					"9",
+					"0"
+				],
+				"lineNumber": 11073
+			},
+			{
+				"address": 1242,
+				"opcode": "setObjVisibility",
+				"args": [
+					"10",
+					"0"
+				],
+				"lineNumber": 11074
+			},
+			{
+				"address": 1246,
+				"opcode": "setObjVisibility",
+				"args": [
+					"11",
+					"0"
+				],
+				"lineNumber": 11075
+			},
+			{
+				"address": 1250,
+				"opcode": "setObjVisibility",
+				"args": [
+					"12",
+					"0"
+				],
+				"lineNumber": 11076
+			},
+			{
+				"address": 1254,
+				"opcode": "setObjVisibility",
+				"args": [
+					"13",
+					"0"
+				],
+				"lineNumber": 11077
+			},
+			{
+				"address": 1258,
+				"opcode": "setObjVisibility",
+				"args": [
+					"14",
+					"0"
+				],
+				"lineNumber": 11078
+			},
+			{
+				"address": 1262,
+				"opcode": "setObjVisibility",
+				"args": [
+					"15",
+					"0"
+				],
+				"lineNumber": 11079
+			},
+			{
+				"address": 1266,
+				"opcode": "setObjVisibility",
+				"args": [
+					"16",
+					"0"
+				],
+				"lineNumber": 11080
+			},
+			{
+				"address": 1270,
+				"opcode": "setObjVisibility",
+				"args": [
+					"17",
+					"0"
+				],
+				"lineNumber": 11081
+			},
+			{
+				"address": 1274,
+				"opcode": "setObjVisibility",
+				"args": [
+					"18",
+					"0"
+				],
+				"lineNumber": 11082
+			},
+			{
+				"address": 1278,
+				"opcode": "setObjVisibility",
+				"args": [
+					"19",
+					"0"
+				],
+				"lineNumber": 11083
+			},
+			{
+				"address": 1282,
+				"opcode": "setObjVisibility",
+				"args": [
+					"20",
+					"0"
+				],
+				"lineNumber": 11084
+			},
+			{
+				"address": 1286,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"5",
+					"253"
+				],
+				"lineNumber": 11085
+			},
+			{
+				"address": 1290,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"-980",
+					"292",
+					"false"
+				],
+				"lineNumber": 11086
+			},
+			{
+				"address": 1298,
+				"opcode": "entityWalkTo",
+				"args": [
+					"252",
+					"-980",
+					"-432",
+					"false"
+				],
+				"lineNumber": 11087
+			},
+			{
+				"address": 1306,
+				"opcode": "waitForEntity",
+				"args": [
+					"253"
+				],
+				"lineNumber": 11088
+			},
+			{
+				"address": 1308,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 11089
+			},
+			{
+				"address": 1310,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"5",
+					"253"
+				],
+				"lineNumber": 11090
+			},
+			{
+				"address": 1314,
+				"opcode": "entityWalkTo",
+				"args": [
+					"253",
+					"-341",
+					"292",
+					"false"
+				],
+				"lineNumber": 11091
+			},
+			{
+				"address": 1322,
+				"opcode": "entityWalkTo",
+				"args": [
+					"252",
+					"-980",
+					"292",
+					"false"
+				],
+				"lineNumber": 11092
+			},
+			{
+				"address": 1330,
+				"opcode": "waitForEntity",
+				"args": [
+					"253"
+				],
+				"lineNumber": 11093
+			},
+			{
+				"address": 1332,
+				"opcode": "waitForEntity",
+				"args": [
+					"252"
+				],
+				"lineNumber": 11094
+			},
+			{
+				"address": 1334,
+				"opcode": "setPStat",
+				"args": [
+					"247",
+					"21"
+				],
+				"lineNumber": 11095
+			},
+			{
+				"address": 1338,
+				"opcode": "setPStat",
+				"args": [
+					"248",
+					"12"
+				],
+				"lineNumber": 11096
+			},
+			{
+				"address": 1342,
+				"opcode": "callRoutine",
+				"args": [
+					"21"
+				],
+				"lineNumber": 11097
+			},
+			{
+				"address": 1344,
+				"opcode": "setObjVisibility",
+				"args": [
+					"9",
+					"1"
+				],
+				"lineNumber": 11098
+			},
+			{
+				"address": 1348,
+				"opcode": "setObjVisibility",
+				"args": [
+					"10",
+					"1"
+				],
+				"lineNumber": 11099
+			},
+			{
+				"address": 1352,
+				"opcode": "setObjVisibility",
+				"args": [
+					"11",
+					"1"
+				],
+				"lineNumber": 11100
+			},
+			{
+				"address": 1356,
+				"opcode": "setObjVisibility",
+				"args": [
+					"12",
+					"1"
+				],
+				"lineNumber": 11101
+			},
+			{
+				"address": 1360,
+				"opcode": "setObjVisibility",
+				"args": [
+					"13",
+					"1"
+				],
+				"lineNumber": 11102
+			},
+			{
+				"address": 1364,
+				"opcode": "setObjVisibility",
+				"args": [
+					"14",
+					"1"
+				],
+				"lineNumber": 11103
+			},
+			{
+				"address": 1368,
+				"opcode": "setObjVisibility",
+				"args": [
+					"15",
+					"1"
+				],
+				"lineNumber": 11104
+			},
+			{
+				"address": 1372,
+				"opcode": "setObjVisibility",
+				"args": [
+					"16",
+					"1"
+				],
+				"lineNumber": 11105
+			},
+			{
+				"address": 1376,
+				"opcode": "setObjVisibility",
+				"args": [
+					"17",
+					"1"
+				],
+				"lineNumber": 11106
+			},
+			{
+				"address": 1380,
+				"opcode": "setObjVisibility",
+				"args": [
+					"18",
+					"1"
+				],
+				"lineNumber": 11107
+			},
+			{
+				"address": 1384,
+				"opcode": "setObjVisibility",
+				"args": [
+					"19",
+					"1"
+				],
+				"lineNumber": 11108
+			},
+			{
+				"address": 1388,
+				"opcode": "setObjVisibility",
+				"args": [
+					"20",
+					"1"
+				],
+				"lineNumber": 11109
+			},
+			{
+				"address": 1392,
+				"opcode": "setObjVisibility",
+				"args": [
+					"21",
+					"0"
+				],
+				"lineNumber": 11110
+			},
+			{
+				"address": 1396,
+				"opcode": "setObjVisibility",
+				"args": [
+					"22",
+					"0"
+				],
+				"lineNumber": 11111
+			},
+			{
+				"address": 1400,
+				"opcode": "setObjVisibility",
+				"args": [
+					"23",
+					"0"
+				],
+				"lineNumber": 11112
+			},
+			{
+				"address": 1404,
+				"opcode": "setObjVisibility",
+				"args": [
+					"24",
+					"0"
+				],
+				"lineNumber": 11113
+			},
+			{
+				"address": 1408,
+				"opcode": "setObjVisibility",
+				"args": [
+					"25",
+					"0"
+				],
+				"lineNumber": 11114
+			},
+			{
+				"address": 1412,
+				"opcode": "setObjVisibility",
+				"args": [
+					"26",
+					"0"
+				],
+				"lineNumber": 11115
+			},
+			{
+				"address": 1416,
+				"opcode": "setObjVisibility",
+				"args": [
+					"27",
+					"0"
+				],
+				"lineNumber": 11116
+			},
+			{
+				"address": 1420,
+				"opcode": "setObjVisibility",
+				"args": [
+					"28",
+					"0"
+				],
+				"lineNumber": 11117
+			},
+			{
+				"address": 1424,
+				"opcode": "setObjVisibility",
+				"args": [
+					"29",
+					"0"
+				],
+				"lineNumber": 11118
+			},
+			{
+				"address": 1428,
+				"opcode": "setObjVisibility",
+				"args": [
+					"30",
+					"0"
+				],
+				"lineNumber": 11119
+			},
+			{
+				"address": 1432,
+				"opcode": "setObjVisibility",
+				"args": [
+					"31",
+					"0"
+				],
+				"lineNumber": 11120
+			},
+			{
+				"address": 1436,
+				"opcode": "setObjVisibility",
+				"args": [
+					"32",
+					"0"
+				],
+				"lineNumber": 11121
+			},
+			{
+				"address": 1440,
+				"opcode": "delay",
+				"args": [
+					"60"
+				],
+				"lineNumber": 11122
+			},
+			{
+				"address": 1444,
+				"opcode": "entitySetRotation",
+				"args": [
+					"253",
+					"0"
+				],
+				"lineNumber": 11123
+			},
+			{
+				"address": 1448,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"252",
+					"253"
+				],
+				"lineNumber": 11124
+			},
+			{
+				"address": 1452,
+				"opcode": "waitForEntity",
+				"args": [
+					"253"
+				],
+				"lineNumber": 11125
+			},
+			{
+				"address": 1454,
+				"opcode": "setObjVisibility",
+				"args": [
+					"21",
+					"1"
+				],
+				"lineNumber": 11126
+			},
+			{
+				"address": 1458,
+				"opcode": "setObjVisibility",
+				"args": [
+					"22",
+					"1"
+				],
+				"lineNumber": 11127
+			},
+			{
+				"address": 1462,
+				"opcode": "setObjVisibility",
+				"args": [
+					"23",
+					"1"
+				],
+				"lineNumber": 11128
+			},
+			{
+				"address": 1466,
+				"opcode": "setObjVisibility",
+				"args": [
+					"24",
+					"1"
+				],
+				"lineNumber": 11129
+			},
+			{
+				"address": 1470,
+				"opcode": "setObjVisibility",
+				"args": [
+					"25",
+					"1"
+				],
+				"lineNumber": 11130
+			},
+			{
+				"address": 1474,
+				"opcode": "setObjVisibility",
+				"args": [
+					"26",
+					"1"
+				],
+				"lineNumber": 11131
+			},
+			{
+				"address": 1478,
+				"opcode": "setObjVisibility",
+				"args": [
+					"27",
+					"1"
+				],
+				"lineNumber": 11132
+			},
+			{
+				"address": 1482,
+				"opcode": "setObjVisibility",
+				"args": [
+					"28",
+					"1"
+				],
+				"lineNumber": 11133
+			},
+			{
+				"address": 1486,
+				"opcode": "setObjVisibility",
+				"args": [
+					"29",
+					"1"
+				],
+				"lineNumber": 11134
+			},
+			{
+				"address": 1490,
+				"opcode": "setObjVisibility",
+				"args": [
+					"30",
+					"1"
+				],
+				"lineNumber": 11135
+			},
+			{
+				"address": 1494,
+				"opcode": "setObjVisibility",
+				"args": [
+					"31",
+					"1"
+				],
+				"lineNumber": 11136
+			},
+			{
+				"address": 1498,
+				"opcode": "setObjVisibility",
+				"args": [
+					"32",
+					"1"
+				],
+				"lineNumber": 11137
+			},
+			{
+				"address": 1502,
+				"opcode": "setObjVisibility",
+				"args": [
+					"33",
+					"0"
+				],
+				"lineNumber": 11138
+			},
+			{
+				"address": 1506,
+				"opcode": "setObjVisibility",
+				"args": [
+					"34",
+					"0"
+				],
+				"lineNumber": 11139
+			},
+			{
+				"address": 1510,
+				"opcode": "setObjVisibility",
+				"args": [
+					"35",
+					"0"
+				],
+				"lineNumber": 11140
+			},
+			{
+				"address": 1514,
+				"opcode": "callRoutine",
+				"args": [
+					"30"
+				],
+				"lineNumber": 11141
+			},
+			{
+				"address": 1516,
+				"opcode": "setPStat",
+				"args": [
+					"123",
+					"0"
+				],
+				"lineNumber": 11142
+			},
+			{
+				"address": 1520,
+				"opcode": "unsetTrigger",
+				"args": [
+					"101"
+				],
+				"lineNumber": 11143
+			},
+			{
+				"address": 1524,
+				"opcode": "jumpTo",
+				"args": [
+					"1676"
+				],
+				"lineNumber": 11144
+			},
+			{
+				"address": 1528,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11145
+			},
+			{
+				"address": 1530,
+				"opcode": "showTextbox",
+				"args": [
+					"That's",
+					"too",
+					"bad.",
+					"Come",
+					"back\\nwhen",
+					"you",
+					"have",
+					"time.\\n"
+				],
+				"lineNumber": 11146
+			},
+			{
+				"address": 1626,
+				"opcode": "endSection",
+				"lineNumber": 11147
+			},
+			{
+				"address": 1628,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11148
+			},
+			{
+				"address": 1630,
+				"opcode": "showTextbox",
+				"args": [
+					"You",
+					"want",
+					"to",
+					"work?\\n"
+				],
+				"lineNumber": 11149
+			},
+			{
+				"address": 1670,
+				"opcode": "jumpTo",
+				"args": [
+					"1138"
+				],
+				"lineNumber": 11150
+			},
+			{
+				"address": 1674,
+				"opcode": "endSection",
+				"lineNumber": 11151
+			}
+		]
+	},
+	"82": {
+		"id": 82,
+		"instructions": [
+			{
+				"address": 1676,
+				"opcode": "if",
+				"args": [
+					"pstat(123)",
+					"<",
+					"20",
+					"then",
+					"1692"
+				],
+				"lineNumber": 11153
+			},
+			{
+				"address": 1688,
+				"opcode": "jumpTo",
+				"args": [
+					"2258"
+				],
+				"lineNumber": 11154
+			},
+			{
+				"address": 1692,
+				"opcode": "if",
+				"args": [
+					"pstat(123)",
+					"<",
+					"10",
+					"OR",
+					"trigger(101)",
+					"==",
+					"true",
+					"then",
+					"1790"
+				],
+				"lineNumber": 11155
+			},
+			{
+				"address": 1708,
+				"opcode": "setTrigger",
+				"args": [
+					"101"
+				],
+				"lineNumber": 11156
+			},
+			{
+				"address": 1712,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11157
+			},
+			{
+				"address": 1714,
+				"opcode": "showTextbox",
+				"args": [
+					"Well,",
+					"it's",
+					"half",
+					"way",
+					"done.\\n",
+					"\\n"
+				],
+				"lineNumber": 11158
+			},
+			{
+				"address": 1774,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"5",
+					"253"
+				],
+				"lineNumber": 11159
+			},
+			{
+				"address": 1778,
+				"opcode": "entityLookAtEntity",
+				"args": [
+					"253",
+					"5"
+				],
+				"lineNumber": 11160
+			},
+			{
+				"address": 1782,
+				"opcode": "delay",
+				"args": [
+					"10"
+				],
+				"lineNumber": 11161
+			},
+			{
+				"address": 1786,
+				"opcode": "jumpTo",
+				"args": [
+					"1856"
+				],
+				"lineNumber": 11162
+			},
+			{
+				"address": 1790,
+				"opcode": "storeRandom",
+				"args": [
+					"110",
+					"8"
+				],
+				"lineNumber": 11163
+			},
+			{
+				"address": 1794,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"2",
+					"then",
+					"1812"
+				],
+				"lineNumber": 11164
+			},
+			{
+				"address": 1806,
+				"opcode": "jumpToFile",
+				"args": [
+					"199",
+					"51"
+				],
+				"lineNumber": 11165
+			},
+			{
+				"address": 1812,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"5",
+					"then",
+					"1830"
+				],
+				"lineNumber": 11166
+			},
+			{
+				"address": 1824,
+				"opcode": "jumpToFile",
+				"args": [
+					"200",
+					"51"
+				],
+				"lineNumber": 11167
+			},
+			{
+				"address": 1830,
+				"opcode": "if",
+				"args": [
+					"pstat(110)",
+					">",
+					"7",
+					"then",
+					"1848"
+				],
+				"lineNumber": 11168
+			},
+			{
+				"address": 1842,
+				"opcode": "jumpToFile",
+				"args": [
+					"201",
+					"51"
+				],
+				"lineNumber": 11169
+			},
+			{
+				"address": 1848,
+				"opcode": "jumpToFile",
+				"args": [
+					"202",
+					"51"
+				],
+				"lineNumber": 11170
+			},
+			{
+				"address": 1854,
+				"opcode": "endSection",
+				"lineNumber": 11171
+			},
+			{
+				"address": 1856,
+				"opcode": "callRoutine",
+				"args": [
+					"56"
+				],
+				"lineNumber": 11172
+			},
+			{
+				"address": 1858,
+				"opcode": "if",
+				"args": [
+					"pstat(243)",
+					">",
+					"2",
+					"then",
+					"2004"
+				],
+				"lineNumber": 11173
+			},
+			{
+				"address": 1870,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11174
+			},
+			{
+				"address": 1872,
+				"opcode": "showTextbox",
+				"args": [
+					"The",
+					"way",
+					"it's",
+					"going,",
+					"we",
+					"won't\\nmake",
+					"any",
+					"money.",
+					"Try",
+					"harder.\\n",
+					"\\n"
+				],
+				"lineNumber": 11175
+			},
+			{
+				"address": 1994,
+				"opcode": "entitySetRotation",
+				"args": [
+					"253",
+					"80"
+				],
+				"lineNumber": 11176
+			},
+			{
+				"address": 1998,
+				"opcode": "fadeoutHud",
+				"lineNumber": 11177
+			},
+			{
+				"address": 2000,
+				"opcode": "jumpTo",
+				"args": [
+					"1790"
+				],
+				"lineNumber": 11178
+			},
+			{
+				"address": 2004,
+				"opcode": "if",
+				"args": [
+					"pstat(243)",
+					">",
+					"5",
+					"then",
+					"2120"
+				],
+				"lineNumber": 11179
+			},
+			{
+				"address": 2016,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11180
+			},
+			{
+				"address": 2018,
+				"opcode": "showTextbox",
+				"args": [
+					"The",
+					"sales",
+					"are",
+					"good.\\nWe",
+					"can",
+					"make",
+					"some",
+					"money.\\n"
+				],
+				"lineNumber": 11181
+			},
+			{
+				"address": 2110,
+				"opcode": "entitySetRotation",
+				"args": [
+					"253",
+					"80"
+				],
+				"lineNumber": 11182
+			},
+			{
+				"address": 2114,
+				"opcode": "fadeoutHud",
+				"lineNumber": 11183
+			},
+			{
+				"address": 2116,
+				"opcode": "jumpTo",
+				"args": [
+					"1790"
+				],
+				"lineNumber": 11184
+			},
+			{
+				"address": 2120,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11185
+			},
+			{
+				"address": 2122,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"haven't",
+					"had",
+					"this",
+					"much\\nbusiness",
+					"in",
+					"a",
+					"long",
+					"time.\\nKeep",
+					"it",
+					"up!\\n"
+				],
+				"lineNumber": 11186
+			},
+			{
+				"address": 2248,
+				"opcode": "entitySetRotation",
+				"args": [
+					"253",
+					"80"
+				],
+				"lineNumber": 11187
+			},
+			{
+				"address": 2252,
+				"opcode": "fadeoutHud",
+				"lineNumber": 11188
+			},
+			{
+				"address": 2254,
+				"opcode": "jumpTo",
+				"args": [
+					"1790"
+				],
+				"lineNumber": 11189
+			},
+			{
+				"address": 2258,
+				"opcode": "delay",
+				"args": [
+					"40"
+				],
+				"lineNumber": 11190
+			},
+			{
+				"address": 2262,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11191
+			},
+			{
+				"address": 2264,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"think",
+					"it's",
+					"time.\\nThank",
+					"you",
+					"for",
+					"your",
+					"work.\\n"
+				],
+				"lineNumber": 11192
+			},
+			{
+				"address": 2356,
+				"opcode": "callRoutine",
+				"args": [
+					"56"
+				],
+				"lineNumber": 11193
+			},
+			{
+				"address": 2358,
+				"opcode": "if",
+				"args": [
+					"pstat(243)",
+					">",
+					"6",
+					"then",
+					"2580"
+				],
+				"lineNumber": 11194
+			},
+			{
+				"address": 2370,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11195
+			},
+			{
+				"address": 2372,
+				"opcode": "showTextbox",
+				"args": [
+					"It",
+					"could",
+					"have",
+					"been",
+					"better,\\nbut",
+					"it",
+					"wasn't",
+					"that",
+					"bad.\\nDon't",
+					"give",
+					"up.\\n"
+				],
+				"lineNumber": 11196
+			},
+			{
+				"address": 2508,
+				"opcode": "addMoney",
+				"args": [
+					"500"
+				],
+				"lineNumber": 11197
+			},
+			{
+				"address": 2514,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 11198
+			},
+			{
+				"address": 2516,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"got",
+					"five",
+					"hund",
+					"bits!\\n"
+				],
+				"lineNumber": 11199
+			},
+			{
+				"address": 2564,
+				"opcode": "storeDate",
+				"args": [
+					"105"
+				],
+				"lineNumber": 11200
+			},
+			{
+				"address": 2566,
+				"opcode": "addMinutesToDateAt",
+				"args": [
+					"105",
+					"480"
+				],
+				"lineNumber": 11201
+			},
+			{
+				"address": 2572,
+				"opcode": "advanceToDateAt",
+				"args": [
+					"105"
+				],
+				"lineNumber": 11202
+			},
+			{
+				"address": 2574,
+				"opcode": "warpTo",
+				"args": [
+					"44",
+					"2",
+					"255"
+				],
+				"lineNumber": 11203
+			},
+			{
+				"address": 2578,
+				"opcode": "endSection",
+				"lineNumber": 11204
+			},
+			{
+				"address": 2580,
+				"opcode": "if",
+				"args": [
+					"pstat(243)",
+					">",
+					"11",
+					"then",
+					"2764"
+				],
+				"lineNumber": 11205
+			},
+			{
+				"address": 2592,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11206
+			},
+			{
+				"address": 2594,
+				"opcode": "showTextbox",
+				"args": [
+					"You",
+					"can",
+					"do",
+					"better.\\nI",
+					"want",
+					"you",
+					"to",
+					"work",
+					"more.\\n"
+				],
+				"lineNumber": 11207
+			},
+			{
+				"address": 2686,
+				"opcode": "addMoney",
+				"args": [
+					"1500"
+				],
+				"lineNumber": 11208
+			},
+			{
+				"address": 2692,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 11209
+			},
+			{
+				"address": 2694,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"got",
+					"fifteen",
+					"hund",
+					"bits!\\n"
+				],
+				"lineNumber": 11210
+			},
+			{
+				"address": 2748,
+				"opcode": "storeDate",
+				"args": [
+					"105"
+				],
+				"lineNumber": 11211
+			},
+			{
+				"address": 2750,
+				"opcode": "addMinutesToDateAt",
+				"args": [
+					"105",
+					"480"
+				],
+				"lineNumber": 11212
+			},
+			{
+				"address": 2756,
+				"opcode": "advanceToDateAt",
+				"args": [
+					"105"
+				],
+				"lineNumber": 11213
+			},
+			{
+				"address": 2758,
+				"opcode": "warpTo",
+				"args": [
+					"44",
+					"2",
+					"255"
+				],
+				"lineNumber": 11214
+			},
+			{
+				"address": 2762,
+				"opcode": "endSection",
+				"lineNumber": 11215
+			},
+			{
+				"address": 2764,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11216
+			},
+			{
+				"address": 2766,
+				"opcode": "showTextbox",
+				"args": [
+					"Your",
+					"wisdom,",
+					"character",
+					"and\\nguts",
+					"are",
+					"what",
+					"we",
+					"need",
+					"to\\nsave",
+					"this",
+					"island.\\n"
+				],
+				"lineNumber": 11217
+			},
+			{
+				"address": 2910,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 11218
+			},
+			{
+				"address": 2912,
+				"opcode": "showTextbox",
+				"args": [
+					"What",
+					"are",
+					"you",
+					"talking",
+					"about?\\n"
+				],
+				"lineNumber": 11219
+			},
+			{
+				"address": 2972,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11220
+			},
+			{
+				"address": 2974,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"was",
+					"testing",
+					"you",
+					"to",
+					"see",
+					"if\\nyou",
+					"are",
+					"capable",
+					"of",
+					"saving",
+					"us.\\n"
+				],
+				"lineNumber": 11221
+			},
+			{
+				"address": 3094,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11222
+			},
+			{
+				"address": 3096,
+				"opcode": "showTextbox",
+				"args": [
+					"It's",
+					"important",
+					"to",
+					"be\\ngood",
+					"in",
+					"battle.\\n"
+				],
+				"lineNumber": 11223
+			},
+			{
+				"address": 3174,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11224
+			},
+			{
+				"address": 3176,
+				"opcode": "showTextbox",
+				"args": [
+					"Besides",
+					"power,",
+					"courage",
+					"and\\nwisdom",
+					"are",
+					"also",
+					"needed.\\n"
+				],
+				"lineNumber": 11225
+			},
+			{
+				"address": 3282,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 11226
+			},
+			{
+				"address": 3284,
+				"opcode": "showTextbox",
+				"args": [
+					"Did",
+					"we",
+					"pass",
+					"the",
+					"test?\\n"
+				],
+				"lineNumber": 11227
+			},
+			{
+				"address": 3332,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11228
+			},
+			{
+				"address": 3334,
+				"opcode": "showTextbox",
+				"args": [
+					"Yes,",
+					"I'll",
+					"help",
+					"you\\nas",
+					"much",
+					"as",
+					"I",
+					"can.\\n"
+				],
+				"lineNumber": 11229
+			},
+			{
+				"address": 3412,
+				"opcode": "setDialogOwner",
+				"args": [
+					"253"
+				],
+				"lineNumber": 11230
+			},
+			{
+				"address": 3414,
+				"opcode": "showTextbox",
+				"args": [
+					"Will",
+					"you",
+					"come",
+					"to",
+					"the",
+					"city?\\nWhat",
+					"will",
+					"you",
+					"do\\nwith",
+					"the",
+					"shop?\\n"
+				],
+				"lineNumber": 11231
+			},
+			{
+				"address": 3536,
+				"opcode": "setDialogOwner",
+				"args": [
+					"5"
+				],
+				"lineNumber": 11232
+			},
+			{
+				"address": 3538,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"can",
+					"open",
+					"a",
+					"shop",
+					"later.\\nThis",
+					"shop's",
+					"duty",
+					"is",
+					"done.\\n"
+				],
+				"lineNumber": 11233
+			},
+			{
+				"address": 3644,
+				"opcode": "playSound",
+				"args": [
+					"2568"
+				],
+				"lineNumber": 11234
+			},
+			{
+				"address": 3648,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 11235
+			},
+			{
+				"address": 3650,
+				"opcode": "showTextbox",
+				"args": [
+					"Monochromon",
+					"joins",
+					"the",
+					"city!\\n"
+				],
+				"lineNumber": 11236
+			},
+			{
+				"address": 3710,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"got",
+					"two",
+					"thous",
+					"bits!\\n"
+				],
+				"lineNumber": 11237
+			},
+			{
+				"address": 3758,
+				"opcode": "addMoney",
+				"args": [
+					"2000"
+				],
+				"lineNumber": 11238
+			},
+			{
+				"address": 3764,
+				"opcode": "addToPStat",
+				"args": [
+					"1",
+					"2"
+				],
+				"lineNumber": 11239
+			},
+			{
+				"address": 3768,
+				"opcode": "setTrigger",
+				"args": [
+					"247"
+				],
+				"lineNumber": 11240
+			},
+			{
+				"address": 3772,
+				"opcode": "storeDate",
+				"args": [
+					"105"
+				],
+				"lineNumber": 11241
+			},
+			{
+				"address": 3774,
+				"opcode": "addMinutesToDateAt",
+				"args": [
+					"105",
+					"480"
+				],
+				"lineNumber": 11242
+			},
+			{
+				"address": 3780,
+				"opcode": "advanceToDateAt",
+				"args": [
+					"105"
+				],
+				"lineNumber": 11243
+			},
+			{
+				"address": 3782,
+				"opcode": "warpTo",
+				"args": [
+					"44",
+					"2",
+					"255"
+				],
+				"lineNumber": 11244
+			},
+			{
+				"address": 3786,
+				"opcode": "endSection",
+				"lineNumber": 11245
+			}
+		]
+	}
+}
+}

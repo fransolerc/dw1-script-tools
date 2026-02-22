@@ -1,0 +1,4881 @@
+{
+"id": 211,
+"info": "== Script ID 211 == b0000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 12,
+				"opcode": "endSection",
+				"lineNumber": 35203
+			}
+		]
+	},
+	"8": {
+		"id": 8,
+		"instructions": [
+			{
+				"address": 14,
+				"opcode": "if",
+				"args": [
+					"trigger(81)",
+					"==",
+					"true",
+					"then",
+					"374"
+				],
+				"lineNumber": 35205
+			},
+			{
+				"address": 26,
+				"opcode": "setTrigger",
+				"args": [
+					"81"
+				],
+				"lineNumber": 35206
+			},
+			{
+				"address": 30,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35207
+			},
+			{
+				"address": 32,
+				"opcode": "showTextbox",
+				"args": [
+					"Welcome",
+					"back,",
+					"<LIGHTBLUE><PLAYER><WHITE>.\\n"
+				],
+				"lineNumber": 35208
+			},
+			{
+				"address": 74,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35209
+			},
+			{
+				"address": 76,
+				"opcode": "showTextbox",
+				"args": [
+					"I'm",
+					"Jijimon's",
+					"recordkeeper.\\n"
+				],
+				"lineNumber": 35210
+			},
+			{
+				"address": 136,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35211
+			},
+			{
+				"address": 138,
+				"opcode": "showTextbox",
+				"args": [
+					"I",
+					"record",
+					"Jijimon's",
+					"info\\nand",
+					"give",
+					"it",
+					"to",
+					"you.\\n"
+				],
+				"lineNumber": 35212
+			},
+			{
+				"address": 230,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35213
+			},
+			{
+				"address": 232,
+				"opcode": "showTextbox",
+				"args": [
+					"If",
+					"you",
+					"don't",
+					"know",
+					"what",
+					"to",
+					"do\\nask",
+					"me,",
+					"and",
+					"I'll",
+					"tell",
+					"you\\nwhere",
+					"to",
+					"go.\\n"
+				],
+				"lineNumber": 35214
+			},
+			{
+				"address": 372,
+				"opcode": "endSection",
+				"lineNumber": 35215
+			},
+			{
+				"address": 374,
+				"opcode": "if",
+				"args": [
+					"pstat(1)",
+					"!=",
+					"100",
+					"then",
+					"518"
+				],
+				"lineNumber": 35216
+			},
+			{
+				"address": 386,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35217
+			},
+			{
+				"address": 388,
+				"opcode": "showTextbox",
+				"args": [
+					"All",
+					"the",
+					"Digimon",
+					"have\\ngathered",
+					"in",
+					"the",
+					"city.\\nThank",
+					"you",
+					"so",
+					"much!\\n"
+				],
+				"lineNumber": 35218
+			},
+			{
+				"address": 516,
+				"opcode": "endSection",
+				"lineNumber": 35219
+			},
+			{
+				"address": 518,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35220
+			},
+			{
+				"address": 520,
+				"opcode": "showTextbox",
+				"args": [
+					"Let",
+					"me",
+					"tell",
+					"you",
+					"what",
+					"I",
+					"know.\\nLet's",
+					"see...\\n"
+				],
+				"lineNumber": 35221
+			},
+			{
+				"address": 608,
+				"opcode": "jumpTo",
+				"args": [
+					"730"
+				],
+				"lineNumber": 35222
+			},
+			{
+				"address": 612,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35223
+			},
+			{
+				"address": 614,
+				"opcode": "showTextbox",
+				"args": [
+					"And",
+					"then...\\n"
+				],
+				"lineNumber": 35224
+			},
+			{
+				"address": 642,
+				"opcode": "jumpTo",
+				"args": [
+					"730"
+				],
+				"lineNumber": 35225
+			},
+			{
+				"address": 646,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35226
+			},
+			{
+				"address": 648,
+				"opcode": "showTextbox",
+				"args": [
+					"And",
+					"also...\\n"
+				],
+				"lineNumber": 35227
+			},
+			{
+				"address": 676,
+				"opcode": "jumpTo",
+				"args": [
+					"730"
+				],
+				"lineNumber": 35228
+			},
+			{
+				"address": 680,
+				"opcode": "if",
+				"args": [
+					"pstat(40)",
+					"!=",
+					"1",
+					"then",
+					"696"
+				],
+				"lineNumber": 35229
+			},
+			{
+				"address": 692,
+				"opcode": "jumpTo",
+				"args": [
+					"612"
+				],
+				"lineNumber": 35230
+			},
+			{
+				"address": 696,
+				"opcode": "if",
+				"args": [
+					"pstat(40)",
+					"!=",
+					"2",
+					"then",
+					"712"
+				],
+				"lineNumber": 35231
+			},
+			{
+				"address": 708,
+				"opcode": "jumpTo",
+				"args": [
+					"646"
+				],
+				"lineNumber": 35232
+			},
+			{
+				"address": 712,
+				"opcode": "if",
+				"args": [
+					"pstat(40)",
+					"!=",
+					"3",
+					"then",
+					"728"
+				],
+				"lineNumber": 35233
+			},
+			{
+				"address": 724,
+				"opcode": "jumpTo",
+				"args": [
+					"9078"
+				],
+				"lineNumber": 35234
+			},
+			{
+				"address": 728,
+				"opcode": "jumpReturn",
+				"lineNumber": 35235
+			},
+			{
+				"address": 730,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"1",
+					"then",
+					"750"
+				],
+				"lineNumber": 35236
+			},
+			{
+				"address": 742,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35237
+			},
+			{
+				"address": 746,
+				"opcode": "jumpTo",
+				"args": [
+					"754"
+				],
+				"lineNumber": 35238
+			},
+			{
+				"address": 750,
+				"opcode": "jumpTo",
+				"args": [
+					"960"
+				],
+				"lineNumber": 35239
+			},
+			{
+				"address": 754,
+				"opcode": "if",
+				"args": [
+					"trigger(246)",
+					"==",
+					"true",
+					"then",
+					"952"
+				],
+				"lineNumber": 35240
+			},
+			{
+				"address": 766,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35241
+			},
+			{
+				"address": 768,
+				"opcode": "showTextbox",
+				"args": [
+					"Vegetation",
+					"Digimon",
+					"are",
+					"in",
+					"the\\nforest.",
+					"The",
+					"closer",
+					"they",
+					"are\\nthe",
+					"harder",
+					"they",
+					"are",
+					"to",
+					"see.\\n"
+				],
+				"lineNumber": 35242
+			},
+			{
+				"address": 944,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35243
+			},
+			{
+				"address": 948,
+				"opcode": "jumpTo",
+				"args": [
+					"956"
+				],
+				"lineNumber": 35244
+			},
+			{
+				"address": 952,
+				"opcode": "jumpTo",
+				"args": [
+					"960"
+				],
+				"lineNumber": 35245
+			},
+			{
+				"address": 956,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35246
+			},
+			{
+				"address": 960,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"2",
+					"then",
+					"980"
+				],
+				"lineNumber": 35247
+			},
+			{
+				"address": 972,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35248
+			},
+			{
+				"address": 976,
+				"opcode": "jumpTo",
+				"args": [
+					"984"
+				],
+				"lineNumber": 35249
+			},
+			{
+				"address": 980,
+				"opcode": "jumpTo",
+				"args": [
+					"1152"
+				],
+				"lineNumber": 35250
+			},
+			{
+				"address": 984,
+				"opcode": "if",
+				"args": [
+					"trigger(232)",
+					"==",
+					"true",
+					"then",
+					"1144"
+				],
+				"lineNumber": 35251
+			},
+			{
+				"address": 996,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35252
+			},
+			{
+				"address": 998,
+				"opcode": "showTextbox",
+				"args": [
+					"Insectoid",
+					"Digimons",
+					"like\\ngreenery.",
+					"Like",
+					"the",
+					"kind\\naround",
+					"the",
+					"city...\\n"
+				],
+				"lineNumber": 35253
+			},
+			{
+				"address": 1136,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35254
+			},
+			{
+				"address": 1140,
+				"opcode": "jumpTo",
+				"args": [
+					"1148"
+				],
+				"lineNumber": 35255
+			},
+			{
+				"address": 1144,
+				"opcode": "jumpTo",
+				"args": [
+					"1152"
+				],
+				"lineNumber": 35256
+			},
+			{
+				"address": 1148,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35257
+			},
+			{
+				"address": 1152,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"3",
+					"then",
+					"1172"
+				],
+				"lineNumber": 35258
+			},
+			{
+				"address": 1164,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35259
+			},
+			{
+				"address": 1168,
+				"opcode": "jumpTo",
+				"args": [
+					"1176"
+				],
+				"lineNumber": 35260
+			},
+			{
+				"address": 1172,
+				"opcode": "jumpTo",
+				"args": [
+					"1362"
+				],
+				"lineNumber": 35261
+			},
+			{
+				"address": 1176,
+				"opcode": "if",
+				"args": [
+					"trigger(236)",
+					"==",
+					"true",
+					"then",
+					"1354"
+				],
+				"lineNumber": 35262
+			},
+			{
+				"address": 1188,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35263
+			},
+			{
+				"address": 1190,
+				"opcode": "showTextbox",
+				"args": [
+					"In",
+					"Tropical",
+					"Jungle",
+					"there",
+					"is\\na",
+					"maze-like",
+					"forest.\\nA",
+					"strong",
+					"Digimon",
+					"guards",
+					"it.\\n"
+				],
+				"lineNumber": 35264
+			},
+			{
+				"address": 1346,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35265
+			},
+			{
+				"address": 1350,
+				"opcode": "jumpTo",
+				"args": [
+					"1358"
+				],
+				"lineNumber": 35266
+			},
+			{
+				"address": 1354,
+				"opcode": "jumpTo",
+				"args": [
+					"1362"
+				],
+				"lineNumber": 35267
+			},
+			{
+				"address": 1358,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35268
+			},
+			{
+				"address": 1362,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"4",
+					"then",
+					"1382"
+				],
+				"lineNumber": 35269
+			},
+			{
+				"address": 1374,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35270
+			},
+			{
+				"address": 1378,
+				"opcode": "jumpTo",
+				"args": [
+					"1386"
+				],
+				"lineNumber": 35271
+			},
+			{
+				"address": 1382,
+				"opcode": "jumpTo",
+				"args": [
+					"1520"
+				],
+				"lineNumber": 35272
+			},
+			{
+				"address": 1386,
+				"opcode": "if",
+				"args": [
+					"trigger(249)",
+					"==",
+					"true",
+					"then",
+					"1512"
+				],
+				"lineNumber": 35273
+			},
+			{
+				"address": 1398,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35274
+			},
+			{
+				"address": 1400,
+				"opcode": "showTextbox",
+				"args": [
+					"An",
+					"old-timer",
+					"in",
+					"the",
+					"river\\nis",
+					"waiting",
+					"for",
+					"someone.\\n"
+				],
+				"lineNumber": 35275
+			},
+			{
+				"address": 1504,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35276
+			},
+			{
+				"address": 1508,
+				"opcode": "jumpTo",
+				"args": [
+					"1516"
+				],
+				"lineNumber": 35277
+			},
+			{
+				"address": 1512,
+				"opcode": "jumpTo",
+				"args": [
+					"1520"
+				],
+				"lineNumber": 35278
+			},
+			{
+				"address": 1516,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35279
+			},
+			{
+				"address": 1520,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"5",
+					"then",
+					"1540"
+				],
+				"lineNumber": 35280
+			},
+			{
+				"address": 1532,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35281
+			},
+			{
+				"address": 1536,
+				"opcode": "jumpTo",
+				"args": [
+					"1544"
+				],
+				"lineNumber": 35282
+			},
+			{
+				"address": 1540,
+				"opcode": "jumpTo",
+				"args": [
+					"1674"
+				],
+				"lineNumber": 35283
+			},
+			{
+				"address": 1544,
+				"opcode": "if",
+				"args": [
+					"trigger(204)",
+					"==",
+					"true",
+					"then",
+					"1666"
+				],
+				"lineNumber": 35284
+			},
+			{
+				"address": 1556,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35285
+			},
+			{
+				"address": 1558,
+				"opcode": "showTextbox",
+				"args": [
+					"There",
+					"is",
+					"a",
+					"Digimon",
+					"who\\nloves",
+					"warm",
+					"water",
+					"shores.\\n"
+				],
+				"lineNumber": 35286
+			},
+			{
+				"address": 1658,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35287
+			},
+			{
+				"address": 1662,
+				"opcode": "jumpTo",
+				"args": [
+					"1670"
+				],
+				"lineNumber": 35288
+			},
+			{
+				"address": 1666,
+				"opcode": "jumpTo",
+				"args": [
+					"1674"
+				],
+				"lineNumber": 35289
+			},
+			{
+				"address": 1670,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35290
+			},
+			{
+				"address": 1674,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"6",
+					"then",
+					"1694"
+				],
+				"lineNumber": 35291
+			},
+			{
+				"address": 1686,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35292
+			},
+			{
+				"address": 1690,
+				"opcode": "jumpTo",
+				"args": [
+					"1698"
+				],
+				"lineNumber": 35293
+			},
+			{
+				"address": 1694,
+				"opcode": "jumpTo",
+				"args": [
+					"1836"
+				],
+				"lineNumber": 35294
+			},
+			{
+				"address": 1698,
+				"opcode": "if",
+				"args": [
+					"trigger(237)",
+					"==",
+					"true",
+					"then",
+					"1828"
+				],
+				"lineNumber": 35295
+			},
+			{
+				"address": 1710,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35296
+			},
+			{
+				"address": 1712,
+				"opcode": "showTextbox",
+				"args": [
+					"Graveyards",
+					"have",
+					"ghosts.\\nGhosts",
+					"love",
+					"talking",
+					"to",
+					"you.\\n"
+				],
+				"lineNumber": 35297
+			},
+			{
+				"address": 1820,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35298
+			},
+			{
+				"address": 1824,
+				"opcode": "jumpTo",
+				"args": [
+					"1832"
+				],
+				"lineNumber": 35299
+			},
+			{
+				"address": 1828,
+				"opcode": "jumpTo",
+				"args": [
+					"1836"
+				],
+				"lineNumber": 35300
+			},
+			{
+				"address": 1832,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35301
+			},
+			{
+				"address": 1836,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"7",
+					"then",
+					"1856"
+				],
+				"lineNumber": 35302
+			},
+			{
+				"address": 1848,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35303
+			},
+			{
+				"address": 1852,
+				"opcode": "jumpTo",
+				"args": [
+					"1860"
+				],
+				"lineNumber": 35304
+			},
+			{
+				"address": 1856,
+				"opcode": "jumpTo",
+				"args": [
+					"2050"
+				],
+				"lineNumber": 35305
+			},
+			{
+				"address": 1860,
+				"opcode": "if",
+				"args": [
+					"trigger(225)",
+					"==",
+					"true",
+					"then",
+					"2042"
+				],
+				"lineNumber": 35306
+			},
+			{
+				"address": 1872,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35307
+			},
+			{
+				"address": 1874,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"secret",
+					"lies",
+					"in",
+					"the",
+					"flower\\nbed",
+					"of",
+					"the",
+					"city.",
+					"Ask",
+					"a",
+					"plant\\nabout",
+					"another",
+					"plant.\\n"
+				],
+				"lineNumber": 35308
+			},
+			{
+				"address": 2034,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35309
+			},
+			{
+				"address": 2038,
+				"opcode": "jumpTo",
+				"args": [
+					"2046"
+				],
+				"lineNumber": 35310
+			},
+			{
+				"address": 2042,
+				"opcode": "jumpTo",
+				"args": [
+					"2050"
+				],
+				"lineNumber": 35311
+			},
+			{
+				"address": 2046,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35312
+			},
+			{
+				"address": 2050,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"8",
+					"then",
+					"2070"
+				],
+				"lineNumber": 35313
+			},
+			{
+				"address": 2062,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35314
+			},
+			{
+				"address": 2066,
+				"opcode": "jumpTo",
+				"args": [
+					"2074"
+				],
+				"lineNumber": 35315
+			},
+			{
+				"address": 2070,
+				"opcode": "jumpTo",
+				"args": [
+					"2246"
+				],
+				"lineNumber": 35316
+			},
+			{
+				"address": 2074,
+				"opcode": "if",
+				"args": [
+					"trigger(208)",
+					"==",
+					"true",
+					"then",
+					"2238"
+				],
+				"lineNumber": 35317
+			},
+			{
+				"address": 2086,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35318
+			},
+			{
+				"address": 2088,
+				"opcode": "showTextbox",
+				"args": [
+					"The",
+					"Ancient",
+					"Dino",
+					"Region\\nis",
+					"dangerous,",
+					"but",
+					"it's\\nbest",
+					"to",
+					"check",
+					"it",
+					"out.\\n"
+				],
+				"lineNumber": 35319
+			},
+			{
+				"address": 2230,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35320
+			},
+			{
+				"address": 2234,
+				"opcode": "jumpTo",
+				"args": [
+					"2242"
+				],
+				"lineNumber": 35321
+			},
+			{
+				"address": 2238,
+				"opcode": "jumpTo",
+				"args": [
+					"2246"
+				],
+				"lineNumber": 35322
+			},
+			{
+				"address": 2242,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35323
+			},
+			{
+				"address": 2246,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"9",
+					"then",
+					"2266"
+				],
+				"lineNumber": 35324
+			},
+			{
+				"address": 2258,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35325
+			},
+			{
+				"address": 2262,
+				"opcode": "jumpTo",
+				"args": [
+					"2270"
+				],
+				"lineNumber": 35326
+			},
+			{
+				"address": 2266,
+				"opcode": "jumpTo",
+				"args": [
+					"2430"
+				],
+				"lineNumber": 35327
+			},
+			{
+				"address": 2270,
+				"opcode": "if",
+				"args": [
+					"trigger(209)",
+					"==",
+					"true",
+					"then",
+					"2422"
+				],
+				"lineNumber": 35328
+			},
+			{
+				"address": 2282,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35329
+			},
+			{
+				"address": 2284,
+				"opcode": "showTextbox",
+				"args": [
+					"Lava",
+					"flows",
+					"inside",
+					"of\\nMt.",
+					"Panorama.",
+					"Some",
+					"Digimon\\nlove",
+					"the",
+					"heat.\\n"
+				],
+				"lineNumber": 35330
+			},
+			{
+				"address": 2414,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35331
+			},
+			{
+				"address": 2418,
+				"opcode": "jumpTo",
+				"args": [
+					"2426"
+				],
+				"lineNumber": 35332
+			},
+			{
+				"address": 2422,
+				"opcode": "jumpTo",
+				"args": [
+					"2430"
+				],
+				"lineNumber": 35333
+			},
+			{
+				"address": 2426,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35334
+			},
+			{
+				"address": 2430,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"10",
+					"then",
+					"2450"
+				],
+				"lineNumber": 35335
+			},
+			{
+				"address": 2442,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35336
+			},
+			{
+				"address": 2446,
+				"opcode": "jumpTo",
+				"args": [
+					"2454"
+				],
+				"lineNumber": 35337
+			},
+			{
+				"address": 2450,
+				"opcode": "jumpTo",
+				"args": [
+					"2658"
+				],
+				"lineNumber": 35338
+			},
+			{
+				"address": 2454,
+				"opcode": "if",
+				"args": [
+					"trigger(223)",
+					"==",
+					"true",
+					"then",
+					"2650"
+				],
+				"lineNumber": 35339
+			},
+			{
+				"address": 2466,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35340
+			},
+			{
+				"address": 2468,
+				"opcode": "showTextbox",
+				"args": [
+					"Taking",
+					"a",
+					"Digimon,",
+					"who",
+					"loves\\nhot",
+					"places,",
+					"to",
+					"a",
+					"cold",
+					"place\\nis",
+					"against",
+					"the",
+					"rules,",
+					"but...\\n"
+				],
+				"lineNumber": 35341
+			},
+			{
+				"address": 2642,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35342
+			},
+			{
+				"address": 2646,
+				"opcode": "jumpTo",
+				"args": [
+					"2654"
+				],
+				"lineNumber": 35343
+			},
+			{
+				"address": 2650,
+				"opcode": "jumpTo",
+				"args": [
+					"2658"
+				],
+				"lineNumber": 35344
+			},
+			{
+				"address": 2654,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35345
+			},
+			{
+				"address": 2658,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"11",
+					"then",
+					"2678"
+				],
+				"lineNumber": 35346
+			},
+			{
+				"address": 2670,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35347
+			},
+			{
+				"address": 2674,
+				"opcode": "jumpTo",
+				"args": [
+					"2682"
+				],
+				"lineNumber": 35348
+			},
+			{
+				"address": 2678,
+				"opcode": "jumpTo",
+				"args": [
+					"2866"
+				],
+				"lineNumber": 35349
+			},
+			{
+				"address": 2682,
+				"opcode": "if",
+				"args": [
+					"trigger(222)",
+					"==",
+					"true",
+					"then",
+					"2858"
+				],
+				"lineNumber": 35350
+			},
+			{
+				"address": 2694,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35351
+			},
+			{
+				"address": 2696,
+				"opcode": "showTextbox",
+				"args": [
+					"In",
+					"Freezeland",
+					"there",
+					"are",
+					"many\\nDigimon",
+					"who'll",
+					"come",
+					"with",
+					"you.\\nGo",
+					"to",
+					"the",
+					"west.\\n"
+				],
+				"lineNumber": 35352
+			},
+			{
+				"address": 2850,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35353
+			},
+			{
+				"address": 2854,
+				"opcode": "jumpTo",
+				"args": [
+					"2862"
+				],
+				"lineNumber": 35354
+			},
+			{
+				"address": 2858,
+				"opcode": "jumpTo",
+				"args": [
+					"2866"
+				],
+				"lineNumber": 35355
+			},
+			{
+				"address": 2862,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35356
+			},
+			{
+				"address": 2866,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"12",
+					"then",
+					"2886"
+				],
+				"lineNumber": 35357
+			},
+			{
+				"address": 2878,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35358
+			},
+			{
+				"address": 2882,
+				"opcode": "jumpTo",
+				"args": [
+					"2890"
+				],
+				"lineNumber": 35359
+			},
+			{
+				"address": 2886,
+				"opcode": "jumpTo",
+				"args": [
+					"3026"
+				],
+				"lineNumber": 35360
+			},
+			{
+				"address": 2890,
+				"opcode": "if",
+				"args": [
+					"trigger(221)",
+					"==",
+					"true",
+					"then",
+					"3018"
+				],
+				"lineNumber": 35361
+			},
+			{
+				"address": 2902,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35362
+			},
+			{
+				"address": 2904,
+				"opcode": "showTextbox",
+				"args": [
+					"On",
+					"the",
+					"peak",
+					"of",
+					"Great",
+					"Canyon,\\na",
+					"Bird",
+					"Digimon",
+					"lives.\\n"
+				],
+				"lineNumber": 35363
+			},
+			{
+				"address": 3010,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35364
+			},
+			{
+				"address": 3014,
+				"opcode": "jumpTo",
+				"args": [
+					"3022"
+				],
+				"lineNumber": 35365
+			},
+			{
+				"address": 3018,
+				"opcode": "jumpTo",
+				"args": [
+					"3026"
+				],
+				"lineNumber": 35366
+			},
+			{
+				"address": 3022,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35367
+			},
+			{
+				"address": 3026,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"13",
+					"then",
+					"3046"
+				],
+				"lineNumber": 35368
+			},
+			{
+				"address": 3038,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35369
+			},
+			{
+				"address": 3042,
+				"opcode": "jumpTo",
+				"args": [
+					"3050"
+				],
+				"lineNumber": 35370
+			},
+			{
+				"address": 3046,
+				"opcode": "jumpTo",
+				"args": [
+					"3210"
+				],
+				"lineNumber": 35371
+			},
+			{
+				"address": 3050,
+				"opcode": "if",
+				"args": [
+					"trigger(235)",
+					"==",
+					"true",
+					"then",
+					"3202"
+				],
+				"lineNumber": 35372
+			},
+			{
+				"address": 3062,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35373
+			},
+			{
+				"address": 3064,
+				"opcode": "showTextbox",
+				"args": [
+					"Great",
+					"Canyon",
+					"is",
+					"like",
+					"a\\nmaze.",
+					"Once",
+					"entered,\\nit's",
+					"hard",
+					"to",
+					"leave.\\n"
+				],
+				"lineNumber": 35374
+			},
+			{
+				"address": 3194,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35375
+			},
+			{
+				"address": 3198,
+				"opcode": "jumpTo",
+				"args": [
+					"3206"
+				],
+				"lineNumber": 35376
+			},
+			{
+				"address": 3202,
+				"opcode": "jumpTo",
+				"args": [
+					"3210"
+				],
+				"lineNumber": 35377
+			},
+			{
+				"address": 3206,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35378
+			},
+			{
+				"address": 3210,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"14",
+					"then",
+					"3230"
+				],
+				"lineNumber": 35379
+			},
+			{
+				"address": 3222,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35380
+			},
+			{
+				"address": 3226,
+				"opcode": "jumpTo",
+				"args": [
+					"3234"
+				],
+				"lineNumber": 35381
+			},
+			{
+				"address": 3230,
+				"opcode": "jumpTo",
+				"args": [
+					"3386"
+				],
+				"lineNumber": 35382
+			},
+			{
+				"address": 3234,
+				"opcode": "if",
+				"args": [
+					"trigger(218)",
+					"==",
+					"true",
+					"then",
+					"3378"
+				],
+				"lineNumber": 35383
+			},
+			{
+				"address": 3246,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35384
+			},
+			{
+				"address": 3248,
+				"opcode": "showTextbox",
+				"args": [
+					"In",
+					"Gear",
+					"Savanna,\\nthere",
+					"is",
+					"a",
+					"Digimon\\nwho",
+					"loves",
+					"electricity.\\n"
+				],
+				"lineNumber": 35385
+			},
+			{
+				"address": 3370,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35386
+			},
+			{
+				"address": 3374,
+				"opcode": "jumpTo",
+				"args": [
+					"3382"
+				],
+				"lineNumber": 35387
+			},
+			{
+				"address": 3378,
+				"opcode": "jumpTo",
+				"args": [
+					"3386"
+				],
+				"lineNumber": 35388
+			},
+			{
+				"address": 3382,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35389
+			},
+			{
+				"address": 3386,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"15",
+					"then",
+					"3406"
+				],
+				"lineNumber": 35390
+			},
+			{
+				"address": 3398,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35391
+			},
+			{
+				"address": 3402,
+				"opcode": "jumpTo",
+				"args": [
+					"3410"
+				],
+				"lineNumber": 35392
+			},
+			{
+				"address": 3406,
+				"opcode": "jumpTo",
+				"args": [
+					"3548"
+				],
+				"lineNumber": 35393
+			},
+			{
+				"address": 3410,
+				"opcode": "if",
+				"args": [
+					"trigger(250)",
+					"==",
+					"true",
+					"then",
+					"3540"
+				],
+				"lineNumber": 35394
+			},
+			{
+				"address": 3422,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35395
+			},
+			{
+				"address": 3424,
+				"opcode": "showTextbox",
+				"args": [
+					"In",
+					"Misty",
+					"Trees,",
+					"an",
+					"early\\nrising",
+					"Digimon",
+					"may",
+					"appear.\\n"
+				],
+				"lineNumber": 35396
+			},
+			{
+				"address": 3532,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35397
+			},
+			{
+				"address": 3536,
+				"opcode": "jumpTo",
+				"args": [
+					"3544"
+				],
+				"lineNumber": 35398
+			},
+			{
+				"address": 3540,
+				"opcode": "jumpTo",
+				"args": [
+					"3548"
+				],
+				"lineNumber": 35399
+			},
+			{
+				"address": 3544,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35400
+			},
+			{
+				"address": 3548,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"16",
+					"then",
+					"3568"
+				],
+				"lineNumber": 35401
+			},
+			{
+				"address": 3560,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35402
+			},
+			{
+				"address": 3564,
+				"opcode": "jumpTo",
+				"args": [
+					"3572"
+				],
+				"lineNumber": 35403
+			},
+			{
+				"address": 3568,
+				"opcode": "jumpTo",
+				"args": [
+					"3712"
+				],
+				"lineNumber": 35404
+			},
+			{
+				"address": 3572,
+				"opcode": "if",
+				"args": [
+					"trigger(247)",
+					"==",
+					"true",
+					"then",
+					"3704"
+				],
+				"lineNumber": 35405
+			},
+			{
+				"address": 3584,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35406
+			},
+			{
+				"address": 3586,
+				"opcode": "showTextbox",
+				"args": [
+					"In",
+					"Great",
+					"Canyon,\\nthere",
+					"is",
+					"a",
+					"shop\\nowned",
+					"by",
+					"a",
+					"Digimon.\\n"
+				],
+				"lineNumber": 35407
+			},
+			{
+				"address": 3696,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35408
+			},
+			{
+				"address": 3700,
+				"opcode": "jumpTo",
+				"args": [
+					"3708"
+				],
+				"lineNumber": 35409
+			},
+			{
+				"address": 3704,
+				"opcode": "jumpTo",
+				"args": [
+					"3712"
+				],
+				"lineNumber": 35410
+			},
+			{
+				"address": 3708,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35411
+			},
+			{
+				"address": 3712,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"17",
+					"then",
+					"3732"
+				],
+				"lineNumber": 35412
+			},
+			{
+				"address": 3724,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35413
+			},
+			{
+				"address": 3728,
+				"opcode": "jumpTo",
+				"args": [
+					"3736"
+				],
+				"lineNumber": 35414
+			},
+			{
+				"address": 3732,
+				"opcode": "jumpTo",
+				"args": [
+					"3930"
+				],
+				"lineNumber": 35415
+			},
+			{
+				"address": 3736,
+				"opcode": "if",
+				"args": [
+					"trigger(233)",
+					"==",
+					"true",
+					"then",
+					"3922"
+				],
+				"lineNumber": 35416
+			},
+			{
+				"address": 3748,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35417
+			},
+			{
+				"address": 3750,
+				"opcode": "showTextbox",
+				"args": [
+					"You",
+					"might",
+					"meet",
+					"a",
+					"Digimon\\nwith",
+					"wings",
+					"that",
+					"can",
+					"fly",
+					"over\\nMt.",
+					"Panorama",
+					"in",
+					"one",
+					"flap.\\n"
+				],
+				"lineNumber": 35418
+			},
+			{
+				"address": 3914,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35419
+			},
+			{
+				"address": 3918,
+				"opcode": "jumpTo",
+				"args": [
+					"3926"
+				],
+				"lineNumber": 35420
+			},
+			{
+				"address": 3922,
+				"opcode": "jumpTo",
+				"args": [
+					"3930"
+				],
+				"lineNumber": 35421
+			},
+			{
+				"address": 3926,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35422
+			},
+			{
+				"address": 3930,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"18",
+					"then",
+					"3950"
+				],
+				"lineNumber": 35423
+			},
+			{
+				"address": 3942,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35424
+			},
+			{
+				"address": 3946,
+				"opcode": "jumpTo",
+				"args": [
+					"3954"
+				],
+				"lineNumber": 35425
+			},
+			{
+				"address": 3950,
+				"opcode": "jumpTo",
+				"args": [
+					"4136"
+				],
+				"lineNumber": 35426
+			},
+			{
+				"address": 3954,
+				"opcode": "if",
+				"args": [
+					"trigger(231)",
+					"==",
+					"true",
+					"AND",
+					"trigger(245)",
+					"==",
+					"true",
+					"then",
+					"4128"
+				],
+				"lineNumber": 35427
+			},
+			{
+				"address": 3970,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35428
+			},
+			{
+				"address": 3972,
+				"opcode": "showTextbox",
+				"args": [
+					"Gear",
+					"Savanna",
+					"suits",
+					"Digimon\\nwho",
+					"can't",
+					"fly",
+					"high.\\nYou",
+					"should",
+					"search",
+					"there.\\n"
+				],
+				"lineNumber": 35429
+			},
+			{
+				"address": 4120,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35430
+			},
+			{
+				"address": 4124,
+				"opcode": "jumpTo",
+				"args": [
+					"4132"
+				],
+				"lineNumber": 35431
+			},
+			{
+				"address": 4128,
+				"opcode": "jumpTo",
+				"args": [
+					"4136"
+				],
+				"lineNumber": 35432
+			},
+			{
+				"address": 4132,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35433
+			},
+			{
+				"address": 4136,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"19",
+					"then",
+					"4156"
+				],
+				"lineNumber": 35434
+			},
+			{
+				"address": 4148,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35435
+			},
+			{
+				"address": 4152,
+				"opcode": "jumpTo",
+				"args": [
+					"4160"
+				],
+				"lineNumber": 35436
+			},
+			{
+				"address": 4156,
+				"opcode": "jumpTo",
+				"args": [
+					"4296"
+				],
+				"lineNumber": 35437
+			},
+			{
+				"address": 4160,
+				"opcode": "if",
+				"args": [
+					"trigger(205)",
+					"==",
+					"true",
+					"then",
+					"4288"
+				],
+				"lineNumber": 35438
+			},
+			{
+				"address": 4172,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35439
+			},
+			{
+				"address": 4174,
+				"opcode": "showTextbox",
+				"args": [
+					"Some",
+					"Digimon",
+					"may",
+					"know",
+					"about\\nyou",
+					"and",
+					"challenge",
+					"you.\\n"
+				],
+				"lineNumber": 35440
+			},
+			{
+				"address": 4280,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35441
+			},
+			{
+				"address": 4284,
+				"opcode": "jumpTo",
+				"args": [
+					"4292"
+				],
+				"lineNumber": 35442
+			},
+			{
+				"address": 4288,
+				"opcode": "jumpTo",
+				"args": [
+					"4296"
+				],
+				"lineNumber": 35443
+			},
+			{
+				"address": 4292,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35444
+			},
+			{
+				"address": 4296,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"20",
+					"then",
+					"4316"
+				],
+				"lineNumber": 35445
+			},
+			{
+				"address": 4308,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35446
+			},
+			{
+				"address": 4312,
+				"opcode": "jumpTo",
+				"args": [
+					"4320"
+				],
+				"lineNumber": 35447
+			},
+			{
+				"address": 4316,
+				"opcode": "jumpTo",
+				"args": [
+					"4504"
+				],
+				"lineNumber": 35448
+			},
+			{
+				"address": 4320,
+				"opcode": "if",
+				"args": [
+					"trigger(257)",
+					"==",
+					"true",
+					"then",
+					"4496"
+				],
+				"lineNumber": 35449
+			},
+			{
+				"address": 4332,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35450
+			},
+			{
+				"address": 4334,
+				"opcode": "showTextbox",
+				"args": [
+					"In",
+					"Freezeland,",
+					"there",
+					"are\\nDigimons",
+					"that",
+					"live",
+					"in",
+					"caves\\nand",
+					"invite",
+					"others",
+					"in.\\n"
+				],
+				"lineNumber": 35451
+			},
+			{
+				"address": 4488,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35452
+			},
+			{
+				"address": 4492,
+				"opcode": "jumpTo",
+				"args": [
+					"4500"
+				],
+				"lineNumber": 35453
+			},
+			{
+				"address": 4496,
+				"opcode": "jumpTo",
+				"args": [
+					"4504"
+				],
+				"lineNumber": 35454
+			},
+			{
+				"address": 4500,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35455
+			},
+			{
+				"address": 4504,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"21",
+					"then",
+					"4524"
+				],
+				"lineNumber": 35456
+			},
+			{
+				"address": 4516,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35457
+			},
+			{
+				"address": 4520,
+				"opcode": "jumpTo",
+				"args": [
+					"4528"
+				],
+				"lineNumber": 35458
+			},
+			{
+				"address": 4524,
+				"opcode": "jumpTo",
+				"args": [
+					"4732"
+				],
+				"lineNumber": 35459
+			},
+			{
+				"address": 4528,
+				"opcode": "if",
+				"args": [
+					"trigger(238)",
+					"==",
+					"true",
+					"then",
+					"4724"
+				],
+				"lineNumber": 35460
+			},
+			{
+				"address": 4540,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35461
+			},
+			{
+				"address": 4542,
+				"opcode": "showTextbox",
+				"args": [
+					"You",
+					"should",
+					"ask",
+					"hard",
+					"working\\nDigimon",
+					"to",
+					"come",
+					"to",
+					"the",
+					"city,\\nonce",
+					"their",
+					"duties",
+					"are",
+					"over.\\n"
+				],
+				"lineNumber": 35462
+			},
+			{
+				"address": 4716,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35463
+			},
+			{
+				"address": 4720,
+				"opcode": "jumpTo",
+				"args": [
+					"4728"
+				],
+				"lineNumber": 35464
+			},
+			{
+				"address": 4724,
+				"opcode": "jumpTo",
+				"args": [
+					"4732"
+				],
+				"lineNumber": 35465
+			},
+			{
+				"address": 4728,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35466
+			},
+			{
+				"address": 4732,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"22",
+					"then",
+					"4752"
+				],
+				"lineNumber": 35467
+			},
+			{
+				"address": 4744,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35468
+			},
+			{
+				"address": 4748,
+				"opcode": "jumpTo",
+				"args": [
+					"4756"
+				],
+				"lineNumber": 35469
+			},
+			{
+				"address": 4752,
+				"opcode": "jumpTo",
+				"args": [
+					"4950"
+				],
+				"lineNumber": 35470
+			},
+			{
+				"address": 4756,
+				"opcode": "if",
+				"args": [
+					"trigger(217)",
+					"==",
+					"true",
+					"then",
+					"4942"
+				],
+				"lineNumber": 35471
+			},
+			{
+				"address": 4768,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35472
+			},
+			{
+				"address": 4770,
+				"opcode": "showTextbox",
+				"args": [
+					"Misty",
+					"Trees",
+					"is",
+					"perfect",
+					"for\\nhiding.",
+					"Your",
+					"job",
+					"is",
+					"also\\nto",
+					"guide",
+					"Digimon",
+					"in",
+					"hiding.\\n"
+				],
+				"lineNumber": 35473
+			},
+			{
+				"address": 4934,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35474
+			},
+			{
+				"address": 4938,
+				"opcode": "jumpTo",
+				"args": [
+					"4946"
+				],
+				"lineNumber": 35475
+			},
+			{
+				"address": 4942,
+				"opcode": "jumpTo",
+				"args": [
+					"4950"
+				],
+				"lineNumber": 35476
+			},
+			{
+				"address": 4946,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35477
+			},
+			{
+				"address": 4950,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"23",
+					"then",
+					"4970"
+				],
+				"lineNumber": 35478
+			},
+			{
+				"address": 4962,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35479
+			},
+			{
+				"address": 4966,
+				"opcode": "jumpTo",
+				"args": [
+					"4974"
+				],
+				"lineNumber": 35480
+			},
+			{
+				"address": 4970,
+				"opcode": "jumpTo",
+				"args": [
+					"5112"
+				],
+				"lineNumber": 35481
+			},
+			{
+				"address": 4974,
+				"opcode": "if",
+				"args": [
+					"trigger(258)",
+					"==",
+					"true",
+					"then",
+					"5104"
+				],
+				"lineNumber": 35482
+			},
+			{
+				"address": 4986,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35483
+			},
+			{
+				"address": 4988,
+				"opcode": "showTextbox",
+				"args": [
+					"When",
+					"rumors",
+					"about",
+					"you",
+					"spread,\\nyou",
+					"should",
+					"come",
+					"back.\\n"
+				],
+				"lineNumber": 35484
+			},
+			{
+				"address": 5096,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35485
+			},
+			{
+				"address": 5100,
+				"opcode": "jumpTo",
+				"args": [
+					"5108"
+				],
+				"lineNumber": 35486
+			},
+			{
+				"address": 5104,
+				"opcode": "jumpTo",
+				"args": [
+					"5112"
+				],
+				"lineNumber": 35487
+			},
+			{
+				"address": 5108,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35488
+			},
+			{
+				"address": 5112,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"24",
+					"then",
+					"5132"
+				],
+				"lineNumber": 35489
+			},
+			{
+				"address": 5124,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35490
+			},
+			{
+				"address": 5128,
+				"opcode": "jumpTo",
+				"args": [
+					"5136"
+				],
+				"lineNumber": 35491
+			},
+			{
+				"address": 5132,
+				"opcode": "jumpTo",
+				"args": [
+					"5328"
+				],
+				"lineNumber": 35492
+			},
+			{
+				"address": 5136,
+				"opcode": "if",
+				"args": [
+					"trigger(224)",
+					"==",
+					"true",
+					"then",
+					"5320"
+				],
+				"lineNumber": 35493
+			},
+			{
+				"address": 5148,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35494
+			},
+			{
+				"address": 5150,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"huge",
+					"shadow",
+					"appears",
+					"along\\nthe",
+					"coasts",
+					"of",
+					"Freezeland.\\nPerhaps",
+					"it",
+					"is",
+					"a",
+					"Digimon.\\n"
+				],
+				"lineNumber": 35495
+			},
+			{
+				"address": 5312,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35496
+			},
+			{
+				"address": 5316,
+				"opcode": "jumpTo",
+				"args": [
+					"5324"
+				],
+				"lineNumber": 35497
+			},
+			{
+				"address": 5320,
+				"opcode": "jumpTo",
+				"args": [
+					"5328"
+				],
+				"lineNumber": 35498
+			},
+			{
+				"address": 5324,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35499
+			},
+			{
+				"address": 5328,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"25",
+					"then",
+					"5348"
+				],
+				"lineNumber": 35500
+			},
+			{
+				"address": 5340,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35501
+			},
+			{
+				"address": 5344,
+				"opcode": "jumpTo",
+				"args": [
+					"5352"
+				],
+				"lineNumber": 35502
+			},
+			{
+				"address": 5348,
+				"opcode": "jumpTo",
+				"args": [
+					"5520"
+				],
+				"lineNumber": 35503
+			},
+			{
+				"address": 5352,
+				"opcode": "if",
+				"args": [
+					"trigger(252)",
+					"==",
+					"true",
+					"then",
+					"5512"
+				],
+				"lineNumber": 35504
+			},
+			{
+				"address": 5364,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35505
+			},
+			{
+				"address": 5366,
+				"opcode": "showTextbox",
+				"args": [
+					"Help",
+					"Digimon",
+					"that\\nlove",
+					"to",
+					"collect",
+					"things.\\nTry",
+					"going",
+					"to",
+					"Freezeland.\\n"
+				],
+				"lineNumber": 35506
+			},
+			{
+				"address": 5504,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35507
+			},
+			{
+				"address": 5508,
+				"opcode": "jumpTo",
+				"args": [
+					"5516"
+				],
+				"lineNumber": 35508
+			},
+			{
+				"address": 5512,
+				"opcode": "jumpTo",
+				"args": [
+					"5520"
+				],
+				"lineNumber": 35509
+			},
+			{
+				"address": 5516,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35510
+			},
+			{
+				"address": 5520,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"26",
+					"then",
+					"5540"
+				],
+				"lineNumber": 35511
+			},
+			{
+				"address": 5532,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35512
+			},
+			{
+				"address": 5536,
+				"opcode": "jumpTo",
+				"args": [
+					"5544"
+				],
+				"lineNumber": 35513
+			},
+			{
+				"address": 5540,
+				"opcode": "jumpTo",
+				"args": [
+					"5742"
+				],
+				"lineNumber": 35514
+			},
+			{
+				"address": 5544,
+				"opcode": "if",
+				"args": [
+					"trigger(213)",
+					"==",
+					"true",
+					"then",
+					"5734"
+				],
+				"lineNumber": 35515
+			},
+			{
+				"address": 5556,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35516
+			},
+			{
+				"address": 5558,
+				"opcode": "showTextbox",
+				"args": [
+					"On",
+					"the",
+					"top",
+					"of",
+					"Mt.",
+					"Panorama,\\na",
+					"Digimon",
+					"will",
+					"challenge",
+					"you\\nto",
+					"fight",
+					"if",
+					"you",
+					"see",
+					"him.\\n"
+				],
+				"lineNumber": 35517
+			},
+			{
+				"address": 5726,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35518
+			},
+			{
+				"address": 5730,
+				"opcode": "jumpTo",
+				"args": [
+					"5738"
+				],
+				"lineNumber": 35519
+			},
+			{
+				"address": 5734,
+				"opcode": "jumpTo",
+				"args": [
+					"5742"
+				],
+				"lineNumber": 35520
+			},
+			{
+				"address": 5738,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35521
+			},
+			{
+				"address": 5742,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"27",
+					"then",
+					"5762"
+				],
+				"lineNumber": 35522
+			},
+			{
+				"address": 5754,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35523
+			},
+			{
+				"address": 5758,
+				"opcode": "jumpTo",
+				"args": [
+					"5766"
+				],
+				"lineNumber": 35524
+			},
+			{
+				"address": 5762,
+				"opcode": "jumpTo",
+				"args": [
+					"5958"
+				],
+				"lineNumber": 35525
+			},
+			{
+				"address": 5766,
+				"opcode": "if",
+				"args": [
+					"trigger(211)",
+					"==",
+					"true",
+					"then",
+					"5950"
+				],
+				"lineNumber": 35526
+			},
+			{
+				"address": 5778,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35527
+			},
+			{
+				"address": 5780,
+				"opcode": "showTextbox",
+				"args": [
+					"Digimon",
+					"are",
+					"also",
+					"in",
+					"damp\\nplaces",
+					"such",
+					"as",
+					"sewers.",
+					"Help\\nthem",
+					"with",
+					"their",
+					"problems.\\n"
+				],
+				"lineNumber": 35528
+			},
+			{
+				"address": 5942,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35529
+			},
+			{
+				"address": 5946,
+				"opcode": "jumpTo",
+				"args": [
+					"5954"
+				],
+				"lineNumber": 35530
+			},
+			{
+				"address": 5950,
+				"opcode": "jumpTo",
+				"args": [
+					"5958"
+				],
+				"lineNumber": 35531
+			},
+			{
+				"address": 5954,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35532
+			},
+			{
+				"address": 5958,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"28",
+					"then",
+					"5978"
+				],
+				"lineNumber": 35533
+			},
+			{
+				"address": 5970,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35534
+			},
+			{
+				"address": 5974,
+				"opcode": "jumpTo",
+				"args": [
+					"5982"
+				],
+				"lineNumber": 35535
+			},
+			{
+				"address": 5978,
+				"opcode": "jumpTo",
+				"args": [
+					"6156"
+				],
+				"lineNumber": 35536
+			},
+			{
+				"address": 5982,
+				"opcode": "if",
+				"args": [
+					"trigger(210)",
+					"==",
+					"true",
+					"then",
+					"6148"
+				],
+				"lineNumber": 35537
+			},
+			{
+				"address": 5994,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35538
+			},
+			{
+				"address": 5996,
+				"opcode": "showTextbox",
+				"args": [
+					"Some",
+					"Insectoid",
+					"Digimon",
+					"live\\nbeyond",
+					"Dragon",
+					"Eye",
+					"Lake.\\nGo",
+					"fishing",
+					"there.\\n"
+				],
+				"lineNumber": 35539
+			},
+			{
+				"address": 6140,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35540
+			},
+			{
+				"address": 6144,
+				"opcode": "jumpTo",
+				"args": [
+					"6152"
+				],
+				"lineNumber": 35541
+			},
+			{
+				"address": 6148,
+				"opcode": "jumpTo",
+				"args": [
+					"6156"
+				],
+				"lineNumber": 35542
+			},
+			{
+				"address": 6152,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35543
+			},
+			{
+				"address": 6156,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"29",
+					"then",
+					"6176"
+				],
+				"lineNumber": 35544
+			},
+			{
+				"address": 6168,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35545
+			},
+			{
+				"address": 6172,
+				"opcode": "jumpTo",
+				"args": [
+					"6180"
+				],
+				"lineNumber": 35546
+			},
+			{
+				"address": 6176,
+				"opcode": "jumpTo",
+				"args": [
+					"6356"
+				],
+				"lineNumber": 35547
+			},
+			{
+				"address": 6180,
+				"opcode": "if",
+				"args": [
+					"trigger(241)",
+					"==",
+					"true",
+					"then",
+					"6348"
+				],
+				"lineNumber": 35548
+			},
+			{
+				"address": 6192,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35549
+			},
+			{
+				"address": 6194,
+				"opcode": "showTextbox",
+				"args": [
+					"When",
+					"Android",
+					"Digimon\\nbreaks,",
+					"he",
+					"can",
+					"repair\\nhimself",
+					"completely",
+					"quickly.\\n"
+				],
+				"lineNumber": 35550
+			},
+			{
+				"address": 6340,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35551
+			},
+			{
+				"address": 6344,
+				"opcode": "jumpTo",
+				"args": [
+					"6352"
+				],
+				"lineNumber": 35552
+			},
+			{
+				"address": 6348,
+				"opcode": "jumpTo",
+				"args": [
+					"6356"
+				],
+				"lineNumber": 35553
+			},
+			{
+				"address": 6352,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35554
+			},
+			{
+				"address": 6356,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"30",
+					"then",
+					"6376"
+				],
+				"lineNumber": 35555
+			},
+			{
+				"address": 6368,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35556
+			},
+			{
+				"address": 6372,
+				"opcode": "jumpTo",
+				"args": [
+					"6380"
+				],
+				"lineNumber": 35557
+			},
+			{
+				"address": 6376,
+				"opcode": "jumpTo",
+				"args": [
+					"6672"
+				],
+				"lineNumber": 35558
+			},
+			{
+				"address": 6380,
+				"opcode": "if",
+				"args": [
+					"trigger(142)",
+					"==",
+					"true",
+					"then",
+					"6664"
+				],
+				"lineNumber": 35559
+			},
+			{
+				"address": 6392,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35560
+			},
+			{
+				"address": 6394,
+				"opcode": "showTextbox",
+				"args": [
+					"If",
+					"you",
+					"fear",
+					"danger,",
+					"you'll\\nlose",
+					"sight",
+					"of",
+					"your",
+					"goal.\\n"
+				],
+				"lineNumber": 35561
+			},
+			{
+				"address": 6502,
+				"opcode": "showTextbox",
+				"args": [
+					"You",
+					"gotta",
+					"be",
+					"brave",
+					"enough",
+					"to\\ntry",
+					"climbing",
+					"a",
+					"dangerous\\ncliff",
+					"at",
+					"least",
+					"once.\\n"
+				],
+				"lineNumber": 35562
+			},
+			{
+				"address": 6656,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35563
+			},
+			{
+				"address": 6660,
+				"opcode": "jumpTo",
+				"args": [
+					"6668"
+				],
+				"lineNumber": 35564
+			},
+			{
+				"address": 6664,
+				"opcode": "jumpTo",
+				"args": [
+					"6672"
+				],
+				"lineNumber": 35565
+			},
+			{
+				"address": 6668,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35566
+			},
+			{
+				"address": 6672,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"31",
+					"then",
+					"6692"
+				],
+				"lineNumber": 35567
+			},
+			{
+				"address": 6684,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35568
+			},
+			{
+				"address": 6688,
+				"opcode": "jumpTo",
+				"args": [
+					"6696"
+				],
+				"lineNumber": 35569
+			},
+			{
+				"address": 6692,
+				"opcode": "jumpTo",
+				"args": [
+					"6870"
+				],
+				"lineNumber": 35570
+			},
+			{
+				"address": 6696,
+				"opcode": "if",
+				"args": [
+					"trigger(198)",
+					"==",
+					"true",
+					"then",
+					"6862"
+				],
+				"lineNumber": 35571
+			},
+			{
+				"address": 6708,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35572
+			},
+			{
+				"address": 6710,
+				"opcode": "showTextbox",
+				"args": [
+					"Listen",
+					"to",
+					"anything",
+					"you",
+					"hear\\nfrom",
+					"the",
+					"city",
+					"about\\npeople",
+					"who",
+					"need",
+					"help.\\n"
+				],
+				"lineNumber": 35573
+			},
+			{
+				"address": 6854,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35574
+			},
+			{
+				"address": 6858,
+				"opcode": "jumpTo",
+				"args": [
+					"6866"
+				],
+				"lineNumber": 35575
+			},
+			{
+				"address": 6862,
+				"opcode": "jumpTo",
+				"args": [
+					"6870"
+				],
+				"lineNumber": 35576
+			},
+			{
+				"address": 6866,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35577
+			},
+			{
+				"address": 6870,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"32",
+					"then",
+					"6890"
+				],
+				"lineNumber": 35578
+			},
+			{
+				"address": 6882,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35579
+			},
+			{
+				"address": 6886,
+				"opcode": "jumpTo",
+				"args": [
+					"6894"
+				],
+				"lineNumber": 35580
+			},
+			{
+				"address": 6890,
+				"opcode": "jumpTo",
+				"args": [
+					"7098"
+				],
+				"lineNumber": 35581
+			},
+			{
+				"address": 6894,
+				"opcode": "if",
+				"args": [
+					"trigger(150)",
+					"==",
+					"true",
+					"then",
+					"7090"
+				],
+				"lineNumber": 35582
+			},
+			{
+				"address": 6906,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35583
+			},
+			{
+				"address": 6908,
+				"opcode": "showTextbox",
+				"args": [
+					"There's",
+					"a",
+					"mean",
+					"guy",
+					"that",
+					"has\\nmoved",
+					"into",
+					"a",
+					"very",
+					"populated\\narea",
+					"recently.",
+					"Maybe",
+					"it's...\\n"
+				],
+				"lineNumber": 35584
+			},
+			{
+				"address": 7082,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35585
+			},
+			{
+				"address": 7086,
+				"opcode": "jumpTo",
+				"args": [
+					"7094"
+				],
+				"lineNumber": 35586
+			},
+			{
+				"address": 7090,
+				"opcode": "jumpTo",
+				"args": [
+					"7098"
+				],
+				"lineNumber": 35587
+			},
+			{
+				"address": 7094,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35588
+			},
+			{
+				"address": 7098,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"33",
+					"then",
+					"7118"
+				],
+				"lineNumber": 35589
+			},
+			{
+				"address": 7110,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35590
+			},
+			{
+				"address": 7114,
+				"opcode": "jumpTo",
+				"args": [
+					"7122"
+				],
+				"lineNumber": 35591
+			},
+			{
+				"address": 7118,
+				"opcode": "jumpTo",
+				"args": [
+					"7298"
+				],
+				"lineNumber": 35592
+			},
+			{
+				"address": 7122,
+				"opcode": "if",
+				"args": [
+					"trigger(135)",
+					"==",
+					"true",
+					"then",
+					"7290"
+				],
+				"lineNumber": 35593
+			},
+			{
+				"address": 7134,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35594
+			},
+			{
+				"address": 7136,
+				"opcode": "showTextbox",
+				"args": [
+					"There",
+					"is",
+					"supposedly",
+					"a\\nburied",
+					"old",
+					"tablet,",
+					"but\\nsomeone",
+					"has",
+					"to",
+					"dig",
+					"it",
+					"up.\\n"
+				],
+				"lineNumber": 35595
+			},
+			{
+				"address": 7282,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35596
+			},
+			{
+				"address": 7286,
+				"opcode": "jumpTo",
+				"args": [
+					"7294"
+				],
+				"lineNumber": 35597
+			},
+			{
+				"address": 7290,
+				"opcode": "jumpTo",
+				"args": [
+					"7298"
+				],
+				"lineNumber": 35598
+			},
+			{
+				"address": 7294,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35599
+			},
+			{
+				"address": 7298,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"34",
+					"then",
+					"7318"
+				],
+				"lineNumber": 35600
+			},
+			{
+				"address": 7310,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35601
+			},
+			{
+				"address": 7314,
+				"opcode": "jumpTo",
+				"args": [
+					"7322"
+				],
+				"lineNumber": 35602
+			},
+			{
+				"address": 7318,
+				"opcode": "jumpTo",
+				"args": [
+					"7490"
+				],
+				"lineNumber": 35603
+			},
+			{
+				"address": 7322,
+				"opcode": "if",
+				"args": [
+					"trigger(255)",
+					"==",
+					"true",
+					"then",
+					"7482"
+				],
+				"lineNumber": 35604
+			},
+			{
+				"address": 7334,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35605
+			},
+			{
+				"address": 7336,
+				"opcode": "showTextbox",
+				"args": [
+					"A",
+					"rare",
+					"Digimon",
+					"appears\\nin",
+					"a",
+					"jungle",
+					"and",
+					"challenges\\nothers",
+					"to",
+					"fight.\\n"
+				],
+				"lineNumber": 35606
+			},
+			{
+				"address": 7474,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35607
+			},
+			{
+				"address": 7478,
+				"opcode": "jumpTo",
+				"args": [
+					"7486"
+				],
+				"lineNumber": 35608
+			},
+			{
+				"address": 7482,
+				"opcode": "jumpTo",
+				"args": [
+					"7490"
+				],
+				"lineNumber": 35609
+			},
+			{
+				"address": 7486,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35610
+			},
+			{
+				"address": 7490,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"35",
+					"then",
+					"7510"
+				],
+				"lineNumber": 35611
+			},
+			{
+				"address": 7502,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35612
+			},
+			{
+				"address": 7506,
+				"opcode": "jumpTo",
+				"args": [
+					"7514"
+				],
+				"lineNumber": 35613
+			},
+			{
+				"address": 7510,
+				"opcode": "jumpTo",
+				"args": [
+					"7664"
+				],
+				"lineNumber": 35614
+			},
+			{
+				"address": 7514,
+				"opcode": "if",
+				"args": [
+					"trigger(242)",
+					"==",
+					"true",
+					"then",
+					"7656"
+				],
+				"lineNumber": 35615
+			},
+			{
+				"address": 7526,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35616
+			},
+			{
+				"address": 7528,
+				"opcode": "showTextbox",
+				"args": [
+					"There",
+					"might",
+					"be",
+					"Digimon",
+					"that\\nlive",
+					"in",
+					"trees,",
+					"but",
+					"who",
+					"knows?\\n"
+				],
+				"lineNumber": 35617
+			},
+			{
+				"address": 7648,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35618
+			},
+			{
+				"address": 7652,
+				"opcode": "jumpTo",
+				"args": [
+					"7660"
+				],
+				"lineNumber": 35619
+			},
+			{
+				"address": 7656,
+				"opcode": "jumpTo",
+				"args": [
+					"7664"
+				],
+				"lineNumber": 35620
+			},
+			{
+				"address": 7660,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35621
+			},
+			{
+				"address": 7664,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"36",
+					"then",
+					"7684"
+				],
+				"lineNumber": 35622
+			},
+			{
+				"address": 7676,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35623
+			},
+			{
+				"address": 7680,
+				"opcode": "jumpTo",
+				"args": [
+					"7688"
+				],
+				"lineNumber": 35624
+			},
+			{
+				"address": 7684,
+				"opcode": "jumpTo",
+				"args": [
+					"7892"
+				],
+				"lineNumber": 35625
+			},
+			{
+				"address": 7688,
+				"opcode": "if",
+				"args": [
+					"trigger(227)",
+					"==",
+					"true",
+					"then",
+					"7884"
+				],
+				"lineNumber": 35626
+			},
+			{
+				"address": 7700,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35627
+			},
+			{
+				"address": 7702,
+				"opcode": "showTextbox",
+				"args": [
+					"In",
+					"an",
+					"Iron",
+					"City",
+					"to",
+					"the",
+					"west",
+					"a\\nrare",
+					"Digimon",
+					"may",
+					"appear",
+					"and\\nchallenge",
+					"others",
+					"to",
+					"fight.\\n"
+				],
+				"lineNumber": 35628
+			},
+			{
+				"address": 7876,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35629
+			},
+			{
+				"address": 7880,
+				"opcode": "jumpTo",
+				"args": [
+					"7888"
+				],
+				"lineNumber": 35630
+			},
+			{
+				"address": 7884,
+				"opcode": "jumpTo",
+				"args": [
+					"7892"
+				],
+				"lineNumber": 35631
+			},
+			{
+				"address": 7888,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35632
+			},
+			{
+				"address": 7892,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"37",
+					"then",
+					"7912"
+				],
+				"lineNumber": 35633
+			},
+			{
+				"address": 7904,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35634
+			},
+			{
+				"address": 7908,
+				"opcode": "jumpTo",
+				"args": [
+					"7916"
+				],
+				"lineNumber": 35635
+			},
+			{
+				"address": 7912,
+				"opcode": "jumpTo",
+				"args": [
+					"8056"
+				],
+				"lineNumber": 35636
+			},
+			{
+				"address": 7916,
+				"opcode": "if",
+				"args": [
+					"trigger(228)",
+					"==",
+					"true",
+					"then",
+					"8048"
+				],
+				"lineNumber": 35637
+			},
+			{
+				"address": 7928,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35638
+			},
+			{
+				"address": 7930,
+				"opcode": "showTextbox",
+				"args": [
+					"There",
+					"is",
+					"an",
+					"Alien",
+					"Digimon.\\nYou",
+					"may",
+					"meet",
+					"him",
+					"someday.\\n"
+				],
+				"lineNumber": 35639
+			},
+			{
+				"address": 8040,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35640
+			},
+			{
+				"address": 8044,
+				"opcode": "jumpTo",
+				"args": [
+					"8052"
+				],
+				"lineNumber": 35641
+			},
+			{
+				"address": 8048,
+				"opcode": "jumpTo",
+				"args": [
+					"8056"
+				],
+				"lineNumber": 35642
+			},
+			{
+				"address": 8052,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35643
+			},
+			{
+				"address": 8056,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"38",
+					"then",
+					"8076"
+				],
+				"lineNumber": 35644
+			},
+			{
+				"address": 8068,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35645
+			},
+			{
+				"address": 8072,
+				"opcode": "jumpTo",
+				"args": [
+					"8080"
+				],
+				"lineNumber": 35646
+			},
+			{
+				"address": 8076,
+				"opcode": "jumpTo",
+				"args": [
+					"8272"
+				],
+				"lineNumber": 35647
+			},
+			{
+				"address": 8080,
+				"opcode": "if",
+				"args": [
+					"pstat(21)",
+					"!=",
+					"0",
+					"then",
+					"8264"
+				],
+				"lineNumber": 35648
+			},
+			{
+				"address": 8092,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35649
+			},
+			{
+				"address": 8094,
+				"opcode": "showTextbox",
+				"args": [
+					"There",
+					"is",
+					"a",
+					"Mythical",
+					"Animal\\nDigimon.",
+					"He",
+					"is",
+					"in",
+					"a",
+					"house\\nthat",
+					"has",
+					"lost",
+					"its",
+					"owners.\\n"
+				],
+				"lineNumber": 35650
+			},
+			{
+				"address": 8256,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35651
+			},
+			{
+				"address": 8260,
+				"opcode": "jumpTo",
+				"args": [
+					"8268"
+				],
+				"lineNumber": 35652
+			},
+			{
+				"address": 8264,
+				"opcode": "jumpTo",
+				"args": [
+					"8272"
+				],
+				"lineNumber": 35653
+			},
+			{
+				"address": 8268,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35654
+			},
+			{
+				"address": 8272,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"39",
+					"then",
+					"8292"
+				],
+				"lineNumber": 35655
+			},
+			{
+				"address": 8284,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35656
+			},
+			{
+				"address": 8288,
+				"opcode": "jumpTo",
+				"args": [
+					"8296"
+				],
+				"lineNumber": 35657
+			},
+			{
+				"address": 8292,
+				"opcode": "jumpTo",
+				"args": [
+					"8464"
+				],
+				"lineNumber": 35658
+			},
+			{
+				"address": 8296,
+				"opcode": "if",
+				"args": [
+					"pstat(21)",
+					"!=",
+					"1",
+					"then",
+					"8456"
+				],
+				"lineNumber": 35659
+			},
+			{
+				"address": 8308,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35660
+			},
+			{
+				"address": 8310,
+				"opcode": "showTextbox",
+				"args": [
+					"You",
+					"must",
+					"keep",
+					"looking",
+					"for\\nNanimon",
+					"until",
+					"you",
+					"get",
+					"the\\nreal",
+					"treasure.\\n"
+				],
+				"lineNumber": 35661
+			},
+			{
+				"address": 8448,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35662
+			},
+			{
+				"address": 8452,
+				"opcode": "jumpTo",
+				"args": [
+					"8460"
+				],
+				"lineNumber": 35663
+			},
+			{
+				"address": 8456,
+				"opcode": "jumpTo",
+				"args": [
+					"8464"
+				],
+				"lineNumber": 35664
+			},
+			{
+				"address": 8460,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35665
+			},
+			{
+				"address": 8464,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"40",
+					"then",
+					"8484"
+				],
+				"lineNumber": 35666
+			},
+			{
+				"address": 8476,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35667
+			},
+			{
+				"address": 8480,
+				"opcode": "jumpTo",
+				"args": [
+					"8488"
+				],
+				"lineNumber": 35668
+			},
+			{
+				"address": 8484,
+				"opcode": "jumpTo",
+				"args": [
+					"8650"
+				],
+				"lineNumber": 35669
+			},
+			{
+				"address": 8488,
+				"opcode": "if",
+				"args": [
+					"trigger(129)",
+					"==",
+					"true",
+					"then",
+					"8642"
+				],
+				"lineNumber": 35670
+			},
+			{
+				"address": 8500,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35671
+			},
+			{
+				"address": 8502,
+				"opcode": "showTextbox",
+				"args": [
+					"Myotismon",
+					"is",
+					"missing.\\nFollow",
+					"the",
+					"clues",
+					"that\\nare",
+					"in",
+					"his",
+					"mansion.\\n"
+				],
+				"lineNumber": 35672
+			},
+			{
+				"address": 8634,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35673
+			},
+			{
+				"address": 8638,
+				"opcode": "jumpTo",
+				"args": [
+					"8646"
+				],
+				"lineNumber": 35674
+			},
+			{
+				"address": 8642,
+				"opcode": "jumpTo",
+				"args": [
+					"8650"
+				],
+				"lineNumber": 35675
+			},
+			{
+				"address": 8646,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35676
+			},
+			{
+				"address": 8650,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"41",
+					"then",
+					"8670"
+				],
+				"lineNumber": 35677
+			},
+			{
+				"address": 8662,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35678
+			},
+			{
+				"address": 8666,
+				"opcode": "jumpTo",
+				"args": [
+					"8674"
+				],
+				"lineNumber": 35679
+			},
+			{
+				"address": 8670,
+				"opcode": "jumpTo",
+				"args": [
+					"8858"
+				],
+				"lineNumber": 35680
+			},
+			{
+				"address": 8674,
+				"opcode": "if",
+				"args": [
+					"trigger(50)",
+					"==",
+					"true",
+					"then",
+					"8850"
+				],
+				"lineNumber": 35681
+			},
+			{
+				"address": 8686,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35682
+			},
+			{
+				"address": 8688,
+				"opcode": "showTextbox",
+				"args": [
+					"There",
+					"are",
+					"still",
+					"some",
+					"unknown\\nDigimon,",
+					"but",
+					"finish",
+					"your\\npriority",
+					"work",
+					"first!\\n"
+				],
+				"lineNumber": 35683
+			},
+			{
+				"address": 8842,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35684
+			},
+			{
+				"address": 8846,
+				"opcode": "jumpTo",
+				"args": [
+					"8854"
+				],
+				"lineNumber": 35685
+			},
+			{
+				"address": 8850,
+				"opcode": "jumpTo",
+				"args": [
+					"8858"
+				],
+				"lineNumber": 35686
+			},
+			{
+				"address": 8854,
+				"opcode": "jumpAndLink",
+				"args": [
+					"680"
+				],
+				"lineNumber": 35687
+			},
+			{
+				"address": 8858,
+				"opcode": "if",
+				"args": [
+					"pstat(41)",
+					">=",
+					"42",
+					"then",
+					"8878"
+				],
+				"lineNumber": 35688
+			},
+			{
+				"address": 8870,
+				"opcode": "addToPStat",
+				"args": [
+					"41",
+					"1"
+				],
+				"lineNumber": 35689
+			},
+			{
+				"address": 8874,
+				"opcode": "jumpTo",
+				"args": [
+					"8882"
+				],
+				"lineNumber": 35690
+			},
+			{
+				"address": 8878,
+				"opcode": "jumpTo",
+				"args": [
+					"9078"
+				],
+				"lineNumber": 35691
+			},
+			{
+				"address": 8882,
+				"opcode": "if",
+				"args": [
+					"trigger(256)",
+					"==",
+					"true",
+					"OR",
+					"trigger(50)",
+					"==",
+					"false",
+					"then",
+					"9074"
+				],
+				"lineNumber": 35692
+			},
+			{
+				"address": 8898,
+				"opcode": "setDialogOwner",
+				"args": [
+					"6"
+				],
+				"lineNumber": 35693
+			},
+			{
+				"address": 8900,
+				"opcode": "showTextbox",
+				"args": [
+					"The",
+					"last",
+					"Digimon",
+					"will",
+					"be\\nborn",
+					"at",
+					"the",
+					"last",
+					"place",
+					"you",
+					"go\\nto.",
+					"Do",
+					"you",
+					"understand",
+					"this?\\n"
+				],
+				"lineNumber": 35694
+			},
+			{
+				"address": 9070,
+				"opcode": "addToPStat",
+				"args": [
+					"40",
+					"1"
+				],
+				"lineNumber": 35695
+			},
+			{
+				"address": 9074,
+				"opcode": "jumpTo",
+				"args": [
+					"9078"
+				],
+				"lineNumber": 35696
+			},
+			{
+				"address": 9078,
+				"opcode": "setPStat",
+				"args": [
+					"41",
+					"0"
+				],
+				"lineNumber": 35697
+			},
+			{
+				"address": 9082,
+				"opcode": "setPStat",
+				"args": [
+					"40",
+					"0"
+				],
+				"lineNumber": 35698
+			},
+			{
+				"address": 9086,
+				"opcode": "endSection",
+				"lineNumber": 35699
+			}
+		]
+	}
+}
+}

@@ -1,0 +1,471 @@
+{
+"id": 220,
+"info": "== Script ID 220 == c1000",
+"sections": {
+	"class": "java.util.LinkedHashMap",
+	"254": {
+		"id": 254,
+		"instructions": [
+			{
+				"address": 12,
+				"opcode": "endSection",
+				"lineNumber": 38343
+			}
+		]
+	},
+	"83": {
+		"id": 83,
+		"instructions": [
+			{
+				"address": 14,
+				"opcode": "if",
+				"args": [
+					"trigger(203)",
+					"==",
+					"false",
+					"then",
+					"28"
+				],
+				"lineNumber": 38345
+			},
+			{
+				"address": 26,
+				"opcode": "endSection",
+				"lineNumber": 38346
+			},
+			{
+				"address": 28,
+				"opcode": "playSound",
+				"args": [
+					"0"
+				],
+				"lineNumber": 38347
+			},
+			{
+				"address": 32,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 38348
+			},
+			{
+				"address": 34,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nPoyomon.",
+					"My",
+					"name",
+					"is",
+					"Poyomon.\\n"
+				],
+				"lineNumber": 38349
+			},
+			{
+				"address": 118,
+				"opcode": "if",
+				"args": [
+					"pstat(1)",
+					"<",
+					"30",
+					"then",
+					"866"
+				],
+				"lineNumber": 38350
+			},
+			{
+				"address": 130,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 38351
+			},
+			{
+				"address": 132,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nI'll",
+					"talk",
+					"about",
+					"digivolution.\\nWell...",
+					"It's",
+					"about",
+					"the",
+					"next\\nstage",
+					"after",
+					"Champion",
+					"Digimon.\\n"
+				],
+				"lineNumber": 38352
+			},
+			{
+				"address": 334,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nIt's",
+					"called",
+					"Ultimate",
+					"Digimon.\\nBut",
+					"there",
+					"is",
+					"no",
+					"guarantee",
+					"a\\nChampion",
+					"always",
+					"digivolves.\\n"
+				],
+				"lineNumber": 38353
+			},
+			{
+				"address": 532,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nConditions",
+					"to",
+					"digivolve",
+					"are\\ntough,",
+					"but",
+					"once",
+					"at",
+					"Ultimate,\\nyour",
+					"life",
+					"span",
+					"gets",
+					"longer.\\n"
+				],
+				"lineNumber": 38354
+			},
+			{
+				"address": 728,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nWith",
+					"Digivolution",
+					"Items,\\nlife",
+					"span",
+					"doesn't",
+					"increase.\\n"
+				],
+				"lineNumber": 38355
+			},
+			{
+				"address": 860,
+				"opcode": "playSound",
+				"args": [
+					"256"
+				],
+				"lineNumber": 38356
+			},
+			{
+				"address": 864,
+				"opcode": "endSection",
+				"lineNumber": 38357
+			},
+			{
+				"address": 866,
+				"opcode": "if",
+				"args": [
+					"pstat(1)",
+					"<",
+					"15",
+					"then",
+					"2088"
+				],
+				"lineNumber": 38358
+			},
+			{
+				"address": 878,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 38359
+			},
+			{
+				"address": 880,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nI'll",
+					"talk",
+					"about",
+					"digivolution.\\nWell...",
+					"It's",
+					"about",
+					"the",
+					"\\nconditions",
+					"to",
+					"digivolve.\\n"
+				],
+				"lineNumber": 38360
+			},
+			{
+				"address": 1064,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nFirst,",
+					"weight",
+					"has",
+					"to",
+					"be",
+					"close\\nto",
+					"next",
+					"stage",
+					"weight",
+					"range.\\n"
+				],
+				"lineNumber": 38361
+			},
+			{
+				"address": 1206,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nNext,",
+					"higher",
+					"parameters",
+					"are\\nbetter,",
+					"but",
+					"the",
+					"effects",
+					"of\\neach",
+					"are",
+					"different.\\n"
+				],
+				"lineNumber": 38362
+			},
+			{
+				"address": 1382,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nCare",
+					"mistakes.",
+					"Depending",
+					"on\\nthe",
+					"kind",
+					"of",
+					"Digimon",
+					"you",
+					"want,\\nsometimes",
+					"mistakes",
+					"are",
+					"good.\\n"
+				],
+				"lineNumber": 38363
+			},
+			{
+				"address": 1582,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nOh",
+					"yeah,",
+					"there",
+					"are",
+					"other\\nspecial",
+					"conditions",
+					"to\\nbecome",
+					"certain",
+					"Digimon.\\n"
+				],
+				"lineNumber": 38364
+			},
+			{
+				"address": 1750,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nLike,",
+					"especially",
+					"high\\nDiscipline,",
+					"or",
+					"many",
+					"battles.\\n"
+				],
+				"lineNumber": 38365
+			},
+			{
+				"address": 1878,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nIf",
+					"you",
+					"do",
+					"this,",
+					"even",
+					"if",
+					"the\\nthree",
+					"basic",
+					"conditions",
+					"are",
+					"not\\nfully",
+					"met,",
+					"you",
+					"can",
+					"digivolve.\\n"
+				],
+				"lineNumber": 38366
+			},
+			{
+				"address": 2082,
+				"opcode": "playSound",
+				"args": [
+					"256"
+				],
+				"lineNumber": 38367
+			},
+			{
+				"address": 2086,
+				"opcode": "endSection",
+				"lineNumber": 38368
+			},
+			{
+				"address": 2088,
+				"opcode": "setDialogOwner",
+				"args": [
+					"255"
+				],
+				"lineNumber": 38369
+			},
+			{
+				"address": 2090,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nJiji",
+					"told",
+					"me",
+					"that",
+					"<ORANGE><DIGIMON><WHITE>\\nwould",
+					"be",
+					"digivolving.\\n"
+				],
+				"lineNumber": 38370
+			},
+			{
+				"address": 2204,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nIt",
+					"takes",
+					"six",
+					"hours",
+					"from",
+					"Baby\\nto",
+					"In-Training",
+					"Digimon.\\n"
+				],
+				"lineNumber": 38371
+			},
+			{
+				"address": 2336,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nAnd",
+					"it",
+					"only",
+					"takes",
+					"one",
+					"day",
+					"to\\ngo",
+					"to",
+					"Rookie",
+					"Digimon",
+					"stage.\\n"
+				],
+				"lineNumber": 38372
+			},
+			{
+				"address": 2476,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nThe",
+					"next",
+					"stage",
+					"of",
+					"Champion\\ntakes",
+					"about",
+					"three",
+					"days.\\n"
+				],
+				"lineNumber": 38373
+			},
+			{
+				"address": 2604,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nHow",
+					"long",
+					"to",
+					"next",
+					"stage?",
+					"I\\nforgot,",
+					"but",
+					"it",
+					"takes",
+					"longer.\\n"
+				],
+				"lineNumber": 38374
+			},
+			{
+				"address": 2740,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nWeight,",
+					"Parameters",
+					"and",
+					"Care\\nMistakes",
+					"affect",
+					"digivolution.\\n"
+				],
+				"lineNumber": 38375
+			},
+			{
+				"address": 2882,
+				"opcode": "showTextbox",
+				"args": [
+					"<YELLOW>Poyomon",
+					"<WHITE>\\nI'm",
+					"not",
+					"sure",
+					"on",
+					"details,",
+					"so\\nI'll",
+					"ask",
+					"Jiji",
+					"next",
+					"time.\\n"
+				],
+				"lineNumber": 38376
+			},
+			{
+				"address": 3014,
+				"opcode": "playSound",
+				"args": [
+					"256"
+				],
+				"lineNumber": 38377
+			},
+			{
+				"address": 3018,
+				"opcode": "endSection",
+				"lineNumber": 38378
+			}
+		]
+	}
+}
+}
