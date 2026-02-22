@@ -12,31 +12,39 @@ class GameCore : ApplicationAdapter() {
     private lateinit var batch: SpriteBatch
     private lateinit var font: BitmapFont
     private lateinit var gameEngine: GameEngine
-    private lateinit var instructions: List<Instruction>
 
     override fun create() {
         batch = SpriteBatch()
         font = BitmapFont()
         
-        var scriptFile = File("Script US.txt")
-        if (!scriptFile.exists()) {
-            scriptFile = File("../Script US.txt")
+        val scriptFile = File("raw_data/Script US.txt")
+        val scriptsDir = File("scripts")
+        val manifestFile = File("scripts/manifest.json")
+
+        gameEngine = GameEngine()
+
+        // 1. Check if we need to migrate/modularize
+        if (!manifestFile.exists() && scriptFile.exists()) {
+            println("Manifest not found. Starting migration and modularization...")
+            val parser = ScriptParser()
+            val scriptData = parser.parse(scriptFile)
+            
+            val modularizer = ScriptModularizer()
+            val manifest = modularizer.modularize(scriptData, scriptsDir)
+            
+            val visualizer = ScriptVisualizer()
+            visualizer.generateDashboard(manifest, scriptsDir, File("scripts_dashboard.html"))
+            
+            println("Modularization and Dashboard generation complete.")
         }
 
-        if (scriptFile.exists()) {
-            val parser = ScriptParser()
-            instructions = parser.parse(scriptFile)
-            gameEngine = GameEngine()
-            gameEngine.loadScript(instructions)
-            println("Script loaded successfully.")
-            
-            // Extract dialogues for analysis
-            val extractor = DialogueExtractor()
-            val outputFile = File("dialogues.json")
-            extractor.extractDialogues(scriptFile, outputFile)
-            
+        // 2. Load manifest and start
+        if (manifestFile.exists()) {
+            gameEngine.loadManifest(manifestFile, scriptsDir)
+            gameEngine.startScript(0, 1238) // Jump to Jijimon's questions
+            println("Engine initialized with Modular JSON scripts.")
         } else {
-            println("Error: Script US.txt not found!")
+            println("Error: No script manifest found!")
         }
     }
 
@@ -44,30 +52,24 @@ class GameCore : ApplicationAdapter() {
         Gdx.gl.glClearColor(0f, 0f, 0.2f, 1f)
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT)
 
-        // INPUT HANDLING
-        // Solo avanzamos si se pulsa ESPACIO o X
-        if (::gameEngine.isInitialized && gameEngine.isRunning) {
-            if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE) || Gdx.input.isKeyJustPressed(Input.Keys.X)) {
-                gameEngine.update()
-            }
+        if (::gameEngine.isInitialized && gameEngine.isRunning && (Gdx.input.isKeyJustPressed(Input.Keys.SPACE) || Gdx.input.isKeyJustPressed(Input.Keys.X))) {
+            gameEngine.update()
         }
 
         batch.begin()
-        font.draw(batch, "Digimon World Remake Engine - Debug Mode", 20f, 580f)
+        font.draw(batch, "Digimon World Remake Engine - JSON Mode", 20f, 580f)
         font.draw(batch, "Press [SPACE] or [X] to execute next instruction", 20f, 560f)
         
-        if (::instructions.isInitialized) {
-            if (::gameEngine.isInitialized) {
-                font.draw(batch, "PC: ${gameEngine.pc} / ${instructions.size}", 20f, 520f)
-                font.draw(batch, "Instruction: ${gameEngine.getCurrentInstruction()}", 20f, 500f)
-                font.draw(batch, "Last Action: ${gameEngine.lastLog}", 20f, 480f)
-                
-                font.draw(batch, "--- Game State ---", 20f, 440f)
-                font.draw(batch, "Loaded Digimons: ${gameEngine.loadedDigimons}", 20f, 420f)
-                font.draw(batch, "Active Script ID: ${gameEngine.currentScriptId}", 20f, 400f)
-            }
-        } else {
-            font.draw(batch, "Script NOT loaded!", 20f, 560f)
+        if (::gameEngine.isInitialized) {
+            val scriptId = gameEngine.currentScript?.id ?: -1
+            val sectionId = gameEngine.currentSection?.id ?: -1
+            
+            font.draw(batch, "Script: $scriptId | Section: $sectionId | PC: ${gameEngine.pc}", 20f, 520f)
+            font.draw(batch, "Last Action: ${gameEngine.lastLog}", 20f, 480f)
+            
+            font.draw(batch, "--- Game State ---", 20f, 440f)
+            font.draw(batch, "Loaded Digimons: ${gameEngine.loadedDigimons}", 20f, 420f)
+            font.draw(batch, "PStats: ${gameEngine.pStats.size} entries", 20f, 400f)
         }
 
         batch.end()

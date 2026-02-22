@@ -1,53 +1,92 @@
 package com.dw1demo
 
+import com.badlogic.gdx.utils.Json
+import java.io.File
+
 class GameEngine {
     // Game State
     val pStats = mutableMapOf<Int, Int>()
     val loadedDigimons = mutableListOf<Int>()
     var currentScriptId = 0
     
+    // Script Data
+    private var manifest: ScriptManifest? = null
+    private var scriptsDir: File? = null
+    var currentScript: ScriptBlock? = null
+    var currentSection: SectionBlock? = null
+    
     // Execution State
-    private var instructions: List<Instruction> = emptyList()
-    private var addressMap: Map<Int, Int> = emptyMap()
-    var pc = 0 // Program Counter
+    private var addressMap: Map<Int, Int> = emptyMap() // Maps address to index in current section
+    var pc = 0 // Program Counter (index within current section)
     var isRunning = false
     var lastLog = "" // To show on screen
 
-    fun loadScript(newInstructions: List<Instruction>) {
-        instructions = newInstructions
-        addressMap = instructions.mapIndexed { index, instr -> instr.address to index }.toMap()
+    fun loadManifest(manifestFile: File, scriptsFolder: File) {
+        try {
+            val json = Json()
+            this.manifest = json.fromJson(ScriptManifest::class.java, manifestFile.readText())
+            this.scriptsDir = scriptsFolder
+            log("Manifest loaded: ${manifest?.entries?.size} script entries.")
+        } catch (e: Exception) {
+            log("Error loading manifest: ${e.message}")
+        }
+    }
+
+    fun startScript(scriptId: Int, sectionId: Int = 0) {
+        val entry = manifest?.entries?.get(scriptId.toString())
+        if (entry == null) {
+            log("Error: Script $scriptId not found in manifest.")
+            return
+        }
+
+        // Lazy load script file
+        val scriptFile = File(scriptsDir, entry.fileName)
+        if (scriptFile.exists()) {
+            try {
+                val json = Json()
+                currentScript = json.fromJson(ScriptBlock::class.java, scriptFile.readText())
+                startSection(sectionId)
+            } catch (e: Exception) {
+                log("Error loading script file ${entry.fileName}: ${e.message}")
+            }
+        } else {
+            log("Error: Script file ${entry.fileName} not found.")
+        }
+    }
+
+    fun startSection(sectionId: Int) {
+        val section = currentScript?.sections?.get(sectionId.toString())
+        if (section == null) {
+            log("Error: Section $sectionId not found in script ${currentScript?.id}.")
+            isRunning = false
+            return
+        }
+        currentSection = section
+        // Rebuild address map for the current section
+        addressMap = section.instructions.mapIndexed { index, instr -> instr.address to index }.toMap()
         pc = 0
         isRunning = true
-        pStats.clear()
-        loadedDigimons.clear()
-        println("Script loaded: ${instructions.size} instructions.")
+        log("Started Script ${currentScript?.id}, Section $sectionId")
     }
 
     fun update() {
-        if (!isRunning || pc >= instructions.size) {
+        val section = currentSection
+        if (!isRunning || section == null || pc >= section.instructions.size) {
             isRunning = false
             return
         }
 
-        val instruction = instructions[pc]
+        val instruction = section.instructions[pc]
         executeInstruction(instruction)
-        
-        // Advance PC if not modified by jump
-        // (We'll handle jumps inside executeInstruction by modifying 'pc' directly if needed, 
-        // but for now let's assume simple sequential execution + manual jump handling)
-        // Ideally, executeInstruction returns the next PC or we check if it changed.
     }
 
     private fun executeInstruction(instruction: Instruction) {
-        // Default next step
         var nextPc = pc + 1
 
         when (instruction.opcode) {
             "setScript" -> {
-                if (instruction.args.isNotEmpty()) {
-                    currentScriptId = instruction.args[0].toIntOrNull() ?: 0
-                    log("Script ID set to: $currentScriptId")
-                }
+                // Historically setScript 1 0 might mean "I am script 1, section 0"
+                // but in the engine we use startScript/startSection to navigate.
             }
             "setPStat" -> {
                 if (instruction.args.size >= 2) {
@@ -64,11 +103,6 @@ class GameEngine {
                     log("Playing BGM ID: ${instruction.args[0]}")
                 }
             }
-            "storeDate" -> {
-                 if (instruction.args.isNotEmpty()) {
-                    log("Storing date/value: ${instruction.args[0]}")
-                }
-            }
             "loadDigimon" -> {
                 if (instruction.args.isNotEmpty()) {
                     val digimonId = instruction.args[0].toIntOrNull()
@@ -78,30 +112,27 @@ class GameEngine {
                     }
                 }
             }
-            "setDigimon" -> {
-                 if (instruction.args.size >= 3) {
-                    log("Configuring Digimon ${instruction.args[0]} in slot ${instruction.args[1]}")
-                }
-            }
             "if" -> {
-                val targetAddressStr = instruction.args.lastOrNull()
-                val targetAddress = targetAddressStr?.toIntOrNull()
-                
+                val targetAddress = instruction.args.lastOrNull()?.toIntOrNull()
                 if (targetAddress != null) {
-                    log("IF condition. Jumping to $targetAddress (Testing)")
                     val jumpIndex = addressMap[targetAddress]
                     if (jumpIndex != null) {
+                        log("IF condition. Jumping to $targetAddress")
                         nextPc = jumpIndex
+                    } else {
+                        log("Warning: IF target $targetAddress not found in current section.")
                     }
                 }
             }
             "jumpTo" -> {
                 val targetAddress = instruction.args[0].toIntOrNull()
                 if (targetAddress != null) {
-                    log("Jumping to address: $targetAddress")
                     val jumpIndex = addressMap[targetAddress]
                     if (jumpIndex != null) {
+                        log("Jumping to address: $targetAddress")
                         nextPc = jumpIndex
+                    } else {
+                        log("Warning: Jump target $targetAddress not found in current section.")
                     }
                 }
             }
@@ -109,13 +140,17 @@ class GameEngine {
                 log("End of section reached.")
                 isRunning = false
             }
+            "showTextbox" -> {
+                log("Dialogue: ${instruction.args.joinToString(" ")}")
+            }
             else -> {
-                // log("Unknown: ${instruction.opcode}")
+
             }
         }
         
         pc = nextPc
     }
+
 
     private fun log(message: String) {
         println(message)
@@ -123,8 +158,9 @@ class GameEngine {
     }
     
     fun getCurrentInstruction(): String {
-        if (pc < instructions.size) {
-            return instructions[pc].toString()
+        val section = currentSection
+        if (section != null && pc < section.instructions.size) {
+            return section.instructions[pc].toString()
         }
         return "End"
     }

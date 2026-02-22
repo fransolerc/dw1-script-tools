@@ -1,8 +1,12 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
-    kotlin("jvm") version "2.1.10" // Upgraded to a modern, stable version compatible with JDK 25
+    kotlin("jvm") version "1.9.20"
     application
+}
+
+kotlin {
+    jvmToolchain(21)
 }
 
 repositories {
@@ -36,6 +40,6 @@ application {
 // Set the Kotlin bytecode version to a safe, compatible target
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
     compilerOptions {
-        jvmTarget.set(JvmTarget.JVM_21) // Targeting JVM 17 is safe and compatible with JDK 25
+        jvmTarget.set(JvmTarget.JVM_21)
     }
 }
