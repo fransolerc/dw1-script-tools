@@ -1,0 +1,160 @@
+{
+    "0": {
+        "name": "Timespeed",
+        "comment": "0 = normal, 1 = 2x, 2 = 0.5x, >2 = stop"
+    },
+    "1": {
+        "name": "Prosperity Points",
+        "comment": "Gets recalculated on save"
+    },
+    "2": {
+        "name": "Day of the Tournament, if negative it's tomorrow"
+    },
+    "3": {
+        "name": "Registered Tournament ID"
+    },
+    "4": {
+        "name": "Registered Digimon ID"
+    },
+    "5": {
+        "name": "Sukamon Backup Digimon ID"
+    },
+    "6": {
+        "name": "Show name on scripted map change",
+        "comment": "2 -> no, 1 -> yes, 0 -> depends on how map change to initiated"
+    },
+    "16": {
+        "name": "Back Dimension Location"
+    },
+    "17": {
+        "name": "Drimogemon dirt carry state",
+        "comment": "2 = can pickup dirt; 3 = picked up dirt; 4 = dumped dirt"
+    },
+    "18": {
+        "name": "Drimogemon dirt carry progress"
+    },
+    "19": {
+        "name": "Dirt pile visibility"
+    },
+    "21": {
+        "name": "Amount of times Nanimon has been spotted"
+    },
+    "22": {
+        "name": "Treasure Hunt Item (Normal Plan)"
+    },
+    "23": {
+        "name": "Treasure Hunt Item (Special Plan)"
+    },
+    "24": {
+        "name": "Current Secret Shop Digimon",
+        "comment": "0 = Numemon, 1 = Mojyamon, 2 = Mamemon, 3 = Devimon"
+    },
+    "25": {
+        "name": "Current Big Shop Digimon"
+    },
+    "26": {
+        "name": "Amount of Digimon in the big shop (1-4)",
+        "comment": "5 adds a Super Recovery while 0 or 6+ causes only 1 item to be sold"
+    },
+    "27": {
+        "name": "Current Restaurant Digimon",
+        "comment": "0 = Meramon, 1 = Tyrannomon, 2 = Garurumon, 3 = Frigimon, 4 = Vademon, 5 = Digitamamon"
+    },
+    "28": {
+        "name": "Back Dimension Timer"
+    },
+    "29": {
+        "name": "Garurumon days passed after first fight",
+        "comment": "Garurumon I - Current Year"
+    },
+    "30": {
+        "name": "Drimogemon/Treasure Hunt passed days",
+        "comment": "Garurumon I - Current Day"
+    },
+    "31": {
+        "name": "Can grab meat",
+        "comment": "Garurumon I - Current Minute"
+    },
+    "32": {
+        "name": "Palmon, dialogue progress",
+        "comment": "Garurumon I - Current Second"
+    },
+    "33": {
+        "name": "Elecmon progress"
+    },
+    "34": {
+        "name": "Monochromon in Dino Land dialogue progress"
+    },
+    "35": {
+        "name": "Saberdramon in Dino Land dialogue progress"
+    },
+    "36": {
+        "name": "Brachiomon in Dino Land dialogue progress"
+    },
+    "37": {
+        "name": "Kunemon item hint dialogue progress"
+    },
+    "103": {
+        "name": "toy mansion door state",
+        "comment": "gets changed from 17 to 14 when talking to tinmon with monzaemon partner"
+    },
+    "105": {
+        "name": "typical storeDate target – year"
+    },
+    "106": {
+        "name": "typical storeDate target – day"
+    },
+    "107": {
+        "name": "typical storeDate target – hour"
+    },
+    "108": {
+        "name": "typical storeDate target – minute"
+    },
+    "110": {
+        "name": "typical RNG target"
+    },
+    "111": {
+        "name": "Biyomon state",
+        "comment": "0 = Haven't talked to, 1 = Talked to, 2 = Can wait"
+    },
+    "112": {
+        "name": "Biyomon hiding place",
+        "comment": "0 = top left, 1 = bottom left, 2 = bottom right, 3 = top right"
+    },
+    "113": {
+        "name": "Curling Enabled"
+    },
+    "120": {
+        "name": "Amount of failed attempts reaching Cherrymon",
+        "comment": "resets at 10 to 0 and makes Cherrymon reachable even with the fog active"
+    },
+    "122": {
+        "name": "Curling Opponent"
+    },
+    "123": {
+        "name": "Amount of Monochromon customers"
+    },
+    "245": {
+        "name": "Music Override",
+        "comment": "something music related"
+    },
+    "249": {
+        "name": "Giromon's Jukebox, selected track"
+    },
+    "250": {
+        "name": "Has pre-defined enemies"
+    },
+    "251": {
+        "name": "Pre-Defined Enemy #1"
+    },
+    "252": {
+        "name": "Pre-Defined Enemy #2"
+    },
+    "253": {
+        "name": "Pre-Defined Enemy #3"
+    },
+    "254": {
+        "name": "item id of offered item penguin/kunemon",
+        "comment": "5,6,7 when talking to mojyamon in freezland, also gets set when training"
+    }
+}

@@ -17,6 +17,7 @@ class ScriptVisualizer {
 
         val itemsJson = File("items.json").let { if (it.exists()) it.readText() else "{}" }
         val triggersJson = File("triggers.json").let { if (it.exists()) it.readText() else "{}" }
+        val pstatsJson = File("pstats.json").let { if (it.exists()) it.readText() else "{}" }
 
         val html = """
 <!DOCTYPE html>
@@ -160,6 +161,7 @@ class ScriptVisualizer {
     <script>
         const itemsData = $itemsJson;
         const triggersData = $triggersJson;
+        const pstatsData = $pstatsJson;
         const scriptsDir = "scripts";
 
         function escapeHtml(text) {
@@ -206,6 +208,23 @@ class ScriptVisualizer {
                 // Highlight 'then XXXX' at end of if
                 if (instr.opcode === 'if' && !isNaN(arg) && args.indexOf(arg) === args.length - 1) {
                     return '→ <span class="jump-target" onclick="jumpToAddress(' + arg + ')">' + arg + '</span>';
+                }
+                // Translate pstat() references in if conditions
+                if (typeof arg === 'string' && arg.startsWith('pstat(')) {
+                    let match = arg.match(/pstat\((\d+)\)/);
+                    if (match && pstatsData[match[1]]) {
+                        let entry = pstatsData[match[1]];
+                        let name = entry.name || entry;
+                        let title = entry.comment ? ' title="' + entry.comment + '"' : '';
+                        return arg.replace(match[0], 'pstat(<span class="tag-lightblue"' + title + '>' + name + '</span>)');
+                    }
+                }
+                // Translate setPStat
+                if (instr.opcode === 'setPStat' && index === 0 && pstatsData[arg]) {
+                    let entry = pstatsData[arg];
+                    let name = entry.name || entry;
+                    let title = entry.comment ? ' title="' + entry.comment + '"' : '';
+                    return '<span class="tag-lightblue"' + title + ' title="ID: ' + arg + '">' + name + '</span>';
                 }
                 return escapeHtml(arg);
             }).join(' ');
