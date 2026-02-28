@@ -1,0 +1,18 @@
+# Gradle
+.gradle/
+.idea/
+build/
+scripts/
+scripts_dashboard.html
+
+# IntelliJ
+.idea/
+*.iml
+
+# Generated output
+scripts/
+scripts_dashboard.html
+
+# OS
+.DS_Store
+Thumbs.db

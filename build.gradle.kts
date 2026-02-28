@@ -1,7 +1,10 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
+val serializationVersion = "1.6.2"
+
 plugins {
     kotlin("jvm") version "1.9.20"
+    kotlin("plugin.serialization") version "1.9.20"
     application
 }
 
@@ -11,33 +14,23 @@ kotlin {
 
 repositories {
     mavenCentral()
-    maven { url = uri("https://s01.oss.sonatype.org/content/repositories/snapshots/") }
-    maven { url = uri("https://s01.oss.sonatype.org/content/repositories/releases/") }
 }
 
-val gdxVersion = "1.12.1"
-
 dependencies {
-    // Core
-    implementation("com.badlogicgames.gdx:gdx:$gdxVersion")
-    
-    // Desktop
-    implementation("com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion")
-    implementation("com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:$serializationVersion")
 }
 
 sourceSets {
     main {
-        kotlin.srcDirs("src/main/kotlin", "src/desktop/kotlin")
-        resources.srcDirs("src/main/resources", "src/desktop/resources")
+        kotlin.srcDirs("src/main/kotlin")
+        resources.srcDirs("src/main/resources")
     }
 }
 
 application {
-    mainClass.set("com.dw1demo.DesktopLauncherKt")
+    mainClass.set("com.dw1demo.MainKt")
 }
 
-// Set the Kotlin bytecode version to a safe, compatible target
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
     compilerOptions {
         jvmTarget.set(JvmTarget.JVM_21)
